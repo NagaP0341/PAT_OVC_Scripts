@@ -1,0 +1,4 @@
+<variable-file delimiters=";" filename="variables/JWTToken_Rogers.txt" name="P_jwtToken_Rogers" offset="1" order="1" policy="5" range="1" uid="7e702c83-8cbc-4022-b888-62df6f9c08dc" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="p_JWTToken" number="1"/>
+<column name="p_UserName" number="0"/>
+</variable-file>
