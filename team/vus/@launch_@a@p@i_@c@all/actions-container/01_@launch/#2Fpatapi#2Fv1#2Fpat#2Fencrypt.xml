@@ -11,7 +11,7 @@
     generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="http_request_" path="/patapi/v1/pat/encrypt"
-    postCharset="" postType="1" serverUid="uniloginapicc.rogers.com"
+    postCharset="" postType="1" serverUid="Launch_uniloginapicc"
     slaProfileEnabled="false" uid="7bfec6a6-970a-4422-be9c-52985b2dd4dc" useKeepAlive="false">
     <variable-extractor assertionOnNoMatch="true"
         defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
