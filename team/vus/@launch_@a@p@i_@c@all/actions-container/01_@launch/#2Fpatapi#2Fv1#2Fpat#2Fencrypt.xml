@@ -34,7 +34,7 @@
     <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"/>
     <header name="Ocp-Apim-Subscription-Key" value="bbb9f6d97c9f43a182e0037391364fa6"/>
     <header name="accountNumber" value="978852341"/>
-    <header name="Authorization" value="${P_jwtToken_Rogers.p_JWTToken}"/>
+    <header name="Authorization" value="${P_jwtToken_Fido.p_JWTToken}"/>
     <responseHeaders/>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
