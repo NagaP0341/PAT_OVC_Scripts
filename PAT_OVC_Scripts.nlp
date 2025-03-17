@@ -1,0 +1,15 @@
+# Project description file
+
+project.name=PAT_OVC_Scripts
+project.version=8.7
+project.original.version=8.7
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+product.original.version=9.2.2
+project.is-open-test-settings-after-upload=false
+project.id=cbffe1d9-a29f-447f-a716-13822b805f63
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/NagaP0341/PAT_OVC_Scripts.git
