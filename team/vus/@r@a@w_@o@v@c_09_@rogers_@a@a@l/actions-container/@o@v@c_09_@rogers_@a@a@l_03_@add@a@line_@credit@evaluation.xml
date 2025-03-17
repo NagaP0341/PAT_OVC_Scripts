@@ -1,0 +1,28 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_09_Rogers_AAL_03_AddALine_CreditEvaluation" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="8932ae4c-e47a-4882-8c66-455e9c0453f6" weightsEnabled="false">
+    <weighted-embedded-action uid="f0fb5001-9334-4408-a4b4-6eb1cba92c50"/>
+    <weighted-embedded-action uid="de6caae0-b28f-401d-8962-22783de626ee"/>
+    <weighted-embedded-action uid="6eebb933-4583-47bb-a7b8-1cfa68527fa3"/>
+    <weighted-embedded-action uid="8d08b66d-2316-40f1-b383-8c4e0b4a5c4a"/>
+    <weighted-embedded-action uid="b7bf25f3-971b-4632-a2b1-9170572fdb13"/>
+    <weighted-embedded-action uid="cd7eb9bc-8d1d-4705-a825-d43b6b27b6da"/>
+    <weighted-embedded-action uid="11561196-1690-4ac4-b495-715c32b33fa6"/>
+    <weighted-embedded-action uid="cf374f5b-c014-42be-b347-434416215204"/>
+    <weighted-embedded-action uid="87ba4f83-55f6-41ca-8d95-247c06859478"/>
+    <weighted-embedded-action uid="8e877952-ac20-43cc-8e73-3a77d92d7887"/>
+    <weighted-embedded-action uid="890d7716-1f45-452c-965b-dd3019162b4a"/>
+    <weighted-embedded-action uid="964dd67c-86eb-4dbc-ab0f-ac1245b23af3"/>
+    <weighted-embedded-action uid="41313b03-8d3e-4ba7-ba5b-7e416fe2efa9"/>
+    <weighted-embedded-action uid="ab886502-7f71-40d0-824d-98c51c75dc4d"/>
+    <weighted-embedded-action uid="c46846f2-7f38-4c62-901a-f94315eecb29"/>
+    <weighted-embedded-action uid="9258e1d0-7546-4aec-ae1c-3ca31815dbca"/>
+    <weighted-embedded-action uid="21bde7ff-8c38-4a49-b204-43e1c9ba0e52"/>
+    <weighted-embedded-action uid="970d6fe4-e1a0-49ed-a089-353da68b9c2f"/>
+    <weighted-embedded-action uid="ee4a799b-9107-45ca-a1c5-9e3ef5585b29"/>
+    <weighted-embedded-action uid="fc282c6d-8523-4fd6-b2e3-d558a1886b01"/>
+    <weighted-embedded-action uid="1e5fa88a-64be-40d8-a4e9-83f9bfef6ae2"/>
+    <weighted-embedded-action uid="b7c17587-02fa-4f09-8c8c-df8cb7e28247"/>
+    <weighted-embedded-action uid="5209c2b1-2c15-48c5-8856-a59ef1544dbb"/>
+</basic-logical-action-container>

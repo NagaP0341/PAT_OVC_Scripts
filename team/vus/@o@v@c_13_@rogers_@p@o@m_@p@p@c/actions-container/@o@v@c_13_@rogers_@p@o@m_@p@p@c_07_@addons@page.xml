@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_13_Rogers_POM_PPC_07_AddonsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="f8e31685-1980-4948-ae9b-e5ed137b837c" weightsEnabled="false">
+    <weighted-embedded-action uid="28a4582e-b48f-42d1-af70-6a7ba678cf1c"/>
+    <weighted-embedded-action uid="fb1430a8-b0f6-4ea7-a148-9ee1570baef7"/>
+    <weighted-embedded-action uid="08897c2b-e508-40cd-b197-a6abfe26f5f3"/>
+    <weighted-embedded-action uid="a16f4389-9cef-4ce9-8f32-f90960a4e5b2"/>
+    <weighted-embedded-action uid="d61c8ed4-18a8-4677-9a79-e2c50d59e7f7"/>
+</basic-logical-action-container>

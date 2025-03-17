@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_09_Rogers_AAL_06_DeviceFinancingOptionsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="0c5ad066-53f1-41ed-9688-33abd65fa3ac" weightsEnabled="false">
+    <weighted-embedded-action uid="f156b2ac-9f16-4f5e-b677-b9062a89fbe4"/>
+    <weighted-embedded-action uid="8c3a4d28-1ea9-4f34-8019-60c1c165e239"/>
+</basic-logical-action-container>

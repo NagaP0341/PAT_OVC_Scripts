@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_09_Rogers_AAL_12_CheckoutPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="4252608a-946a-494a-ab6b-20377324bb5e" weightsEnabled="false">
+    <weighted-embedded-action uid="e99af4cf-1abc-45ae-a9f2-c15781e68bf3"/>
+    <weighted-embedded-action uid="97c393b8-2a0d-4771-962e-30121766e2f6"/>
+    <weighted-embedded-action uid="b9b0362c-772e-4341-bddf-defedd1dde9d"/>
+    <weighted-embedded-action uid="678f9215-0f62-4b29-bf8e-e8b8f84f13d2"/>
+    <weighted-embedded-action uid="c92f0e2b-d62f-4bbc-8c30-231b866ccb43"/>
+</basic-logical-action-container>

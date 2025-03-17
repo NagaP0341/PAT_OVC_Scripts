@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_13_Rogers_POM_PPC_10_AutopayPaymentPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="1fbe71a1-85da-4569-9173-4fd25e7592d9" weightsEnabled="false">
+    <weighted-embedded-action uid="d04c5626-b7d3-4bd7-ac3d-90a64fc43d64"/>
+    <weighted-embedded-action uid="f0aadae9-cbc2-4622-9d4b-9a75fcbc3c24"/>
+    <weighted-embedded-action uid="2665404a-e42b-4748-be26-de0841ac41e9"/>
+    <weighted-embedded-action uid="0d561072-0633-4e7b-9a40-5035f40d4558"/>
+    <weighted-embedded-action uid="fef27f75-847f-4b7e-9a29-1a8a3a8df10f"/>
+    <weighted-embedded-action uid="52301582-909d-41a4-ace5-b5a59c174d47"/>
+</basic-logical-action-container>

@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_09_Rogers_AAL_05_DeviceCostSelectionPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="9e962456-0e8b-42b5-805b-66e04c7beb85" weightsEnabled="false">
+    <weighted-embedded-action uid="3e0555cb-9b0b-4539-8941-8c26ef8fc319"/>
+    <weighted-embedded-action uid="d058781b-a627-4fac-86cd-ee0dc9236e43"/>
+    <weighted-embedded-action uid="cfefeeb4-f9b0-4a83-b8f9-f4fe4a428f13"/>
+    <weighted-embedded-action uid="6f651540-06d4-4acb-b0ad-eaf8db54494e"/>
+    <weighted-embedded-action uid="0b2a0f16-d888-40d8-b523-060bf1d49077"/>
+</basic-logical-action-container>

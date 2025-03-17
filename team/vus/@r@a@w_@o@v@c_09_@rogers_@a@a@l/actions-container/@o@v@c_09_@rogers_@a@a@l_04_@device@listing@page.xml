@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_09_Rogers_AAL_04_DeviceListingPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="0b9cb82f-0c92-49e8-8608-fb89893f9453" weightsEnabled="false">
+    <weighted-embedded-action uid="b44eb568-6938-4a85-a8b6-a150463f3eb2"/>
+    <weighted-embedded-action uid="070cd286-d394-46db-86da-86c4d95bfc49"/>
+    <weighted-embedded-action uid="f7e06672-e5fe-4fd9-952a-462605e4e7fb"/>
+    <weighted-embedded-action uid="cd3124c0-0413-411d-af93-e5c00833b358"/>
+    <weighted-embedded-action uid="57ffe73d-9fee-4d4d-9a5d-7891b87d747c"/>
+    <weighted-embedded-action uid="3aac52c2-9da2-4138-8441-5919453aeea7"/>
+    <weighted-embedded-action uid="b627df6c-13e6-4bb2-a3be-a86eeeef0b14"/>
+    <weighted-embedded-action uid="9087805c-5cc5-405d-97db-4ef40896481a"/>
+    <weighted-embedded-action uid="4c61e8e6-a57c-4037-9f47-f62c53f6bd6b"/>
+    <weighted-embedded-action uid="62b9f620-923b-4680-90e5-fea94ede774a"/>
+</basic-logical-action-container>

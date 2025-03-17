@@ -1,0 +1,74 @@
+<http-page executeResourcesDynamically="false"
+    name="/api/v1/promo/regularpromotions"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/1ed8cfa6-fa9e-4c94-bdb9-11200bea027e.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="1ed8cfa6-fa9e-4c94-bdb9-11200bea027e">
+    <embedded-action>63db8f75-f91a-4673-a189-f06f54a7fcb6</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_bd6d51d9-b6ce-4650-89d3-af22cccfbf94.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/v1/promo/regularpromotions"
+    path="/api/v1/promo/regularpromotions" postType="4"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/1ed8cfa6-fa9e-4c94-bdb9-11200bea027e.zip"
+    recordedResponseCode="200" responseSize="10084"
+    serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
+    uid="63db8f75-f91a-4673-a189-f06f54a7fcb6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4b8cd6d7-3d06-4947-b6a6-28688d07699a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4b8cd6d7-3d06-4947-b6a6-28688d07699a.txt</requestContentFileDescription>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/iphone-16-pro/build-plan?ovContextId=${C_v1context_conxtextID}&amp;flowType=aal&amp;sku=IP16P128WHT&amp;step=5&amp;deviceId=device_prodIP16P&amp;sharingType=individual&amp;downPayment=0&amp;tier=EDGEFIN2TAB&amp;upfrontEdge=true"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="x-dtreferer" value="https://oneview-buyflow.rogers.com/phones/iphone-16-pro/build-plan?ovContextId=${C_v1context_conxtextID}&amp;flowType=aal&amp;sku=IP16P128WHT&amp;step=3&amp;deviceId=device_prodIP16P&amp;sharingType=individual"/>
+    <header name="origin" value="https://oneview-buyflow.rogers.com"/>
+    <header name="ovcontextid" value="${C_v1context_conxtextID}"/>
+    <header name="accounttype" value="CONSUMER"/>
+    <header name="userid" value="${C_v1context_conxtextID}"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="province" value="ON"/>
+    <header name="postalcode" value="${C_v2overview_postalCode}"/>
+    <header name="x-dtpc" value="9$407330895_92h56vHJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0e0"/>
+    <header name="content-type" value="application/json"/>
+    <header name="applicationid" value="UTERogersCare"/>
+    <header name="lang" value="en"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="cookie" value="rxVisitor=1742207300811E20CQ3G2786C819TOEOLJBT3G987IFO3; language=en; PLAY_SESSION=1f942e1b3b58d073ae449655c37f6715d33a615c-LANGUAGE=en&amp;CH_BAN=${c_icmtoken_ACCNum}&amp;LOGGING_ID=UIPATH.BOT14&amp;V21=V21&amp;UserId=14017192&amp;SOURCE=CRM&amp;FRANCHISE=ROGERS&amp;ACCTNBR=${c_icmtoken_ACCNum}&amp;CONTACT_ID=CO1059926659&amp;SessionId=feafada7-09be-472c-96e2-d5fb65fce5cf&amp;TARGET_URL=ONEVIEWDASHBOARD; X_DOM_session_guid=8e531d10-031a-11f0-96a5-39116360e7f7; X_DOM_REFERRER=; s_ecid=MCMID%7C60486838142871975434259442131791201229; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_cc=true; marketing_ban=87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe; marketing_UID=87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe; X_DOM_BAN=87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe; marketing_user_name=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; X_DOM_USER_NAME=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C60486838142871975434259442131791201229%7CMCAID%7CNONE%7CMCOPTOUT-1742214507s%7CNONE%7CMCAAMLH-1742812107%7C7%7CMCAAMB-1742812107%7Cj8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI%7CMCCIDH%7C-404252189%7CMCSYNCSOP%7C411-20172%7CMCSYNCS%7C1083-20172*1085-20172*1086-20172*1087-20172*1088-20172*19913-20172%7CvVersion%7C5.5.0; akaalb_Oneview_Buyflow_Rogers=~op=ALB_AZURE_ONEVIEW_BUYFLOW_ROGERS:ALB_AZUCE_ONEVIEW_BUYFLOW_ROGERS|~rv=64~m=ALB_AZUCE_ONEVIEW_BUYFLOW_ROGERS:0|~os=a6d27f4de61d3b185b9e61447d00414a~id=4887ce0f8e7df77464051ebd3fba4ab1; province=ON; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; dtSa=-; dtCookie=v_4_srv_9_sn_224BBDFD3FF25E04D096DD8BC9AE025C_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_app-3Ace606e7a9dfabb4e_1_ol_0_perc_100000_mul_1_rcs-3Acss_0; tech_sas_rtdm=sas_segments%3D10235138; aam_uuid=60334564065020010944275760262631018348; aam_dfp=aam_dfp%3D9719938%2C9749182%2C10039302%2C10107509%2C10178389%2C10180218%2C10561322%2C10561508%2C10804004%2C10811342%2C10865534%2C11352380%2C11647532%2C1847925%2C12227875%2C12336697%2C13375330%2C13873320%2C11057727%2C14058828%2C14653268%2C14676019%2C15840550%2C14026806%2C16270364%2C16312270%2C16313903%2C23526913%2C24111952%2C25250020; QSI_HistorySession=https%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2F%3FovContextId%3D${C_v1context_conxtextID}%26flowType%3Daal%26language%3Den~1742207331588%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fiphone-16-pro%2Fbuild-plan%3FovContextId%3D${C_v1context_conxtextID}%26flowType%3Daal%26sku%3DIP16P128WHT%26step%3D2%26deviceId%3Ddevice_prodIP16P~1742207411090%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fiphone-16-pro%2Fbuild-plan%3FovContextId%3D${C_v1context_conxtextID}%26flowType%3Daal%26sku%3DIP16P128WHT%26step%3D3%26deviceId%3Ddevice_prodIP16P%26sharingType%3Dindividual~1742207463035; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742209280880%3B%20rcp_s_dslv%3D1742207480880%7C1836815480880%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742209280880%3B; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pURL%22:%22https://oneview-buyflow.rogers.com/phones/iphone-16-pro/build-plan?ovContextId=${C_v1context_conxtextID}&amp;flowType=aal&amp;sku=IP16P128WHT&amp;step=5&amp;deviceId=device_prodIP16P&amp;sharingType=individual&amp;downPayment=0&amp;tier=EDGEFIN2TAB&amp;upfrontEdge=true%22%2C%22pName%22:%22OV:wireless:ecom:ovaal:plan-builder:choose%20your%20plan%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{%2260334564065020010944275760262631018348%22:true}%2C%22buyflowName%22:%22OVAAL|SL%22}; s_sq=%5B%5BB%5D%5D; rxvt=1742209281257|1742207300813; dtPC=9$407330895_92h56vHJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accountsubtype" value="REGULAR"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/json&#xd;
+x-oneagent-js-injection: true&#xd;
+vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers&#xd;
+request-context: appId=cid-v1:22c57a57-4e03-4659-a8b1-d0566f8b9c00&#xd;
+access-control-allow-origin: *&#xd;
+x-auth-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhMzkwNDdmMC1iZTNkLTQzZmQtOTQ3OC03ZWEwODAyNWQ0MmYiLCJpYXQiOjE3NDIyMDc0ODEsImV4cCI6MTc0MjIxMTA4MSwicm9sZSI6IkFOT05ZTU9VUyJ9.gReYw-K9tu2lhxwSIZiddyz95xWBIsPTeGz39YQOISd6QPOFwfMISQDbFP7fsUzPz6NCnPdntFGRCJhFmHwlVw&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-frame-options: DENY&#xd;
+x-envoy-upstream-service-time: 743&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-596526549", dtTao;desc="1"&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+expires: Mon, 17 Mar 2025 10:31:22 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Mon, 17 Mar 2025 10:31:22 GMT&#xd;
+content-length: 1810&#xd;
+x-frame-options: SAMEORIGIN</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"channelId":"UTERogersCare","franchise":"rogers","interimQualification":true,"accountNumber":"${c_icmtoken_ACCNum}","device":{"sku":"IP16P128WHT"},"transactionType":"aal","deviceId":"device_prodIP16P","tierCode":"EDGEFIN2TAB","planExternalId":"","upfrontEdge":"Y","planType":"individual","mainCtnAvailable":true,"lineAdditional":false,"msdCostOption":false,"applicationId":"UTERogersCare"}]]></textPostContent>
+</http-action>

@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_13_Rogers_POM_PPC_08_ChangeDateSelectionPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="1643fda6-c253-4214-bda8-23141b70510e" weightsEnabled="false">
+    <weighted-embedded-action uid="856060b7-db63-46d4-ad8e-d576a7efd41f"/>
+    <weighted-embedded-action uid="38d73c5a-30b8-4b4e-a72c-56db92afc864"/>
+</basic-logical-action-container>

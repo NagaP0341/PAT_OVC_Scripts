@@ -1,0 +1,384 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/e42e7f28-4fcf-487e-abc7-ba08dc91d659.zip"
+    slaProfileEnabled="false" thinkTime="550"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e42e7f28-4fcf-487e-abc7-ba08dc91d659">
+    <embedded-action>c65ab12b-bab7-4dc5-8f0f-1a7ba0d2d66d</embedded-action>
+    <embedded-action>3130b30c-52fe-41c5-8b91-13955dd7d9fe</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_50e8309b-d18d-4a02-945f-bd5952c0399e.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="4"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/e42e7f28-4fcf-487e-abc7-ba08dc91d659.zip"
+    recordedResponseCode="200" responseSize="121"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="c65ab12b-bab7-4dc5-8f0f-1a7ba0d2d66d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ae21c2ee-2186-40c5-b280-03a6dc3808b5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ae21c2ee-2186-40c5-b280-03a6dc3808b5.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_9_sn_224BBDFD3FF25E04D096DD8BC9AE025C_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_app-3Ace606e7a9dfabb4e_1_ol_0_perc_100000_mul_1_rcs-3Acss_0"
+        separator="="
+        value="v_4_srv_9_sn_224BBDFD3FF25E04D096DD8BC9AE025C_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_app-3Ace606e7a9dfabb4e_1_ol_0_perc_100000_mul_1_rcs-3Acss_0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="9" separator="=" value="9" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="HJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0"
+        separator="=" value="HJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%3FLang%3Den%26CustType%3DI%26CustSubType%3DR%26connid%3D"
+        separator="="
+        value="https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="2ae0303e3c9b36b0" separator="="
+        value="2ae0303e3c9b36b0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="901196590" separator="=" value="901196590" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=91~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=a9626b53f1a2c0a4a68d260f96b4eddb; rxVisitor=1742207300811E20CQ3G2786C819TOEOLJBT3G987IFO3; language=en; language=en; PLAY_SESSION=1f942e1b3b58d073ae449655c37f6715d33a615c-LANGUAGE=en&amp;CH_BAN=${c_icmtoken_ACCNum}&amp;LOGGING_ID=UIPATH.BOT14&amp;V21=V21&amp;UserId=14017192&amp;SOURCE=CRM&amp;FRANCHISE=ROGERS&amp;ACCTNBR=${c_icmtoken_ACCNum}&amp;CONTACT_ID=CO1059926659&amp;SessionId=feafada7-09be-472c-96e2-d5fb65fce5cf&amp;TARGET_URL=ONEVIEWDASHBOARD; X_DOM_session_guid=8e531d10-031a-11f0-96a5-39116360e7f7; s_ecid=MCMID%7C60486838142871975434259442131791201229; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_cc=true; marketing_ban=87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe; marketing_UID=87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe; X_DOM_BAN=87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe; marketing_user_name=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; X_DOM_USER_NAME=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; tech_sas_rtdm=sas_segments%3D10235138; aam_uuid=60334564065020010944275760262631018348; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C60486838142871975434259442131791201229%7CMCAID%7CNONE%7CMCOPTOUT-1742214507s%7CNONE%7CMCAAMLH-1742812107%7C7%7CMCAAMB-1742812107%7Cj8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI%7CMCCIDH%7C-404252189%7CMCSYNCSOP%7C411-20172%7CMCSYNCS%7C1083-20172*1085-20172*1086-20172*1087-20172*1088-20172*19913-20172%7CvVersion%7C5.5.0; province=ON; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; dtSa=-; dtCookie=v_4_srv_9_sn_224BBDFD3FF25E04D096DD8BC9AE025C_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_app-3Ace606e7a9dfabb4e_1_ol_0_perc_100000_mul_1_rcs-3Acss_0; s_sq=%5B%5BB%5D%5D; X_DOM_REFERRER=; QSI_HistorySession=https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%3FLang%3Den%26CustType%3DI%26CustSubType%3DR%26connid%3D~1742207604941; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=%22%2C%22pName%22:%22OV:web:a:dashboard:overview%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{%2260334564065020010944275760262631018348%22:true}%2C%22buyflowName%22:%22%22}; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742209405345%3B%20rcp_s_dslv%3D1742207605345%7C1836815605345%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742209405345%3B; rxvt=1742209405627|1742207300813; aam_dfp=aam_dfp%3D9719938%2C9749182%2C10039302%2C10107509%2C10178389%2C10180218%2C10561322%2C10561508%2C10804004%2C10811342%2C10865534%2C11352380%2C11647532%2C1847925%2C12227875%2C12336697%2C13375330%2C13873320%2C11057727%2C14058828%2C14653268%2C14676019%2C15840550%2C14026806%2C16270364%2C16312270%2C16313903%2C23526913%2C24111952%2C25250020; dtPC=9$407602586_180h-vHJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.rogers.com"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="text/plain;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 121&#xd;
+x-envoy-upstream-service-time: 1&#xd;
+date: Mon, 17 Mar 2025 10:33:26 GMT&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: NULL&#xd;
+access-control-allow-methods: NULL&#xd;
+access-control-allow-origin: https://oneview.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$a=1%7C1%7C_load_%7C_load_%7C-%7C1742207602065%7C1742207605913%7Cdn%7C980%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%2C2%7C39%7C_event_%7C1742207602065%7C_vc_%7CV%7C3848%5Epc%7CVCD%7C521%7CVCDS%7C9%7CVCS%7C3734%7CVCO%7C4060%7CVCI%7C0%7CTS%7C1%7CVE%7C459%5Ep923%5Ep4278%5Eps%5Es...div.d-flex.align-items-center.justify-content-center.p-8.ng-star-inserted%7CS%7C2011%2C2%7C40%7C_event_%7C1742207602065%7C_wv_%7ClcpE%7CH3%7ClcpSel%7Cdiv.convergence-details%3Eh3%3Afirst-child%7ClcpS%7C11988%7ClcpT%7C2376%7ClcpU%7C-%7ClcpLT%7C0%7Cfcp%7C996%7Cfp%7C996%7Ccls%7C0.1691%7Clt%7C1570%2C2%7C5%7Cx%7Cxhr%7Cx%7C1742207603009%7C1742207605724%7Cdn%7C979%7Cxu%7C%2Fcms%2Foneview%2Fcare-common-config.json%3Ft%3D1742207603007%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603013e0f0g0h0i0j0k2l48m207u1510v1210w4976X200T-28z11I1M-784882624V0%7Cxcs%7C211%7Cxce%7C213%2C3%7C6%7Cx%7Cxhr%7Cx%7C1742207603227%7C1742207603253%7Cdn%7C41%7Cxu%7C%2Fcragentapi%2Fovc%2Fagentaccess%2Fv1%2Fagent%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603232e0f0g0h0i0j0k1l2m3v514w1103X200T-1z11I1M-1662430242V0%7Cxcs%7C25%7Cxce%7C26%2C3%7C7%7Cx%7Cxhr%7Cx%7C1742207603233%7C1742207603258%7Cdn%7C41%7Cxu%7C%2Fagentapi%2Fovc%2Fv2%2Fram%2Fpermissions%2Fall%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603237e0f0g0h0i0j0k1l3m4v3926w60137X200T-2z11I1M1684250817V0%7Cxcs%7C24%7Cxce%7C25%2C3%7C8%7Cx%7Cxhr%7Cx%7C1742207603239%7C1742207605724%7Cdn%7C979%7Cxu%7C%2Fcraccountsapi%2Fovc%2Faccounts%2Fv2%2Foverview%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603242e0f0g0h0i0j0k1l456m457u941v641w1177X200T-26z11I1M-451062009V0W1%7Cxcs%7C462%7Cxce%7C463%2C4%7C11%7Cx%7Cxhr%7Cx%7C1742207603706%7C1742207604342%7Cdn%7C636%7Cxu%7C%2Fconvaccountapi%2Fovc%2Faccounts%2Fv1%2Fconvergence%3FaccountId%3D${c_icmtoken_ACCNum}%26accountType%3DBAN%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603710e0f0g0h0i0j0k2l447m561u563v263w263X200T-3z11I1M1847401837V0%7Cxcs%7C632%7Cxce%7C636%2C4%7C12%7Cx%7Cxhr%7Cx%7C1742207603732%7C1742207605724%7Cdn%7C979%7Cxu%7C%2Fcrbillapi%2Fovc%2Fbilling%2Fv3%2Fdetails%2F-IULVlH1Ne2Kt4wczjlGxw%3D%3D%3FLOB%3DW%26backend%3Dfalse%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603734e0f0g0h0i0j0k5l702m946u816v516w1182X200T-6z11I1M270300345V0%7Cxcs%7C1338%7Cxce%7C1347%2C5%7C34%7Cx%7Cxhr%7Cx%7C1742207605096%7C1742207605696%7Cdn%7C979%7Cxu%7C%2Fcrbillingapi%2Fovc%2Fbilling%2Fv1%2Fbilltype%2F-IULVlH1Ne2Kt4wczjlGxw%3D%3D%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207605099e0f0g0h0i0j0k3l412m588u368v68w68X200T-4z11I1M-351457047V0%7Cxcs%7C591%7Cxce%7C600%2C5%7C35%7Cx%7Cxhr%7Cx%7C1742207605100%7C1742207605724%7Cdn%7C979%7Cxu%7C%2Fcraccountsapi%2Fovc%2Faccount%2Fcontact%2Fv1%2F-IULVlH1Ne2Kt4wczjlGxw%3D%3D%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207605103e0f0g0h0i0j0k8l502m586u616v316w316X200T-5z11I1M-1450554651V0%7Cxcs%7C616%7Cxce%7C624%2C4%7C13%7Cx%7Cxhr%7Cx%7C1742207603737%7C1742207604070%7Cdn%7C227%7Cxu%7C%2Fcraccountsapi%2Fovc%2Faccounts%2Fv1%2Fsubscriptions%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603740e0f0g0h0i0j0k3l317m318u1102v802w802X200T-7z11I1M1701778201V0W1%7Cxcs%7C331%7Cxce%7C333%2C4%7C14%7Cx%7Cxhr%7Cx%7C1742207603744%7C1742207604025%7Cdn%7C174%7Cxu%7C%2Fcontentfulapi%2Fovc%2Fcontentful%2Fv1%2Fcontent%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603747e0f0g0h0i0j0k1l232m236u9727v9427w32559X200T-8z11I1M1774106723V0W1%7Cxcs%7C279%7Cxce%7C281%2C4%7C15%7Cx%7Cxhr%7Cx%7C1742207603748%7C1742207604416%7Cdn%7C641%7Cxu%7C%2Fcraccountsapi%2Fovc%2Fvas%2Fv1%2Fsubscription%2Fdetails%2F-IULVlH1Ne2Kt4wczjlGxw%3D%3D%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603751e0f0g0h0i0j0k2l550m618u317v17w17X200T-9z11I1M-646584471V0%7Cxcs%7C644%7Cxce%7C668%2C4%7C16%7Cx%7Cxhr%7Cx%7C1742207603753%7C1742207605036%7Cdn%7C952%7Cxu%7C%2Fcrsubsapi%2Fovc%2Fsubscriptions%2Fv1%2Fsummary%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603756e0f0g0h0i0j0k1l751m753u837v537w1700X200T-10z11I1M-587013935V0W1%7Cxcs%7C1277%7Cxce%7C1283%2C4%7C17%7Cx%7Cxhr%7Cx%7C1742207603761%7C1742207604063%7Cdn%7C227%7Cxu%7C%2Fcrofferapi%2Fovc%2Factionoffers%2Fv1%2FreadDisposition%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603764e0f0g0h0i0j0k1l280m281u324v24w24X200T-11z11I1M-167869123V0W1%7Cxcs%7C300%7Cxce%7C302%2C4%7C18%7Cx%7Cxhr%7Cx%7C1742207603766%7C1742207605192%7Cdn%7C953%7Cxu%7C%2Fcraccountsapi%2Fovc%2Faccount%2Fcontact%2Fv1%2Faccount%2F-IULVlH1Ne2Kt4wczjlGxw%3D%3D%2Findicators%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603768e0f0g0h0i0j0k3l739m1004u450v150w150X200T-12z11I1M-228789449V0%7Cxcs%7C1410%7Cxce%7C1426%2C4%7C19%7Cx%7Cxhr%7Cx%7C1742207603770%7C1742207604316%7Cdn%7C636%7Cxu%7C%2Fcrcorpdiscapi%2Fovc%2Fcorporate%2Fdiscount%2Fidv%2Fdetails%2Fv1%2F-IULVlH1Ne2Kt4wczjlGxw%3D%3D%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603773e0f0g0h0i0j0k2l340m491u641v341w341X200T-13z11I1M-546226789V0%7Cxcs%7C541%7Cxce%7C546%2C4%7C20%7Cx%7Cxhr%7Cx%7C1742207603774%7C1742207604332%7Cdn%7C636%7Cxu%7C%2Fcrfinapi%2Fovc%2Ffinance%2Fv1%2Faccessories%2F-IULVlH1Ne2Kt4wczjlGxw%3D%3D%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603777e0f0g0h0i0j0k2l363m488u300X204T-14z11I1M1699092515V0%7Cxcs%7C556%7Cxce%7C558%2C4%7C21%7Cx%7Cxhr%7Cx%7C1742207603778%7C1742207605295%7Cdn%7C953%7Cxu%7C%2Fcraccountsapi%2Fovc%2Faccounts%2Fv1%2Ffraud%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603781e0f0g0h0i0j0k1l306m307u467v167w167X200T-23z11I1M-190519785V0W1%7Cxcs%7C339%7Cxce%7C340%2C5%7C26%7Cx%7Cxhr%7Cx%7C1742207604134%7C1742207605265%7Cdn%7C953%7Cxu%7C%2Fovexternalapi%2Fovexternal%2Fv1%2Foffline%2Fflag%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207604137e0f0g0h0i0j0k135l542m659u321v21w21X200T-15z11I1M565309849V0%7Cxcs%7C1127%7Cxce%7C1131%2C5%7C27%7Cx%7Cxhr%7Cx%7C1742207604141%7C1742207604951%7Cdn%7C952%7Cxu%7C%2Fcraccountsapi%2Fovc%2Faccounts%2Fv1%2FinteractionsHistory%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207604144e0f0g0h0i0j0k1l286m288u302v2w2X200T-16z11I1M-903255732V0W1%7Cxcs%7C806%7Cxce%7C810%2C5%7C28%7Cx%7Cxhr%7Cx%7C1742207604147%7C1742207605238%7Cdn%7C953%7Cxu%7C%2Fcrrlhapi%2Fovc%2Frlh%2Frewards%2Fv1%2F-IULVlH1Ne2Kt4wczjlGxw%3D%3D%2Fsummary%3FapplicationId%3DRogers.com%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207604149e0f0g0h0i0j0k123l434m625u300X204T-17z11I1M-1453762864V0%7Cxcs%7C1086%7Cxce%7C1091%2C5%7C29%7Cx%7Cxhr%7Cx%7C1742207604151%7C1742207604463%7Cdn%7C776%7Cxu%7C%2Fcms%2Foneview%2Foneview-semafone.json%3Ft%3D1742207604150%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207604154e0f0g0h0i0j0k113l173m216u1561v1261w2188X200T-18z11I1M-1284842447V0%7Cxcs%7C291%7Cxce%7C312%2C5%7C30%7Cx%7Cxhr%7Cx%7C1742207604174%7C1742207604649%7Cdn%7C952%7Cxu%7C%2Fcms%2Foneview%2Foneview-semafone.json%3Ft%3D1742207604168%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207604177e0f0g0h0i0j0k90l150m202u1561v1261w2188X200T-19z11I1M-989781381V0%7Cxcs%7C454%7Cxce%7C475%2C5%7C31%7Cx%7Cxhr%7Cx%7C1742207604179%7C1742207604587%7Cdn%7C952%7Cxu%7C%2Fcms%2Foneview%2Fwireless_dashboard_cms.json%3Ft%3D1742207604179%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207604182e0f0g0h0i0j0k86l145m188u1147v847w847X200T-20z11I1M-836963920V0%7Cxcs%7C392%7Cxce%7C408%2C5%7C32%7Cx%7Cxhr%7Cx%7C1742207604183%7C1742207605295%7Cdn%7C953%7Cxu%7C%2Fcrorderapi%2Fovc%2Forders%2Fpendingdetails%2Fv1%2F-IULVlH1Ne2Kt4wczjlGxw%3D%3D%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207604186e0f0g0h0i0j0k87l494m611u377v77w77X200T-21z11I1M-835858456V0%7Cxcs%7C1104%7Cxce%7C1112%2C5%7C33%7Cx%7Cxhr%7Cx%7C1742207604187%7C1742207605252%7Cdn%7C953%7Cxu%7C%2Fcrorderapi%2Fovc%2Forders%2Fv1%2Fbopis%2Fdetails%2F-IULVlH1Ne2Kt4wczjlGxw%3D%3D%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207604190e0f0g0h0i0j0k83l489m598u300X204T-22z11I1M2082633805V0%7Cxcs%7C1063%7Cxce%7C1065%2C4%7C22%7Cx%7Cxhr%7Cx%7C1742207603782%7C1742207604009%7Cdn%7C174%7Cxu%7C%2Fcrrepnotifapi%2Fovc%2Fv1%2Fnotifications%2Faccount%2F-IULVlH1Ne2Kt4wczjlGxw%3D%3D%3Flanguage%3Den%26userId%3DUIPATH.BOT14%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603784e0f0g0h0i0j0k3l174m177u354v54w54X200T-24z11I1M350442877V0%7Cxcs%7C225%7Cxce%7C227%2C4%7C23%7Cx%7Cxhr%7Cx%7C1742207603786%7C1742207604035%7Cdn%7C196%7Cxu%7C%2Fcragentapi%2Fovc%2Fagentaccess%2Fv1%2FuserPreference%2F7ru7kmm7EwyuKMHxqj4NbA%3D%3D%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603789e0f0g0h0i0j0k1l237m239u499v199w199X200T-25z11I1M-1956301728V0%7Cxcs%7C248%7Cxce%7C249%2C3%7C9%7Cx%7Cxhr%7Cx%7C1742207603244%7C1742207603261%7Cdn%7C41%7Cxu%7C%2Fsessionapi%2Fovc%2Fsession%2Fbuilder%2Fssocookie%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603247e0f0g0h0i0j0k1l5m6v2w2X200T-27z11I1M379138219V0%7Cxcs%7C16%7Cxce%7C17%2C2%7C10%7C_onload_%7C_load_%7C-%7C1742207603282%7C1742207603284%7Cdn%7C42%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%2C2%7C24%7Cx%7Cxhr%7Cx%7C1742207603907%7C1742207604112%7Cdn%7C536%7Cxu%7C%2Fsessionvalapi%2Fovr%2Fv1%2Fsession%2Fkeepalive%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207603909e0f0g0h0i0j0k2l147m155u300X200T-29z11I1M1836257275V0%7Cxcs%7C204%7Cxce%7C205%2C2%7C25%7Cx%7Cxhr%7Cx%7C1742207604104%7C1742207604941%7Cdn%7C952%7Cxu%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2FWRSiteInterceptEngine%2FTargeting.php%3FQ_ZoneID%3DZN_cI39qiLcUmKR0dn%26Q_CLIENTVERSION%3D2.26.1%26Q_CLIENTTYPE%3Dweb%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207604106e0f0g0h0i0j0k196l292m293u1775v1475w4162X200T-30z11I1%7Cxcs%7C836%7Cxce%7C837%2C2%7C36%7Cx%7Cxhr%7Cx%7C1742207605422%7C1742207605586%7Cdn%7C964%7Cxu%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2FWRSiteInterceptEngine%2FAsset.php%3FModule%3DSI_6LsQmu3iDKjub9r%26Version%3D84%26Q_ORIGIN%3Dhttps%3A%2F%2Foneview.rogers.com%26Q_CLIENTVERSION%3D2.26.1%26Q_CLIENTTYPE%3Dweb%26Q_BrandTier%3DPn2UP9lWlr%26Q_ARCACHEVERSION%3D21%26Q_BRANDDC%3Dyul1%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207605425e0m20X200T-31z11I1%7Cxcs%7C162%7Cxce%7C164%2C2%7C37%7Cx%7Cxhr%7Cx%7C1742207605426%7C1742207605587%7Cdn%7C964%7Cxu%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2FWRSiteInterceptEngine%2FAsset.php%3FModule%3DCR_9FZu5qr5xbjNWGG%26Version%3D1%26Q_InterceptID%3DSI_6LsQmu3iDKjub9r%26Q_ORIGIN%3Dhttps%3A%2F%2Foneview.rogers.com%26Q_CLIENTVERSION%3D2.26.1%26Q_CLIENTTYPE%3Dweb%26Q_BrandTier%3DPn2UP9lWlr%26Q_ARCACHEVERSION%3D21%26Q_BRANDDC%3Dyul1%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207605429e0m17X200T-32z11I1%7Cxcs%7C160%7Cxce%7C161%2C2%7C38%7Cx%7Cxhr%7Cx%7C1742207605626%7C1742207605781%7Cdn%7C980%7Cxu%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2FWRSiteInterceptEngine%2F%3FQ_Impress%3D1%26Q_CID%3DCR_9FZu5qr5xbjNWGG%26Q_SIID%3DSI_6LsQmu3iDKjub9r%26Q_ASID%3DAS_85504158%26Q_CLIENTVERSION%3D2.26.1%26Q_CLIENTTYPE%3Dweb%26r%3D1742207605626%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1742207605629e0m138X200T-33z11I1%7Cxcs%7C141%7Cxce%7C155%2C1%7C41%7C_event_%7C1742207602065%7C_view_%7Ctvtrg%7C1%7Ctvm%7Ci1%5Esk0%5Esh0$rId=RID_1159577506$rpId=-840160877$domR=1742207603279$tvn=%2Fweb%2Fa%2Fdashboard%2Foverview$tvt=1742207602065$tvm=i1%3Bk0%3Bh0$tvtrg=1$w=1912$h=962$sw=1920$sh=1080$nt=a2b1742207602065e4f4g4h10i119j42k120l389m393o579p950q960r1214s1217t1219u3052v2752w7133X200M-840160877V0$ni=4g|10$md=mdcc8%2CUIPATH%20BOT14%3Bmdcc10%2COV%3Aweb%3Aa%3Adashboard%3Aoverview%3Bmdcc14%2COV%3Aweb%3Aa%3Adashboard%3Aoverview%3Bmdcc15%2Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%3FLang%3Den%26CustType%3DI%26CustSubType%3DR%26connid%3D%3Bmdcc21%2C179643557%257CMCIDTS%257C20165%257CMCMID%257C60486838142871975434259442131791201229%257CMCAID%257CNONE%257CMCOPTOUT-1742214507s%257CNONE%257CMCAAMLH-1742812107%257C7%257CMCAAMB-1742812107%257Cj8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI%257CMCCIDH%257C-404252189%257CMCSYNCSOP%257C411-20172%257CMCSYNCS%257C1083-20172*1085-20172*1086-20172*1087-20172*1088-20172*19913-20172%257CvVersion%257C5.5.0$sr=1$url=https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%3FLang%3Den%26CustType%3DI%26CustSubType%3DR%26connid%3D$title=${c_icmtoken_ACCNum}%20-%20${C_v2overview_firstName}%20${C_v2overview_lastName}$latC=0$app=2ae0303e3c9b36b0$vi=HJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0$fId=407602586_180$v=10307250124095659$vID=1742207300811E20CQ3G2786C819TOEOLJBT3G987IFO3$time=1742207606339]]></textPostContent>
+</http-action>
+<http-action actionType="1"
+    contentType="application/x-javascript;charset=utf-8" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/b/ss/rcp-r-oneview-prod/10/JS-2.25.0-LEWM/s52173015686657"
+    path="/b/ss/rcp-r-oneview-prod/10/JS-2.25.0-LEWM/s52173015686657"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/e42e7f28-4fcf-487e-abc7-ba08dc91d659.zip"
+    recordedResponseCode="200" responseSize="6706"
+    serverUid="stracking.rogers.com" slaProfileEnabled="false"
+    uid="3130b30c-52fe-41c5-8b91-13955dd7d9fe" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[QVFCPTEmbmRoPTEmcGY9MSZldD0xJnQ9MTclMkYyJTJGMjAyNSUyMDEwJTNBMzMlM0EyNiUyMDElMjAwJmNpZC4mZHBpZDk0Mi4maWQ9ODdiNjYzYWM2YmU3MjQ1YTA3Yjk3OWYwODFhOWJlYmY5NzQ3OWIzMTY3NGY5Y2Q5NDMyYmQ4ZTVkYmQ2MTZmZSZhcz0xJi5kcGlkOTQyJmRwaWQxMDk0LiZpZD00ZGUwZjk1ODM0MjQ3ZmI3M2IzYmUwNWNjODc3ZmMxYTE1MjMwOTNhNDYzZDc1ODUwZTBkMTI5M2FjYTkxNTNmJmFzPTEmLmRwaWQxMDk0JnJvZ2Vyc2JhY2tlbmRkYXRhLiZpZD04N2I2NjNhYzZiZTcyNDVhMDdiOTc5ZjA4MWE5YmViZjk3NDc5YjMxNjc0ZjljZDk0MzJiZDhlNWRiZDYxNmZlJmFzPTEmLnJvZ2Vyc2JhY2tlbmRkYXRhJnJvZ2Vyc3R2bS4maWQ9ODdiNjYzYWM2YmU3MjQ1YTA3Yjk3OWYwODFhOWJlYmY5NzQ3OWIzMTY3NGY5Y2Q5NDMyYmQ4ZTVkYmQ2MTZmZSZhcz0xJi5yb2dlcnN0dm0mcm9nZXJzdGh1cC4maWQ9ODdiNjYzYWM2YmU3MjQ1YTA3Yjk3OWYwODFhOWJlYmY5NzQ3OWIzMTY3NGY5Y2Q5NDMyYmQ4ZTVkYmQ2MTZmZSZhcz0xJi5yb2dlcnN0aHVwJmNoX2RuY19iYW4uJmlkPTg3YjY2M2FjNmJlNzI0NWEwN2I5NzlmMDgxYTliZWJmOTc0NzliMzE2NzRmOWNkOTQzMmJkOGU1ZGJkNjE2ZmUmYXM9MSYuY2hfZG5jX2JhbiYuY2lkJmQuJm5zaWQ9MCZqc29udj0xJi5kJm1pZD02MDQ4NjgzODE0Mjg3MTk3NTQzNDI1OTQ0MjEzMTc5MTIwMTIyOSZhYW1saD03JmNlPVVURi04JnBhZ2VOYW1lPU9WJTNBd2ViJTNBYSUzQWRhc2hib2FyZCUzQW92ZXJ2aWV3Jmc9aHR0cHMlM0ElMkYlMkZvbmV2aWV3LnJvZ2Vycy5jb20lMkZ3ZWIlMkZhJTJGZGFzaGJvYXJkJTJGb3ZlcnZpZXclM0ZMYW5nJTNEZW4lMjZDdXN0VHlwZSUzREklMjZDdXN0U3ViVHlwZSUzRFIlMjZjb25uaWQlM0QmY2M9Q0FEJmNoPXdlYiZldmVudHM9ZXZlbnQ5JTJDJmMxPUQlM0R2MSZ2MT13ZWImaDE9d2ViJTJDYSUyQ2Rhc2hib2FyZCZjMj1EJTNEdjImdjI9YSZjMz1EJTNEdjMmdjM9ZGFzaGJvYXJkJmM0PUQlM0R2NCZ2ND1PViUzQXdlYiUzQWElM0FkYXNoYm9hcmQlM0FvdmVydmlldyZ2NT1PViUzQXdlYiUzQWElM0FkYXNoYm9hcmQlM0FvdmVydmlldyZjNj1EJTNEdjYmdjY9aHR0cHMlM0ElMkYlMkZvbmV2aWV3LnJvZ2Vycy5jb20lMkZ3ZWIlMkZhJTJGZGFzaGJvYXJkJTJGb3ZlcnZpZXclM0ZMYW5nJTNEZW4lMjZDdXN0VHlwZSUzREklMjZDdXN0U3ViVHlwZSUzRFIlMjZjb25uaWQlM0Qmdjk9c2hvdyU3QzElN0NSb2dlcnMlMjBDb252ZXJnZWQlMjBXaXJlbGVzcyUyMGNvdW50JnYxMD1VVEVSb2dlcnNDYXJlJnYxMz1PU1JDUCU3Q2NhcmUmdjE2PTg3YjY2M2FjNmJlNzI0NWEwN2I5NzlmMDgxYTliZWJmOTc0NzliMzE2NzRmOWNkOTQzMmJkOGU1ZGJkNjE2ZmUmdjE4PTRkZTBmOTU4MzQyNDdmYjczYjNiZTA1Y2M4NzdmYzFhMTUyMzA5M2E0NjNkNzU4NTBlMGQxMjkzYWNhOTE1M2YmdjE5PWNvbnN1bWVyJTdDcmVndWxhciU3Q2lkdjImdjQzPWZhbHNlJnY0OD0lN0MlN0MlN0MlN0MmdjUxPU9WJnY1Mz1Nb25kYXklN0MzJTJGMTclMkYyMDI1JTIwNiUzQTMzJnY1ND1vbiZ2NTU9ZW4mdjU4PWNhcmUmdjYzPUZpcnN0JTIwVmlzaXQmdjY1PWh0dHBzJTNBJTJGJTJGb25ldmlldy5yb2dlcnMuY29tJTJGd2ViJTJGYSUyRmRhc2hib2FyZCUyRm92ZXJ2aWV3JTNGTGFuZyUzRGVuJTI2Q3VzdFR5cGUlM0RJJTI2Q3VzdFN1YlR5cGUlM0RSJTI2Y29ubmlkJTNEJnY3MT1taWNyb3NvZnQlN0Nob3N0ZWQlN0M1MDAwJTdDY2ElN0NxYyU3QzgwNzUmdjczPUFkb2JlJTIwTGF1bmNoJnY3ND02MDQ4NjgzODE0Mjg3MTk3NTQzNDI1OTQ0MjEzMTc5MTIwMTIyOSZ2NzU9RCUzRGFpZCZ2NzY9ZGVmYXVsdCZ2ODM9JTdDbm90JTIwYXZhaWxhYmxlJnY5OT04ZTUzMWQxMC0wMzFhLTExZjAtOTZhNS0zOTExNjM2MGU3ZjcmdjEwMD1Nb3ppbGxhJTJGNS4wJTIwJTI4V2luZG93cyUyME5UJTIwMTAuMCUzQiUyMFdpbjY0JTNCJTIweDY0JTI5JTIwQXBwbGVXZWJLaXQlMkY1MzcuMzYlMjAlMjhLSFRNTCUyQyUyMGxpa2UlMjBHZWNrbyUyOSUyMENocm9tZSUyRjEzMy4wLjAuMCUyMFNhZmFyaSUyRjUzNy4zNiUyMEVkZyUyRjEzMy4wLjAuMCU3Q3ZlcnNpb240JnYxMDE9Um9nZXJzLmNvbSUyMCUyOExhdW5jaCUyQyUyME1BSU4lMjBQUk9QRVJUWSUyOSU3Q3Byb2R1Y3Rpb24lN0MyLjI1LjAlN0M1LjUuMCU3Q3YxLjguNCU3QzAzJTJGMTMlMkYyMDI1JnYxMzc9MCUzQTAmdjE0OT0wJnYxOTA9JTdDJTdDJnYxOTM9dW5jbGFzc2lmaWVkJTNBJTIwVVRFUm9nZXJzQ2FyZSZ2MTk3PW9uZXZpZXcucm9nZXJzLmNvbSUyRndlYiUyRmElMkZkYXNoYm9hcmQlMkZvdmVydmlldyZ2MTk4PW9uZXZpZXcucm9nZXJzLmNvbSZ2MjAwPWRvUGx1Z2luc0JvdHRvbSUyMEZpbmlzaGVkJnBlPWxua19vJnBldjI9bGluayZzPTE5MjB4MTA4MCZjPTI0Jmo9MS42JnY9TiZrPVkmYnc9MTkxMiZiaD05NjImbWNvcmdpZD1EN0ZEMzRGQTUzRDYzQjg2MEE0OTBENDQlNDBBZG9iZU9yZyZscnQ9NTMmQVFFPTE=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_d51c13f4-6c0b-45fd-93eb-ef1b9607f931</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d51c13f4-6c0b-45fd-93eb-ef1b9607f931.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="AQB"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ndh"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pf"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="et"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="t"
+        recordRawValue="17%2F2%2F2025%2010%3A33%3A26%201%200"
+        separator="=" value="17/2/2025 10:33:26 1 0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cid."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="dpid942."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe"
+        separator="="
+        value="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".dpid942"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="dpid1094."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f"
+        separator="="
+        value="4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".dpid1094"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="rogersbackenddata." recordRawValue="" separator=""
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe"
+        separator="="
+        value="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name=".rogersbackenddata" recordRawValue="" separator=""
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="rogerstvm."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe"
+        separator="="
+        value="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".rogerstvm"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="rogersthup."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe"
+        separator="="
+        value="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".rogersthup"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ch_dnc_ban."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe"
+        separator="="
+        value="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".ch_dnc_ban"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cid"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="d."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nsid"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="jsonv"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".d"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="mid"
+        recordRawValue="60486838142871975434259442131791201229"
+        separator="=" value="60486838142871975434259442131791201229" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="aamlh"
+        recordRawValue="7" separator="=" value="7" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ce"
+        recordRawValue="UTF-8" separator="=" value="UTF-8" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pageName"
+        recordRawValue="OV%3Aweb%3Aa%3Adashboard%3Aoverview"
+        separator="=" value="OV:web:a:dashboard:overview" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="g"
+        recordRawValue="https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%3FLang%3Den%26CustType%3DI%26CustSubType%3DR%26connid%3D"
+        separator="="
+        value="https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cc"
+        recordRawValue="CAD" separator="=" value="CAD" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ch"
+        recordRawValue="web" separator="=" value="web" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="events"
+        recordRawValue="event9%2C" separator="=" value="event9," valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c1"
+        recordRawValue="D%3Dv1" separator="=" value="D=v1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v1"
+        recordRawValue="web" separator="=" value="web" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="h1"
+        recordRawValue="web%2Ca%2Cdashboard" separator="="
+        value="web,a,dashboard" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c2"
+        recordRawValue="D%3Dv2" separator="=" value="D=v2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v2"
+        recordRawValue="a" separator="=" value="a" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c3"
+        recordRawValue="D%3Dv3" separator="=" value="D=v3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v3"
+        recordRawValue="dashboard" separator="=" value="dashboard" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c4"
+        recordRawValue="D%3Dv4" separator="=" value="D=v4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v4"
+        recordRawValue="OV%3Aweb%3Aa%3Adashboard%3Aoverview"
+        separator="=" value="OV:web:a:dashboard:overview" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v5"
+        recordRawValue="OV%3Aweb%3Aa%3Adashboard%3Aoverview"
+        separator="=" value="OV:web:a:dashboard:overview" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c6"
+        recordRawValue="D%3Dv6" separator="=" value="D=v6" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v6"
+        recordRawValue="https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%3FLang%3Den%26CustType%3DI%26CustSubType%3DR%26connid%3D"
+        separator="="
+        value="https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v9"
+        recordRawValue="show%7C1%7CRogers%20Converged%20Wireless%20count"
+        separator="=" value="show|1|Rogers Converged Wireless count" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v10"
+        recordRawValue="UTERogersCare" separator="="
+        value="UTERogersCare" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v13"
+        recordRawValue="OSRCP%7Ccare" separator="=" value="OSRCP|care" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v16"
+        recordRawValue="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe"
+        separator="="
+        value="87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v18"
+        recordRawValue="4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f"
+        separator="="
+        value="4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v19"
+        recordRawValue="consumer%7Cregular%7Cidv2" separator="="
+        value="consumer|regular|idv2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v43"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v48"
+        recordRawValue="%7C%7C%7C%7C" separator="=" value="||||" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v51"
+        recordRawValue="OV" separator="=" value="OV" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v53"
+        recordRawValue="Monday%7C3%2F17%2F2025%206%3A33" separator="="
+        value="Monday|3/17/2025 6:33" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v54"
+        recordRawValue="on" separator="=" value="on" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v55"
+        recordRawValue="en" separator="=" value="en" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v58"
+        recordRawValue="care" separator="=" value="care" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v63"
+        recordRawValue="First%20Visit" separator="=" value="First Visit" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v65"
+        recordRawValue="https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%3FLang%3Den%26CustType%3DI%26CustSubType%3DR%26connid%3D"
+        separator="="
+        value="https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v71"
+        recordRawValue="microsoft%7Chosted%7C5000%7Cca%7Cqc%7C8075"
+        separator="=" value="microsoft|hosted|5000|ca|qc|8075" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v73"
+        recordRawValue="Adobe%20Launch" separator="="
+        value="Adobe Launch" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v74"
+        recordRawValue="60486838142871975434259442131791201229"
+        separator="=" value="60486838142871975434259442131791201229" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v75"
+        recordRawValue="D%3Daid" separator="=" value="D=aid" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v76"
+        recordRawValue="default" separator="=" value="default" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v83"
+        recordRawValue="%7Cnot%20available" separator="="
+        value="|not available" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v99"
+        recordRawValue="8e531d10-031a-11f0-96a5-39116360e7f7"
+        separator="=" value="8e531d10-031a-11f0-96a5-39116360e7f7" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v100"
+        recordRawValue="Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F133.0.0.0%20Safari%2F537.36%20Edg%2F133.0.0.0%7Cversion4"
+        separator="="
+        value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0|version4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v101"
+        recordRawValue="Rogers.com%20%28Launch%2C%20MAIN%20PROPERTY%29%7Cproduction%7C2.25.0%7C5.5.0%7Cv1.8.4%7C03%2F13%2F2025"
+        separator="="
+        value="Rogers.com (Launch, MAIN PROPERTY)|production|2.25.0|5.5.0|v1.8.4|03/13/2025" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v137"
+        recordRawValue="0%3A0" separator="=" value="0:0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v149"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v190"
+        recordRawValue="%7C%7C" separator="=" value="||" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v193"
+        recordRawValue="unclassified%3A%20UTERogersCare" separator="="
+        value="unclassified: UTERogersCare" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v197"
+        recordRawValue="oneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview"
+        separator="="
+        value="oneview.rogers.com/web/a/dashboard/overview" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v198"
+        recordRawValue="oneview.rogers.com" separator="="
+        value="oneview.rogers.com" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v200"
+        recordRawValue="doPluginsBottom%20Finished" separator="="
+        value="doPluginsBottom Finished" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pe"
+        recordRawValue="lnk_o" separator="=" value="lnk_o" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pev2"
+        recordRawValue="link" separator="=" value="link" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="s"
+        recordRawValue="1920x1080" separator="=" value="1920x1080" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c"
+        recordRawValue="24" separator="=" value="24" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="j"
+        recordRawValue="1.6" separator="=" value="1.6" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="N" separator="=" value="N" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="k"
+        recordRawValue="Y" separator="=" value="Y" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="bw"
+        recordRawValue="1912" separator="=" value="1912" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="bh"
+        recordRawValue="962" separator="=" value="962" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="mcorgid"
+        recordRawValue="D7FD34FA53D63B860A490D44%40AdobeOrg"
+        separator="=" value="D7FD34FA53D63B860A490D44@AdobeOrg" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="lrt"
+        recordRawValue="53" separator="=" value="53" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="AQE"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="cookie" value="rxVisitor=1742207300811E20CQ3G2786C819TOEOLJBT3G987IFO3; language=en; PLAY_SESSION=1f942e1b3b58d073ae449655c37f6715d33a615c-LANGUAGE=en&amp;CH_BAN=${c_icmtoken_ACCNum}&amp;LOGGING_ID=UIPATH.BOT14&amp;V21=V21&amp;UserId=14017192&amp;SOURCE=CRM&amp;FRANCHISE=ROGERS&amp;ACCTNBR=${c_icmtoken_ACCNum}&amp;CONTACT_ID=CO1059926659&amp;SessionId=feafada7-09be-472c-96e2-d5fb65fce5cf&amp;TARGET_URL=ONEVIEWDASHBOARD; X_DOM_session_guid=8e531d10-031a-11f0-96a5-39116360e7f7; s_ecid=MCMID%7C60486838142871975434259442131791201229; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_cc=true; marketing_ban=87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe; marketing_UID=87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe; X_DOM_BAN=87b663ac6be7245a07b979f081a9bebf97479b31674f9cd9432bd8e5dbd616fe; marketing_user_name=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; X_DOM_USER_NAME=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C60486838142871975434259442131791201229%7CMCAID%7CNONE%7CMCOPTOUT-1742214507s%7CNONE%7CMCAAMLH-1742812107%7C7%7CMCAAMB-1742812107%7Cj8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI%7CMCCIDH%7C-404252189%7CMCSYNCSOP%7C411-20172%7CMCSYNCS%7C1083-20172*1085-20172*1086-20172*1087-20172*1088-20172*19913-20172%7CvVersion%7C5.5.0; province=ON; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; dtSa=-; dtCookie=v_4_srv_9_sn_224BBDFD3FF25E04D096DD8BC9AE025C_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_app-3Ace606e7a9dfabb4e_1_ol_0_perc_100000_mul_1_rcs-3Acss_0; s_sq=%5B%5BB%5D%5D; X_DOM_REFERRER=; rxvt=1742209405627|1742207300813; dtPC=9$407602586_180h-vHJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0e0; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742209406364%3B%20rcp_s_dslv%3D1742207606364%7C1836815606364%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742209406364%3B; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=%22%2C%22pName%22:%22OV:web:a:dashboard:overview%22%2C%22accType%22:%22consumer|regular|idv2%22%2C%22optout_uuid%22:{%2260334564065020010944275760262631018348%22:true}%2C%22buyflowName%22:%22%22}"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.rogers.com"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+access-control-allow-origin: https://oneview.rogers.com&#xd;
+access-control-allow-credentials: true&#xd;
+date: Mon, 17 Mar 2025 10:33:26 GMT&#xd;
+expires: Sun, 16 Mar 2025 10:33:26 GMT&#xd;
+last-modified: Tue, 18 Mar 2025 10:33:26 GMT&#xd;
+pragma: no-cache&#xd;
+p3p: CP="This is not a P3P policy"&#xd;
+server: jag&#xd;
+set-cookie: s_ecid=MCMID%7C60486838142871975434259442131791201229; Path=/; Domain=rogers.com; Max-Age=63072000; Expires=Wed, 17 Mar 2027 10:33:33 GMT;&#xd;
+etag: 3741362347157225472-4614776630804573979&#xd;
+vary: *&#xd;
+x-aam-tid: e4mOy9nbRKc=&#xd;
+dcs: dcs-prod-va6-1-v073-0b4428b6d.edge-va6.demdex.com 10 ms&#xd;
+content-type: application/x-javascript;charset=utf-8&#xd;
+content-length: 6706&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+cache-control: no-cache, no-store, max-age=0, no-transform, private&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-content-type-options: nosniff</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

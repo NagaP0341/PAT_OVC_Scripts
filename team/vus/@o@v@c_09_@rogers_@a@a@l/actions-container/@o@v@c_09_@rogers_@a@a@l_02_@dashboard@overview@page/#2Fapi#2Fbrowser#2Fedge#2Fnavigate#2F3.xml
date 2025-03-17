@@ -1,0 +1,458 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/api/browser/edge/navigate/3" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/28a5479f-cdc8-4391-9305-43e8c9f114a8.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="28a5479f-cdc8-4391-9305-43e8c9f114a8">
+    <embedded-action>9ceee573-9173-45fc-a8a8-65b74b50d5d1</embedded-action>
+    <embedded-action>5902681a-3812-4bbc-abd7-ce9a47f7f46c</embedded-action>
+    <embedded-action>392fd97c-a7de-4951-9d18-6c96981b6317</embedded-action>
+    <embedded-action>6d1b5e9b-621a-487c-9ba8-7060e756e8fc</embedded-action>
+    <embedded-action>1793db9b-4231-48e3-b6be-1bda41ca216f</embedded-action>
+    <embedded-action>14034d7b-0bcf-4249-b7d1-e44aee734b13</embedded-action>
+    <embedded-action>d3892d7a-059c-4faa-9ab1-43768260a9e5</embedded-action>
+    <embedded-action>45dbf645-dd70-4c73-acaa-be8922df3206</embedded-action>
+    <embedded-action>3ce5e2d0-7c81-495d-879e-04723ef2b1ef</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_ae94d547-feb7-49ff-b33e-b8918558ff1f.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/javascript; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/web/a/dashboard/ruxitagentjs_ICA7NQVfghqrux_10307250124095659.js"
+    path="/web/a/dashboard/ruxitagentjs_ICA7NQVfghqrux_10307250124095659.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/28a5479f-cdc8-4391-9305-43e8c9f114a8.zip"
+    recordedResponseCode="200" responseSize="313574"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="9ceee573-9173-45fc-a8a8-65b74b50d5d1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fedd8441-3913-4de3-a784-a4ffb2f03e05</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fedd8441-3913-4de3-a784-a4ffb2f03e05.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=${P_JwtToken}"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="Prod=B; dtCookie=v_4_srv_3_sn_C91D87804ABA1FEDFC5AECA6F0D08FDD_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=91~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=a9626b53f1a2c0a4a68d260f96b4eddb"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/javascript; charset=utf-8&#xd;
+content-length: 117848&#xd;
+content-encoding: gzip&#xd;
+last-modified: Wed, 03 Mar 2010 07:01:40 GMT&#xd;
+x-envoy-upstream-service-time: 21&#xd;
+cache-control: public, max-age=252893&#xd;
+expires: Thu, 20 Mar 2025 08:43:13 GMT&#xd;
+date: Mon, 17 Mar 2025 10:28:20 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/a/dashboard/runtime.a663eae09e673f44.js"
+    path="/web/a/dashboard/runtime.a663eae09e673f44.js" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/28a5479f-cdc8-4391-9305-43e8c9f114a8.zip"
+    recordedResponseCode="200" responseSize="6088"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="5902681a-3812-4bbc-abd7-ce9a47f7f46c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_003f1c3a-4a85-4371-91ec-5c7bd63eacda</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_003f1c3a-4a85-4371-91ec-5c7bd63eacda.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=${P_JwtToken}"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; dtCookie=v_4_srv_3_sn_C91D87804ABA1FEDFC5AECA6F0D08FDD_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=91~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=a9626b53f1a2c0a4a68d260f96b4eddb"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.rogers.com"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/javascript&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:12 GMT&#xd;
+etag: "67d49300-17c8"&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="1226143661"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 8&#xd;
+content-encoding: gzip&#xd;
+content-length: 2702&#xd;
+cache-control: max-age=406013&#xd;
+expires: Sat, 22 Mar 2025 03:15:13 GMT&#xd;
+date: Mon, 17 Mar 2025 10:28:20 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: NULL&#xd;
+access-control-allow-methods: NULL&#xd;
+access-control-allow-origin: https://oneview.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/a/dashboard/polyfills.e604818929e9da62.js"
+    path="/web/a/dashboard/polyfills.e604818929e9da62.js" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/28a5479f-cdc8-4391-9305-43e8c9f114a8.zip"
+    recordedResponseCode="200" responseSize="155615"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="392fd97c-a7de-4951-9d18-6c96981b6317" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_501b76c4-3dfe-4d6c-b385-f8548e58ebc4</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_501b76c4-3dfe-4d6c-b385-f8548e58ebc4.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=${P_JwtToken}"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; dtCookie=v_4_srv_3_sn_C91D87804ABA1FEDFC5AECA6F0D08FDD_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=91~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=a9626b53f1a2c0a4a68d260f96b4eddb"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.rogers.com"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/javascript&#xd;
+etag: "67d49300-25fdf:dtagent10307250124095659x+rL"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:11 GMT&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-493951825", dtTao;desc="1"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+content-encoding: gzip&#xd;
+content-length: 51905&#xd;
+cache-control: max-age=456138&#xd;
+expires: Sat, 22 Mar 2025 17:10:38 GMT&#xd;
+date: Mon, 17 Mar 2025 10:28:20 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: NULL&#xd;
+access-control-allow-methods: NULL&#xd;
+access-control-allow-origin: https://oneview.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/a/dashboard/vendor.4930590c2793f8ee.js"
+    path="/web/a/dashboard/vendor.4930590c2793f8ee.js" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/28a5479f-cdc8-4391-9305-43e8c9f114a8.zip"
+    recordedResponseCode="200" responseSize="2284337"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="6d1b5e9b-621a-487c-9ba8-7060e756e8fc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f11c77a5-dfa6-4153-a0ab-579d703479dd</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f11c77a5-dfa6-4153-a0ab-579d703479dd.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=${P_JwtToken}"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; dtCookie=v_4_srv_3_sn_C91D87804ABA1FEDFC5AECA6F0D08FDD_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=91~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=a9626b53f1a2c0a4a68d260f96b4eddb"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.rogers.com"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/javascript&#xd;
+etag: "67d49300-22db31:dtagent10307250124095659x+rL"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:11 GMT&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="973247520", dtTao;desc="1"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=560224&#xd;
+expires: Sun, 23 Mar 2025 22:05:24 GMT&#xd;
+date: Mon, 17 Mar 2025 10:28:20 GMT&#xd;
+content-length: 598264&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: NULL&#xd;
+access-control-allow-methods: NULL&#xd;
+access-control-allow-origin: https://oneview.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/a/dashboard/main.c8a57b0a8a6f57a6.js"
+    path="/web/a/dashboard/main.c8a57b0a8a6f57a6.js" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/28a5479f-cdc8-4391-9305-43e8c9f114a8.zip"
+    recordedResponseCode="200" responseSize="696908"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="1793db9b-4231-48e3-b6be-1bda41ca216f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1c184f48-713e-4d71-aec0-9cdb367df1e5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1c184f48-713e-4d71-aec0-9cdb367df1e5.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=${P_JwtToken}"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; dtCookie=v_4_srv_3_sn_C91D87804ABA1FEDFC5AECA6F0D08FDD_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=91~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=a9626b53f1a2c0a4a68d260f96b4eddb"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.rogers.com"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/javascript&#xd;
+last-modified: Wed, 12 Mar 2025 18:24:08 GMT&#xd;
+etag: "67d1d148-aa24c"&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-780760970"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 10&#xd;
+content-encoding: gzip&#xd;
+content-length: 165083&#xd;
+cache-control: max-age=322564&#xd;
+expires: Fri, 21 Mar 2025 04:04:24 GMT&#xd;
+date: Mon, 17 Mar 2025 10:28:20 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: NULL&#xd;
+access-control-allow-methods: NULL&#xd;
+access-control-allow-origin: https://oneview.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/a/dashboard/assets/loading.gif"
+    path="/web/a/dashboard/assets/loading.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/28a5479f-cdc8-4391-9305-43e8c9f114a8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="14034d7b-0bcf-4249-b7d1-e44aee734b13" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_edf3dcff-89c0-4c33-b6ea-8a92d4167f23.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=${P_JwtToken}"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="Prod=B; dtCookie=v_4_srv_3_sn_C91D87804ABA1FEDFC5AECA6F0D08FDD_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=91~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=a9626b53f1a2c0a4a68d260f96b4eddb"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=2, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: image/gif&#xd;
+content-length: 15417&#xd;
+etag: "67d49300-3c39:dtagent10307250124095659x+rL"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:11 GMT&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-141812517"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+date: Mon, 17 Mar 2025 10:28:20 GMT&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/a/dashboard/assets/load-analytics.js"
+    path="/web/a/dashboard/assets/load-analytics.js" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/28a5479f-cdc8-4391-9305-43e8c9f114a8.zip"
+    recordedResponseCode="200" responseSize="654"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="d3892d7a-059c-4faa-9ab1-43768260a9e5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_dd4d7c98-4950-4139-9452-aabe71470e9e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_dd4d7c98-4950-4139-9452-aabe71470e9e.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=${P_JwtToken}"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=91~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=a9626b53f1a2c0a4a68d260f96b4eddb; rxVisitor=1742207300811E20CQ3G2786C819TOEOLJBT3G987IFO3; dtCookie=v_4_srv_-2D1503_sn_C91D87804ABA1FEDFC5AECA6F0D08FDD_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; dtSa=-; rxvt=1742209100823|1742207300813; dtPC=-1503$407300804_654h1vHJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/javascript&#xd;
+etag: "67d49300-28e:dtagent10307250124095659x+rL"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:11 GMT&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="1622929187"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+content-encoding: gzip&#xd;
+content-length: 362&#xd;
+cache-control: max-age=456207&#xd;
+expires: Sat, 22 Mar 2025 17:11:47 GMT&#xd;
+date: Mon, 17 Mar 2025 10:28:20 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/javascript; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/web/a/dashboard/ruxitagentjs_D_10307250124095659.js"
+    path="/web/a/dashboard/ruxitagentjs_D_10307250124095659.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/28a5479f-cdc8-4391-9305-43e8c9f114a8.zip"
+    recordedResponseCode="200" responseSize="37766"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="45dbf645-dd70-4c73-acaa-be8922df3206" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a09378d9-eac7-42c3-bf6d-56862e6aabc4</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a09378d9-eac7-42c3-bf6d-56862e6aabc4.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="same-origin"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=${P_JwtToken}"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=91~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=a9626b53f1a2c0a4a68d260f96b4eddb; rxVisitor=1742207300811E20CQ3G2786C819TOEOLJBT3G987IFO3; dtCookie=v_4_srv_-2D1503_sn_C91D87804ABA1FEDFC5AECA6F0D08FDD_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; dtSa=-; rxvt=1742209100823|1742207300813; dtPC=-1503$407300804_654h1vHJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=4, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <header name="sec-fetch-dest" value="worker"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/javascript; charset=utf-8&#xd;
+content-length: 14585&#xd;
+content-encoding: gzip&#xd;
+last-modified: Wed, 03 Mar 2010 07:01:40 GMT&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+cache-control: public, max-age=387896&#xd;
+expires: Fri, 21 Mar 2025 22:13:16 GMT&#xd;
+date: Mon, 17 Mar 2025 10:28:20 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/a/dashboard/styles.7a9f6b4bb0d234a0.css"
+    path="/web/a/dashboard/styles.7a9f6b4bb0d234a0.css" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/28a5479f-cdc8-4391-9305-43e8c9f114a8.zip"
+    recordedResponseCode="200" responseSize="221888"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="3ce5e2d0-7c81-495d-879e-04723ef2b1ef" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d65a6818-0d3c-4bb2-91b0-7aee66a9634c.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d65a6818-0d3c-4bb2-91b0-7aee66a9634c.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=${P_JwtToken}"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=91~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=a9626b53f1a2c0a4a68d260f96b4eddb; rxVisitor=1742207300811E20CQ3G2786C819TOEOLJBT3G987IFO3; dtCookie=v_4_srv_-2D1503_sn_C91D87804ABA1FEDFC5AECA6F0D08FDD_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; dtSa=-; rxvt=1742209100823|1742207300813; dtPC=-1503$407300804_654h1vHJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=4"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/css&#xd;
+etag: "67d49300-362c0:dtagent10307250124095659x+rL"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:11 GMT&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-1417345921"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+date: Mon, 17 Mar 2025 10:28:20 GMT&#xd;
+content-length: 30796&#xd;
+set-cookie: dtCookie=v_4_srv_7_sn_C91D87804ABA1FEDFC5AECA6F0D08FDD_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

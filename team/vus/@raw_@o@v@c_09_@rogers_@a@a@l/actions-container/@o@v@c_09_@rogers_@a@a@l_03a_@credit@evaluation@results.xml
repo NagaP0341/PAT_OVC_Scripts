@@ -1,7 +1,0 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="OVC_09_Rogers_AAL_03a_CreditEvaluationResults" pacingEnd="0"
-    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
-    slaProfileEnabled="false" uid="81935265-14de-4063-b448-c22fd1f55cf2" weightsEnabled="false">
-    <weighted-embedded-action uid="094f6c0a-2b6f-4521-b20b-6921f73e135d"/>
-    <weighted-embedded-action uid="de506847-9d36-44bd-adfa-d5279d2d3aec"/>
-</basic-logical-action-container>

@@ -1,9 +1,0 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="OVC_13_Rogers_POM_PPC_06_DataOptionsPage" pacingEnd="0"
-    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
-    slaProfileEnabled="false" uid="75f4caa8-4347-486f-9d2b-37611decc30f" weightsEnabled="false">
-    <weighted-embedded-action uid="b9915ee8-507d-4df5-9107-f29901195176"/>
-    <weighted-embedded-action uid="4e0c7eb2-8ea9-4813-b316-3306301d07a6"/>
-    <weighted-embedded-action uid="ae840ab4-86a1-440f-92fa-efaddfafb23f"/>
-    <weighted-embedded-action uid="93c72983-8caf-4a16-a9fd-8b29078f5a81"/>
-</basic-logical-action-container>

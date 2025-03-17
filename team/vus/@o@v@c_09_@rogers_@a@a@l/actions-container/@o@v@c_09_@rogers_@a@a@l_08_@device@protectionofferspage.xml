@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_09_Rogers_AAL_08_DeviceProtectionofferspage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="122b4455-50ad-4f16-a34b-d0cf3ad5f664" weightsEnabled="false">
+    <weighted-embedded-action uid="44268594-dc18-4e2c-ae09-fcfc3cb7c230"/>
+    <weighted-embedded-action uid="04a87115-cafe-40fa-8322-1a118bb6ce87"/>
+    <weighted-embedded-action uid="07cb946d-ffee-4edd-90b8-ae3daccbbcdd"/>
+</basic-logical-action-container>

@@ -1,0 +1,40 @@
+<http-page executeResourcesDynamically="false"
+    name="/patapi/v1/pat/encrypt" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@r@a@w_@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/21e76342-c387-41f1-a48f-97aa42db8bbe.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="21e76342-c387-41f1-a48f-97aa42db8bbe">
+    <embedded-action>55ec2275-445b-4cfb-b2c7-503163cf05ce</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="http_request_" path="/patapi/v1/pat/encrypt"
+    postCharset="" postType="1" serverUid="Launch_uniloginapicc"
+    slaProfileEnabled="false" uid="55ec2275-445b-4cfb-b2c7-503163cf05ce" useKeepAlive="false">
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="P_JwtToken"
+        refererUid="daeb18ba-8222-4e71-a11b-aca57c7f86f8" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="80361d26-abe1-4746-bcaa-e884f09014d2" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="uniloginapicc.rogers.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"/>
+    <header name="Ocp-Apim-Subscription-Key" value="bbb9f6d97c9f43a182e0037391364fa6"/>
+    <header name="accountNumber" value="947045464"/>
+    <header name="Authorization" value="${P_jwtToken_Fido.p_JWTToken}"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
