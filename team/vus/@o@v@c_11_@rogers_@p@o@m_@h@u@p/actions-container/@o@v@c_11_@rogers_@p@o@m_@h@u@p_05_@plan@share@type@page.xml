@@ -1,0 +1,35 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_11_Rogers_POM_HUP_05_PlanShareTypePage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="1e4c4d1f-d3b1-4acf-ac10-97a52a1a1dfb" weightsEnabled="false">
+    <weighted-embedded-action uid="cd9f5d86-10b1-424a-b5f8-d0abdc3ed2ea"/>
+    <weighted-embedded-action uid="8bd043a6-8f84-427d-a4c0-756c23a9511b"/>
+    <weighted-embedded-action uid="47ab28ff-dcda-423b-b108-a009c04e99c8"/>
+    <weighted-embedded-action uid="a3603818-c0a4-4751-bc3d-8602d7a875c4"/>
+    <weighted-embedded-action uid="e6224dff-faa7-4b1f-a49b-550cd45e1bdb"/>
+    <weighted-embedded-action uid="418f3044-43ce-4a2e-8e47-34186545795b"/>
+    <weighted-embedded-action uid="2895c0b9-e2f2-4940-a6fe-d5a8e89d3878"/>
+    <weighted-embedded-action uid="f7131bac-d986-4d6c-bca3-962d069ca516"/>
+    <weighted-embedded-action uid="b6831576-fec3-4d67-b353-5ed3ba5ce75e"/>
+    <weighted-embedded-action uid="6410b87b-48a0-4b69-b717-f5f5840c8f08"/>
+    <weighted-embedded-action uid="0f965383-db27-4a4c-9f5b-37d1830c8642"/>
+    <weighted-embedded-action uid="411ec21d-b36f-48fb-9c69-19ad1adc3fcc"/>
+    <weighted-embedded-action uid="d88dd2df-e697-4148-a29c-65544e9f77e6"/>
+    <weighted-embedded-action uid="0da91094-a4db-4d5a-8570-703011c7c0f7"/>
+    <weighted-embedded-action uid="c592e150-8444-48eb-a87f-487687081b08"/>
+    <weighted-embedded-action uid="ce8effd6-5a63-4c9e-99f0-32ae4f5214b9"/>
+    <weighted-embedded-action uid="985564e8-f8f8-46a8-8fb5-3dc626f84243"/>
+    <weighted-embedded-action uid="7727bc3c-1d57-4318-b43d-ffa04deb74db"/>
+    <weighted-embedded-action uid="83ca23fa-d047-4d2e-a687-a0e95dbc832d"/>
+    <weighted-embedded-action uid="9b51225e-1767-4ffa-970a-7456a8c63202"/>
+    <weighted-embedded-action uid="ce6f08d2-28fe-4295-accb-dccc238cfc5c"/>
+    <weighted-embedded-action uid="fe9106b8-81ad-48a8-b313-72712646fd8d"/>
+    <weighted-embedded-action uid="c86a0125-aae2-478c-a388-d4fa12d14e7c"/>
+    <weighted-embedded-action uid="49e690ec-118e-4a3f-9550-9b4e6fb91f73"/>
+    <weighted-embedded-action uid="97fe3cbf-6030-4f04-a716-491cbe692d63"/>
+    <weighted-embedded-action uid="a0d309de-e6e1-4ea9-97dc-1a975bd914e4"/>
+    <weighted-embedded-action uid="fa49faa8-4f36-4372-b07e-37ef79ea41ae"/>
+    <weighted-embedded-action uid="32eaf60e-460c-45b7-bf98-9c2dc662d9ed"/>
+    <weighted-embedded-action uid="0d7889f1-1b4b-4f60-ab55-c6cd6b747e37"/>
+    <weighted-embedded-action uid="a5f6359a-fe81-4c45-bc7a-8e33bc214b97"/>
+</basic-logical-action-container>

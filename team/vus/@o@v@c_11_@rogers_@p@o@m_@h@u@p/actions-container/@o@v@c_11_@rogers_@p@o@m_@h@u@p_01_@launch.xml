@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_11_Rogers_POM_HUP_01_Launch" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="c91607e1-0d46-49d1-b909-546578578d93" weightsEnabled="false">
+    <weighted-embedded-action uid="63b32426-7dfc-47a4-84fa-f3433e554f92"/>
+</basic-logical-action-container>

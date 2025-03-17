@@ -1,0 +1,28 @@
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0"
+    name="OVC_11_Rogers_POM_HUP_03a_iPhone_DevicesListingPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="ce17fbe7-d005-4f2e-901c-db8eca5f4281" weightsEnabled="false">
+    <weighted-embedded-action uid="411d6be4-e422-480b-81ee-e8621db1592e"/>
+    <weighted-embedded-action uid="fdad7035-fed5-458d-b753-1ebc7ef56984"/>
+    <weighted-embedded-action uid="eedd13d2-9a3a-4c24-aa8e-a35ef21e89ad"/>
+    <weighted-embedded-action uid="203e81e7-1f98-4ca3-9107-375238033623"/>
+    <weighted-embedded-action uid="c5a99181-62c6-490d-bfa7-fbdf4f94b2c9"/>
+    <weighted-embedded-action uid="61859a3b-10d8-4830-b07f-70592091af85"/>
+    <weighted-embedded-action uid="3a45b19a-b51e-4bc0-af0c-2c1cbd048972"/>
+    <weighted-embedded-action uid="73739b38-0351-4815-a77c-97de7672266e"/>
+    <weighted-embedded-action uid="8c036070-111c-4d7d-8cb9-45f8d3f7c25a"/>
+    <weighted-embedded-action uid="81f68d38-a26f-447d-8b7e-11334ed2162d"/>
+    <weighted-embedded-action uid="d8528769-2279-43df-8ddf-2f20a7064b52"/>
+    <weighted-embedded-action uid="fcb5b41c-cb37-4342-b7c7-c9855b385bb7"/>
+    <weighted-embedded-action uid="28326b1b-49cd-49ac-ab2e-d892f5240a34"/>
+    <weighted-embedded-action uid="d1c4ae3e-c305-4075-8c22-a0cc99a112ec"/>
+    <weighted-embedded-action uid="ab8cd947-89eb-4cde-be3d-0b2f7084c09b"/>
+    <weighted-embedded-action uid="4c96f631-13d2-44eb-bcd6-6d6c60771e9f"/>
+    <weighted-embedded-action uid="15aedbaa-da11-4cc6-b4d9-cd9610e34a88"/>
+    <weighted-embedded-action uid="7300fb6f-38b8-4c1b-b0aa-8151d9b4efde"/>
+    <weighted-embedded-action uid="40fda8a9-4fdf-4411-b550-85659454404f"/>
+    <weighted-embedded-action uid="f412af41-69a6-4ddf-a37f-e63d0f68de3c"/>
+    <weighted-embedded-action uid="e933baa6-3c60-46a9-91b5-9d28f05a7411"/>
+</basic-logical-action-container>

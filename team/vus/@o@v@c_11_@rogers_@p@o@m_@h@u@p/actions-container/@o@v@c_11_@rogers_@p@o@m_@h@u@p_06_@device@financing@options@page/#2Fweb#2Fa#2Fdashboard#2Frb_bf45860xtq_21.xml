@@ -1,0 +1,87 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq_21"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_11_@rogers_@p@o@m_@h@u@p/%resources%/recorded-artifacts/3ed32866-eeb5-4c33-ba12-88501c8196a9.zip"
+    slaProfileEnabled="false" thinkTime="955"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3ed32866-eeb5-4c33-ba12-88501c8196a9">
+    <embedded-action>9f2dc0f3-fa0d-4ddc-ae0a-4407f6a7ba8b</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="2"
+    recordedArtifactZipFileName="team/vus/@o@v@c_11_@rogers_@p@o@m_@h@u@p/%resources%/recorded-artifacts/3ed32866-eeb5-4c33-ba12-88501c8196a9.zip"
+    recordedResponseCode="200" responseSize="121"
+    serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
+    uid="9f2dc0f3-fa0d-4ddc-ae0a-4407f6a7ba8b" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[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]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_39670ff9-8eb6-428b-926b-424199e7d524</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_39670ff9-8eb6-428b-926b-424199e7d524.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_2_sn_D2F4C49D84435D4B87BF39FD69C4360C_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1"
+        separator="="
+        value="v_4_srv_2_sn_D2F4C49D84435D4B87BF39FD69C4360C_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="2" separator="=" value="2" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="BLACJUHKUFRAGQJUMANRMBMCSMOPNELU-0"
+        separator="=" value="BLACJUHKUFRAGQJUMANRMBMCSMOPNELU-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="contentType" recordRawValue="srBm" separator="="
+        value="srBm" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fiphone-16-pro-max%2Fbuild-plan%3FovContextId%3D4d7469cc-5d48-4cb0-a857-b6e6753f5e32%26flowType%3Dhup%26sku%3DIP16PM256GLD%26step%3D3%26sharingType%3Dshared"
+        separator="="
+        value="https://oneview-buyflow.rogers.com/phones/iphone-16-pro-max/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=3&amp;sharingType=shared" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="2ae0303e3c9b36b0" separator="="
+        value="2ae0303e3c9b36b0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="10307250124095660" separator="="
+        value="10307250124095660" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="2677384996" separator="=" value="2677384996" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/iphone-16-pro-max/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=3&amp;sharingType=shared"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="tech_sas_ma=sas_segments%3D22984734; rogers_ivr=ivr%3D22984734; aam_uuid=64932286239908333964416140277316790423; s_ecid=MCMID%7C65095445383548959574396447185871709238; rxVisitor=1742204903087PJPD2BENLLUOUTEQJJGRDDKG07BVAG9J; language=en; PLAY_SESSION=507ccbfe07c209f1f86ad0d6e3df4e052876f9a2-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=${C_UserName}&amp;V21=V21&amp;UserId=14017192&amp;SOURCE=CRM&amp;FRANCHISE=ROGERS&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=35929a3a-0ef8-4b7e-a291-5a126f0221ae&amp;TARGET_URL=ONEVIEWDASHBOARD; dtCookie=v_4_srv_2_sn_D2F4C49D84435D4B87BF39FD69C4360C_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1; X_DOM_session_guid=f89ccbe8-0314-11f0-8e18-b128c0621bc4; X_DOM_REFERRER=; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; marketing_ban=0775cabdd3d59b1ddfc974ba08f3c8bd1def10e8ae1575cedb5a9ac199a8aec4; marketing_UID=0775cabdd3d59b1ddfc974ba08f3c8bd1def10e8ae1575cedb5a9ac199a8aec4; X_DOM_BAN=0775cabdd3d59b1ddfc974ba08f3c8bd1def10e8ae1575cedb5a9ac199a8aec4; marketing_user_name=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; X_DOM_USER_NAME=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; s_cc=true; akaalb_Oneview_Buyflow_Rogers=~op=ALB_AZURE_ONEVIEW_BUYFLOW_ROGERS:ALB_AZUCC_ONEVIEW_BUYFLOW_ROGERS|~rv=38~m=ALB_AZUCC_ONEVIEW_BUYFLOW_ROGERS:0|~os=a6d27f4de61d3b185b9e61447d00414a~id=10cf16a4759b6be724da0b619e49e46f; dtSa=-; province=ON; FB_PHONE=18dda1cf88105c8769683fa208e28fe1f9eb810bf62869afd68ac2a5d783d78a; marketing_ctn=b1e5ca3dbe7829212e1eb0154e0ef4d12b517dac91d4755ead96cb3e27621bd5; X_DOM_CTN=664b6c1e47919f2a50c94fcdc355d194ca2691192a9a53f50af4b0ba0dcd3f25; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCMID%7C65095445383548959574396447185871709238%7CMCIDTS%7C20165%7CMCAID%7CNONE%7CMCOPTOUT-1742212146s%7CNONE%7CMCAAMLH-1742809746%7C7%7CMCAAMB-1742809746%7Cj8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI%7CMCCIDH%7C-2001272783%7CMCSYNCS%7C1083-20172*1085-20172*1086-20172*1087-20172*1088-20172*19913-20172%7CMCSYNCSOP%7C411-20172%7CvVersion%7C5.5.0; aam_dfp=aam_dfp%3D9719938%2C9749182%2C10039302%2C10178389%2C10180218%2C10238549%2C10561322%2C10561508%2C10804004%2C10811342%2C10865534%2C11352380%2C11647532%2C1847925%2C12227875%2C12336697%2C13375330%2C13873320%2C11057727%2C14058828%2C14653268%2C14676019%2C14026806%2C16313903%2C23526913%2C25250020; tech_sas_rtdm=sas_segments%3D10235138; s_sq=%5B%5BB%5D%5D; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742206883882%3B%20rcp_s_dslv%3D1742205083882%7C1836813083882%3B%20rcp_s_dslv_s%3DLess%2520than%25201%2520day%7C1742206883882%3B; QSI_HistorySession=https%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2F%3FovContextId%3D${C_Context_ContextId}%26flowType%3Dovhup%26language%3Den~1742204941912%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2F%3FovContextId%3D${C_Context_ContextId}%26flowType%3Dhup%26language%3Den~1742204946758%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fiphone-16-pro-max%2Fbuild-plan%3FovContextId%3D${C_Context_ContextId}%26flowType%3Dhup%26sku%3D${C_getRandomDeviceJS_Selected_urlSlugID}~1742205005524%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fiphone-16-pro-max%2Fbuild-plan%3FovContextId%3D${C_Context_ContextId}%26flowType%3Dhup%26sku%3D${C_getRandomDeviceJS_Selected_urlSlugID}%26step%3D3%26sharingType%3Dshared~1742205084325; dtPC=2$404941018_407h-vBLACJUHKUFRAGQJUMANRMBMCSMOPNELU-0e0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pURL%22:%22https://oneview-buyflow.rogers.com/phones/iphone-16-pro-max/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=3&amp;sharingType=shared%22%2C%22pName%22:%22OV:wireless:ecom:ovhup:plan-builder:device-cost%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22}; rxvt=1742206893306|1742204903089"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-buyflow.rogers.com"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/octet-stream"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 121&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+expires: Mon, 17 Mar 2025 09:51:33 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Mon, 17 Mar 2025 09:51:33 GMT&#xd;
+x-frame-options: SAMEORIGIN</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

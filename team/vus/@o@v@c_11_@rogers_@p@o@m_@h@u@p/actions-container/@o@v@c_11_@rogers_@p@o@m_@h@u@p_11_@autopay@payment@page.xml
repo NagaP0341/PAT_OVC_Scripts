@@ -1,0 +1,18 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_11_Rogers_POM_HUP_11_AutopayPaymentPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="07f4007c-2151-4ee0-a062-e60d66de590b" weightsEnabled="false">
+    <weighted-embedded-action uid="8fb3cd0f-9ed2-4ccd-9da4-f29f49a67e86"/>
+    <weighted-embedded-action uid="d86baddc-54ff-49c7-8586-31f1b7428325"/>
+    <weighted-embedded-action uid="ec800193-643a-43ad-93a6-5341b7671966"/>
+    <weighted-embedded-action uid="d11efd1c-fd36-49a2-8bb5-ec741f95c135"/>
+    <weighted-embedded-action uid="91ca924b-d424-45d0-a8e3-2256cd2a7d9d"/>
+    <weighted-embedded-action uid="a72143f6-0623-432e-a48a-a364fe34fb21"/>
+    <weighted-embedded-action uid="8e66cf8f-2511-41c6-9f60-3139105eb45b"/>
+    <weighted-embedded-action uid="a6aa125f-79e5-4765-a0ec-2b7f6a574a12"/>
+    <weighted-embedded-action uid="8181c649-6326-4043-a430-dfc138696a10"/>
+    <weighted-embedded-action uid="2096ef9e-b435-4ea5-be68-1c82eb731b47"/>
+    <weighted-embedded-action uid="58acfe0e-7ee9-41b1-89d5-203147a58865"/>
+    <weighted-embedded-action uid="a5ab37f8-8c7b-4fc9-8d5b-a5987fd864bc"/>
+    <weighted-embedded-action uid="094da473-977c-4409-a8fe-28de2b511872"/>
+</basic-logical-action-container>
