@@ -17,8 +17,10 @@
     <screenshotFileDescription>recorded-screenshots/sc_40653765-6876-4ff8-a0fd-cd2b7c644976.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;67d49301-851:dtagent10307250124095659x+rL&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 14 Mar 2025 20:35:12 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard" path="/web/a/dashboard"

@@ -1,0 +1,82 @@
+<http-page executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq_10"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_07_@rogers_@n@a@c/%resources%/recorded-artifacts/e0bbeb0c-3329-4ab5-b866-6ff6d43a99f2.zip"
+    slaProfileEnabled="false" thinkTime="1967"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e0bbeb0c-3329-4ab5-b866-6ff6d43a99f2">
+    <embedded-action>4908399f-e7ff-49e6-8b9c-6ea9fd3cfcaf</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_4ce8779c-b9a8-43ef-a9af-49e12e993103.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="4"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_07_@rogers_@n@a@c/%resources%/recorded-artifacts/e0bbeb0c-3329-4ab5-b866-6ff6d43a99f2.zip"
+    recordedResponseCode="200" responseSize="121"
+    serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
+    uid="4908399f-e7ff-49e6-8b9c-6ea9fd3cfcaf" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4cc76df1-fca7-474d-8b2d-c08c476565e4</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4cc76df1-fca7-474d-8b2d-c08c476565e4.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_10_sn_C6ED99FC998CD7A040B76FF6E7EF7A5C_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1"
+        separator="="
+        value="v_4_srv_10_sn_C6ED99FC998CD7A040B76FF6E7EF7A5C_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="10" separator="=" value="10" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="KNTANNCQAWCSMLQMFWHGHFIHGNHGAVVK-0"
+        separator="=" value="KNTANNCQAWCSMLQMFWHGHFIHGNHGAVVK-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Faccount-type-selection%3FovContextId%3D07d7bfe7-df92-45c4-b8af-73de5aee8432%26flowType%3Dovnac%26language%3Den"
+        separator="="
+        value="https://oneview-buyflow.rogers.com/phones/account-type-selection?ovContextId=07d7bfe7-df92-45c4-b8af-73de5aee8432&amp;flowType=ovnac&amp;language=en" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="2ae0303e3c9b36b0" separator="="
+        value="2ae0303e3c9b36b0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="50154394" separator="=" value="50154394" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/account-type-selection?ovContextId=07d7bfe7-df92-45c4-b8af-73de5aee8432&amp;flowType=ovnac&amp;language=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="rxVisitor=17422018533812G11QELB1HV6SJIHP73HH1UESJVSTQGP; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; dtCookie=v_4_srv_10_sn_C6ED99FC998CD7A040B76FF6E7EF7A5C_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1; language=en; PLAY_SESSION=1c101a79d5ed1669fca755c078be0b648f7922f1-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=de8316fe-7ceb-4352-ac6c-05f7aebb5b9b&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C68700014002731294224319961830273181040; X_DOM_session_guid=debc5cb0-030d-11f0-be2b-538549aa5e46; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; s_sq=%5B%5BB%5D%5D; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806673%7C7%7CMCAAMB-1742806673%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742209073s%7CNONE%7CMCAID%7CNONE%7CMCCIDH%7C-627122392%7CvVersion%7C5.5.0; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742203673549%3B%20rcp_s_dslv%3D1742201873549%7C1836809873549%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742203673549%3B; akaalb_Oneview_Buyflow_Rogers=~op=ALB_AZURE_ONEVIEW_BUYFLOW_ROGERS:ALB_AZUCC_ONEVIEW_BUYFLOW_ROGERS|~rv=27~m=ALB_AZUCC_ONEVIEW_BUYFLOW_ROGERS:0|~os=a6d27f4de61d3b185b9e61447d00414a~id=84877d952a08f4964effe8415f754807; dtSa=-; province=ON; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:web:a:dashboard:overview:anonymous%22%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview/anonymous%22%2C%22accType%22:%22consumer|regular%22%2C%22buyflowName%22:%22%22%2C%22optout_uuid%22:{}}; QSI_HistorySession=https%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Faccount-type-selection%3FovContextId%3D07d7bfe7-df92-45c4-b8af-73de5aee8432%26flowType%3Dovnac%26language%3Den~1742201878801; rxvt=1742203678964|1742201853380; dtPC=10$401874655_9h-vKNTANNCQAWCSMLQMFWHGHFIHGNHGAVVK-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-buyflow.rogers.com"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="text/plain;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 121&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+expires: Mon, 17 Mar 2025 08:58:02 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Mon, 17 Mar 2025 08:58:02 GMT&#xd;
+x-frame-options: SAMEORIGIN</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$tvn=%2Fphones%2Faccount-type-selection$tvt=1742201878285$tvm=i2%3Bk1%3Bh0$tvtrg=1$w=1920$h=953$sw=1920$sh=1080$ni=4g|10$di=1$rt=1-1742201873552%3Bhttps%3A%2F%2Fassets.rogers-assets.com%2Frogers%2Ffonts%2FTedNext-Medium.ttf%3FMy4xNy4w%7Cb826e0m223X200I11%7Chttps%3A%2F%2Fassets.rogers-assets.com%2Frogers%2Ffonts%2Frds-icon.ttf%3FMy4xNy4w%7Cb826e0m220X200I11%7Chttps%3A%2F%2Fassets.rogers-assets.com%2Frogers%2Ffonts%2FTedNext-SemiBold.ttf%3FMy4xNy4w%7Cb826e0m244X200I11%7Chttps%3A%2F%2Fassets.rogers-assets.com%2Frogers%2Ffonts%2FTedNext-Light.ttf%3FMy4xNy4w%7Cb826e0m223X200I11%7Chttps%3A%2F%2Fassets.rogers-assets.com%2Frogers%2Ffonts%2FTedNext-Bold.ttf%3FMy4xNy4w%7Cb826e0m245X200I11%7Chttps%3A%2F%2Fassets.rogers-assets.com%2Frogers%2Ffonts%2FTedNext.ttf%3FMy4xNy4w%7Cb826e0m223X200I11%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fruntime.bc7a43f3c7784d8c.js%7Cb826e0f0g0h0i0j0k276l296m297u1922v1622w3015X200I12M1937937890V0%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fpolyfills.6d08fa7fd697595b.js%7Cb826e0f0g0h0i0j0k321l366m373u48821v48521w141556X200I12M529299403V0%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fmain.f37aa0809ef3724c.js%7Cb826e0f0g0h0i0j0k307l332m789u810568v810268w3217388X200I12M-12700641V0%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fstyles.053aae30d0fa00ac.css%7Cb827e0f0g0h0i0j0k76l116m249u65465v65165w488579X200K1I11M-1397942063V0%7Chttps%3A%2F%2Fwww.rogers.com%2Fapp%2Fprod%2Fassets%2Fi%2Floader.gif%7Cb827e0m1766N3O200P100I7%7Chttps%3A%2F%2Fassets.rogers-assets.com%2Fv3%2Ffonts%2FTedNextVar-Regular.woff2%3Fv%3D3.17.0%7Cb1152e0m20X200I9%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fenvironment.2cfe1482d.prod.json%7Cb2154e0f0g0h0i0j0k62l202m203u4292v3992w14906X200T-3z1I1M-1941135104V0%7Chttps%3A%2F%2Frogers.demdex.net%2Fevent%3Fd_5Fuuid%3D1%26d_5Fcts%3D2%26d_5Frtbd%3Djson%7Cb2376e0m3754X200T-1z1I1%7Chttps%3A%2F%2Fcdn.contentful.com%2Fspaces%2Fvgwhlb9i7419%2Fenvironments%2Fmaster%2Fentries%3Fsys.id%3D5LJtmAdzPBSTqbQhZ3zOo2%26locale%3Den%7Cb2386e0m1060X200T-2z1I1%7Chttps%3A%2F%2Fassets.adobedtm.com%2Flaunch-ENf8625c925c374c26ac608257ab0cc207.min.js%7Cb2599e0f0g0h0i0j0k1l18m25v189382w736998K1I12%7Chttps%3A%2F%2Fbrowser-update.org%2Fupdate.min.js%7Cb2599e0m3602K1I12%7Chttps%3A%2F%2Fjs-cdn.dynatrace.com%2Fjstag%2F17a2d2e42ea%2Fbf45860xtq%2Fce606e7a9dfabb4e_5Fcomplete.js%7Cb2600e0f0g0h16i1025j348k1025l1054m1100u315740v315440w315440K1I12%7Chttps%3A%2F%2Fznci39qilcumkr0dn-rogers.siteintercept.qualtrics.com%2FSIE%2F%7Cb2602e0f0g0h15i2094j255k2095l2174m2432u4095v3795w8833K1I12%7Chttps%3A%2F%2Fwww.rogers.com%2Fapp%2Fprod%2Fassets%2Fi%2Ffavicon.ico%7Cb2609e0m31I22%7Chttps%3A%2F%2Fassets.adobedtm.com%2Fextensions%2FEPef068a8d6dd34a43866d9a80cc98baab%2FAppMeasurement.min.js%7Cb2710e0f0g0h0i0j0k44l57m74u300v12687w35222I12%7Chttps%3A%2F%2Fassets.adobedtm.com%2Fextensions%2FEPef068a8d6dd34a43866d9a80cc98baab%2FAppMeasurement_5FModule_5FActivityMap.min.js%7Cb2710e0f0g0h0i0j0k44l69m79u300v1597w3284I12%7Chttps%3A%2F%2Fassets.adobedtm.com%2Fextensions%2FEPef068a8d6dd34a43866d9a80cc98baab%2FAppMeasurement_5FModule_5FAudienceManagement.min.js%7Cb2710e0f0g0h0i0j0k44l68m76u300v8755w25152I12%7Chttps%3A%2F%2Fassets.adobedtm.com%2F8cf1b6f99d16%2F6668466f6850%2Fd419e4970e1e%2FRC6e6687f15bfe423a945781933c25f4e9-source.min.js%7Cb2731e0f0g0h0i0j0k2l23m49v1943w9311I12%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2F13.bcfa4365bd0caf84.js%7Cb3753e0f0g0h0i0j0k41l61m102u9369v9069w35598X200I12M1047354738V0W1%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2F873.86c08ecc7da8a0c0.js%7Cb3754e0f0g0h0i0j0k41l70m133u177100v176800w790693X200I12M1026409165V0W1%7Chttps%3A%2F%2Fimages.ctfassets.net%2F8utyj17y1gom%2F7ch96Iwj4zuPWXmt9x6yNe%2Fee94e81a2553bdc6c6929ffc026c97d6%2FOVR_5FLogos_5FMobius_5FNav_5FLarge_5Fcopy.png%3Fh%3D250%7Cb3761e0m3034F2400N2O50P48Q72R69S3039I7%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fapi%2FgetOVContext%3FactivityType%3Dnac%7Cb4035e0f0g0h0i0j0k35l661m661u920v620w620X200T-9z1I1M-1445563728V0%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fapi%2Fstatic%2Fdata%3FactivityType%3Dnac%7Cb4040e0f0g0h0i0j0k30l293m294u15254v14954w52632X200T-10z1I1M-425718875V0%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fapi%2Fcontentful%2Fcontent%7Cb4719e0f0g0h0i0j0k2l175m175u18918v18618w93716X200T-6z1I1M-25752665V0W1%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fapi%2Fcontentful%2Fcontent%7Cb4723e0f0g0h0i0j0k2l168m170u8067v7767w31282X200T-7z1I1M114238265V0W1%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fapi%2Fcontentful%2Fcontent%7Cb4727e0f0g0h0i0j0k1l166m167u1110v810w1974X200T-8z1I1M510342852V0W1%7Chttps%3A%2F%2Fassets.rogers-assets.com%2Fv3%2Ffonts%2Frds-icon.woff%3Fv%3D3.17.0%7Cb4749e0m304X200I9%7Chttps%3A%2F%2Fassets.adobedtm.com%2F8cf1b6f99d16%2F6668466f6850%2Fd419e4970e1e%2FRC32c7b0b536834774abf0da06c418e9f1-source.min.js%7Cb4761e0f0g0h0i0j0k2l64m167v221w345I12%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fapi%2Fcontentful%2Fcontent%7Cb4955e0f0g0h0i0j0k2l131m132u5866v5566w24706X200T-4z1I1M-1028302185V0W1%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fapi%2Fcontentful%2Fcontent%7Cb4959e0f0g0h0i0j0k2l108m108u7524v7224w25679X200T-5z1I1M-933970140V0W1%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2Fdxjsmodule%2F8.df5dcf8aaf67ccb082ce.chunk.js%3FQ_5FCLIENTVERSION%3D2.26.1%26Q_5FCLIENTTYPE%3Dweb%26Q_5FBRANDID%3Doneview-buyflow.rogers.com%7Cb5065e0f0g0h0i0j0k5l24m56u22911v22611w80718K1I12%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2FWRSiteInterceptEngine%2FTargeting.php%3FQ_5FZoneID%3DZN_5FcI39qiLcUmKR0dn%26Q_5FCLIENTVERSION%3D2.26.1%26Q_5FCLIENTTYPE%3Dweb%7Cb5136e0f0g0h0i0j0k1l110m110u1821v1521w4260X200T-11z1I1%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2Fdxjsmodule%2FCoreModule.js%3FQ_5FCLIENTVERSION%3D2.26.1%26Q_5FCLIENTTYPE%3Dweb%26Q_5FBRANDID%3Drogersdigital%7Cb5254e0f0g0h0i0j0k1l100m137v30728w104629I12%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2Fdxjsmodule%2F5.00fb9b654703a72e1595.chunk.js%3FQ_5FCLIENTVERSION%3D2.26.1%26Q_5FCLIENTTYPE%3Dweb%26Q_5FBRANDID%3Drogersdigital%7Cb5407e0f0g0h0i0j0k9l106m107v1308w2901K1I12%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2Fdxjsmodule%2F1.ff7c5abe4d46f1630fe4.chunk.js%3FQ_5FCLIENTVERSION%3D2.26.1%26Q_5FCLIENTTYPE%3Dweb%26Q_5FBRANDID%3Drogersdigital%7Cb5408e0f0g0h0i0j0k9l105m111v6814w29728K1I12%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2Fdxjsmodule%2FFeedbackButtonModule.js%3FQ_5FCLIENTVERSION%3D2.26.1%26Q_5FCLIENTTYPE%3Dweb%26Q_5FBRANDID%3Drogersdigital%7Cb5408e0f0g0h0i0j0k9l105m123v30078w98913I12%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2FWRSiteInterceptEngine%2FAsset.php%7Cb5411e0m132X200T-12z1I1%7Chttps%3A%2F%2Fsiteintercept.qualtrics.com%2FWRSiteInterceptEngine%2FAsset.php%7Cb5413e0m138X200T-13z1I1$sr=1$url=https%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Faccount-type-selection%3FovContextId%3D07d7bfe7-df92-45c4-b8af-73de5aee8432%26flowType%3Dovnac%26language%3Den$title=$latC=0$app=2ae0303e3c9b36b0$vi=KNTANNCQAWCSMLQMFWHGHFIHGNHGAVVK-0$fId=401874655_9$v=10307250124095659$vID=17422018533812G11QELB1HV6SJIHP73HH1UESJVSTQGP$time=1742201882384]]></textPostContent>
+</http-action>

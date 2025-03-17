@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/WRSiteInterceptEngine/" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_07_@rogers_@n@a@c/%resources%/recorded-artifacts/005e79c1-0da8-4b19-9bb4-e47ec6c4c93d.zip"
     slaProfileEnabled="false" thinkTime="0"
@@ -8,7 +8,7 @@
     <screenshotFileDescription>recorded-screenshots/sc_005e79c1-0da8-4b19-9bb4-e47ec6c4c93d.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1"
-    contentType="application/x-javascript;charset=utf-8"
+    contentType="application/x-javascript;charset=utf-8" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"

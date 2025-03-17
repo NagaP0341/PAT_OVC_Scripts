@@ -1,15 +1,17 @@
 <http-page executeResourcesDynamically="false" name="/web/a/dashboard"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/0b6b1231-d669-4530-afd1-71e8638e0575.zip"
-    slaProfileEnabled="false" thinkTime="253"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="0b6b1231-d669-4530-afd1-71e8638e0575">
     <embedded-action>b55c80f4-0602-471f-8cae-704fa6f7be75</embedded-action>
     <screenshotFileDescription>recorded-screenshots/sc_0b6b1231-d669-4530-afd1-71e8638e0575.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;67d49301-851:dtagent10307250124095659x+rL&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 14 Mar 2025 20:35:12 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard" path="/web/a/dashboard"

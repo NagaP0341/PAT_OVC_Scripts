@@ -1,7 +1,8 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="OVC_07_Rogers_NAC_11_CallerIDPage" pacingEnd="0"
-    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
-    slaProfileEnabled="false" uid="9083ec5f-d06c-4e76-8b75-e8cb6398110d" weightsEnabled="false">
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0" name="OVC_07_Rogers_NAC_11_CallerIDPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="9083ec5f-d06c-4e76-8b75-e8cb6398110d" weightsEnabled="false">
     <weighted-embedded-action uid="b6b5a18b-b7e9-4651-99e0-50d0867f952c"/>
     <weighted-embedded-action uid="39746090-86f8-4303-9a15-78cef90d922b"/>
     <weighted-embedded-action uid="d7598c02-0ddd-4b5e-b574-19b2c9a0b8f4"/>

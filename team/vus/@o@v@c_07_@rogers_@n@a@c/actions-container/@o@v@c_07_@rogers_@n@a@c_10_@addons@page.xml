@@ -1,7 +1,8 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="OVC_07_Rogers_NAC_10_AddonsPage" pacingEnd="0"
-    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
-    slaProfileEnabled="false" uid="3290a5ad-0076-4ae7-abb2-c65d035a7e88" weightsEnabled="false">
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0" name="OVC_07_Rogers_NAC_10_AddonsPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="3290a5ad-0076-4ae7-abb2-c65d035a7e88" weightsEnabled="false">
     <weighted-embedded-action uid="5da81ad0-7925-4ddc-b93b-ede60987a307"/>
     <weighted-embedded-action uid="1edca0dd-6615-4a31-96ac-d4ef0cda7af7"/>
     <weighted-embedded-action uid="22cd1866-037c-46db-adc1-29eaa7d6e4c8"/>

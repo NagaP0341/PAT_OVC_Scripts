@@ -1,10 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/catalog/v1/ppc/addons" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/802efabd-a8bd-432f-9a46-47e8e33b8e56.zip"
-    slaProfileEnabled="false" thinkTime="6713"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="802efabd-a8bd-432f-9a46-47e8e33b8e56">
     <embedded-action>645b81aa-5878-491d-85f9-b9a56faaabcb</embedded-action>
+    <embedded-action>16d68098-e224-462c-8311-a45810537461</embedded-action>
     <embedded-action>89caf510-4f26-4041-9944-e8f6234b8424</embedded-action>
     <screenshotFileDescription>recorded-screenshots/sc_802efabd-a8bd-432f-9a46-47e8e33b8e56.jpg</screenshotFileDescription>
 </http-page>
@@ -14,21 +15,36 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/catalog/v1/ppc/addons"
-    path="/catalog/v1/ppc/addons" postType="4"
+    path="/catalog/v1/ppc/addons" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/802efabd-a8bd-432f-9a46-47e8e33b8e56.zip"
     recordedResponseCode="200" responseSize="9851"
     serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
     uid="645b81aa-5878-491d-85f9-b9a56faaabcb" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_645b81aa-5878-491d-85f9-b9a56faaabcb</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_645b81aa-5878-491d-85f9-b9a56faaabcb.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_645b81aa-5878-491d-85f9-b9a56faaabcb.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="0" extractTypeSimple="4"
+        jsonpath="$" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_HupAddons_Details"
+        refererUid="d610c13d-fbf5-44fb-946e-b4f790f4ef19" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="f87eef02-e3a6-447d-9bb0-c25273459534" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="selectionTitleEditMode"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="activityType" recordRawValue="ppc" separator="="
         value="ppc" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>
-    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=7&amp;planType=FIN_DATA_TALK_TEXT&amp;data=sku_plan_LTOM012UN_LTOM012UN"/>
+    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=7&amp;planType=FIN_DATA_TALK_TEXT&amp;data=${c_Plans_planId}"/>
     <header name="franchise" value="fido"/>
     <header name="sec-fetch-site" value="same-origin"/>
-    <header name="cookie" value="dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; language=en; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=978928794&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=978928794&amp;CONTACT_ID=CO1065077710&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C68700014002731294224319961830273181040; X_DOM_session_guid=d48237ce-030c-11f0-a652-a3420043b11d; s_cc=true; X_DOM_BAN=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_REFERRER=https://oneview.fido.ca; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO|~rv=73~m=ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=c42af765d72ee4fb9b76e66266a21b58; dtSa=false%7Cxhr%7C52%7Cx%7Cx%7C1742201423262%7C401404567_515%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; language=en; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; province=QC; FB_PHONE=7767f949ccc0242cdbf1f91d63ec8d1db577ad9171eefc0ea6d9cb0232fbe88e; aam_dpid942=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; aam_dpid943=1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838; X_DOM_CTN=1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838; aam_dpid1094=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806231%7C7%7CMCAAMB-1742806231%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742208631s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCCIDH%7C-1609802059%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=5&amp;planType=FIN_DATA_TALK_TEXT%22%2C%22pName%22:%22OVF:wireless:ecom:ppc:plan-builder:data-options%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}}; dtPC=-2036$401425110_203h-vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0; rxvt=1742203271242|1742201404584; s_sq=rcp-f-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOVF%25253Awireless%25253Aecom%25253Appc%25253Aplan-builder%25253Adata-options%2526link%253DContinue%2526region%253Dds-modal-container-0%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOVF%25253Awireless%25253Aecom%25253Appc%25253Aplan-builder%25253Adata-options%2526pidt%253D1%2526oid%253DContinue%2526oidt%253D3%2526ot%253DSUBMIT"/>
+    <header name="cookie" value="dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; language=en; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C68700014002731294224319961830273181040; X_DOM_session_guid=d48237ce-030c-11f0-a652-a3420043b11d; s_cc=true; X_DOM_BAN=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_REFERRER=https://oneview.fido.ca; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO|~rv=73~m=ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=c42af765d72ee4fb9b76e66266a21b58; dtSa=false%7Cxhr%7C52%7Cx%7Cx%7C1742201423262%7C401404567_515%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; language=en; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; province=QC; FB_PHONE=7767f949ccc0242cdbf1f91d63ec8d1db577ad9171eefc0ea6d9cb0232fbe88e; aam_dpid942=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; aam_dpid943=1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838; X_DOM_CTN=1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838; aam_dpid1094=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806231%7C7%7CMCAAMB-1742806231%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742208631s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCCIDH%7C-1609802059%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=5&amp;planType=FIN_DATA_TALK_TEXT%22%2C%22pName%22:%22OVF:wireless:ecom:ppc:plan-builder:data-options%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}}; dtPC=-2036$401425110_203h-vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0; rxvt=1742203271242|1742201404584; s_sq=rcp-f-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOVF%25253Awireless%25253Aecom%25253Appc%25253Aplan-builder%25253Adata-options%2526link%253DContinue%2526region%253Dds-modal-container-0%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOVF%25253Awireless%25253Aecom%25253Appc%25253Aplan-builder%25253Adata-options%2526pidt%253D1%2526oid%253DContinue%2526oidt%253D3%2526ot%253DSUBMIT"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
     <header name="origin" value="https://oneview-buyflow.fido.ca"/>
     <header name="ovcontextid" value="c0ec8363-63d3-4096-b3dc-c161c68ea51e"/>
@@ -69,10 +85,99 @@ content-length: 1605&#xd;
 set-cookie: dtCookie=v_4_srv_1_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_1; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
 x-frame-options: SAMEORIGIN</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
-    <textPostContent><![CDATA[{"accountNumber":"978928794","phoneNumber":"4387734169","commitmentStartDate":"","variantExternalId":"Non_Fido","activityType":"ppc","planId":"sku_plan_LTOM012UN_LTOM012UN","planSocCode":"LTOM012UN","mainPlanId":null,"byod":false,"applicationId":"UTEFidoCare"}]]></textPostContent>
+    <textPostContent><![CDATA[{
+    "variantExternalId": "Non_Fido",
+    "planSocCode": "${c_Plans_externalId}",
+    "mainPlanId": null,
+    "byod": false,
+    "phoneNumber": "${C_v1Subscriptions_SubNumber}",
+    "commitmentStartDate": "",
+    "planId": "${c_Plans_planId}",
+    "accountNumber": "${C_IcmToken_AccountNumber}",
+    "activityType": "ppc",
+    "applicationId": "UTEFidoCare"
+}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/v1/promo/regularpromotions"
+    path="/api/v1/promo/regularpromotions" postType="4"
+    recordedArtifactZipFileName="team/vus/@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/802efabd-a8bd-432f-9a46-47e8e33b8e56.zip"
+    recordedResponseCode="200" responseSize="24"
+    serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
+    uid="16d68098-e224-462c-8311-a45810537461" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0fd27457-13e7-4f49-ab9a-66f1784a8cda</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0fd27457-13e7-4f49-ab9a-66f1784a8cda.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=7&amp;planType=FIN_DATA_TALK_TEXT&amp;data=${c_Plans_planId}"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; language=en; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C68700014002731294224319961830273181040; X_DOM_session_guid=d48237ce-030c-11f0-a652-a3420043b11d; s_cc=true; X_DOM_BAN=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_REFERRER=https://oneview.fido.ca; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO|~rv=73~m=ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=c42af765d72ee4fb9b76e66266a21b58; dtSa=false%7Cxhr%7C52%7Cx%7Cx%7C1742201423262%7C401404567_515%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; language=en; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; province=QC; FB_PHONE=7767f949ccc0242cdbf1f91d63ec8d1db577ad9171eefc0ea6d9cb0232fbe88e; aam_dpid942=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; aam_dpid943=1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838; X_DOM_CTN=1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838; aam_dpid1094=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806231%7C7%7CMCAAMB-1742806231%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742208631s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCCIDH%7C-1609802059%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=7&amp;planType=FIN_DATA_TALK_TEXT&amp;data=${c_Plans_planId}%22%2C%22pName%22:%22OVF:wireless:ecom:ppc:plan-builder:addons%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}%2C%22buyflowName%22:%22PPC|SL%22}; s_sq=%5B%5BB%5D%5D; rxvt=1742203278338|1742201404584; dtPC=-2036$401425110_203h32vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-buyflow.fido.ca"/>
+    <header name="ovcontextid" value="c0ec8363-63d3-4096-b3dc-c161c68ea51e"/>
+    <header name="accounttype" value="CONSUMER"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accountsubtype" value="REGULAR"/>
+    <header name="userid" value="c0ec8363-63d3-4096-b3dc-c161c68ea51e"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="province" value="QC"/>
+    <header name="x-dtpc" value="-2036$401425110_203h32vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="applicationid" value="UTEFidoCare"/>
+    <header name="lang" value="en"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/json&#xd;
+x-oneagent-js-injection: true&#xd;
+vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers&#xd;
+request-context: appId=cid-v1:22c57a57-4e03-4659-a8b1-d0566f8b9c00&#xd;
+access-control-allow-origin: *&#xd;
+x-auth-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMjVhMjBlYS1hYzg1LTQ0ZGUtOGUyOC05OGE3ZjZhNDY3OWYiLCJpYXQiOjE3NDIyMDE0NzgsImV4cCI6MTc0MjIwNTA3OCwicm9sZSI6IkFOT05ZTU9VUyJ9.zjqiVXuKk7pJ1CbDMxij8T-rSDlMngdQOC90z0ogrste6F0hCeGVVakjWntYxDH_IAPyplK1KpAVhdEppHqdkQ&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-frame-options: DENY&#xd;
+x-envoy-upstream-service-time: 812&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="1044827213", dtTao;desc="1"&#xd;
+content-length: 24&#xd;
+expires: Mon, 17 Mar 2025 08:51:19 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Mon, 17 Mar 2025 08:51:19 GMT&#xd;
+set-cookie: dtCookie=v_4_srv_1_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+x-frame-options: SAMEORIGIN</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{
+    "franchise": "fido",
+    "mainPlanId": "${C_mainPlanId}",
+    "planType": "all",
+    "newCTN": "${C_v1Subscriptions_SubNumber}",
+    "planTypeIdentifier": "FIN_DATA_TALK_TEXT",
+    "lineAdditional": false,
+    "planExternalId": "${c_Plans_externalId}",
+    "accountNumber": "${C_IcmToken_AccountNumber}",
+    "deviceId": "device_BYOD",
+    "transactionType": "ppc",
+    "planAmountMSFBeforeDiscount": 75,
+    "interimQualification": true,
+    "planId": "${c_Plans_planId}",
+    "applicationId": "UTEFidoCare",
+    "device": {"sku": "Non_Fido"},
+    "channelId": "UTEFidoCare"
+}]]></textPostContent>
 </http-action>
 <http-action actionType="1"
-    contentType="application/x-javascript;charset=utf-8"
+    contentType="application/x-javascript;charset=utf-8" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -205,7 +310,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <parameter encodeName="true" encodeValue="true" name="g"
         recordRawValue="https%3A%2F%2Foneview-buyflow.fido.ca%2Fphones%2Fbuild-plan%3FovContextId%3Dc0ec8363-63d3-4096-b3dc-c161c68ea51e%26flowType%3Dppc%26step%3D7%26planType%3DFIN_DATA_TALK_TEXT%26data%3Dsku_plan_LTOM012UN_LTOM012UN"
         separator="="
-        value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=7&amp;planType=FIN_DATA_TALK_TEXT&amp;data=sku_plan_LTOM012UN_LTOM012UN" valueMode="USE_VALUE"/>
+        value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=7&amp;planType=FIN_DATA_TALK_TEXT&amp;data=${c_Plans_planId}" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="r"
         recordRawValue="https%3A%2F%2Foneview.fido.ca" separator="="
         value="https://oneview.fido.ca" valueMode="USE_VALUE"/>
@@ -217,7 +322,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <parameter encodeName="true" encodeValue="true" name="products"
         recordRawValue="%3BLTOM012UN%3AData%20100%20GB-%20%3B%3B%3B%3BeVar31%3DPPC%7CeVar32%3Dwireless%7CeVar33%3Dplan%7CeVar138%3D65.00%7CeVar145%3D0.00%7CeVar146%3D0.00%7CeVar147%3D0.00%7CeVar148%3D0.00"
         separator="="
-        value=";LTOM012UN:Data 100 GB- ;;;;eVar31=PPC|eVar32=wireless|eVar33=plan|eVar138=65.00|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00" valueMode="USE_VALUE"/>
+        value=";${c_Plans_externalId}:Data 100 GB- ;;;;eVar31=PPC|eVar32=wireless|eVar33=plan|eVar138=65.00|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="aamb"
         recordRawValue="RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y"
         separator="="
@@ -251,7 +356,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <parameter encodeName="true" encodeValue="true" name="v6"
         recordRawValue="https%3A%2F%2Foneview-buyflow.fido.ca%2Fphones%2Fbuild-plan%3FovContextId%3Dc0ec8363-63d3-4096-b3dc-c161c68ea51e%26flowType%3Dppc%26step%3D7%26planType%3DFIN_DATA_TALK_TEXT%26data%3Dsku_plan_LTOM012UN_LTOM012UN"
         separator="="
-        value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=7&amp;planType=FIN_DATA_TALK_TEXT&amp;data=sku_plan_LTOM012UN_LTOM012UN" valueMode="USE_VALUE"/>
+        value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=7&amp;planType=FIN_DATA_TALK_TEXT&amp;data=${c_Plans_planId}" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="v10"
         recordRawValue="Fido%20NAC%20CT%20OneView%7Crogers.git%2Fbfa%2Frcom-ct%2Ffido-ov"
         separator="="
@@ -423,7 +528,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.fido.ca/"/>
     <header name="sec-fetch-site" value="same-site"/>
-    <header name="cookie" value="dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; language=en; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=978928794&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=978928794&amp;CONTACT_ID=CO1065077710&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C68700014002731294224319961830273181040; X_DOM_session_guid=d48237ce-030c-11f0-a652-a3420043b11d; s_cc=true; X_DOM_BAN=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_REFERRER=https://oneview.fido.ca; dtSa=false%7Cxhr%7C52%7Cx%7Cx%7C1742201423262%7C401404567_515%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; X_DOM_CTN=1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806231%7C7%7CMCAAMB-1742806231%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742208631s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCCIDH%7C-1609802059%7CvVersion%7C5.5.0; dtPC=-2036$401425110_203h-vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0; rxvt=1742203271242|1742201404584; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=7&amp;planType=FIN_DATA_TALK_TEXT&amp;data=sku_plan_LTOM012UN_LTOM012UN%22%2C%22pName%22:%22OVF:wireless:ecom:ppc:plan-builder:addons%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}%2C%22buyflowName%22:%22PPC|SL%22}; s_sq=%5B%5BB%5D%5D"/>
+    <header name="cookie" value="dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; language=en; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C68700014002731294224319961830273181040; X_DOM_session_guid=d48237ce-030c-11f0-a652-a3420043b11d; s_cc=true; X_DOM_BAN=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_REFERRER=https://oneview.fido.ca; dtSa=false%7Cxhr%7C52%7Cx%7Cx%7C1742201423262%7C401404567_515%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; X_DOM_CTN=1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806231%7C7%7CMCAAMB-1742806231%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742208631s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCCIDH%7C-1609802059%7CvVersion%7C5.5.0; dtPC=-2036$401425110_203h-vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0; rxvt=1742203271242|1742201404584; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=7&amp;planType=FIN_DATA_TALK_TEXT&amp;data=${c_Plans_planId}%22%2C%22pName%22:%22OVF:wireless:ecom:ppc:plan-builder:addons%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}%2C%22buyflowName%22:%22PPC|SL%22}; s_sq=%5B%5BB%5D%5D"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
     <header name="origin" value="https://oneview-buyflow.fido.ca"/>
     <header name="priority" value="u=1, i"/>

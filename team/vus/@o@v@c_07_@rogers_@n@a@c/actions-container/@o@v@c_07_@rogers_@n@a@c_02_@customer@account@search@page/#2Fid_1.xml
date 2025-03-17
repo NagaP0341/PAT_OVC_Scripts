@@ -1,5 +1,5 @@
-<http-page executeResourcesDynamically="false" name="/id_1"
-    playRequestsSequentially="false"
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/id_1" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_07_@rogers_@n@a@c/%resources%/recorded-artifacts/b40856ea-d919-46c0-ba49-9b8c3cca8bfc.zip"
     slaProfileEnabled="false" thinkTime="297"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
@@ -8,7 +8,7 @@
     <screenshotFileDescription>recorded-screenshots/sc_b40856ea-d919-46c0-ba49-9b8c3cca8bfc.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1"
-    contentType="application/x-javascript;charset=utf-8"
+    contentType="application/x-javascript;charset=utf-8" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"

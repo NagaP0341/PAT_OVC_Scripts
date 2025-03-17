@@ -1,5 +1,5 @@
-<http-page executeResourcesDynamically="false" name="/dest5.html"
-    playRequestsSequentially="false"
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/dest5.html" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_07_@rogers_@n@a@c/%resources%/recorded-artifacts/4d46fa3f-38ed-44f0-aefb-71f855f9bb2c.zip"
     slaProfileEnabled="false" thinkTime="8"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
@@ -11,9 +11,9 @@
     <screenshotFileDescription>recorded-screenshots/sc_4d46fa3f-38ed-44f0-aefb-71f855f9bb2c.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/common.f73d56395ba00afa.js"
     path="/web/a/dashboard/common.f73d56395ba00afa.js" postType="6"
@@ -66,9 +66,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/web/a/dashboard/src_app_profile_profile_module_ts.db9c427ef8551be2.js"
@@ -123,9 +123,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/web/a/dashboard/default-src_app_wireless_wireless_service_ts.17aee2303440199d.js"
@@ -180,9 +180,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/web/a/dashboard/src_app_wireless_wireless_module_ts.f19b25849ec2ed45.js"

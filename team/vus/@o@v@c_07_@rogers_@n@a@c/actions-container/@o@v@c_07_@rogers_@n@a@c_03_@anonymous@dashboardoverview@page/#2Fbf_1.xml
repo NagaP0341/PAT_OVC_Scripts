@@ -1,15 +1,17 @@
 <http-page executeResourcesDynamically="false" name="/bf_1"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_07_@rogers_@n@a@c/%resources%/recorded-artifacts/cd16744b-cc99-4c49-9a68-e4da12c8ca6e.zip"
-    slaProfileEnabled="false" thinkTime="21"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="cd16744b-cc99-4c49-9a68-e4da12c8ca6e">
     <embedded-action>fa2fe98c-c8d0-4cf8-92cb-f5a83e06dc88</embedded-action>
     <screenshotFileDescription>recorded-screenshots/sc_cd16744b-cc99-4c49-9a68-e4da12c8ca6e.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="application/json"
+    eTag="&quot;67d4f07e-1370:dtagent10307250124095659x+rL&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Sat, 15 Mar 2025 03:14:05 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/cms/oneview/care-common-config.json"
@@ -24,7 +26,7 @@
         recordRawValue="1742201854111" separator="="
         value="1742201854111" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;ovContextId=beee0cca-91ae-49d4-8417-19b7d0a2fbd3&amp;accountSearchRedirect=true&amp;lang=en"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;ovContextId=${c_contextId}&amp;accountSearchRedirect=true&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="Prod=B; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=54~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=71053a8794f7335999906312a1ffce6b; language=en; userType=care; rxVisitor=17422018533812G11QELB1HV6SJIHP73HH1UESJVSTQGP; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742203653382%3B%20rcp_s_dslv%3D1742201853382%7C1836809853382%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742203653382%3B; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; dtCookie=v_4_srv_10_sn_C6ED99FC998CD7A040B76FF6E7EF7A5C_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1; dtSa=false%7CC%7C18%7CCreate%20new%20account%7Cx%7C1742201852905%7C401802899_69%7Chttps%3A%2F%2Foneview-accountsearch.rogers.com%2Fweb%2Fa%2Fdashboard%2Faccount-search%3Fflowtype%3DAccountSearch%7C%7C%7C%7C; language=en; rxvt=1742203654117|1742201853380; dtPC=10$401853712_462h4vKNTANNCQAWCSMLQMFWHGHFIHGNHGAVVK-0e0"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>

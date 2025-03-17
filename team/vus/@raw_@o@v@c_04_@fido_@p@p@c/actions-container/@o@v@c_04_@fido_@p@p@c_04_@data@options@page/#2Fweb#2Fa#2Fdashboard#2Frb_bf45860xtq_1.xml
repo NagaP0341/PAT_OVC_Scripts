@@ -1,0 +1,434 @@
+<http-page executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/a5695b96-664a-429b-a918-bcb11ae15088.zip"
+    slaProfileEnabled="false" thinkTime="6"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a5695b96-664a-429b-a918-bcb11ae15088">
+    <embedded-action>5002341f-1f2c-40f1-b66c-8e596682fa1f</embedded-action>
+    <embedded-action>c9a8fb6e-17b4-4332-bbb3-33e1c36d687a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_ad426c59-2fb2-4e78-8f46-7683c6d3a5f7.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="4"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/a5695b96-664a-429b-a918-bcb11ae15088.zip"
+    recordedResponseCode="200" responseSize="120"
+    serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
+    uid="5002341f-1f2c-40f1-b66c-8e596682fa1f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cd43e2e8-3777-41dc-b665-b46f5ca70df8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cd43e2e8-3777-41dc-b665-b46f5ca70df8.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5"
+        separator="="
+        value="v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="-2036" separator="=" value="-2036" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="GTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0"
+        separator="=" value="GTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="contentType" recordRawValue="srTe" separator="="
+        value="srTe" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview-buyflow.fido.ca%2Fphones%2Fbuild-plan%3FovContextId%3Dc0ec8363-63d3-4096-b3dc-c161c68ea51e%26flowType%3Dppc%26step%3D3"
+        separator="="
+        value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="39f30da8dcd81ec2" separator="="
+        value="39f30da8dcd81ec2" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="10307250124095660" separator="="
+        value="10307250124095660" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="1864121218" separator="=" value="1864121218" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=3"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; language=en; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=978928794&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=978928794&amp;CONTACT_ID=CO1065077710&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C68700014002731294224319961830273181040; X_DOM_session_guid=d48237ce-030c-11f0-a652-a3420043b11d; s_cc=true; X_DOM_BAN=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_REFERRER=https://oneview.fido.ca; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO|~rv=73~m=ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=c42af765d72ee4fb9b76e66266a21b58; dtSa=false%7Cxhr%7C52%7Cx%7Cx%7C1742201423262%7C401404567_515%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; language=en; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; dtPC=-2036$401425110_203h-vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0; province=QC; FB_PHONE=7767f949ccc0242cdbf1f91d63ec8d1db577ad9171eefc0ea6d9cb0232fbe88e; aam_dpid942=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; aam_dpid943=1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838; X_DOM_CTN=1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838; aam_dpid1094=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806231%7C7%7CMCAAMB-1742806231%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742208631s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCCIDH%7C-1609802059%7CvVersion%7C5.5.0; s_sq=%5B%5BB%5D%5D; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;language=en%22%2C%22pName%22:%22OVF:wireless:ecom:ppc:plan-builder:select%20a%20plan%20type%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}}; rxvt=1742203243356|1742201404584"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-buyflow.fido.ca"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="text/plain;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 120&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+expires: Mon, 17 Mar 2025 08:50:43 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Mon, 17 Mar 2025 08:50:43 GMT&#xd;
+set-cookie: dtCookie=v_4_srv_1_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+x-frame-options: SAMEORIGIN</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[3,1742201443406,1742201442323,1742201443356,5,1742201435662^s 29 1 700 0^m 31 228 1042 323>30 275 1023 352>64 306 991 389>94 ~ 924 430>126 292 852 465>158 326 811 484>188 328 779 504>218 ~ 750 516>250 326 726 520>281 ~ 698 ~>313 328 662 511>344 292 624 470>377 306 619 453>406 ~ 618 436>437 308 ~ 430>469 ~ ~ 424>500 ~ ~ 417>531 ~ ~ 416>594 ~ ~ 415>658 ~ ~ 413>795 ~ ~ 414>797 ~ ~ 415>843 ~ 623 423>875 306 632 433>908 326 673 477>938 328 694 497>969 348 798 592>1001 346 846 641^c 770 308 618 414]]></textPostContent>
+</http-action>
+<http-action actionType="1"
+    contentType="application/x-javascript;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/b/ss/rcp-f-oneview-prod/10/JS-2.25.0-LEWM/s45060873431736"
+    path="/b/ss/rcp-f-oneview-prod/10/JS-2.25.0-LEWM/s45060873431736"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/a5695b96-664a-429b-a918-bcb11ae15088.zip"
+    recordedResponseCode="200" responseSize="68" serverUid="oms.fido.ca"
+    slaProfileEnabled="false" uid="c9a8fb6e-17b4-4332-bbb3-33e1c36d687a" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[QVFCPTEmbmRoPTEmcGY9MSZldD0xJnQ9MTclMkYyJTJGMjAyNSUyMDglM0E1MCUzQTQzJTIwMSUyMDAmY2lkLiZkcGlkOTQzLiZpZD0xYjQ3MmYyNGU0ZTQ3NWE2ODljNWIyYThlNzIwY2UwZGY1NjcyZTg0OTkxNzExZjBlM2VkYTAxZmJhOWY1ODM4JmFzPTEmLmRwaWQ5NDMmZHBpZDk0Mi4maWQ9NmMyYjY1YzY5M2I0Mzc3NzYyNjk1YzRlNTg3Y2UwNjk4NTk0OTgzNTk5ZjkzZTk4NGRjNGY1ZTdmYjJjNmI0NyZhcz0xJi5kcGlkOTQyJmRwaWQxMDk0LiZpZD05ZWM0YTk0YzE5N2MyNGRjYjExMDcxOWU5ZDE0OTRmYjA2OTkzZDM0NjRkOGQ1ODFjODE2N2U4ZmVjNTY2MDM4JmFzPTEmLmRwaWQxMDk0JnJvZ2Vyc2JhY2tlbmRkYXRhLiZpZD02YzJiNjVjNjkzYjQzNzc3NjI2OTVjNGU1ODdjZTA2OTg1OTQ5ODM1OTlmOTNlOTg0ZGM0ZjVlN2ZiMmM2YjQ3JmFzPTEmLnJvZ2Vyc2JhY2tlbmRkYXRhJnJvZ2Vyc3R2bS4maWQ9NmMyYjY1YzY5M2I0Mzc3NzYyNjk1YzRlNTg3Y2UwNjk4NTk0OTgzNTk5ZjkzZTk4NGRjNGY1ZTdmYjJjNmI0NyZhcz0xJi5yb2dlcnN0dm0mcm9nZXJzdGh1cC4maWQ9NmMyYjY1YzY5M2I0Mzc3NzYyNjk1YzRlNTg3Y2UwNjk4NTk0OTgzNTk5ZjkzZTk4NGRjNGY1ZTdmYjJjNmI0NyZhcz0xJi5yb2dlcnN0aHVwJmNoX2RuY19iYW4uJmlkPTZjMmI2NWM2OTNiNDM3Nzc2MjY5NWM0ZTU4N2NlMDY5ODU5NDk4MzU5OWY5M2U5ODRkYzRmNWU3ZmIyYzZiNDcmYXM9MSYuY2hfZG5jX2JhbiZjaF9kbmNfY3RuLiZpZD0xYjQ3MmYyNGU0ZTQ3NWE2ODljNWIyYThlNzIwY2UwZGY1NjcyZTg0OTkxNzExZjBlM2VkYTAxZmJhOWY1ODM4JmFzPTEmLmNoX2RuY19jdG4mLmNpZCZkLiZuc2lkPTAmanNvbnY9MSYuZCZtaWQ9Njg3MDAwMTQwMDI3MzEyOTQyMjQzMTk5NjE4MzAyNzMxODEwNDAmYWFtbGg9NyZjZT1VVEYtOCZwYWdlTmFtZT1PVkYlM0F3aXJlbGVzcyUzQWVjb20lM0FwcGMlM0FwbGFuLWJ1aWxkZXIlM0FzZWxlY3QlMjBhJTIwcGxhbiUyMHR5cGUmZz1odHRwcyUzQSUyRiUyRm9uZXZpZXctYnV5Zmxvdy5maWRvLmNhJTJGcGhvbmVzJTJGYnVpbGQtcGxhbiUzRm92Q29udGV4dElkJTNEYzBlYzgzNjMtNjNkMy00MDk2LWIzZGMtYzE2MWM2OGVhNTFlJTI2Zmxvd1R5cGUlM0RwcGMlMjZzdGVwJTNEMyZyPWh0dHBzJTNBJTJGJTJGb25ldmlldy5maWRvLmNhJmNjPUNBRCZldmVudHM9ZXZlbnQ5JTJDJmMxPUQlM0R2MSZ2MT13aXJlbGVzcyZoMT13aXJlbGVzcyUyQ2Vjb20lMkNwcGMlMkNwbGFuLWJ1aWxkZXImYzI9RCUzRHYyJnYyPWVjb20mYzM9RCUzRHYzJnYzPXBwYyZjND1EJTNEdjQmdjQ9T1ZGJTNBd2lyZWxlc3MlM0FlY29tJTNBcHBjJTNBcGxhbi1idWlsZGVyJTNBc2VsZWN0JTIwYSUyMHBsYW4lMjB0eXBlJnY1PU9WRiUzQXdpcmVsZXNzJTNBZWNvbSUzQXBwYyUzQXBsYW4tYnVpbGRlciUzQXNlbGVjdCUyMGElMjBwbGFuJTIwdHlwZSZjNj1EJTNEdjYmdjY9aHR0cHMlM0ElMkYlMkZvbmV2aWV3LWJ1eWZsb3cuZmlkby5jYSUyRnBob25lcyUyRmJ1aWxkLXBsYW4lM0ZvdkNvbnRleHRJZCUzRGMwZWM4MzYzLTYzZDMtNDA5Ni1iM2RjLWMxNjFjNjhlYTUxZSUyNmZsb3dUeXBlJTNEcHBjJTI2c3RlcCUzRDMmdjk9Y2xpY2slN0Njb250aW51ZSUyMGNob29zZSUyMHlvdXIlMjBwbGFuJnYxMD1GaWRvJTIwTkFDJTIwQ1QlMjBPbmVWaWV3JTdDcm9nZXJzLmdpdCUyRmJmYSUyRnJjb20tY3QlMkZmaWRvLW92JnYxMz1GOTlTQSU3Q2NhcmUmdjE2PTZjMmI2NWM2OTNiNDM3Nzc2MjY5NWM0ZTU4N2NlMDY5ODU5NDk4MzU5OWY5M2U5ODRkYzRmNWU3ZmIyYzZiNDcmdjE3PTFiNDcyZjI0ZTRlNDc1YTY4OWM1YjJhOGU3MjBjZTBkZjU2NzJlODQ5OTE3MTFmMGUzZWRhMDFmYmE5ZjU4MzgmdjE4PTllYzRhOTRjMTk3YzI0ZGNiMTEwNzE5ZTlkMTQ5NGZiMDY5OTNkMzQ2NGQ4ZDU4MWM4MTY3ZThmZWM1NjYwMzgmdjE5PWNvbnN1bWVyJTdDcmVndWxhciU3Q24lMkZhJTdDbiUyRmEmdjIxPU5vbl9GaWRvJnYyMj1TTUFMTCU3QzEwR0IlMjBVbmxpbWl0ZWQlMjBMb2NhbCUyMENhbGxpbmclN0Nub24tbGVnYWN5JnYyMz1uJTJGYSZ2MjU9biUyRmEmdjMwPVBQQyU3Q1NMJnY0Mz1mYWxzZSZ2NDg9JTdDJTdDJTdDJTdDJnY1MT1PVkYmdjUzPU1vbmRheSU3QzMlMkYxNyUyRjIwMjUlMjA0JTNBNTAmdjU0PXFjJnY1NT1lbiZ2NTg9Y2FyZSZ2NjM9Rmlyc3QlMjBWaXNpdCZ2NjU9aHR0cHMlM0ElMkYlMkZvbmV2aWV3LWJ1eWZsb3cuZmlkby5jYSUyRnBob25lcyUyRmJ1aWxkLXBsYW4lM0ZvdkNvbnRleHRJZCUzRGMwZWM4MzYzLTYzZDMtNDA5Ni1iM2RjLWMxNjFjNjhlYTUxZSUyNmZsb3dUeXBlJTNEcHBjJTI2bGFuZ3VhZ2UlM0RlbiZ2NzE9bWljcm9zb2Z0JTdDaG9zdGVkJTdDNTAwMCU3Q2NhJTdDcWMlN0M4MDc1JnY3Mz1BZG9iZSUyMExhdW5jaCZ2NzQ9Njg3MDAwMTQwMDI3MzEyOTQyMjQzMTk5NjE4MzAyNzMxODEwNDAmdjc1PUQlM0RhaWQmdjc2PWRlZmF1bHQmdjgzPSU3Q25vdCUyMGF2YWlsYWJsZSZ2OTk9ZDQ4MjM3Y2UtMDMwYy0xMWYwLWE2NTItYTM0MjAwNDNiMTFkJnYxMDA9TW96aWxsYSUyRjUuMCUyMCUyOFdpbmRvd3MlMjBOVCUyMDEwLjAlM0IlMjBXaW42NCUzQiUyMHg2NCUyOSUyMEFwcGxlV2ViS2l0JTJGNTM3LjM2JTIwJTI4S0hUTUwlMkMlMjBsaWtlJTIwR2Vja28lMjklMjBDaHJvbWUlMkYxMzQuMC4wLjAlMjBTYWZhcmklMkY1MzcuMzYlN0N2ZXJzaW9uNCZ2MTAxPVJvZ2Vycy5jb20lMjAlMjhMYXVuY2glMkMlMjBNQUlOJTIwUFJPUEVSVFklMjklN0Nwcm9kdWN0aW9uJTdDMi4yNS4wJTdDNS41LjAlN0N2MS44LjQlN0MwMyUyRjEzJTJGMjAyNSZ2MTIxPWhlYWRlciU3Q2xlZ2FjeSZ2MTIyPU9WRiUzQXdpcmVsZXNzJTNBZWNvbSUzQXBwYyUzQXBsYW4tYnVpbGRlciUzQXNlbGVjdCUyMGElMjBwbGFuJTIwdHlwZSU3Q2h0dHBzJTNBJTJGJTJGb25ldmlldy1idXlmbG93LmZpZG8uY2ElMkZwaG9uZXMlMkZidWlsZC1wbGFuJnYxMzc9MCUzQTAmdjE0OT0wJnYxOTA9JTdDJTdDJnYxOTM9dW5jbGFzc2lmaWVkJTNBJTIwRmlkbyUyME5BQyUyMENUJTIwT25lVmlldyU3Q3JvZ2Vycy5naXQlMkZiZmElMkZyY29tLWN0JTJGZmlkby1vdiZ2MTk3PW9uZXZpZXctYnV5Zmxvdy5maWRvLmNhJTJGcGhvbmVzJTJGYnVpbGQtcGxhbiZ2MTk4PW9uZXZpZXctYnV5Zmxvdy5maWRvLmNhJnYyMDA9ZG9QbHVnaW5zQm90dG9tJTIwRmluaXNoZWQmcGU9bG5rX28mcGV2Mj1saW5rJnM9MTkyMHgxMDgwJmM9MjQmaj0xLjYmdj1OJms9WSZidz0xOTIwJmJoPTk1MyZtY29yZ2lkPUQ3RkQzNEZBNTNENjNCODYwQTQ5MEQ0NCU0MEFkb2JlT3JnJmxydD00MSZBUUU9MQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_2a355649-fffd-42f2-bd87-634a0405de7d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2a355649-fffd-42f2-bd87-634a0405de7d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="AQB"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ndh"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pf"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="et"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="t"
+        recordRawValue="17%2F2%2F2025%208%3A50%3A43%201%200"
+        separator="=" value="17/2/2025 8:50:43 1 0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cid."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="dpid943."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838"
+        separator="="
+        value="1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".dpid943"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="dpid942."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47"
+        separator="="
+        value="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".dpid942"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="dpid1094."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038"
+        separator="="
+        value="9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".dpid1094"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="rogersbackenddata." recordRawValue="" separator=""
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47"
+        separator="="
+        value="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name=".rogersbackenddata" recordRawValue="" separator=""
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="rogerstvm."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47"
+        separator="="
+        value="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".rogerstvm"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="rogersthup."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47"
+        separator="="
+        value="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".rogersthup"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ch_dnc_ban."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47"
+        separator="="
+        value="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".ch_dnc_ban"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ch_dnc_ctn."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838"
+        separator="="
+        value="1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="as"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".ch_dnc_ctn"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cid"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="d."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nsid"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="jsonv"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".d"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="mid"
+        recordRawValue="68700014002731294224319961830273181040"
+        separator="=" value="68700014002731294224319961830273181040" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="aamlh"
+        recordRawValue="7" separator="=" value="7" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ce"
+        recordRawValue="UTF-8" separator="=" value="UTF-8" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pageName"
+        recordRawValue="OVF%3Awireless%3Aecom%3Appc%3Aplan-builder%3Aselect%20a%20plan%20type"
+        separator="="
+        value="OVF:wireless:ecom:ppc:plan-builder:select a plan type" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="g"
+        recordRawValue="https%3A%2F%2Foneview-buyflow.fido.ca%2Fphones%2Fbuild-plan%3FovContextId%3Dc0ec8363-63d3-4096-b3dc-c161c68ea51e%26flowType%3Dppc%26step%3D3"
+        separator="="
+        value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="r"
+        recordRawValue="https%3A%2F%2Foneview.fido.ca" separator="="
+        value="https://oneview.fido.ca" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cc"
+        recordRawValue="CAD" separator="=" value="CAD" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="events"
+        recordRawValue="event9%2C" separator="=" value="event9," valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c1"
+        recordRawValue="D%3Dv1" separator="=" value="D=v1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v1"
+        recordRawValue="wireless" separator="=" value="wireless" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="h1"
+        recordRawValue="wireless%2Cecom%2Cppc%2Cplan-builder"
+        separator="=" value="wireless,ecom,ppc,plan-builder" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c2"
+        recordRawValue="D%3Dv2" separator="=" value="D=v2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v2"
+        recordRawValue="ecom" separator="=" value="ecom" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c3"
+        recordRawValue="D%3Dv3" separator="=" value="D=v3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v3"
+        recordRawValue="ppc" separator="=" value="ppc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c4"
+        recordRawValue="D%3Dv4" separator="=" value="D=v4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v4"
+        recordRawValue="OVF%3Awireless%3Aecom%3Appc%3Aplan-builder%3Aselect%20a%20plan%20type"
+        separator="="
+        value="OVF:wireless:ecom:ppc:plan-builder:select a plan type" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v5"
+        recordRawValue="OVF%3Awireless%3Aecom%3Appc%3Aplan-builder%3Aselect%20a%20plan%20type"
+        separator="="
+        value="OVF:wireless:ecom:ppc:plan-builder:select a plan type" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c6"
+        recordRawValue="D%3Dv6" separator="=" value="D=v6" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v6"
+        recordRawValue="https%3A%2F%2Foneview-buyflow.fido.ca%2Fphones%2Fbuild-plan%3FovContextId%3Dc0ec8363-63d3-4096-b3dc-c161c68ea51e%26flowType%3Dppc%26step%3D3"
+        separator="="
+        value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v9"
+        recordRawValue="click%7Ccontinue%20choose%20your%20plan"
+        separator="=" value="click|continue choose your plan" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v10"
+        recordRawValue="Fido%20NAC%20CT%20OneView%7Crogers.git%2Fbfa%2Frcom-ct%2Ffido-ov"
+        separator="="
+        value="Fido NAC CT OneView|rogers.git/bfa/rcom-ct/fido-ov" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v13"
+        recordRawValue="F99SA%7Ccare" separator="=" value="F99SA|care" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v16"
+        recordRawValue="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47"
+        separator="="
+        value="6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v17"
+        recordRawValue="1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838"
+        separator="="
+        value="1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v18"
+        recordRawValue="9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038"
+        separator="="
+        value="9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v19"
+        recordRawValue="consumer%7Cregular%7Cn%2Fa%7Cn%2Fa"
+        separator="=" value="consumer|regular|n/a|n/a" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v21"
+        recordRawValue="Non_Fido" separator="=" value="Non_Fido" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v22"
+        recordRawValue="SMALL%7C10GB%20Unlimited%20Local%20Calling%7Cnon-legacy"
+        separator="="
+        value="SMALL|10GB Unlimited Local Calling|non-legacy" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v23"
+        recordRawValue="n%2Fa" separator="=" value="n/a" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v25"
+        recordRawValue="n%2Fa" separator="=" value="n/a" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v30"
+        recordRawValue="PPC%7CSL" separator="=" value="PPC|SL" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v43"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v48"
+        recordRawValue="%7C%7C%7C%7C" separator="=" value="||||" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v51"
+        recordRawValue="OVF" separator="=" value="OVF" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v53"
+        recordRawValue="Monday%7C3%2F17%2F2025%204%3A50" separator="="
+        value="Monday|3/17/2025 4:50" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v54"
+        recordRawValue="qc" separator="=" value="qc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v55"
+        recordRawValue="en" separator="=" value="en" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v58"
+        recordRawValue="care" separator="=" value="care" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v63"
+        recordRawValue="First%20Visit" separator="=" value="First Visit" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v65"
+        recordRawValue="https%3A%2F%2Foneview-buyflow.fido.ca%2Fphones%2Fbuild-plan%3FovContextId%3Dc0ec8363-63d3-4096-b3dc-c161c68ea51e%26flowType%3Dppc%26language%3Den"
+        separator="="
+        value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;language=en" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v71"
+        recordRawValue="microsoft%7Chosted%7C5000%7Cca%7Cqc%7C8075"
+        separator="=" value="microsoft|hosted|5000|ca|qc|8075" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v73"
+        recordRawValue="Adobe%20Launch" separator="="
+        value="Adobe Launch" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v74"
+        recordRawValue="68700014002731294224319961830273181040"
+        separator="=" value="68700014002731294224319961830273181040" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v75"
+        recordRawValue="D%3Daid" separator="=" value="D=aid" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v76"
+        recordRawValue="default" separator="=" value="default" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v83"
+        recordRawValue="%7Cnot%20available" separator="="
+        value="|not available" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v99"
+        recordRawValue="d48237ce-030c-11f0-a652-a3420043b11d"
+        separator="=" value="d48237ce-030c-11f0-a652-a3420043b11d" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v100"
+        recordRawValue="Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36%7Cversion4"
+        separator="="
+        value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36|version4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v101"
+        recordRawValue="Rogers.com%20%28Launch%2C%20MAIN%20PROPERTY%29%7Cproduction%7C2.25.0%7C5.5.0%7Cv1.8.4%7C03%2F13%2F2025"
+        separator="="
+        value="Rogers.com (Launch, MAIN PROPERTY)|production|2.25.0|5.5.0|v1.8.4|03/13/2025" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v121"
+        recordRawValue="header%7Clegacy" separator="="
+        value="header|legacy" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v122"
+        recordRawValue="OVF%3Awireless%3Aecom%3Appc%3Aplan-builder%3Aselect%20a%20plan%20type%7Chttps%3A%2F%2Foneview-buyflow.fido.ca%2Fphones%2Fbuild-plan"
+        separator="="
+        value="OVF:wireless:ecom:ppc:plan-builder:select a plan type|https://oneview-buyflow.fido.ca/phones/build-plan" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v137"
+        recordRawValue="0%3A0" separator="=" value="0:0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v149"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v190"
+        recordRawValue="%7C%7C" separator="=" value="||" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v193"
+        recordRawValue="unclassified%3A%20Fido%20NAC%20CT%20OneView%7Crogers.git%2Fbfa%2Frcom-ct%2Ffido-ov"
+        separator="="
+        value="unclassified: Fido NAC CT OneView|rogers.git/bfa/rcom-ct/fido-ov" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v197"
+        recordRawValue="oneview-buyflow.fido.ca%2Fphones%2Fbuild-plan"
+        separator="=" value="oneview-buyflow.fido.ca/phones/build-plan" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v198"
+        recordRawValue="oneview-buyflow.fido.ca" separator="="
+        value="oneview-buyflow.fido.ca" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v200"
+        recordRawValue="doPluginsBottom%20Finished" separator="="
+        value="doPluginsBottom Finished" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pe"
+        recordRawValue="lnk_o" separator="=" value="lnk_o" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pev2"
+        recordRawValue="link" separator="=" value="link" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="s"
+        recordRawValue="1920x1080" separator="=" value="1920x1080" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c"
+        recordRawValue="24" separator="=" value="24" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="j"
+        recordRawValue="1.6" separator="=" value="1.6" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="N" separator="=" value="N" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="k"
+        recordRawValue="Y" separator="=" value="Y" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="bw"
+        recordRawValue="1920" separator="=" value="1920" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="bh"
+        recordRawValue="953" separator="=" value="953" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="mcorgid"
+        recordRawValue="D7FD34FA53D63B860A490D44%40AdobeOrg"
+        separator="=" value="D7FD34FA53D63B860A490D44@AdobeOrg" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="lrt"
+        recordRawValue="41" separator="=" value="41" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="AQE"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-buyflow.fido.ca/"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="cookie" value="dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; language=en; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=978928794&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=978928794&amp;CONTACT_ID=CO1065077710&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C68700014002731294224319961830273181040; X_DOM_session_guid=d48237ce-030c-11f0-a652-a3420043b11d; s_cc=true; X_DOM_BAN=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_REFERRER=https://oneview.fido.ca; dtSa=false%7Cxhr%7C52%7Cx%7Cx%7C1742201423262%7C401404567_515%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; X_DOM_CTN=1b472f24e4e475a689c5b2a8e720ce0df5672e84991711f0e3eda01fba9f5838; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806231%7C7%7CMCAAMB-1742806231%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742208631s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCCIDH%7C-1609802059%7CvVersion%7C5.5.0; s_sq=%5B%5BB%5D%5D; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=c0ec8363-63d3-4096-b3dc-c161c68ea51e&amp;flowType=ppc&amp;step=3%22%2C%22pName%22:%22OVF:wireless:ecom:ppc:plan-builder:select%20a%20plan%20type%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}%2C%22buyflowName%22:%22PPC|SL%22}; rxvt=1742203243996|1742201404584; dtPC=-2036$401425110_203h16vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-buyflow.fido.ca"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+access-control-allow-origin: https://oneview-buyflow.fido.ca&#xd;
+access-control-allow-credentials: true&#xd;
+date: Mon, 17 Mar 2025 08:50:44 GMT&#xd;
+expires: Sun, 16 Mar 2025 08:50:44 GMT&#xd;
+last-modified: Tue, 18 Mar 2025 08:50:44 GMT&#xd;
+pragma: no-cache&#xd;
+p3p: CP="This is not a P3P policy"&#xd;
+server: jag&#xd;
+set-cookie: s_ecid=MCMID%7C68700014002731294224319961830273181040; Path=/; Domain=fido.ca; Max-Age=63072000; Expires=Wed, 17 Mar 2027 08:50:50 GMT;&#xd;
+etag: 3741349112699813888-4614692855391210156&#xd;
+vary: *&#xd;
+content-type: application/x-javascript;charset=utf-8&#xd;
+content-length: 68&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+cache-control: no-cache, no-store, max-age=0, no-transform, private&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-content-type-options: nosniff</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

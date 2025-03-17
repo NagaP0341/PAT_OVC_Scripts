@@ -22,7 +22,7 @@
     <responsePageFileDescription>recorded-responses/res_c1e3dbf4-532e-4181-bb27-d91f85104be9</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c1e3dbf4-532e-4181-bb27-d91f85104be9.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=6b267043-fac9-4966-8aec-271a1fe34b7d&amp;flowType=ovppc&amp;language=en"/>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${c_contextId}&amp;flowType=ovppc&amp;language=en"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>

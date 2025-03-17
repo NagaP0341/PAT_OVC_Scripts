@@ -2,7 +2,7 @@
     name="/craccountsapi/ovc/accounts/v2/overview"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/974a34dd-10f7-48e1-8a21-cc9052180d2f.zip"
-    slaProfileEnabled="false" thinkTime="61"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="974a34dd-10f7-48e1-8a21-cc9052180d2f">
     <embedded-action>cc5a1966-0b13-472c-ac19-21f253f9b62f</embedded-action>
@@ -14,13 +14,71 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/craccountsapi/ovc/accounts/v2/overview"
-    path="/craccountsapi/ovc/accounts/v2/overview" postType="4"
+    path="/craccountsapi/ovc/accounts/v2/overview" postCharset=""
+    postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/974a34dd-10f7-48e1-8a21-cc9052180d2f.zip"
     recordedResponseCode="200" responseSize="1177"
     serverUid="oneview.rogers.com" slaProfileEnabled="false"
     uid="cc5a1966-0b13-472c-ac19-21f253f9b62f" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_cc5a1966-0b13-472c-ac19-21f253f9b62f</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_cc5a1966-0b13-472c-ac19-21f253f9b62f.0.0.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cc5a1966-0b13-472c-ac19-21f253f9b62f.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="c_overview_bearertoken3"
+        refererUid="d5ff73b6-656c-4f4a-bd94-452fbabd2014"
+        regExp="authorization: Bearer (.*)" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="authorization: Bearer "
+        template="$1$" templateAdv="$1$"
+        uid="c5eb63f2-bff2-489b-8b4b-14d952029c2a" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="c_overview_accountalias"
+        refererUid="cc5a1966-0b13-472c-ac19-21f253f9b62f"
+        regExp="&quot;,&quot;accountAlias&quot;:&quot;(.*?)&quot;"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="&quot;,&quot;accountAlias&quot;:&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="63e4b485-b142-4543-9f6a-0d8851f7c3f5" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="c_overview_ecId"
+        refererUid="cc5a1966-0b13-472c-ac19-21f253f9b62f"
+        regExp="&quot;,&quot;ecId&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;,&quot;ecId&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="2e9feefd-0849-4274-9902-5cd998e170f3" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="c_overview_email"
+        refererUid="cc5a1966-0b13-472c-ac19-21f253f9b62f"
+        regExp="&quot;,&quot;email&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;,&quot;email&quot;:&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="4779ffeb-8883-4f6e-a861-41e8bb35348d" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="accountNumber"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
     <header name="sec-fetch-site" value="same-origin"/>

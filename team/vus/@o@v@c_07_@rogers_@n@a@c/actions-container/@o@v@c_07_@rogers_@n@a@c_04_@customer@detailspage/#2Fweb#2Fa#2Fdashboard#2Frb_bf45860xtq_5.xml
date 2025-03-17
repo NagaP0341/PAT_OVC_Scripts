@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/web/a/dashboard/rb_bf45860xtq_5"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_07_@rogers_@n@a@c/%resources%/recorded-artifacts/588da13b-77c3-4b5f-b0d7-22cebea970df.zip"
@@ -15,9 +15,9 @@
     <screenshotFileDescription>recorded-screenshots/sc_588da13b-77c3-4b5f-b0d7-22cebea970df.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="text/plain; charset=utf-8"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/web/a/dashboard/rb_bf45860xtq"
     path="/web/a/dashboard/rb_bf45860xtq" postType="4"
@@ -89,9 +89,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <textPostContent><![CDATA[$a=1%7C31%7C_event_%7C1742201874367%7C_viewend_%7Cinp%7C72%7Csvn%7C%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous%7Csvt%7C1742201854915%7Csvtrg%7C1%7Csvm%7Ci2%5Esk1%5Esh0%2C1%7C32%7C_event_%7C1742201874367%7C_pageend_%7Cinp%7C72%7Curl%7Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%3FLang%3Den%26ovContextId%3Dbeee0cca-91ae-49d4-8417-19b7d0a2fb...$rId=RID_-1505802945$rpId=1594245360$domR=1742201854433$unload=xhr$tvn=%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous$tvt=1742201854915$tvm=i2%3Bk1%3Bh0$tvtrg=1$w=1920$h=953$sw=1920$sh=1080$ni=4g|10$md=mdcc7%2Cuipath.bot17%3Bmdcc8%2CUIPATH%20BOT17%3Bmdcc10%2COV%3Aweb%3Aa%3Adashboard%3Aoverview%3Aanonymous%3Bmdcc14%2COV%3Aweb%3Aa%3Adashboard%3Aoverview%3Aanonymous%3Bmdcc15%2Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous%3Bmdcc21%2C179643557%257CMCIDTS%257C20165%257CMCMID%257C68700014002731294224319961830273181040%257CMCAAMLH-1742806673%257C7%257CMCAAMB-1742806673%257CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%257CMCOPTOUT-1742209073s%257CNONE%257CMCAID%257CNONE%257CMCCIDH%257C-627122392%257CvVersion%257C5.5.0$sr=1$url=https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous$title=Create%20an%20account$isUnload=1$latC=0$app=2ae0303e3c9b36b0$vi=KNTANNCQAWCSMLQMFWHGHFIHGNHGAVVK-0$fId=401853712_462$v=10307250124095659$vID=17422018533812G11QELB1HV6SJIHP73HH1UESJVSTQGP$time=1742201874371]]></textPostContent>
 </http-action>
 <http-action actionType="1" contentType="text/javascript; charset=utf-8"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/web/a/dashboard/ruxitagentjs_ICA7NQVfghqrux_10307250124095659.js"
@@ -104,7 +104,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_196f1edd-fd96-451b-b712-ba2193d6650f</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_196f1edd-fd96-451b-b712-ba2193d6650f.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=07d7bfe7-df92-45c4-b8af-73de5aee8432&amp;flowType=ovnac&amp;language=en"/>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${c_ovContextId}&amp;flowType=ovnac&amp;language=en"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -130,7 +130,7 @@ date: Mon, 17 Mar 2025 08:57:54 GMT&#xd;
 x-frame-options: SAMEORIGIN</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" contentType="text/css"
+<http-action actionType="1" contentType="text/css" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -144,7 +144,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_6d16da84-e362-4888-a895-9f1283d1b0b3.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_6d16da84-e362-4888-a895-9f1283d1b0b3.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=07d7bfe7-df92-45c4-b8af-73de5aee8432&amp;flowType=ovnac&amp;language=en"/>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${c_ovContextId}&amp;flowType=ovnac&amp;language=en"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -175,9 +175,9 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/phones/runtime.bc7a43f3c7784d8c.js"
     path="/phones/runtime.bc7a43f3c7784d8c.js" postType="6"
@@ -188,7 +188,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_c745bdf6-7d82-4572-a2c3-a6fe7dbfb9f6</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c745bdf6-7d82-4572-a2c3-a6fe7dbfb9f6.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=07d7bfe7-df92-45c4-b8af-73de5aee8432&amp;flowType=ovnac&amp;language=en"/>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${c_ovContextId}&amp;flowType=ovnac&amp;language=en"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -218,9 +218,9 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="text/javascript; charset=utf-8"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/web/a/dashboard/ruxitagentjs_D_10307250124095659.js"
@@ -233,7 +233,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_eb74914a-1db4-4906-bc29-5ddc11d36d26</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_eb74914a-1db4-4906-bc29-5ddc11d36d26.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="same-origin"/>
-    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=07d7bfe7-df92-45c4-b8af-73de5aee8432&amp;flowType=ovnac&amp;language=en"/>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${c_ovContextId}&amp;flowType=ovnac&amp;language=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="rxVisitor=17422018533812G11QELB1HV6SJIHP73HH1UESJVSTQGP; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; dtCookie=v_4_srv_10_sn_C6ED99FC998CD7A040B76FF6E7EF7A5C_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1; language=en; PLAY_SESSION=1c101a79d5ed1669fca755c078be0b648f7922f1-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=de8316fe-7ceb-4352-ac6c-05f7aebb5b9b&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C68700014002731294224319961830273181040; X_DOM_session_guid=debc5cb0-030d-11f0-be2b-538549aa5e46; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:web:a:dashboard:overview:anonymous%22%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview/anonymous%22%2C%22accType%22:%22consumer|regular%22%2C%22buyflowName%22:%22%22}; s_sq=%5B%5BB%5D%5D; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806673%7C7%7CMCAAMB-1742806673%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742209073s%7CNONE%7CMCAID%7CNONE%7CMCCIDH%7C-627122392%7CvVersion%7C5.5.0; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742203673549%3B%20rcp_s_dslv%3D1742201873549%7C1836809873549%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742203673549%3B; akaalb_Oneview_Buyflow_Rogers=~op=ALB_AZURE_ONEVIEW_BUYFLOW_ROGERS:ALB_AZUCC_ONEVIEW_BUYFLOW_ROGERS|~rv=27~m=ALB_AZUCC_ONEVIEW_BUYFLOW_ROGERS:0|~os=a6d27f4de61d3b185b9e61447d00414a~id=84877d952a08f4964effe8415f754807; dtPC=10$401874655_9h1vKNTANNCQAWCSMLQMFWHGHFIHGNHGAVVK-0e0; dtSa=-; rxvt=1742203674667|1742201853380"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
@@ -257,9 +257,9 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/phones/main.f37aa0809ef3724c.js"
     path="/phones/main.f37aa0809ef3724c.js" postType="6"
@@ -270,7 +270,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_9fb7391e-bd98-42dc-ad24-ff5eb51f4611</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_9fb7391e-bd98-42dc-ad24-ff5eb51f4611.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=07d7bfe7-df92-45c4-b8af-73de5aee8432&amp;flowType=ovnac&amp;language=en"/>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${c_ovContextId}&amp;flowType=ovnac&amp;language=en"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -300,9 +300,9 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/phones/polyfills.6d08fa7fd697595b.js"
     path="/phones/polyfills.6d08fa7fd697595b.js" postType="6"
@@ -313,7 +313,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_6ede756b-4161-4bd8-8505-442e81926479</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_6ede756b-4161-4bd8-8505-442e81926479.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=07d7bfe7-df92-45c4-b8af-73de5aee8432&amp;flowType=ovnac&amp;language=en"/>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${c_ovContextId}&amp;flowType=ovnac&amp;language=en"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>

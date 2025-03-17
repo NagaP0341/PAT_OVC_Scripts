@@ -1,0 +1,40 @@
+<http-page executeResourcesDynamically="false"
+    name="/patapi/v1/pat/encrypt" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/992f7176-4f6e-41ec-a9d7-38be82523bdd.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="992f7176-4f6e-41ec-a9d7-38be82523bdd">
+    <embedded-action>cf6d4e02-a7d7-4630-aafa-ae328820b3bd</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="http_request_" path="/patapi/v1/pat/encrypt"
+    postCharset="" postType="1" serverUid="Launch_uniloginapicc"
+    slaProfileEnabled="false" uid="cf6d4e02-a7d7-4630-aafa-ae328820b3bd" useKeepAlive="false">
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="P_JwtToken"
+        refererUid="7bfec6a6-970a-4422-be9c-52985b2dd4dc" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="cd4b9854-06a0-42a5-8cc1-581c662ff79c" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="uniloginapicc.rogers.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"/>
+    <header name="Ocp-Apim-Subscription-Key" value="bbb9f6d97c9f43a182e0037391364fa6"/>
+    <header name="accountNumber" value="${P_OVC_04_Fido_PPC.P_BAN}"/>
+    <header name="Authorization" value="${P_jwtToken_Fido.p_JWTToken}"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

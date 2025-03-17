@@ -1,0 +1,3 @@
+<variable-file delimiters=";" filename="variables/P_OVC_04_Fido_PPC.txt" name="P_OVC_04_Fido_PPC" offset="1" order="1" policy="5" range="1" uid="a5c53c92-e4f3-4d32-a3d6-e658918594ba" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="P_BAN" number="0"/>
+</variable-file>

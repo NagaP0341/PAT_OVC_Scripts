@@ -1,24 +1,53 @@
-<http-page enabled="false" executeResourcesDynamically="false"
+<http-page executeResourcesDynamically="false"
     name="/crppcapi/ovc/ppc/v1/context" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/df4e601c-3a5e-46fd-a6f1-40f9b904e301.zip"
-    slaProfileEnabled="false" thinkTime="395"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="df4e601c-3a5e-46fd-a6f1-40f9b904e301">
     <embedded-action>3bdeb458-029c-4b06-8808-6fde26a20601</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="application/json"
-    enabled="false" extractorInjectPathPolicy="2"
-    extractorPathPolicy="1" followRedirects="false"
-    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/crppcapi/ovc/ppc/v1/context"
-    path="/crppcapi/ovc/ppc/v1/context" postType="4"
+    path="/crppcapi/ovc/ppc/v1/context" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/df4e601c-3a5e-46fd-a6f1-40f9b904e301.zip"
     recordedResponseCode="200" responseSize="908"
     serverUid="oneview.rogers.com" slaProfileEnabled="false"
     uid="3bdeb458-029c-4b06-8808-6fde26a20601" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_3bdeb458-029c-4b06-8808-6fde26a20601</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_3bdeb458-029c-4b06-8808-6fde26a20601.0.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_3bdeb458-029c-4b06-8808-6fde26a20601.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="c_contextId"
+        refererUid="76bb5230-146d-4ea0-8441-b6026fc1cce4"
+        regExp="contextId&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="contextId&quot;:&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="ae5af6ad-a83a-44cd-b218-e04f32252a80" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="c_authtoken-logout"
+        refererUid="3bdeb458-029c-4b06-8808-6fde26a20601"
+        regExp="uthorization: Bearer (.*)" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="uthorization: Bearer "
+        template="$1$" templateAdv="$1$"
+        uid="48303218-43bf-4df9-974a-8674576b6de3" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="status&quot;:&quot;Success"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -27,7 +56,7 @@
     <header name="origin" value="https://oneview.rogers.com"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTcxLGxhbklkPVVJUEFUSC5CT1QxNyIsImF1ZCI6Ik9uZXZpZXcgRmlkbyBDYXJlIiwidG9rZW5EdXJhdGlvbiI6IjI3MDAwMDAiLCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3MSxsYW5JZD1VSVBBVEguQk9UMTciLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjAyOTE2LCJpYXQiOjE3NDIxOTkyNzYsImtleSI6IlFhd0NhZlczNUlUSXVoSXY3NTRNMVM2Sm5HNjRMT0xDTUtvWDRnQUIyMm5wc2RwREZJa29pamJ5Yis3c3pEcU5QTldXV0JXQnk3SXMreC9YejlUVWtKaDVjeEhvWFRYNENjbUh0elFNMXRoa3BXTEo1ZHV2T2x1THNJbHE4OU9nT2wyQ3Nvc2JXMHhxOVFFaThFK2xJYUJWdVhsZ0c0cnprOVlEL0VBZ0ZtWE42VkdQTmlUcjFsdjNvM3U5OFVPaG5kWjZHV25aN3dyaWQrRzlJWHErODF0WkFJUEh3U2RQMlhiNWcyU1NwcmdWa0hTUWNVa2J4dDBpc1dCWXRyZXROMXhOdFlIZjZzRUJjSWtCcW1LVFN5T1VKV1VkTVhnQ290dWFEM2VxWTFNT1prQW1GVVlmQ1FmcmlCSkRlSEVuTFIvTHpEWG0vaTd5TlZlSDhyb3gyUT09IiwiY29udGVudCI6InpJaE9PY0RiVDJMb1UyRmxBeUVUU2tPOEJNdlVrKzc0NTRMQWEwZEJXelJnSGNFUjNFOXFvNFZwQzI4VE9Ua05ETVhCeXhsRWs5ZmhxNms0U0tGdmU0angzTDdYQ2FCQTY4K2UvYkFZQWhrWlFqVldMZ0lxdWpOakQwY3dvTGhuS3A4NGd6N0ptTWtqTzUwOFNwcUlKd0E0Vjd3enFERzIyK1MrVzZMODRIVDMzUEZacEVGaTJkS2Nsd3F2WjdEYnV6R2djZjVOSmppYWdJU0d4WjJ5ak0yN2k1TmliVVJOcmFJdXcrVDhiRVU0QWQxTG9XL2FNQWZYb2EvaGt2d09JNUkreE5zeHVkU3doejR6ZHZ6YnpBQVpBWklnU0g4dU1SbzZMRzBIYmVhdncrRmlRNnluc0pMbGZ1OG4zTkV3SVhTUkV5UTFFYkZwSllQd3l0blh4VW9mcFBMZXNWeHgreTZSNk9jaHN3ZEVwTi82bkJqcFJUWGVuUUZ5Qmg3OEZEOFlaSXk4b3p3bUYvNWdYMnV1NWx2ak9ZbDQ0aEJPNVQ1bWZLMG5TZkNhV2RBMk4zMkNvcTl5bXRJalpFZmsyREdnZVNXN1p3bW1QSTM3aURld2lUcXh1UXJ3bFVFSklETDFoSjFDMzRpZUNZY3NnWTZLUnQrUEFzaFYydlc1cE1CQTAvd1kyRWltaXZCVnV0RzhOSE4xWjBLQXdzcDBnNjZSVVcrU3ZHdk5VUjhoaUlsc0ZCSlhqWG5IaDQyRWsvZWY3Z25JeHpvTGRvRUNwR0lrK0FzZHRRTFowOFNJTjZ4WG9ObGhGamN0R0NYSlJ6dDVETlA2eDZHQWhxbnZ2UFpad3JUNWFrRUliT1hyd2ViY0pFenN0UWtla2NMTDUyazdmc1M4bFZ6RGg5SGJYTjVEek9NKzBMck53NDRvTS9QNkcyWUQ4V3UxSHVvQmk1R0NNWHJ5aFJCN0NkU051bExYaC9MR1BzaTNUa3JISW9aK1pVQzZUY1ZCMitDTWgxS1pYaFAzbkNLZFBqVU9yRGRLQWZCRk0vaDJTSVdpcmFnbWlOeUlkdVVPUkhhbFp6VzZsNUtmR2UzQ2RsNzVOajZ3ODlYN2dOWVpudGd6SE9hcjFnVWxZaHVkM0F4RXdOSnAxWGxIaVBweEJ1amdabCs5M3dNMFkybkxtYUZ4K3dVWlFaTkxrR20yMVd6VlVXMFkycTIzZnpYMUpIUVVoekc0UUZvWkZvRThCZlVOdCsvN0xmOGMxQnFnNEo0U0NKYnFNdHpYU1BEdkFjMnRBOUFwZ2NFRkZjRFJFbVlxbHYzY2hVUXFic1AzM1BGWnBFRmkyZEtjbHdxdlo3RGJ1ekdnY2Y1TkpqaWFnSVNHeFoyeWpPV2xvTkpxL2RvcFN3MHR6OHRUb2N1SDh5QkptOXNHZ01ZeVNISDJnaTNaIiwidXNlckF0dHJpYnV0ZXMiOnsiTEFOR1VBR0UiOiJlbiIsIkNIX0JBTiI6Ijk0NzMxMTExNCIsIkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTciLCJWMjEiOiJWMjEiLCJVc2VySWQiOiIxNDAxNzE3MSIsIlNPVVJDRSI6IkNSTSIsIkZSQU5DSElTRSI6IlJPR0VSUyIsIkFDQ1ROQlIiOiI5NDczMTExMTQiLCJDT05UQUNUX0lEIjoiQ08xMDU5OTU0NTUzIiwiU2Vzc2lvbklkIjoiZmRmY2NkOTYtNjI5ZC00N2RjLTllMGItNWNjNWNkNmY3MTUyIiwiVEFSR0VUX1VSTCI6Ik9ORVZJRVdEQVNIQk9BUkQifX0.1tSLDlY73gRfnDQTR6BoGbbDyvQC1HljFAz9h_rdrog"/>
+    <header name="authorization" value="Bearer ${c_cases_Bearertoken8}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="x-dtpc" value="4$399274820_824h55vNJOIDKQJEIFPFTIHIRTRCUMUAHNFHKCF-0e0"/>
@@ -59,5 +88,5 @@ access-control-allow-methods: NULL&#xd;
 access-control-allow-origin: https://oneview.rogers.com&#xd;
 referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
-    <textPostContent><![CDATA[{"accountNumber":"${c_token_Accnum}","flowType":"PPC","dealerCode":"OSRCP","ctn":"6476333946","isBuyflowRetail":false}]]></textPostContent>
+    <textPostContent><![CDATA[{"accountNumber":"${c_token_Accnum}","flowType":"PPC","dealerCode":"OSRCP","ctn":"${c_subscriptions_subnum}","isBuyflowRetail":false}]]></textPostContent>
 </http-action>
