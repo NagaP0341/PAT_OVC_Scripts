@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_13_Rogers_POM_PPC_04_PlanShareTypePage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="f2eb0460-89c3-40cc-a5fe-61c68df2e8e7" weightsEnabled="false">
+    <weighted-embedded-action uid="69e7fd83-9563-4ac6-879b-eff10ef786b6"/>
+    <weighted-embedded-action uid="eab5d8ad-a200-41f7-ac4c-b6306d518ec6"/>
+</basic-logical-action-container>

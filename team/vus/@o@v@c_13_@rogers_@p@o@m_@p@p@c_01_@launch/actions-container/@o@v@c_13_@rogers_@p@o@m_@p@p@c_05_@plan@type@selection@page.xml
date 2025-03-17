@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_13_Rogers_POM_PPC_05_PlanTypeSelectionPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="83cb68fe-cb70-43f4-85a9-c9681de92986" weightsEnabled="false">
+    <weighted-embedded-action uid="defd5a93-75a9-4988-8d3c-cc18a04c5947"/>
+    <weighted-embedded-action uid="e043fb81-6a9a-4400-afa4-f12c38e6e2e1"/>
+    <weighted-embedded-action uid="d549163d-b1a4-4886-901a-e89d7843717a"/>
+    <weighted-embedded-action uid="f878d185-c628-44ae-8705-62dae43b710d"/>
+</basic-logical-action-container>

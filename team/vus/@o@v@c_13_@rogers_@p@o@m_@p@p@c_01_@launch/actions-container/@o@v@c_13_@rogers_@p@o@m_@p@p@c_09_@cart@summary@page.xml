@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_13_Rogers_POM_PPC_09_CartSummaryPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="db3dd7b0-1237-4ecd-b940-d6d943ec65cb" weightsEnabled="false">
+    <weighted-embedded-action uid="0f517f21-cb70-4b13-a1c7-8529630bd265"/>
+</basic-logical-action-container>

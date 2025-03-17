@@ -14,13 +14,13 @@
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
     <lg-networkiface description="Microsoft Hyper-V Network Adapter"
-        enabled="false" isLoopBack="false" name="eth3">
+        enabled="false" isLoopBack="false" name="eth0">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="nperpaautovm033.rci.rogers.ca">
-            <ip value="10.73.26.14"/>
+        <lg-address enabled="false" hostname="nperpaautovm035.rci.rogers.ca">
+            <ip value="10.73.26.16"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:295:6505:1eb5:3458%eth3">
-            <ip value="fe80:0:0:0:295:6505:1eb5:3458%eth3"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:5d19:8073:ef98:c482%eth0">
+            <ip value="fe80:0:0:0:5d19:8073:ef98:c482%eth0"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>

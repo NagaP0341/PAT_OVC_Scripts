@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_13_Rogers_POM_PPC_11_OrderReviewPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="2cfa449c-3fe0-4eee-b0f4-aa872e5d0d61" weightsEnabled="false">
+    <weighted-embedded-action uid="f7e276af-f403-401a-8fdb-61846130f6f0"/>
+    <weighted-embedded-action uid="e6953bfd-4b3d-465b-9d14-f8e6a6a3576c"/>
+    <weighted-embedded-action uid="9aa0c6e2-e2c0-49b6-85d6-dacda998b529"/>
+    <weighted-embedded-action uid="bdd30754-0a57-4421-9d4d-3072514350ce"/>
+</basic-logical-action-container>

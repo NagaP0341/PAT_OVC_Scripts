@@ -1,0 +1,61 @@
+<http-page executeResourcesDynamically="false" name="/phones/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_13_@rogers_@p@o@m_@p@p@c_01_@launch/%resources%/recorded-artifacts/8750ef9f-165b-4a9b-87ed-04c41fa7319b.zip"
+    slaProfileEnabled="false" thinkTime="431"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8750ef9f-165b-4a9b-87ed-04c41fa7319b">
+    <embedded-action>98c3bfd6-05ec-4449-93e5-39e0e027f8cc</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8750ef9f-165b-4a9b-87ed-04c41fa7319b.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/phones/" path="/phones/" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_13_@rogers_@p@o@m_@p@p@c_01_@launch/%resources%/recorded-artifacts/8750ef9f-165b-4a9b-87ed-04c41fa7319b.zip"
+    recordedResponseCode="200" responseSize="4787"
+    serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
+    uid="98c3bfd6-05ec-4449-93e5-39e0e027f8cc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_98c3bfd6-05ec-4449-93e5-39e0e027f8cc.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_98c3bfd6-05ec-4449-93e5-39e0e027f8cc.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ovContextId"
+        recordRawValue="624e202b-8d8c-4ff3-92f1-dbcbf3b45076"
+        separator="=" value="624e202b-8d8c-4ff3-92f1-dbcbf3b45076" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="flowType"
+        recordRawValue="ovppc" separator="=" value="ovppc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="language"
+        recordRawValue="en" separator="=" value="en" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="cookie" value="rxVisitor=1742205715435KCN7D1DU27UFK33BDFDSVR87Q8S15S3D; language=en; dtCookie=v_4_srv_2_sn_D894793822E52C4EBE8DBB6BFDB8E52F_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; PLAY_SESSION=840040744e2471916b5416ffdb8f9b043a9591fd-LANGUAGE=en&amp;CH_BAN=947045464&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;FRANCHISE=ROGERS&amp;ACCTNBR=947045464&amp;CONTACT_ID=CO1059911801&amp;SessionId=2202c3fb-47e8-48d6-9c96-06d468a4ed6f&amp;TARGET_URL=ONEVIEWDASHBOARD; X_DOM_session_guid=dd7c2575-0316-11f0-aa2f-b7ae1d4b2135; X_DOM_REFERRER=; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; marketing_ban=1ab3e778f9a70675f076e25aa4cb57bbe2e27bbed24dd2a46521876af34dc5fe; marketing_UID=1ab3e778f9a70675f076e25aa4cb57bbe2e27bbed24dd2a46521876af34dc5fe; X_DOM_BAN=1ab3e778f9a70675f076e25aa4cb57bbe2e27bbed24dd2a46521876af34dc5fe; marketing_user_name=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; s_ecid=MCMID%7C33279150204507457410920206918825419644; s_cc=true; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C33279150204507457410920206918825419644%7CMCAAMLH-1742810525%7C7%7CMCAAMB-1742810525%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742212925s%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCAID%7CNONE%7CMCCIDH%7C-1729160611%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=%22%2C%22pName%22:%22OV:web:a:dashboard:overview%22%2C%22accType%22:%22consumer|regular|idv2%22}; s_sq=rcp-r-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%2526link%253DChange%252520Plan%2526region%253Dds-tabs-0-tabPanel-0%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%2526pidt%253D1%2526oid%253Djavascript%25253Avoid%2525280%252529%2526ot%253DA; rxvt=1742207565390|1742205715440; dtPC=2$405715412_470h55vKMGFEGUPKAKUFALCCDGFGFMJARCDBCRC-0e0; dtSa=false%7Cxhr%7C55%7Cx%7Cx%7C1742205765389%7C405715412_470%7Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%3FLang%3Den%26CustType%3DI%26CustSubType%3DR%26connid%3D%7C%7C%7C%7C; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742207566377%3B%20rcp_s_dslv%3D1742205766377%7C1836813766377%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742207566377%3B"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/html&#xd;
+last-modified: Sat, 15 Mar 2025 06:54:38 GMT&#xd;
+etag: "67d5242e-12b3"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+expires: Mon, 17 Mar 2025 10:02:47 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Mon, 17 Mar 2025 10:02:47 GMT&#xd;
+content-length: 1817&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+set-cookie: akaalb_Oneview_Buyflow_Rogers=~op=ALB_AZURE_ONEVIEW_BUYFLOW_ROGERS:ALB_AZUCE_ONEVIEW_BUYFLOW_ROGERS|~rv=99~m=ALB_AZUCE_ONEVIEW_BUYFLOW_ROGERS:0|~os=a6d27f4de61d3b185b9e61447d00414a~id=6428a485ee3c846a8fd5bbb90fbc1669; path=/; HttpOnly; Secure; SameSite=None</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

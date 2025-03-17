@@ -1,0 +1,35 @@
+<http-page executeResourcesDynamically="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_13_@rogers_@p@o@m_@p@p@c_01_@launch/%resources%/recorded-artifacts/defd5a93-75a9-4988-8d3c-cc18a04c5947.zip"
+    slaProfileEnabled="false" thinkTime="14844"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="defd5a93-75a9-4988-8d3c-cc18a04c5947">
+    <embedded-action>d186361e-c21d-4612-a9f0-85254f8e2ab4</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_defd5a93-75a9-4988-8d3c-cc18a04c5947.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="HEAD" name="/" path="/" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_13_@rogers_@p@o@m_@p@p@c_01_@launch/%resources%/recorded-artifacts/defd5a93-75a9-4988-8d3c-cc18a04c5947.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="intstflogin.rci.rogers.com" slaProfileEnabled="false"
+    uid="d186361e-c21d-4612-a9f0-85254f8e2ab4" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_d186361e-c21d-4612-a9f0-85254f8e2ab4.txt</requestContentFileDescription>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Host" value="intstflogin.rci.rogers.com"/>
+    <header name="User-Agent" value="CITRIXRECEIVER"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 701&#xd;
+Content-Type: text/html&#xd;
+Last-Modified: Fri, 25 Nov 2016 16:36:26 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "23c3d6103a47d21:0"&#xd;
+Server: Microsoft-IIS/8.5&#xd;
+X-Powered-By: ASP.NET&#xd;
+SF-ServerName: VMPLDCWSF05&#xd;
+Date: Mon, 17 Mar 2025 10:03:49 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
