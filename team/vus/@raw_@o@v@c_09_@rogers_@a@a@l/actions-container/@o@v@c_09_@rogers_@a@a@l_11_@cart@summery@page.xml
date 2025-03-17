@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_09_Rogers_AAL_11_CartSummeryPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="cc5fed92-6f7f-4a71-9d97-c1187fcab12c" weightsEnabled="false">
+    <weighted-embedded-action uid="fa71bd6f-7333-44a3-9715-2c6b3537c1cb"/>
+</basic-logical-action-container>

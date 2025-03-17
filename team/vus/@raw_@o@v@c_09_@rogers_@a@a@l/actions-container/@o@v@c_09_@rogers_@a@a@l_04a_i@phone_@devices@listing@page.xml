@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_09_Rogers_AAL_04a_iPhone_DevicesListingPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="b0b4e549-1925-4516-b9ad-52d0fc76a783" weightsEnabled="false">
+    <weighted-embedded-action uid="3ef39b73-37eb-404d-9500-a320af38795c"/>
+    <weighted-embedded-action uid="fc68982b-99b2-47ba-83e7-845b6fb4e336"/>
+    <weighted-embedded-action uid="a2c440e9-f550-4f5f-ad31-c2ac3535cd7c"/>
+</basic-logical-action-container>

@@ -16,11 +16,11 @@
     <lg-networkiface description="Microsoft Hyper-V Network Adapter"
         enabled="false" isLoopBack="false" name="eth0">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="nperpaautovm035.rci.rogers.ca">
-            <ip value="10.73.26.16"/>
+        <lg-address enabled="false" hostname="nperpaautovm036.rci.rogers.ca">
+            <ip value="10.73.26.18"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:5d19:8073:ef98:c482%eth0">
-            <ip value="fe80:0:0:0:5d19:8073:ef98:c482%eth0"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:3f50:1f43:eda7:117d%eth0">
+            <ip value="fe80:0:0:0:3f50:1f43:eda7:117d%eth0"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>

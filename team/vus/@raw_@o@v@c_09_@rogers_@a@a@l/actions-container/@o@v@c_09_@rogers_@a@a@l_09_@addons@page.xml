@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_09_Rogers_AAL_09_AddonsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="41a3cb47-bcc4-439b-bb61-8826d31993f2" weightsEnabled="false">
+    <weighted-embedded-action uid="093519dc-a480-485f-8ccc-2fc2f716d531"/>
+    <weighted-embedded-action uid="a1d68a41-9acf-4740-9cb5-e93eebdcc088"/>
+</basic-logical-action-container>

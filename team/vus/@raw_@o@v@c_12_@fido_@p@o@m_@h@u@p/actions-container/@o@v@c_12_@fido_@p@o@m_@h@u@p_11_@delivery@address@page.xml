@@ -1,0 +1,23 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_12_Fido_POM_HUP_11_DeliveryAddressPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="da40b1c2-9e79-479c-896a-e61d0e9a32df" weightsEnabled="false">
+    <weighted-embedded-action uid="af3f7d1a-6050-4088-bc22-f004f900c0a1"/>
+    <weighted-embedded-action uid="e2afc815-5f7f-4563-8a15-1ef7f089cc68"/>
+    <weighted-embedded-action uid="ddd5c78c-a442-427d-ad2e-f40d50a4bba1"/>
+    <weighted-embedded-action uid="3906afd1-2581-46ae-a660-e2b7760146e5"/>
+    <weighted-embedded-action uid="d44c7c90-b3a1-4773-b27d-2108d1c6bf2a"/>
+    <weighted-embedded-action uid="e237555f-455f-45e0-bf77-00e6189327d7"/>
+    <weighted-embedded-action uid="49241c1f-0fac-45a6-8907-98f8537a0b4d"/>
+    <weighted-embedded-action uid="52cc5985-57dd-408b-83ba-43c16855aecd"/>
+    <weighted-embedded-action uid="abf9d511-f33d-4d9c-98f1-0dce31857b63"/>
+    <weighted-embedded-action uid="1c68b705-9f57-4edf-93a2-fd582927f893"/>
+    <weighted-embedded-action uid="2529fdc0-5255-4e2e-b13f-1eceb0d6844f"/>
+    <weighted-embedded-action uid="dabd7058-b6dc-4eea-ab9e-c178636cf5fc"/>
+    <weighted-embedded-action uid="310924ef-a8ba-494b-bd5f-b2282fe9191a"/>
+    <weighted-embedded-action uid="7c947fc0-034e-42bd-a09b-e00c3df78474"/>
+    <weighted-embedded-action uid="14a87204-d4b8-4ae5-8b6d-4356ca78f8e3"/>
+    <weighted-embedded-action uid="bcfcf9ea-4cb2-4ae1-82fc-60b7a62a75bc"/>
+    <weighted-embedded-action uid="163d8862-b779-4943-ba03-885a1225e674"/>
+    <weighted-embedded-action uid="d42bf933-c18c-47a5-9dd1-aa07a0c9f13f"/>
+</basic-logical-action-container>

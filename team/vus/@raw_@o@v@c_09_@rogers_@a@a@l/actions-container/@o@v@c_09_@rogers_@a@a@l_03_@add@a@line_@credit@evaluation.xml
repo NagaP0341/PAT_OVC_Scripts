@@ -1,0 +1,28 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_09_Rogers_AAL_03_AddALine_CreditEvaluation" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="3b708e39-0b12-4936-91bd-84dd9650c09c" weightsEnabled="false">
+    <weighted-embedded-action uid="319e1a01-84d7-4f6c-990c-726754cbd61c"/>
+    <weighted-embedded-action uid="cf9282ef-e0de-4574-946a-0df6beb0d778"/>
+    <weighted-embedded-action uid="8fb93d0f-7a86-4f6a-acff-d74816d78eb8"/>
+    <weighted-embedded-action uid="ad638d36-81e9-41a2-b33d-cd6e9068f970"/>
+    <weighted-embedded-action uid="5ac395c1-6542-47a0-a183-186b770ae80d"/>
+    <weighted-embedded-action uid="bc0147dd-9200-41ec-88ce-d0413281749e"/>
+    <weighted-embedded-action uid="75284710-0880-4c8f-80b5-dad610db65c6"/>
+    <weighted-embedded-action uid="91116794-ae16-48e8-9a4c-11448221db13"/>
+    <weighted-embedded-action uid="00c739a8-5667-4e2d-96ce-ff1d8ec01ce1"/>
+    <weighted-embedded-action uid="6b2705db-d198-4571-b680-b675d24ed2f7"/>
+    <weighted-embedded-action uid="b2878871-8daf-4a48-a130-e27f8082d781"/>
+    <weighted-embedded-action uid="1a6de9ab-b92a-466e-b35c-3f295488a1e5"/>
+    <weighted-embedded-action uid="9ea2d115-cb89-48de-9969-371dade0e68e"/>
+    <weighted-embedded-action uid="0738ac31-c1b1-45ef-afb7-405647e1cbdf"/>
+    <weighted-embedded-action uid="05ade3b6-093e-4ad9-891a-86507d125daf"/>
+    <weighted-embedded-action uid="849428b0-0023-4186-9695-35000bd9dd82"/>
+    <weighted-embedded-action uid="a6a7007e-dcf6-4dc9-a3a6-267922109a10"/>
+    <weighted-embedded-action uid="abf79607-c58f-4b08-9013-81db537462ff"/>
+    <weighted-embedded-action uid="1e81da24-177f-4d6c-a015-fa552ed70b81"/>
+    <weighted-embedded-action uid="078a0536-f9fa-4d8d-acd4-c42193122c9e"/>
+    <weighted-embedded-action uid="f66739b3-3f1e-4a0e-a677-b2b7c369cdee"/>
+    <weighted-embedded-action uid="452ca315-4eee-4976-936b-33079956022f"/>
+    <weighted-embedded-action uid="ce3366cb-bdf8-4887-aae6-143b31881288"/>
+</basic-logical-action-container>
