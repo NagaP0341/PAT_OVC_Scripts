@@ -1,0 +1,22 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_07_Rogers_NAC_09_DeviceProtectionoffersPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="3b9d4192-4789-4fa5-b9c4-1b04ea0108a0" weightsEnabled="false">
+    <weighted-embedded-action uid="f9b67c0a-6ac7-4d16-8674-cb98f56d5254"/>
+    <weighted-embedded-action uid="2e511090-1bf8-4017-a40e-da3fa2719dfd"/>
+    <weighted-embedded-action uid="e64aa27f-2f73-4154-a754-15a3ae7d99ac"/>
+    <weighted-embedded-action uid="44683617-5e8b-4cd9-8b24-51a1f9da8045"/>
+    <weighted-embedded-action uid="2145e342-711a-47fb-989d-f847f9ed3a8e"/>
+    <weighted-embedded-action uid="455a738a-ee95-42d2-a358-791be60cbe13"/>
+    <weighted-embedded-action uid="ba1e5ac5-00ae-4701-9ec3-77a89cf8f22c"/>
+    <weighted-embedded-action uid="d341c6d4-477a-4671-9c7b-ee35e3ac51eb"/>
+    <weighted-embedded-action uid="3c72cec4-567e-4573-9693-c74f5e58899f"/>
+    <weighted-embedded-action uid="d806139f-ba40-4ffd-990c-76afb698476b"/>
+    <weighted-embedded-action uid="9d444e6e-c3f9-4d6c-955b-f472ea938761"/>
+    <weighted-embedded-action uid="c355e884-9333-4f65-a454-e42a75fcebfc"/>
+    <weighted-embedded-action uid="05ca6075-fb33-4572-8141-6c14f2e1be9f"/>
+    <weighted-embedded-action uid="2244f78c-27f7-4f57-846b-2183f9874781"/>
+    <weighted-embedded-action uid="29e7db2b-de3b-4aca-ac76-18f8ffa4e853"/>
+    <weighted-embedded-action uid="dca0ba67-551d-4a99-82a3-34624cd66380"/>
+    <weighted-embedded-action uid="be34551e-1251-47fe-88a0-fc8fce076084"/>
+</basic-logical-action-container>

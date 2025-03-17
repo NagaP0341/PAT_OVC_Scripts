@@ -1,0 +1,35 @@
+<http-page executeResourcesDynamically="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/d4db5c95-263f-49a4-866e-aeea2bdc804b.zip"
+    slaProfileEnabled="false" thinkTime="813"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d4db5c95-263f-49a4-866e-aeea2bdc804b">
+    <embedded-action>a52229ff-b41d-43d3-9772-14d06e8618ed</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_1487431e-a102-4334-848a-b5a578f46625.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="HEAD" name="/" path="/" postType="6"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/d4db5c95-263f-49a4-866e-aeea2bdc804b.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="intstflogin.rci.rogers.com" slaProfileEnabled="false"
+    uid="a52229ff-b41d-43d3-9772-14d06e8618ed" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_f789119b-827e-4c42-8956-e0725333f8ac.txt</requestContentFileDescription>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Host" value="intstflogin.rci.rogers.com"/>
+    <header name="User-Agent" value="CITRIXRECEIVER"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 701&#xd;
+Content-Type: text/html&#xd;
+Last-Modified: Thu, 06 Dec 2018 22:30:21 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "95344e46b38dd41:0"&#xd;
+Server: Microsoft-IIS/8.5&#xd;
+X-Powered-By: ASP.NET&#xd;
+SF-ServerName: VMPLDCWSF04&#xd;
+Date: Mon, 17 Mar 2025 08:15:51 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

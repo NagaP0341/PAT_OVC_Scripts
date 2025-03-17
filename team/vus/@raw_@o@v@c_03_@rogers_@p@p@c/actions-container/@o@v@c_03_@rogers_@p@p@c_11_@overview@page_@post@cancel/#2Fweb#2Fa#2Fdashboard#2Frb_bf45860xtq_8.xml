@@ -1,0 +1,90 @@
+<http-page executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq_8"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/3c1a6995-8ff4-4f12-a506-7efa0c62da67.zip"
+    slaProfileEnabled="false" thinkTime="4866"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3c1a6995-8ff4-4f12-a506-7efa0c62da67">
+    <embedded-action>9c9a09f7-cea2-4b43-8d8e-25be61f1c26f</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_3d4b646a-dca8-4581-a77c-aa698fa76be5.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="2"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/3c1a6995-8ff4-4f12-a506-7efa0c62da67.zip"
+    recordedResponseCode="200" responseSize="121"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="9c9a09f7-cea2-4b43-8d8e-25be61f1c26f" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[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]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_d845fe8a-8ffb-477c-85e4-94beedd43e49</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d845fe8a-8ffb-477c-85e4-94beedd43e49.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_4_sn_751532D52A1E5DC1E0E3D6BE47FAB78C_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0"
+        separator="="
+        value="v_4_srv_4_sn_751532D52A1E5DC1E0E3D6BE47FAB78C_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="4" separator="=" value="4" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="NJOIDKQJEIFPFTIHIRTRCUMUAHNFHKCF-0"
+        separator="=" value="NJOIDKQJEIFPFTIHIRTRCUMUAHNFHKCF-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="contentType" recordRawValue="srBm" separator="="
+        value="srBm" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%3FtransactionState%3Dincomplete%26lang%3Den"
+        separator="="
+        value="https://oneview.rogers.com/web/a/dashboard?transactionState=incomplete&amp;lang=en" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="2ae0303e3c9b36b0" separator="="
+        value="2ae0303e3c9b36b0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="10307250124095660" separator="="
+        value="10307250124095660" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="3848372566" separator="=" value="3848372566" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?transactionState=incomplete&amp;lang=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=84~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=1e0db6476e90cc5f1c628b81a7fe4c4d; rxVisitor=17421992748231SSH0KE2F56KE5AUTEUUOTTDLDRDHTFT; language=en; language=en; dtCookie=v_4_srv_4_sn_751532D52A1E5DC1E0E3D6BE47FAB78C_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; PLAY_SESSION=1b7c649b8e947b64cd4536d0a57850cf4dce2dce-LANGUAGE=en&amp;CH_BAN=947311114&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=ROGERS&amp;ACCTNBR=947311114&amp;CONTACT_ID=CO1059954553&amp;SessionId=fdfccd96-629d-47dc-9e0b-5cc5cd6f7152&amp;TARGET_URL=ONEVIEWDASHBOARD; X_DOM_session_guid=dfb87ebc-0307-11f0-a592-9fe8a6429648; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C43025806308226665013659979338197866328; s_cc=true; marketing_ban=f0e4ef25ddfe3495a1627134ab34578c031e76dd27d6b715cb2db570b52620a0; marketing_UID=f0e4ef25ddfe3495a1627134ab34578c031e76dd27d6b715cb2db570b52620a0; X_DOM_BAN=f0e4ef25ddfe3495a1627134ab34578c031e76dd27d6b715cb2db570b52620a0; marketing_user_name=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; aam_dfp=aam_dfp%3D9719938%2C9749182%2C10039302%2C10178389%2C10180218%2C10227195%2C10238549%2C10561322%2C10561508%2C10804004%2C10811342%2C10865534%2C11352380%2C11647532%2C1847925%2C11848041%2C12227875%2C12336697%2C13375330%2C13873320%2C11057727%2C14058828%2C14653268%2C14676014%2C14676019%2C15644997%2C15742729%2C15840550%2C15851188%2C14026806%2C16270364%2C16312270%2C16313903%2C9355059%2C22858803%2C23526913%2C25250020; tech_sas_rtdm=sas_segments%3D10235138; aam_uuid=43234018115345647723639122432224697337; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; province=ON; marketing_ctn=eb298670495649314d055b0ea4b839e907d2e883b78076a09f1a60a7590b3976; X_DOM_CTN=86bfbabf0231f81843a4a0f9c28b5328b61aadaf43c4c695021af1582e19a266; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C43025806308226665013659979338197866328%7CMCAAMLH-1742804131%7C7%7CMCAAMB-1742804131%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742206531s%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCAID%7CNONE%7CMCCIDH%7C1940947528%7CvVersion%7C5.5.0; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742201350727%3B%20rcp_s_dslv%3D1742199550727%7C1836807550727%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742201350727%3B; X_DOM_REFERRER=https://oneview-buyflow.rogers.com; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pURL%22:%22https://oneview-buyflow.rogers.com/phones/checkout/order-review%22%2C%22pName%22:%22OV:wireless:ecom:ppc:checkout:shipping%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{%2243234018115345647723639122432224697337%22:true}%2C%22buyflowName%22:%22PPC|SL%22}; s_sq=%5B%5BB%5D%5D; dtSa=false%7CC%7C85%7CYes%5Ec%20cancel%20order%7Cx%7C1742199549751%7C399322701_969%7Chttps%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fcheckout%2Forder-review%7C%7C%7C%7C%7C%2Fweb%2Fa%2Fdashboard%2Foverview%7C1742199277853%7C%7Ci2%5Esk1%5Esh0%5Est1; dtPC=4$399552145_849h9vNJOIDKQJEIFPFTIHIRTRCUMUAHNFHKCF-0e0; rxvt=1742201359825|1742199274826"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.rogers.com"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/octet-stream"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 121&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+date: Mon, 17 Mar 2025 08:19:19 GMT&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: NULL&#xd;
+access-control-allow-methods: NULL&#xd;
+access-control-allow-origin: https://oneview.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

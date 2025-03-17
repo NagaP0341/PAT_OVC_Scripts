@@ -1,0 +1,21 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_03_Rogers_PPC_04_PlanTypeSelectionPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="d21e8393-674d-49bd-bff7-fb91e998e3f2" weightsEnabled="false">
+    <weighted-embedded-action uid="e042019c-a120-41f2-bb43-67a035842da6"/>
+    <weighted-embedded-action uid="62a5dbaf-f182-4086-83fb-d454decc9e3f"/>
+    <weighted-embedded-action uid="99f84637-4ade-4a8a-9430-2305694aefed"/>
+    <weighted-embedded-action uid="9c00718c-4d4e-4028-ae68-f1139cb02cbc"/>
+    <weighted-embedded-action uid="b863a76b-d5a9-4179-aa2b-4c0f32d99780"/>
+    <weighted-embedded-action uid="d67907d1-6890-4523-8e2c-f2039d8f8508"/>
+    <weighted-embedded-action uid="c8b9f840-f3de-4e15-bda2-532f28138de9"/>
+    <weighted-embedded-action uid="76e843f9-4e61-4d5a-9d4b-604d0cf3af23"/>
+    <weighted-embedded-action uid="740be8f8-ede2-4efe-baa6-b4c37c16e612"/>
+    <weighted-embedded-action uid="7764ee3e-4b2c-4d0c-ade3-359a0d9d8ff6"/>
+    <weighted-embedded-action uid="35ed91a2-e4dc-47ba-95f5-b30bce0e3f41"/>
+    <weighted-embedded-action uid="ac7d053f-ed16-4588-a3d5-40a371439bee"/>
+    <weighted-embedded-action uid="b8d0510e-f651-47e7-8ccd-b5953a8ce5af"/>
+    <weighted-embedded-action uid="af698ebf-6613-46d3-9e35-04d0ae2625ea"/>
+    <weighted-embedded-action uid="d4db5c95-263f-49a4-866e-aeea2bdc804b"/>
+    <weighted-embedded-action uid="9e106c61-ce2e-4bb9-bd60-ccaccce9be98"/>
+</basic-logical-action-container>

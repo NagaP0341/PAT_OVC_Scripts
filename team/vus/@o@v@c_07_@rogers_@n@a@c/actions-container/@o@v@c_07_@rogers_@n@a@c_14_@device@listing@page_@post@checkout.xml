@@ -1,0 +1,23 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_07_Rogers_NAC_14_DeviceListingPage_PostCheckout"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="1a406073-2239-4450-bc25-13342c01067a" weightsEnabled="false">
+    <weighted-embedded-action uid="0c1b2155-65fc-43b7-8705-c8e8d5ad2495"/>
+    <weighted-embedded-action uid="a77ac639-7ca1-4883-b1cd-29d868a7b6f7"/>
+    <weighted-embedded-action uid="e26b6209-b91d-431c-9ce6-dc164c27fab4"/>
+    <weighted-embedded-action uid="fc1ff29c-40f0-4135-96db-33f2ae01de6a"/>
+    <weighted-embedded-action uid="9bbe587e-6843-4383-bb6d-ee030fbea353"/>
+    <weighted-embedded-action uid="d8bc8763-704a-4ea0-aca4-e762edd0a486"/>
+    <weighted-embedded-action uid="f5fd250f-1f3f-447b-88b0-4816f8085fa8"/>
+    <weighted-embedded-action uid="3bdb7dc8-b556-4a58-81e0-b79070d8f70b"/>
+    <weighted-embedded-action uid="57b6cf3d-dd0c-425b-a7c5-44bcc76f48b8"/>
+    <weighted-embedded-action uid="b1e98083-1c5b-4c29-90e5-b071f3d763f6"/>
+    <weighted-embedded-action uid="7b94ed84-a0be-4cd6-a11c-6f53cd6e7f59"/>
+    <weighted-embedded-action uid="d6f46ca3-8c10-4cdd-b9cb-8435eee83903"/>
+    <weighted-embedded-action uid="12ecdc28-d66f-4ab1-9b1f-3c9fe1e3e66f"/>
+    <weighted-embedded-action uid="713c7ede-736a-4e22-9923-b588e9a0a4bb"/>
+    <weighted-embedded-action uid="7fc4609a-460c-4fe5-8f83-a6567e45a56d"/>
+    <weighted-embedded-action uid="f1061ef8-870a-4a5c-8740-56758b0e8577"/>
+    <weighted-embedded-action uid="32774640-d523-485c-b4f4-b070c4cca1ff"/>
+</basic-logical-action-container>

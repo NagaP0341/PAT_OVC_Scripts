@@ -1,0 +1,21 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_07_Rogers_NAC_10_AddonsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="3290a5ad-0076-4ae7-abb2-c65d035a7e88" weightsEnabled="false">
+    <weighted-embedded-action uid="5da81ad0-7925-4ddc-b93b-ede60987a307"/>
+    <weighted-embedded-action uid="1edca0dd-6615-4a31-96ac-d4ef0cda7af7"/>
+    <weighted-embedded-action uid="22cd1866-037c-46db-adc1-29eaa7d6e4c8"/>
+    <weighted-embedded-action uid="4caafc9d-844c-4770-9b0c-1fb28426bd51"/>
+    <weighted-embedded-action uid="409b3bd7-8c46-41e8-80c9-2211ce0fd645"/>
+    <weighted-embedded-action uid="f1fd03c5-e665-4cad-a019-b3675384dea9"/>
+    <weighted-embedded-action uid="fb638f73-cce9-4cd4-914f-0206fe725d2d"/>
+    <weighted-embedded-action uid="7aa6ecbc-76c2-460c-8480-a1caa49c40cd"/>
+    <weighted-embedded-action uid="e370e34b-58c1-40ad-aafe-93678d56791f"/>
+    <weighted-embedded-action uid="e7c0524f-6dab-4c27-8855-d97c8f67225d"/>
+    <weighted-embedded-action uid="fc8467bb-4f66-478a-9006-3c03fb08ed82"/>
+    <weighted-embedded-action uid="2ef61071-3b72-41aa-b3fe-95341c827d8d"/>
+    <weighted-embedded-action uid="0f43cc6d-1ea2-44d6-aaa1-fe814db71713"/>
+    <weighted-embedded-action uid="bbdc526e-def4-4be9-8a6b-3fee479166d6"/>
+    <weighted-embedded-action uid="584a6b19-ff39-4226-8996-1b904b158f8f"/>
+    <weighted-embedded-action uid="f42eba4c-1072-4f4d-9177-bc30f11e8f6d"/>
+</basic-logical-action-container>

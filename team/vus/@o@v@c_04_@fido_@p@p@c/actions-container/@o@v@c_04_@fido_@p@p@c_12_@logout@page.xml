@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_04_Fido_PPC_12_LogoutPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="3d171920-27c3-463b-8e20-d22d4987bbaa" weightsEnabled="false">
+    <weighted-embedded-action uid="ae118394-4f29-4d0c-8c18-0e1bdb03d281"/>
+    <weighted-embedded-action uid="c4a6414c-d1dd-4f8e-925a-49f2533a1195"/>
+    <weighted-embedded-action uid="cd24e040-ccee-4879-ab7a-3f2ba31d7593"/>
+    <weighted-embedded-action uid="e28850de-5131-4743-8c68-04693fa20a88"/>
+    <weighted-embedded-action uid="6a3c6131-ed01-4d62-89c8-6afe2474d538"/>
+    <weighted-embedded-action uid="d3c40c35-4143-471d-acd0-bfd561f3ba69"/>
+    <weighted-embedded-action uid="f69047f8-bcd7-43e9-bbfd-6e1243192143"/>
+    <weighted-embedded-action uid="8c8e60ff-4cff-44dd-82f3-5eb75f7c9420"/>
+    <weighted-embedded-action uid="4d40288f-50d2-4196-bf1e-23a3f49e9811"/>
+    <weighted-embedded-action uid="3fe5eb35-7ba6-49ea-9d50-80933e1aac50"/>
+</basic-logical-action-container>

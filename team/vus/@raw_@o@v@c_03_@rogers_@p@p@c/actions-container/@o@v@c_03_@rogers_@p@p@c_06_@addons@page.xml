@@ -1,0 +1,27 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_03_Rogers_PPC_06_AddonsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="3482ca0a-2da1-44a8-8021-a7fd27c70a52" weightsEnabled="false">
+    <weighted-embedded-action uid="849300f1-9e4b-466a-a6be-7053def7c699"/>
+    <weighted-embedded-action uid="3e95e790-1e1f-4f0d-a8d1-7ccd02daef86"/>
+    <weighted-embedded-action uid="3752ff03-0115-4689-a50c-a71c68f77586"/>
+    <weighted-embedded-action uid="6f24d2dc-a349-4802-a821-ce3ad5509929"/>
+    <weighted-embedded-action uid="30bba71d-6b3e-44a2-b17e-d80088af50ef"/>
+    <weighted-embedded-action uid="c1e04a0c-5c07-46bb-b607-7136bf8ea239"/>
+    <weighted-embedded-action uid="c079c449-94e6-4aa6-8dde-f627fe9c650e"/>
+    <weighted-embedded-action uid="b81ed349-b518-4057-a3a9-78775f09c845"/>
+    <weighted-embedded-action uid="23556d6f-ea7e-4539-b7aa-2485f814ade9"/>
+    <weighted-embedded-action uid="f9366ce5-fab0-4faf-aea4-9e4ba0fdf71b"/>
+    <weighted-embedded-action uid="a7fc2ec6-0e68-4464-abfd-19121177cb7a"/>
+    <weighted-embedded-action uid="29e44038-26bd-41e2-a712-0a010557cdb4"/>
+    <weighted-embedded-action uid="a8a0d268-3c51-4824-b116-f7f034af9f15"/>
+    <weighted-embedded-action uid="af62b5e2-1b04-4ebe-adb1-d1570ffa7eef"/>
+    <weighted-embedded-action uid="e253b5c7-1f6c-4830-9a84-ea382d5b1cfa"/>
+    <weighted-embedded-action uid="64b90a57-2ffd-48ee-a329-c471e046e205"/>
+    <weighted-embedded-action uid="cd8281a9-057a-4022-bfb3-02554fbf6aca"/>
+    <weighted-embedded-action uid="09a85077-822e-4018-8bd6-03119e9d4265"/>
+    <weighted-embedded-action uid="93bfaa79-404b-4fe1-8d0f-c223c3a33bbf"/>
+    <weighted-embedded-action uid="d1fe6cf5-ba0e-48ed-b46d-e75ea3b1a851"/>
+    <weighted-embedded-action uid="653434b0-9ca3-4bab-96fd-4750a4d66301"/>
+    <weighted-embedded-action uid="d8635e8c-ff29-4455-a39c-30bb6104b6b0"/>
+</basic-logical-action-container>

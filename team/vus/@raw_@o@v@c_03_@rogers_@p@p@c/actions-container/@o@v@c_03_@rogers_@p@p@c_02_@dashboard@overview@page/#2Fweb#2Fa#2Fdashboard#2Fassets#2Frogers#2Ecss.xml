@@ -1,0 +1,150 @@
+<http-page executeResourcesDynamically="false"
+    name="/web/a/dashboard/assets/rogers.css"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/556a43c0-7dd1-4404-9101-00fd63ba46ed.zip"
+    slaProfileEnabled="false" thinkTime="654"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="556a43c0-7dd1-4404-9101-00fd63ba46ed">
+    <embedded-action>3a599ead-a17c-44c3-b879-67481f67991c</embedded-action>
+    <embedded-action>572fbad6-fd92-4164-819b-8e1e32bf4af4</embedded-action>
+    <embedded-action>12cab6ad-80b9-4001-b259-0e5eaeb74687</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_c0d1c8c2-9d0e-451c-a0d3-9eae4a0a0c47.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/a/dashboard/assets/rogers.css"
+    path="/web/a/dashboard/assets/rogers.css" postType="6"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/556a43c0-7dd1-4404-9101-00fd63ba46ed.zip"
+    recordedResponseCode="200" responseSize="4553"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="3a599ead-a17c-44c3-b879-67481f67991c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3b9dedc3-d43b-4101-a0cf-2b4bb24b2165.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3b9dedc3-d43b-4101-a0cf-2b4bb24b2165.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.ECzgvDHWdpGq_5XS8rY7KkdGHP5jagD_EGKLOW4Tta5zKaOJjeKbI1gSQUeX6OOr8rGbBymGtz9fZHogtuKhdIKvV7UErITtqJxZjnvka7WPXhIaC4Dpq5O53q-cJM1t88f1uB8bjRrb3T4l7QTJhjBe_h806hcGeBdAmMBaeQqWoak2V1gJE4a1OGKOg_B0ntmkAznlEQCxedS7W7iV63I-MvmsRiNYjnxjIPP70JIo8X3yYxuWuxKnf396rKZUN-Nqo28ohPAJJaNUm9ixkEpOv0y9PWjYO4vNFjLA3XRC_sINdgo36UKN-bX0qU218O_3lJVC30VTP3OtiEtSGw.Wc8Hkg4X7KkSREPm.fV7pSc1oBZtEc-GmMzPig3CzfiRSm4pCCzJywVoG92dTrE4N4LY2qUBL7O13YBMIIMeLDRG3W2HUxcaGGe2Rv55bUffuc79oJo3bBW_SD2MvW-lH2pzPY9fEQquzI47nQ4ih1cjnXvvMQhhNKU8XUn8ivDeVzdwD4ztSrVueO3sMAhuQzrW69LyN6DIYBOEoWlmZEYPTw7d5X915zubxA8Dj2O6n3OxXg1mkmfDP9ygXT8fh9TWJAMaIHavuFKc-9Z72lM3zZVk33eWR0uLvoQlagPbR0r2VmV1HDYJkIIMRI_ZFh4cjDvDQSqBlt-5KLlTODfQrNAmjp-RZxFanCtKuYURe_w.hrvgON_oZT-q9DpIUaPRlA"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="Prod=B; Prod=B; Prod=B; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=84~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=1e0db6476e90cc5f1c628b81a7fe4c4d; rxVisitor=17421992748231SSH0KE2F56KE5AUTEUUOTTDLDRDHTFT; dtSa=-; rxvt=1742201074843|1742199274826; dtPC=-22116$399274820_824h1vNJOIDKQJEIFPFTIHIRTRCUMUAHNFHKCF-0e0; dtCookie=v_4_srv_6_sn_A3E97D73031541A103BE3296D079F466_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/css&#xd;
+etag: "67d49300-11c9:dtagent10307250124095659x+rL"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:11 GMT&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="2063055985"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+date: Mon, 17 Mar 2025 08:14:35 GMT&#xd;
+content-length: 1433&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/web/a/dashboard/assets/rogers/cdk-rogers-global.min.css"
+    path="/web/a/dashboard/assets/rogers/cdk-rogers-global.min.css"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/556a43c0-7dd1-4404-9101-00fd63ba46ed.zip"
+    recordedResponseCode="200" responseSize="329058"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="572fbad6-fd92-4164-819b-8e1e32bf4af4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d7bf9c26-8266-4e9d-8ff9-aa472f597dce.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d7bf9c26-8266-4e9d-8ff9-aa472f597dce.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.ECzgvDHWdpGq_5XS8rY7KkdGHP5jagD_EGKLOW4Tta5zKaOJjeKbI1gSQUeX6OOr8rGbBymGtz9fZHogtuKhdIKvV7UErITtqJxZjnvka7WPXhIaC4Dpq5O53q-cJM1t88f1uB8bjRrb3T4l7QTJhjBe_h806hcGeBdAmMBaeQqWoak2V1gJE4a1OGKOg_B0ntmkAznlEQCxedS7W7iV63I-MvmsRiNYjnxjIPP70JIo8X3yYxuWuxKnf396rKZUN-Nqo28ohPAJJaNUm9ixkEpOv0y9PWjYO4vNFjLA3XRC_sINdgo36UKN-bX0qU218O_3lJVC30VTP3OtiEtSGw.Wc8Hkg4X7KkSREPm.fV7pSc1oBZtEc-GmMzPig3CzfiRSm4pCCzJywVoG92dTrE4N4LY2qUBL7O13YBMIIMeLDRG3W2HUxcaGGe2Rv55bUffuc79oJo3bBW_SD2MvW-lH2pzPY9fEQquzI47nQ4ih1cjnXvvMQhhNKU8XUn8ivDeVzdwD4ztSrVueO3sMAhuQzrW69LyN6DIYBOEoWlmZEYPTw7d5X915zubxA8Dj2O6n3OxXg1mkmfDP9ygXT8fh9TWJAMaIHavuFKc-9Z72lM3zZVk33eWR0uLvoQlagPbR0r2VmV1HDYJkIIMRI_ZFh4cjDvDQSqBlt-5KLlTODfQrNAmjp-RZxFanCtKuYURe_w.hrvgON_oZT-q9DpIUaPRlA"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="Prod=B; Prod=B; Prod=B; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=84~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=1e0db6476e90cc5f1c628b81a7fe4c4d; rxVisitor=17421992748231SSH0KE2F56KE5AUTEUUOTTDLDRDHTFT; dtSa=-; rxvt=1742201074843|1742199274826; dtPC=-22116$399274820_824h1vNJOIDKQJEIFPFTIHIRTRCUMUAHNFHKCF-0e0; dtCookie=v_4_srv_6_sn_A3E97D73031541A103BE3296D079F466_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/css&#xd;
+etag: "67d49300-50562:dtagent10307250124095659x+rL"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:11 GMT&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="239955896"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+date: Mon, 17 Mar 2025 08:14:35 GMT&#xd;
+content-length: 37585&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/cms/oneview/care-common-config.json"
+    path="/cms/oneview/care-common-config.json" postType="4"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/556a43c0-7dd1-4404-9101-00fd63ba46ed.zip"
+    recordedResponseCode="200" responseSize="4976"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="12cab6ad-80b9-4001-b259-0e5eaeb74687" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8e76b01f-0743-46e9-944a-bd47793fd465</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8e76b01f-0743-46e9-944a-bd47793fd465.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="t"
+        recordRawValue="1742199275698" separator="="
+        value="1742199275698" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=84~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=1e0db6476e90cc5f1c628b81a7fe4c4d; rxVisitor=17421992748231SSH0KE2F56KE5AUTEUUOTTDLDRDHTFT; dtSa=-; dtCookie=v_4_srv_6_sn_A3E97D73031541A103BE3296D079F466_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; language=en; language=en; rxvt=1742201075703|1742199274826; dtPC=6$399274820_824h5vNJOIDKQJEIFPFTIHIRTRCUMUAHNFHKCF-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-dtreferer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.ECzgvDHWdpGq_5XS8rY7KkdGHP5jagD_EGKLOW4Tta5zKaOJjeKbI1gSQUeX6OOr8rGbBymGtz9fZHogtuKhdIKvV7UErITtqJxZjnvka7WPXhIaC4Dpq5O53q-cJM1t88f1uB8bjRrb3T4l7QTJhjBe_h806hcGeBdAmMBaeQqWoak2V1gJE4a1OGKOg_B0ntmkAznlEQCxedS7W7iV63I-MvmsRiNYjnxjIPP70JIo8X3yYxuWuxKnf396rKZUN-Nqo28ohPAJJaNUm9ixkEpOv0y9PWjYO4vNFjLA3XRC_sINdgo36UKN-bX0qU218O_3lJVC30VTP3OtiEtSGw.Wc8Hkg4X7KkSREPm.fV7pSc1oBZtEc-GmMzPig3CzfiRSm4pCCzJywVoG92dTrE4N4LY2qUBL7O13YBMIIMeLDRG3W2HUxcaGGe2Rv55bUffuc79oJo3bBW_SD2MvW-lH2pzPY9fEQquzI47nQ4ih1cjnXvvMQhhNKU8XUn8ivDeVzdwD4ztSrVueO3sMAhuQzrW69LyN6DIYBOEoWlmZEYPTw7d5X915zubxA8Dj2O6n3OxXg1mkmfDP9ygXT8fh9TWJAMaIHavuFKc-9Z72lM3zZVk33eWR0uLvoQlagPbR0r2VmV1HDYJkIIMRI_ZFh4cjDvDQSqBlt-5KLlTODfQrNAmjp-RZxFanCtKuYURe_w.hrvgON_oZT-q9DpIUaPRlA"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="x-dtpc" value="6$399274820_824h5vNJOIDKQJEIFPFTIHIRTRCUMUAHNFHKCF-0e0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/json&#xd;
+etag: "67d4f080-1370:dtagent10307250124095659x+rL"&#xd;
+last-modified: Sat, 15 Mar 2025 03:14:07 GMT&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-1340353294"&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+date: Mon, 17 Mar 2025 08:14:35 GMT&#xd;
+content-length: 1210&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

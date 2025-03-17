@@ -1,0 +1,63 @@
+<http-page executeResourcesDynamically="false"
+    name="/craccountsapi/ovc/accounts/v2/overview"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/3c863800-dac0-4813-ade2-4e0520923d6c.zip"
+    slaProfileEnabled="false" thinkTime="226"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3c863800-dac0-4813-ade2-4e0520923d6c">
+    <embedded-action>b332fa53-b5ac-425a-a69d-845214253bdd</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_3c863800-dac0-4813-ade2-4e0520923d6c.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/craccountsapi/ovc/accounts/v2/overview"
+    path="/craccountsapi/ovc/accounts/v2/overview" postType="4"
+    recordedArtifactZipFileName="team/vus/@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/3c863800-dac0-4813-ade2-4e0520923d6c.zip"
+    recordedResponseCode="200" responseSize="1192"
+    serverUid="oneview.fido.ca" slaProfileEnabled="false"
+    uid="b332fa53-b5ac-425a-a69d-845214253bdd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b332fa53-b5ac-425a-a69d-845214253bdd</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b332fa53-b5ac-425a-a69d-845214253bdd.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdB-oneview-Fido-ui-care|~rv=7~m=ProdB-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=65e44c27e93efcd2b4e8bd3afddc4396; dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; dtSa=-; language=en; language=en; rxvt=1742203206021|1742201404584; dtPC=-2036$401404567_515h10vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-dtreferer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.ARxwts-L5HeIg1mPGsAqo9gpCZKnOoOv1MHheQ_dmByayku1iwtnXe7v4_S7NOymMz5d4Rj-dayAUflPni35PDWnEjNxAPRYw_-9kSh7vLnSNM_nuPccFYWGNskCHbTUAcKWqfIe_av-xT7lm1_LPr3hb-w2htv1uUlBnGuLqT97lxVbfa__ZkiY3DivvUNqbGHwDH43EEhihzyWdOkfwgFyNfXQEi1fbqZvzPw0m3pb6EABZcsgb_5rC3JLIkAEJwTRAdix-p1UUIY70cY2UFSrZnPkc1jxz0Lpnmumjn1CEDKmwy_mMfCcIvgP1kJiMLT0ktAidmD0kJHPtvpIAQ.HqP5Zk3IGN_yLwfu.eO99fxdwJGzH5iGcHYIP_ocwiPAnW16uPKa5vi0nDhqS5PusnK9cIe65qk5gbsMNGVocO7drEEEjjlmK-5feL4kW1fbSg02wrQx0vt5RERUxXIqDeZY5xRcKVBqbvsvzMVx55_kF4JGBFkPyWyKL8KtInYP0o-5_4akwAXacyGV4ZgYQf38KU1W9mdf4esjU57TYyMLayhuma4rr54YKaQfsVmgrojL09jz-qN0ZyvWAAxmL_UJqQAdp21D_nH-xpR9GMCMgZjIYCvV2ud0MmuXjamKAxXuc7F3iLR2fu_AgxJEa517cSPj2SlYCNEdeM3E9SbgxcdintWIeIcRaWlt-D4Y.-qDcRF0Ph7iMZiH27UIwMg"/>
+    <header name="origin" value="https://oneview.fido.ca"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTcxLGxhbklkPVVJUEFUSC5CT1QxNyIsImF1ZCI6Ik9uZXZpZXcgRmlkbyBDYXJlIiwidG9rZW5EdXJhdGlvbiI6IjI3MDAwMDAiLCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3MSxsYW5JZD1VSVBBVEguQk9UMTciLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjA0OTQ3LCJpYXQiOjE3NDIyMDE0MDUsImtleSI6IkdMY3VmOG1UV3dSNGVwNUFoMVA4ei9sWHJNVEJoaVVkUVBpOEJMK3gvNFkram1aMytMMU1mTWF5ZEgyaUprbXJ3MWRza09mSU1sNHhSTkpxYWtyVjRDN0ljZy9xQUtLN3dlbVBsZjA0WWc1RFVEL2gxYTJ1WTh1RytwYi9tOWdVYXRxeE5hMHVlem40Ui9SendBd042MlppcC8xUHJwdENNcVRoejYxVmh0OWtOU3EwSjRIWm9veTVBVXRGVFk4bG9aNkxvbk9oMjVKNS9TbldSbUhueFZ2WncyRERqN3BjUHYzVmwyWGxONHR2SCtuODEyenNLTWpxU0theU5NRU1TSzNnNjVHZkxXYktQR1lTblphTE53YlA2dWtpMXVVdFF3ZTZrU29xQlUwQ1FRVDN5YjRlNGZodjkxL2dWcldZZHMxdW03VjAvS1ErSUFzOVViOWs5QT09IiwiY29udGVudCI6IlYvczJjRkdQQUUvbnRDempKclZRaEZkbDdjZkVlV1BaT1cwUEpGcHlrTXdKa0ZEYnpLQTdnOEg1NWRGUmFySy9VUXM0enZPbktsZzNYZ3JXSDB1THltd0pyRjdRNGJXTWtaQXpFNXVmcHNWWW5JajhjcnMyL1VIdTNxQ2dsM3dlNFhMTjVOaWExQjM0eStYQVJjK2xjdEFJWWdhVzdicHYvTm5zRGs5NnlGem9wTXE5dXQ0d0IxclRHUERMamh0c2lVdm5yaG9CT05BQ01SQlNXZzFFUVErTjZBRW1rbTY1L1U2SGhTWkdxTExsdTR6SnlQYU5WdHNnZWFzOWR5L3N4UXRIUXFlL2NHSEloU29DcHJjZ3g3RkpWa2RySzBobjBXaWNnYUNtRG9MTVlqUG41SlY2VCtxMkp2VVF2ZkNkYzJXeDBjd3VwRGQ4d296eWovZ3BIbEtNUFJDcnN3ZUFYbDFnTXd1VVphR2FoNDgyU252VTRNcHk4MTU1NFpQTG5HRk5IRWZIeDJwMHFVR1hBeGdEZVA3bWlFT2pDVjJtejFad01IRkVBWWpKSk9ia1lxOS9sa3lCQStHMUR0YkhKeEVEUzVZZUdrVnMyUW5pKzc1QUhMcEZYQURCdTBWODhrK1lsUUpCbTh0LzNCZUpONm55bXNvendhUVdNeThCWnRyTElUZjVxTFhQN2NRYnZSRlZUSHpRVE9VakQyaHNCbk1VbS9DdlFob2M1Tk16dFQ5UzliazZaWXRHN2c2cTQzR2xZYkNrSit6aDBxeXJwakgrYkVET0JUZzFqNEVVYzFIelU0Nk90UDRacUJVWERyZ1dOeWtkWG1md0hwMWV5U0FYZGF4NU03cUcwTE1pZXI1SnBIK0Q0T25yaXlJWjdlNVZ6WWhvcmpVdGJpOEVuc3dSNS9PeTVWcC9MNG5BSFNmOCtJdHByMjBVVEJKc3JISE8rNjNveXliK0t5NytWNDFETFBLd3lrMThhS2VxUFhWWWQ3V20rR0VyUVRORHNBY0dXT3ZUaGhqbjVTckRxek10R3orekpPSTFnbUxoK0tvSUs3QXhKWWg3SmpWT09kSXR5cGZ1ZzV0MGd0dHN1U0Jzci9pdGdLK3BSRGVJSWxPQWpFRnJHVnBVUFVHZlU3Y3NRUnBYR1g1NDRyREJWKytZODM4cVJZbUlZcFVxeXVzYVpnREpJVkx1VjhyTnM0WE5vcGFvazBVcWhCM1loTkF2L1lmbG1Pd01Rbk1qajgvc2FkZGpuV1ZEMWdRcHlYZjBBNU9TOXkrWmdzSEJHdkpWNnFYSWJ0L0V0ZTQzcFZEUXl3bU52YmJDc3NXcHlTanJyOS84MVcxclR3NkkrWFJIb2dNNFpMWFNVUW5IZlZ0UFJ3VUh1MDRRNEwybUJwMDRRenZwSlhpNk1Tb3V3OFc2VVcxNmZBeHhUZVdFIiwidXNlckF0dHJpYnV0ZXMiOnsiTEFOR1VBR0UiOiJlbiIsIkNIX0JBTiI6Ijk3ODkyODc5NCIsIkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTciLCJWMjEiOiJWMjEiLCJVc2VySWQiOiIxNDAxNzE3MSIsIlNPVVJDRSI6IkNSTSIsIkZSQU5DSElTRSI6IkZJRE8iLCJBQ0NUTkJSIjoiOTc4OTI4Nzk0IiwiQ09OVEFDVF9JRCI6IkNPMTA2NTA3NzcxMCIsIlNlc3Npb25JZCI6IjE0NWQ2YzJkLTA1N2QtNGU3OC1hY2EzLTA5N2QwZDlhZDE0ZiIsIlRBUkdFVF9VUkwiOiJPTkVWSUVXREFTSEJPQVJEIn19.i8OBP7sJ8ZeEyLzkVGiaPCBX4iAo_1GUvp6ILNiUEt8"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="x-dtpc" value="-2036$401404567_515h10vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/json&#xd;
+x-oneagent-js-injection: true&#xd;
+x-envoy-upstream-service-time: 314&#xd;
+requestid: 457197da-8759-4e08-b4b0-804f100f85af::&#xd;
+via-source: prodb&#xd;
+originheadercheck: https://oneview.fido.ca&#xd;
+authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTcxLGxhbklkPVVJUEFUSC5CT1QxNyIsImF1ZCI6Ik9uZXZpZXcgRmlkbyBDYXJlIiwidG9rZW5EdXJhdGlvbiI6IjI3MDAwMDAiLCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3MSxsYW5JZD1VSVBBVEguQk9UMTciLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjA1MDA2LCJpYXQiOjE3NDIyMDE0MDUsImtleSI6IkdMY3VmOG1UV3dSNGVwNUFoMVA4ei9sWHJNVEJoaVVkUVBpOEJMK3gvNFkram1aMytMMU1mTWF5ZEgyaUprbXJ3MWRza09mSU1sNHhSTkpxYWtyVjRDN0ljZy9xQUtLN3dlbVBsZjA0WWc1RFVEL2gxYTJ1WTh1RytwYi9tOWdVYXRxeE5hMHVlem40Ui9SendBd042MlppcC8xUHJwdENNcVRoejYxVmh0OWtOU3EwSjRIWm9veTVBVXRGVFk4bG9aNkxvbk9oMjVKNS9TbldSbUhueFZ2WncyRERqN3BjUHYzVmwyWGxONHR2SCtuODEyenNLTWpxU0theU5NRU1TSzNnNjVHZkxXYktQR1lTblphTE53YlA2dWtpMXVVdFF3ZTZrU29xQlUwQ1FRVDN5YjRlNGZodjkxL2dWcldZZHMxdW03VjAvS1ErSUFzOVViOWs5QT09IiwiY29udGVudCI6IlYvczJjRkdQQUUvbnRDempKclZRaEZkbDdjZkVlV1BaT1cwUEpGcHlrTXdKa0ZEYnpLQTdnOEg1NWRGUmFySy9VUXM0enZPbktsZzNYZ3JXSDB1THltd0pyRjdRNGJXTWtaQXpFNXVmcHNWWW5JajhjcnMyL1VIdTNxQ2dsM3dlNFhMTjVOaWExQjM0eStYQVJjK2xjdEFJWWdhVzdicHYvTm5zRGs5NnlGem9wTXE5dXQ0d0IxclRHUERMamh0c2lVdm5yaG9CT05BQ01SQlNXZzFFUVErTjZBRW1rbTY1L1U2SGhTWkdxTExsdTR6SnlQYU5WdHNnZWFzOWR5L3N4UXRIUXFlL2NHSEloU29DcHJjZ3g3RkpWa2RySzBobjBXaWNnYUNtRG9MTVlqUG41SlY2VCtxMkp2VVF2ZkNkYzJXeDBjd3VwRGQ4d296eWovZ3BIbEtNUFJDcnN3ZUFYbDFnTXd1VVphR2FoNDgyU252VTRNcHk4MTU1NFpQTG5HRk5IRWZIeDJwMHFVR1hBeGdEZVA3bWlFT2pDVjJtejFad01IRkVBWWpKSk9ia1lxOS9sa3lCQStHMUR0YkhKeEVEUzVZZUdrVnMyUW5pKzc1QUhMcEZYQURCdTBWODhrK1lsUUpCbTh0LzNCZUpONm55bXNvendhUVdNeThCWnRyTElUZjVxTFhQN2NRYnZSRlZUSHpRVE9VakQyaHNCbk1VbS9DdlFob2M1Tk16dFQ5UzliazZaWXRHN2c2cTQzR2xZYkNrSit6aDBxeXJwakgrYkVET0JUZzFqNEVVYzFIelU0Nk90UDRacUJVWERyZ1dOeWtkWG1md0hwMWV5U0FYZGF4NU03cUcwTE1pZXI1SnBIK0Q0T25yaXlJWjdlNVZ6WWhvcmpVdGJpOEVuc3dSNS9PeTVWcC9MNG5BSFNmOCtJdHByMjBVVEJKc3JISE8rNjNveXliK0t5NytWNDFETFBLd3lrMThhS2VxUFhWWWQ3V20rR0VyUVRORHNBY0dXT3ZUaGhqbjVTckRxek10R3orekpPSTFnbUxoK0tvSUs3QXhKWWg3SmpWT09kSXR5cGZ1ZzV0MGd0dHN1U0Jzci9pdGdLK3BSRGVJSWxPQWpFRnJHVnBVUFVHZlU3Y3NRUnBYR1g1NDRyREJWKytZODM4cVJZbUlZcFVxeXVzYVpnREpJVkx1VjhyTnM0WE5vcGFvazBVcWhCM1loTkF2L1lmbG1Pd01Rbk1qajgvc2FkZGpuV1ZEMWdRcHlYZjBBNU9TOXkrWmdzSEJHdkpWNnFYSWJ0L0V0ZTQzcFZEUXl3bU52YmJDc3NXcHlTanJyOS84MVcxclR3NkkrWFJIb2dNNFpMWFNVUW5IZlZ0UFJ3VUh1MDRRNEwybUJwMDRRenZwSlhpNk1Tb3V3OFc2VVcxNmZBeHhUZVdFIiwidXNlckF0dHJpYnV0ZXMiOnsiTEFOR1VBR0UiOiJlbiIsIkNIX0JBTiI6Ijk3ODkyODc5NCIsIkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTciLCJWMjEiOiJWMjEiLCJVc2VySWQiOiIxNDAxNzE3MSIsIlNPVVJDRSI6IkNSTSIsIkZSQU5DSElTRSI6IkZJRE8iLCJBQ0NUTkJSIjoiOTc4OTI4Nzk0IiwiQ09OVEFDVF9JRCI6IkNPMTA2NTA3NzcxMCIsIlNlc3Npb25JZCI6IjE0NWQ2YzJkLTA1N2QtNGU3OC1hY2EzLTA5N2QwZDlhZDE0ZiIsIlRBUkdFVF9VUkwiOiJPTkVWSUVXREFTSEJPQVJEIn19.FTPuTFv07VioyffyJu8vVsNvzuqZ9HTfHd2SMEBWh4Q&#xd;
+access-control-allow-origin: *&#xd;
+request-context: appId=cid-v1:22c57a57-4e03-4659-a8b1-d0566f8b9c00&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="1794057100", dtTao;desc="1"&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+date: Mon, 17 Mar 2025 08:50:06 GMT&#xd;
+content-length: 655&#xd;
+set-cookie: dtCookie=v_4_srv_1_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+set-cookie: Prod=B; domain=.oneview.fido.ca</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"accountNumber":"978928794","applicationId":"OVC"}]]></textPostContent>
+</http-action>

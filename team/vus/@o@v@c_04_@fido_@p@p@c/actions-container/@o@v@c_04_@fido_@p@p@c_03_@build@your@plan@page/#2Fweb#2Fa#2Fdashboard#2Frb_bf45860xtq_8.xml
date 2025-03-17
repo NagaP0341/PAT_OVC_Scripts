@@ -1,0 +1,80 @@
+<http-page executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq_8"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/48cf8651-f578-4921-9907-65314720f8ce.zip"
+    slaProfileEnabled="false" thinkTime="45"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="48cf8651-f578-4921-9907-65314720f8ce">
+    <embedded-action>108ce3f8-f7dd-4b94-b82a-1fd3489de615</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_48cf8651-f578-4921-9907-65314720f8ce.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="4"
+    recordedArtifactZipFileName="team/vus/@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/48cf8651-f578-4921-9907-65314720f8ce.zip"
+    recordedResponseCode="200" responseSize="120"
+    serverUid="oneview.fido.ca" slaProfileEnabled="false"
+    uid="108ce3f8-f7dd-4b94-b82a-1fd3489de615" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_108ce3f8-f7dd-4b94-b82a-1fd3489de615</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_108ce3f8-f7dd-4b94-b82a-1fd3489de615.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5"
+        separator="="
+        value="v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="-2036" separator="=" value="-2036" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="GTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0"
+        separator="=" value="GTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den"
+        separator="="
+        value="https://oneview.fido.ca/web/a/dashboard/overview?source=icm&amp;lang=en" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="39f30da8dcd81ec2" separator="="
+        value="39f30da8dcd81ec2" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="1839277635" separator="=" value="1839277635" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/overview?source=icm&amp;lang=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdB-oneview-Fido-ui-care|~rv=7~m=ProdB-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=65e44c27e93efcd2b4e8bd3afddc4396; dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; language=en; language=en; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=978928794&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=978928794&amp;CONTACT_ID=CO1065077710&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C68700014002731294224319961830273181040; X_DOM_session_guid=d48237ce-030c-11f0-a652-a3420043b11d; s_cc=true; aam_dpid942=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; X_DOM_BAN=6c2b65c693b4377762695c4e587ce0698594983599f93e984dc4f5e7fb2c6b47; aam_dpid1094=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806211%7C7%7CMCAAMB-1742806211%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742208611s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCCIDH%7C-878058491%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pURL%22:%22https://oneview.fido.ca/web/a/dashboard/overview?source=icm&amp;lang=en%22%2C%22pName%22:%22OVF:web:a:dashboard:overview%22%2C%22accType%22:%22consumer|regular|idv2%22}; s_sq=rcp-f-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOVF%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%2526link%253DChange%252520Plan%2526region%253Dds-tabs-0-tabPanel-0%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOVF%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%2526pidt%253D1%2526oid%253Djavascript%25253Avoid%2525280%252529%2526ot%253DA; dtPC=-2036$401404567_515h52vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0; rxvt=1742203223580|1742201404584; dtSa=false%7Cxhr%7C52%7Cx%7Cx%7C1742201423262%7C401404567_515%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.fido.ca"/>
+    <header name="priority" value="u=4, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="text/plain;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 120&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+date: Mon, 17 Mar 2025 08:50:23 GMT&#xd;
+set-cookie: dtCookie=v_4_srv_1_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+set-cookie: Prod=B; domain=.oneview.fido.ca</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$a=1%7C49%7CChange%20Plan%7CC%7Cx%7C1742201422145%7C0%7Cdn%7C980%7Cxu%7C%2Fwdetailsapi%2Fovc%2Fppc%2Feligibility%2Fv1%2FR2wUHJbX4pJgCZANkIf1mA%3D%3D%3FsubscriptionAlias%3DE9vwEUzuynehTbpJLHHZxg%3D%3D%7Csvtrg%7C1%7Csvm%7Ci2%5Esk1%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci2%5Esk1%5Esh0%7Cxrt%7Cb1742201422158e0f0g0h0i0j0k2l424m427u371v71w71X200T-39z11I1M416700756V0%7Cxcs%7C446%7Cxce%7C446%2C2%7C53%7C_event_%7C1742201422145%7C_vc_%7CV%7C-1%5Epf%7CVCD%7C2%7CVCDS%7C0%7CVCS%7C1576%7CVCO%7C1576%7CVCI%7C0%7CS%7C-1%2C2%7C51%7Cx%7Cxhr%7Cx%7C1742201422593%7C1742201423259%7Cdn%7C980%7Cxu%7C%2Fcrinteractionapi%2Fovc%2Fcases%2Fv1%2FR2wUHJbX4pJgCZANkIf1mA%3D%3D%3Flanguage%3DEN%7Csvtrg%7C1%7Csvm%7Ci2%5Esk1%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci2%5Esk1%5Esh0%7Cxrt%7Cb1742201422596e0f0g0h0i0j0k4l526m657u721v421w421X200T-37z11I1M-715903229V0%7Cxcs%7C666%7Cxce%7C666%2C2%7C52%7Cx%7Cxhr%7Cx%7C1742201423262%7C0%7Cdn%7C-1%7Cxu%7C%2Fcrppcapi%2Fovc%2Fppc%2Fv1%2Fcontext%7Csvtrg%7C1%7Csvm%7Ci2%5Esk1%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci2%5Esk1%5Esh0%7Cxrt%7Cb1742201423265e0f0g0h0i0j0k1l442m445u1093v793w793X200T-38z11I1M825602393V0W1%7Cxcs%7C455%7Cxce%7C455%2C1%7C50%7C_event_%7C1742201422206%7C_wv_%7CAAI%7C1%7CfIS%7C18118%7CfID%7C6$rId=RID_-1629077407$rpId=-893538401$domR=1742201413693$unload=xhr$tvn=%2Fweb%2Fa%2Fdashboard%2Foverview$tvt=1742201409237$tvm=i2%3Bk1%3Bh0$tvtrg=1$w=1920$h=953$sw=1920$sh=1080$ni=4g|10$md=mdcc4%2Cuipath.bot17%3Bmdcc5%2CUIPATH%20BOT17%3Bmdcc7%2COVF%3Aweb%3Aa%3Adashboard%3Aoverview%3Bmdcc8%2Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%3Bmdcc17%2C179643557%257CMCIDTS%257C20165%257CMCMID%257C68700014002731294224319961830273181040%257CMCAAMLH-1742806211%257C7%257CMCAAMB-1742806211%257CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%257CMCOPTOUT-1742208611s%257CNONE%257CMCAID%257CNONE%257CMCSYNCSOP%257C411-20172%257CMCCIDH%257C-878058491%257CvVersion%257C5.5.0$rt=49-1742201403926%3Bhttps%3A%2F%2Foneview.fido.ca%2Fwdetailsapi%2Fovc%2Fppc%2Feligibility%2Fv1%2FR2wUHJbX4pJgCZANkIf1mA%3D%3D%3FsubscriptionAlias%3DE9vwEUzuynehTbpJLHHZxg%3D%3D%7Cb18232e0f0g0h0i0j0k2l424m427u371v71w71X200T-39z1I1M416700756V0$rt1=51-1742201403926%3Bhttps%3A%2F%2Foneview.fido.ca%2Fcrinteractionapi%2Fovc%2Fcases%2Fv1%2FR2wUHJbX4pJgCZANkIf1mA%3D%3D%3Flanguage%3DEN%7Cb18670e0f0g0h0i0j0k4l526m657u721v421w421X200T-37z1I1M-715903229V0$rt2=52-1742201403926%3Bhttps%3A%2F%2Foneview.fido.ca%2Fcrppcapi%2Fovc%2Fppc%2Fv1%2Fcontext%7Cb19339e0f0g0h0i0j0k1l442m445u1093v793w793X200T-38z1I1M825602393V0W1$sr=1$url=https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den$title=978928794%20-%20PAT%20RELEASE%20REGRESSION791$isUnload=1$latC=0$app=39f30da8dcd81ec2$vi=GTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0$fId=401404567_515$v=10307250124095659$vID=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0$nV=1$time=1742201423768]]></textPostContent>
+</http-action>

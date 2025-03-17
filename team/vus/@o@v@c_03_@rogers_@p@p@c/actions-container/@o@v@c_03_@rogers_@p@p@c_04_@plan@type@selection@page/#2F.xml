@@ -1,0 +1,35 @@
+<http-page executeResourcesDynamically="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/cdf835f7-1055-4f0c-9f78-1e95134a95f3.zip"
+    slaProfileEnabled="false" thinkTime="813"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="cdf835f7-1055-4f0c-9f78-1e95134a95f3">
+    <embedded-action>65b996b0-6ac4-425c-9da7-d7d4226a88f8</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_cdf835f7-1055-4f0c-9f78-1e95134a95f3.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="HEAD" name="/" path="/" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/cdf835f7-1055-4f0c-9f78-1e95134a95f3.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="intstflogin.rci.rogers.com" slaProfileEnabled="false"
+    uid="65b996b0-6ac4-425c-9da7-d7d4226a88f8" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_65b996b0-6ac4-425c-9da7-d7d4226a88f8.txt</requestContentFileDescription>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Host" value="intstflogin.rci.rogers.com"/>
+    <header name="User-Agent" value="CITRIXRECEIVER"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 701&#xd;
+Content-Type: text/html&#xd;
+Last-Modified: Thu, 06 Dec 2018 22:30:21 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "95344e46b38dd41:0"&#xd;
+Server: Microsoft-IIS/8.5&#xd;
+X-Powered-By: ASP.NET&#xd;
+SF-ServerName: VMPLDCWSF04&#xd;
+Date: Mon, 17 Mar 2025 08:15:51 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,88 @@
+<http-page executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq_6"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_07_@rogers_@n@a@c/%resources%/recorded-artifacts/c3ad8594-1e55-47e9-874f-373efff58fda.zip"
+    slaProfileEnabled="false" thinkTime="178"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c3ad8594-1e55-47e9-874f-373efff58fda">
+    <embedded-action>3572d7b3-072b-484f-b8a8-e785bc16c077</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_c3ad8594-1e55-47e9-874f-373efff58fda.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="2"
+    recordedArtifactZipFileName="team/vus/@o@v@c_07_@rogers_@n@a@c/%resources%/recorded-artifacts/c3ad8594-1e55-47e9-874f-373efff58fda.zip"
+    recordedResponseCode="200" responseSize="121"
+    serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
+    uid="3572d7b3-072b-484f-b8a8-e785bc16c077" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[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]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_3572d7b3-072b-484f-b8a8-e785bc16c077</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3572d7b3-072b-484f-b8a8-e785bc16c077.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_10_sn_C6ED99FC998CD7A040B76FF6E7EF7A5C_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1"
+        separator="="
+        value="v_4_srv_10_sn_C6ED99FC998CD7A040B76FF6E7EF7A5C_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="10" separator="=" value="10" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="KNTANNCQAWCSMLQMFWHGHFIHGNHGAVVK-0"
+        separator="=" value="KNTANNCQAWCSMLQMFWHGHFIHGNHGAVVK-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="contentType" recordRawValue="srBm" separator="="
+        value="srBm" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Faccount-type-selection%3FovContextId%3D07d7bfe7-df92-45c4-b8af-73de5aee8432%26flowType%3Dovnac%26language%3Den"
+        separator="="
+        value="https://oneview-buyflow.rogers.com/phones/account-type-selection?ovContextId=07d7bfe7-df92-45c4-b8af-73de5aee8432&amp;flowType=ovnac&amp;language=en" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="2ae0303e3c9b36b0" separator="="
+        value="2ae0303e3c9b36b0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="10307250124095660" separator="="
+        value="10307250124095660" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="3835677170" separator="=" value="3835677170" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/account-type-selection?ovContextId=07d7bfe7-df92-45c4-b8af-73de5aee8432&amp;flowType=ovnac&amp;language=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="rxVisitor=17422018533812G11QELB1HV6SJIHP73HH1UESJVSTQGP; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; dtCookie=v_4_srv_10_sn_C6ED99FC998CD7A040B76FF6E7EF7A5C_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1; language=en; PLAY_SESSION=1c101a79d5ed1669fca755c078be0b648f7922f1-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=de8316fe-7ceb-4352-ac6c-05f7aebb5b9b&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C68700014002731294224319961830273181040; X_DOM_session_guid=debc5cb0-030d-11f0-be2b-538549aa5e46; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; X_DOM_USER_NAME=9ec4a94c197c24dcb110719e9d1494fb06993d3464d8d581c8167e8fec566038; s_sq=%5B%5BB%5D%5D; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806673%7C7%7CMCAAMB-1742806673%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742209073s%7CNONE%7CMCAID%7CNONE%7CMCCIDH%7C-627122392%7CvVersion%7C5.5.0; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742203673549%3B%20rcp_s_dslv%3D1742201873549%7C1836809873549%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742203673549%3B; akaalb_Oneview_Buyflow_Rogers=~op=ALB_AZURE_ONEVIEW_BUYFLOW_ROGERS:ALB_AZUCC_ONEVIEW_BUYFLOW_ROGERS|~rv=27~m=ALB_AZUCC_ONEVIEW_BUYFLOW_ROGERS:0|~os=a6d27f4de61d3b185b9e61447d00414a~id=84877d952a08f4964effe8415f754807; dtSa=-; province=ON; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; QSI_HistorySession=https%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Faccount-type-selection%3FovContextId%3D07d7bfe7-df92-45c4-b8af-73de5aee8432%26flowType%3Dovnac%26language%3Den~1742201878801; dtPC=10$401874655_9h-vKNTANNCQAWCSMLQMFWHGHFIHGNHGAVVK-0e0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:web:a:dashboard:overview:anonymous%22%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview/anonymous%22%2C%22accType%22:%22consumer|regular%22%2C%22optout_uuid%22:{}}; rxvt=1742203693052|1742201853380"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-buyflow.rogers.com"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/octet-stream"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 121&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+expires: Mon, 17 Mar 2025 08:58:15 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Mon, 17 Mar 2025 08:58:15 GMT&#xd;
+x-frame-options: SAMEORIGIN</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

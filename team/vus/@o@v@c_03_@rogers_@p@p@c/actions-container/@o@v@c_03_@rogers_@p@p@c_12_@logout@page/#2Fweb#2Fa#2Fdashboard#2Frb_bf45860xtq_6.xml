@@ -1,0 +1,85 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq_6"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/31028721-d08a-4a01-8245-fe1816d162ce.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="31028721-d08a-4a01-8245-fe1816d162ce">
+    <embedded-action>2036481d-2beb-40b9-ad39-c797e2c63e4b</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_31028721-d08a-4a01-8245-fe1816d162ce.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="4"
+    recordedArtifactZipFileName="team/vus/@o@v@c_03_@rogers_@p@p@c/%resources%/recorded-artifacts/31028721-d08a-4a01-8245-fe1816d162ce.zip"
+    recordedResponseCode="200" responseSize="121"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="2036481d-2beb-40b9-ad39-c797e2c63e4b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2036481d-2beb-40b9-ad39-c797e2c63e4b</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2036481d-2beb-40b9-ad39-c797e2c63e4b.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_-2D20658_sn_DFC324370C1BE37D30847502F9D400BB_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0"
+        separator="="
+        value="v_4_srv_-2D20658_sn_DFC324370C1BE37D30847502F9D400BB_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="-20658" separator="=" value="-20658" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="ICRRCMQHMFVPKPFPKRPRCIJCKAVMCBKS-0"
+        separator="=" value="ICRRCMQHMFVPKPFPKRPRCIJCKAVMCBKS-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Fsignout%3FstatusCode%3DCRM_SIGN_OUT"
+        separator="="
+        value="https://oneview.rogers.com/web/a/dashboard/signout?statusCode=CRM_SIGN_OUT" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="2ae0303e3c9b36b0" separator="="
+        value="2ae0303e3c9b36b0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="2868036221" separator="=" value="2868036221" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard/signout?statusCode=CRM_SIGN_OUT"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=84~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=1e0db6476e90cc5f1c628b81a7fe4c4d; language=en; region=QC; city=QUEBEC; QSI_HistorySession=https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%3FtransactionState%3Dincomplete%26lang%3Den~1742199666290%7Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Fsignout%3FstatusCode%3DCRM_SIGN_OUT~1742199684786; s_ecid=MCMID%7C43025806308226665013659979338197866328; aam_dfp=aam_dfp%3D9719938%2C9749182%2C10039302%2C10178389%2C10180218%2C10227195%2C10238549%2C10561322%2C10561508%2C10804004%2C10811342%2C10865534%2C11352380%2C11647532%2C1847925%2C11848041%2C12227875%2C12336697%2C13375330%2C13873320%2C11057727%2C14058828%2C14653268%2C14676014%2C14676019%2C15644997%2C15742729%2C15840550%2C15851188%2C14026806%2C16270364%2C16312270%2C16313903%2C9355059%2C22858803%2C23526913%2C25250020; tech_sas_rtdm=sas_segments%3D10235138; aam_uuid=43234018115345647723639122432224697337; dtPC=9$399552145_849h-vICRRCMQHMFVPKPFPKRPRCIJCKAVMCBKS-0e0; rxvt=1742201487088|1742199687088; dtCookie=v_4_srv_-2D20658_sn_DFC324370C1BE37D30847502F9D400BB_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; rxVisitor=1742199687093UKK69R68RFSGKBBBG8CJ622ILHPM4N8V"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.rogers.com"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="text/plain;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 121&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+date: Mon, 17 Mar 2025 08:21:27 GMT&#xd;
+set-cookie: dtCookie=v_4_srv_15_sn_DFC324370C1BE37D30847502F9D400BB_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: NULL&#xd;
+access-control-allow-methods: NULL&#xd;
+access-control-allow-origin: https://oneview.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$tvn=%2Fweb%2Fa%2Fdashboard%2Fsignout$tvt=1742199684701$tvm=i3%3Bk1%3Bh0$tvtrg=1$w=1920$h=953$sw=1920$sh=1080$ni=4g|10$rt=48-1742199550750%3Bhttps%3A%2F%2Fsiteintercept.qualtrics.com%2FWRSiteInterceptEngine%2FTargeting.php%3FQ_5FZoneID%3DZN_5FcI39qiLcUmKR0dn%26Q_5FCLIENTVERSION%3D2.26.1%26Q_5FCLIENTTYPE%3Dweb%7Cb133973e0f0g0h0i0j0k1l50m52u1767v1467w4104X200T-40z1I1$rt1=49-1742199550750%3Bhttps%3A%2F%2Foneview.rogers.com%2Fsessionapi%2Fovc%2Fsession%2Fbuilder%2Flogout%7Cb133981e0f0g0h0i0j0k2l173m174u302v2w2X200T-36z1I1M-1282759660V0W1$rt2=50-1742199550750%3Bhttps%3A%2F%2Fsiteintercept.qualtrics.com%2FWRSiteInterceptEngine%2FAsset.php%7Cb134041e0m26X200T-37z1I1$rt3=51-1742199550750%3Bhttps%3A%2F%2Fsiteintercept.qualtrics.com%2FWRSiteInterceptEngine%2FAsset.php%7Cb134044e0m38X200T-39z1I1$rt4=52-1742199550750%3Bsiteintercept.qualtrics.com%2F..%2F%3FQ_5FImpress%3D1%26Q_5FCID%3DCR_5F9FZu5qr5xbjNWGG%26Q_5FSIID%3DSI_5F6LsQmu3iDKjub9r%26Q_5FASID%3DAS_5F85504158%26Q_5FCLIENTVERSION%3D2.26.1%26Q_5FCLIENTTYPE%3Dweb%26r%3D1742199684866%7Cb134115e0m96X200T-38z1I1%7Chttps%3A%2F%2Fstracking.rogers.com%2Fb%2Fss%2Frcp-r-oneview-prod%2F10%2FJS-2.25.0-LEWM%2Fs48941872895708%7Cb134602e0m55X200z11I1$sr=1$url=https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Fsignout%3FstatusCode%3DCRM_SIGN_OUT$title=Rogers%3A%20Wireless%2C%20TV%2C%20Internet%2C%20Home%20Phone%20%26amp%3B%20Home%20Monitoring$latC=0$app=2ae0303e3c9b36b0$vi=ICRRCMQHMFVPKPFPKRPRCIJCKAVMCBKS-0$fId=399552145_849$v=10307250124095659$vID=1742199687093UKK69R68RFSGKBBBG8CJ622ILHPM4N8V$time=1742199687116]]></textPostContent>
+</http-action>

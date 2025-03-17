@@ -1,0 +1,19 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_07_Rogers_NAC_13_CheckoutPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="bcaee990-b8cc-46fb-89c8-7b65fe9f1560" weightsEnabled="false">
+    <weighted-embedded-action uid="80056c42-50a7-4d83-b137-8b387defc4a4"/>
+    <weighted-embedded-action uid="4df8f055-7fc4-4cde-b9c5-c74d670d13c2"/>
+    <weighted-embedded-action uid="a313e955-f773-44d5-bba7-683a439fb802"/>
+    <weighted-embedded-action uid="93f58c56-c883-47e3-ab70-dfb96f8bd7f4"/>
+    <weighted-embedded-action uid="b4d6d644-494b-4054-ae39-7b598d8473cc"/>
+    <weighted-embedded-action uid="5f6a0ebb-0fa9-4e48-9224-fcf565da3d38"/>
+    <weighted-embedded-action uid="9b2ac2e4-843b-42ab-b8dd-03ffe3197a29"/>
+    <weighted-embedded-action uid="332fdf9b-05ad-430c-8c36-1c3b024e5425"/>
+    <weighted-embedded-action uid="86b540a4-600a-45a2-a267-b88ffe884343"/>
+    <weighted-embedded-action uid="ad6cb92a-5377-4458-bf89-38930f6bb3cf"/>
+    <weighted-embedded-action uid="a38e88e4-e1fc-416f-83f5-aadb6452e7c5"/>
+    <weighted-embedded-action uid="8716ef65-8789-4ac0-bf1f-5176770eb6b3"/>
+    <weighted-embedded-action uid="eee5df4d-b44e-4b54-ac8d-ed33906b8a63"/>
+    <weighted-embedded-action uid="f8663b7c-c5fc-4ddd-8cf2-14318a38ac63"/>
+</basic-logical-action-container>
