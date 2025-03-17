@@ -1,0 +1,74 @@
+<http-page executeResourcesDynamically="false"
+    name="/catalog/products/device_prodIP16"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/07e76548-854c-422e-a657-d8e42232fc0b.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="07e76548-854c-422e-a657-d8e42232fc0b">
+    <embedded-action>b73210ce-e16e-46fb-83e0-38fdd0092a55</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/catalog/products/device_prodIP16"
+    path="/catalog/products/device_prodIP16" postType="4"
+    recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/07e76548-854c-422e-a657-d8e42232fc0b.zip"
+    recordedResponseCode="200" responseSize="53175"
+    serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
+    uid="b73210ce-e16e-46fb-83e0-38fdd0092a55" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b73210ce-e16e-46fb-83e0-38fdd0092a55</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b73210ce-e16e-46fb-83e0-38fdd0092a55.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="activityType"
+        recordRawValue="aal" separator="=" value="aal" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cheapestSkuId"
+        recordRawValue="IP16128PNK" separator="=" value="IP16128PNK" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="tempResident"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/?ovContextId=37450c87-13b5-4335-9a98-5d5726d4b62d&amp;flowType=ovnac&amp;language=en"/>
+    <header name="franchise" value="fido"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dtCookie=v_4_srv_-2D26220_sn_JP76L0IJJEOQ0V3K9TFHNER9VBJAIHOE; rxVisitor=1742205087448TSM5P5E5LRMQHN9FLP37U9LMUJ0KUD1A; language=en; PLAY_SESSION=38f3598198d0239d759a0dfe0cb84981421ae8e3-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT16&amp;V21=V21&amp;UserId=14017175&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=374d4f57-605f-402e-a940-cbdaf89744e7&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C86418353325214444133025295767960126327; X_DOM_session_guid=fe5e12e0-0315-11f0-8685-33178cf3870d; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com/; s_cc=true; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; X_DOM_USER_NAME=fb94d78cfbb616160f81712b0e2c724d8a4c3fa33107154e11eca546152deb2a; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO|~rv=81~m=ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=6c1bd850fd993b0b405481436614b874; dtSa=false%7Cxhr%7C25%7Cx%7Cx%7C1742205365699%7C405342802_204%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous%7C%7C%7C%7C; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; language=en; province=ON; aam_dpid1094=fb94d78cfbb616160f81712b0e2c724d8a4c3fa33107154e11eca546152deb2a; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C86418353325214444133025295767960126327%7CMCAAMLH-1742810237%7C7%7CMCAAMB-1742810237%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742212637s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20172%7CvVersion%7C5.5.0%7CMCCIDH%7C-1615580400; s_sq=%5B%5BB%5D%5D; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pName%22:%22OVF:wireless:ecom:ovnac:choose-phone%22%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/?ovContextId=37450c87-13b5-4335-9a98-5d5726d4b62d&amp;flowType=ovnac&amp;language=en%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}%2C%22buyflowName%22:%22OVNAC|SL%22}; rxvt=1742207516074|1742205087452; dtPC=-26220$405087441_144h16p-26220$405366988_399h123vUMHDPKCAFSUWQISPEOCNQEJNEUCIMSUI-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-dtreferer" value="https://oneview-buyflow.fido.ca/phones/checkout?ovContextId=37450c87-13b5-4335-9a98-5d5726d4b62d&amp;flowType=ovnac&amp;tierType=Subsidy&amp;dpaddons=NOPROTECTION"/>
+    <header name="ovcontextid" value="37450c87-13b5-4335-9a98-5d5726d4b62d"/>
+    <header name="accounttype" value="CONSUMER"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accountsubtype" value="REGULAR"/>
+    <header name="userid" value="37450c87-13b5-4335-9a98-5d5726d4b62d"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="province" value="ON"/>
+    <header name="postalcode" value="L6T 0C1"/>
+    <header name="x-dtpc" value="-26220$405366988_399h123vUMHDPKCAFSUWQISPEOCNQEJNEUCIMSUI-0e0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="applicationid" value="UTEFidoCare"/>
+    <header name="lang" value="en"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/json&#xd;
+x-oneagent-js-injection: true&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: DENY&#xd;
+x-envoy-upstream-service-time: 259&#xd;
+request-context: appId=cid-v1:22c57a57-4e03-4659-a8b1-d0566f8b9c00&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="788786703"&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+expires: Mon, 17 Mar 2025 10:01:56 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Mon, 17 Mar 2025 10:01:56 GMT&#xd;
+content-length: 5744&#xd;
+set-cookie: dtCookie=v_4_srv_7_sn_JP76L0IJJEOQ0V3K9TFHNER9VBJAIHOE_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+x-frame-options: SAMEORIGIN</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_08_Fido_NAC_10_CheckoutPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="d3ca5df0-08fa-4e51-90f6-dda12824f03c" weightsEnabled="false">
+    <weighted-embedded-action uid="b087d72d-407a-46eb-9659-3682c0cebc40"/>
+    <weighted-embedded-action uid="ce5ddee4-e345-4297-850a-e90b97310d97"/>
+    <weighted-embedded-action uid="b1533fd2-b2c7-477f-87d2-f5b05d9ee561"/>
+    <weighted-embedded-action uid="37d49f57-9f2c-4afb-bc6d-736ee2fb18b5"/>
+    <weighted-embedded-action uid="0ec76e75-ce43-4315-b4a9-a2f8b6a42d71"/>
+    <weighted-embedded-action uid="25ed9dbe-82a0-4410-bba3-b6fcab87414d"/>
+</basic-logical-action-container>

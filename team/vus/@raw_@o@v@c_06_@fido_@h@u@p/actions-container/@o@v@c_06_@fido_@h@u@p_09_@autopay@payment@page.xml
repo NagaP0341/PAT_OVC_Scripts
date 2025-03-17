@@ -1,0 +1,28 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_06_Fido_HUP_09_AutopayPaymentPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="b4c7dfa3-3a6d-4620-b084-6ba6588623c8" weightsEnabled="false">
+    <weighted-embedded-action uid="ab190377-be26-4d00-bc1c-0c8e2373b29f"/>
+    <weighted-embedded-action uid="1e10c141-fceb-4b78-ad0e-db24880d3b21"/>
+    <weighted-embedded-action uid="56a4345f-cb6f-4bd1-9f34-9ab845fb354d"/>
+    <weighted-embedded-action uid="0b46a753-f6ed-46c1-9d8f-6b5271378ed5"/>
+    <weighted-embedded-action uid="9cd4dd62-cb75-4ddb-befb-5e46a7d1ec84"/>
+    <weighted-embedded-action uid="2d08e543-ced3-46f8-8885-deb304aa7530"/>
+    <weighted-embedded-action uid="684e843c-f4f3-4467-878b-2258fdd042b8"/>
+    <weighted-embedded-action uid="8c790e5a-4780-4971-9f0d-5e0e7bb59b2c"/>
+    <weighted-embedded-action uid="f026754e-116b-43bd-b086-567922ed3775"/>
+    <weighted-embedded-action uid="7bf64843-825f-414c-9bc9-6a7a7b341143"/>
+    <weighted-embedded-action uid="1a9f0e0b-9c54-4f50-b3b1-068327dac6f8"/>
+    <weighted-embedded-action uid="2bc3b029-282a-4c3b-ab88-1a96b74cb6da"/>
+    <weighted-embedded-action uid="cca061fc-52db-402e-b152-7f34288e8460"/>
+    <weighted-embedded-action uid="94e79d15-c8e6-43ed-b142-86fc6a5fe1da"/>
+    <weighted-embedded-action uid="5a83ecc5-e657-44c5-86bf-9f4ab193e866"/>
+    <weighted-embedded-action uid="abcabba0-1ed9-4cc4-9cb4-6dfc037c474f"/>
+    <weighted-embedded-action uid="c33a54ab-00b6-4404-8d0f-0ab2ef71368d"/>
+    <weighted-embedded-action uid="baf5b3f0-7aa8-46d4-97e0-443d62e56205"/>
+    <weighted-embedded-action uid="30505659-9b4f-44fc-bf7a-cb3e60fea7d3"/>
+    <weighted-embedded-action uid="beb0b7b9-4e8f-4cbc-b123-6bcfa1f68460"/>
+    <weighted-embedded-action uid="51be3d0c-2985-4bf3-89d4-c0cef05ca01d"/>
+    <weighted-embedded-action uid="1659fe48-9c82-4246-86ae-d92b0fcb828c"/>
+    <weighted-embedded-action uid="baf71b1f-7d7f-4695-809f-2437ff69a98f"/>
+</basic-logical-action-container>

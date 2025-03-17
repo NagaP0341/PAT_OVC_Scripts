@@ -1,0 +1,72 @@
+<http-page executeResourcesDynamically="false"
+    name="/api/contentful/content_1" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/e140847c-aea9-46e9-9384-323c6fa84b0c.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e140847c-aea9-46e9-9384-323c6fa84b0c">
+    <embedded-action>95f134d1-da58-4c78-9bf0-e5b7d7470df3</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/contentful/content"
+    path="/api/contentful/content" postType="4"
+    recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/e140847c-aea9-46e9-9384-323c6fa84b0c.zip"
+    recordedResponseCode="200" responseSize="25025"
+    serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
+    uid="95f134d1-da58-4c78-9bf0-e5b7d7470df3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_95f134d1-da58-4c78-9bf0-e5b7d7470df3</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_95f134d1-da58-4c78-9bf0-e5b7d7470df3.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/checkout?ovContextId=6f44dc2f-e95f-44b5-ab49-fddd9d1990f5&amp;flowType=hup&amp;language=en&amp;step=6"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dtCookie=v_4_srv_-2D6765_sn_5LIQG2VOJPNI1AMU701DB1APJOUTTT73; rxVisitor=1742206331427KBA2F8AH70JJM8GO3IRI6MT1VPQAAQO8; language=en; PLAY_SESSION=c783508d064dab111a89fb2570bf5739ee529ebf-LANGUAGE=en&amp;CH_BAN=947662789&amp;LOGGING_ID=UIPATH.BOT16&amp;V21=V21&amp;UserId=14017175&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=947662789&amp;CONTACT_ID=CO1060020397&amp;SessionId=36bea742-e24f-4893-b025-2988b57ba737&amp;TARGET_URL=ONEVIEWDASHBOARD; X_DOM_session_guid=4c2d6ff1-0318-11f0-a9b9-61ae23791325; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C26847912682370035290889765777843660105; s_cc=true; X_DOM_BAN=454e4a1aa90caf11cfb2a4fb4011ce29998a52b9e43a0edaeb1be178e0f000aa; X_DOM_USER_NAME=fb94d78cfbb616160f81712b0e2c724d8a4c3fa33107154e11eca546152deb2a; X_DOM_REFERRER=https://oneview.fido.ca; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCC_ONEVIEW_BUYFLOW_FIDO|~rv=29~m=ALB_AZUCC_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=3e363690ea43eca17036c8b9b468ae6a; dtSa=false%7Cxhr%7C53%7Cx%7Cx%7C1742206404406%7C406331414_643%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; language=en; province=ON; FB_PHONE=320f0d00cb21c132d2fe3361c7bea771ac3d927ca4c1a85ca75358c4a9acc26c; aam_dpid942=454e4a1aa90caf11cfb2a4fb4011ce29998a52b9e43a0edaeb1be178e0f000aa; aam_dpid943=3c2695cf7a5194f00eda7508914f9f40334c9f616f83abcc52c3db3dca93744e; X_DOM_CTN=3c2695cf7a5194f00eda7508914f9f40334c9f616f83abcc52c3db3dca93744e; aam_dpid1094=fb94d78cfbb616160f81712b0e2c724d8a4c3fa33107154e11eca546152deb2a; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C26847912682370035290889765777843660105%7CMCAAMLH-1742811210%7C7%7CMCAAMB-1742811210%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742213610s%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCAID%7CNONE%7CMCCIDH%7C-456034800%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pName%22:%22OVF:wireless:ecom:ovhup:plan-builder:cart-summary%22%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/iphone-16/build-plan?ovContextId=6f44dc2f-e95f-44b5-ab49-fddd9d1990f5&amp;flowType=hup&amp;sku=IP16128BLU&amp;step=11&amp;downPayment=0&amp;tier=FID_FIN2&amp;data=sku_plan_LTOM012U3_LTOM012U3&amp;addons=FULLDETF%2COPTSRA1AK&amp;simType=eSIM%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}}; s_sq=rcp-f-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOVF%25253Awireless%25253Aecom%25253Aovhup%25253Aplan-builder%25253Acart-summary%2526link%253DProceed%252520to%252520Checkout%2526region%253DmainContent%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOVF%25253Awireless%25253Aecom%25253Aovhup%25253Aplan-builder%25253Acart-summary%2526pidt%253D1%2526oid%253DProceed%252520to%252520Checkout%2526oidt%253D3%2526ot%253DSUBMIT; rxvt=1742208526275|1742206331430; dtPC=-6765$406405877_483h-vIKSHAPKFGCFHRILUFMFMLMVAILKMNGRT-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-buyflow.fido.ca"/>
+    <header name="ovcontextid" value="6f44dc2f-e95f-44b5-ab49-fddd9d1990f5"/>
+    <header name="accounttype" value="CONSUMER"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accountsubtype" value="REGULAR"/>
+    <header name="userid" value="6f44dc2f-e95f-44b5-ab49-fddd9d1990f5"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="postalcode" value="L6T0C1"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="cfqueryidentifier" value="cf-profilepage-content-part-two"/>
+    <header name="applicationid" value="UTEFidoCare"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/json&#xd;
+x-oneagent-js-injection: true&#xd;
+vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers&#xd;
+request-context: appId=cid-v1:22c57a57-4e03-4659-a8b1-d0566f8b9c00&#xd;
+access-control-allow-origin: *&#xd;
+x-auth-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI4M2M4NjEwZi0xOTRmLTQwMDAtYTQ2Mi01YWIwYzNiYTE5NzQiLCJpYXQiOjE3NDIyMDY3MjcsImV4cCI6MTc0MjIxMDMyNywicm9sZSI6IkFOT05ZTU9VUyJ9.6M5qwTyPgfX7uBLSM01IT827DwOwDFUnwxu8xy6KKVrPsb0oN-X7MNCieT4eHAxAs4eTb8hln97vkgSqOhBpPg&#xd;
+x-contentful-ratelimit-second-remaining: 77&#xd;
+x-contentful-ratelimit-second-limit: 78&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-frame-options: DENY&#xd;
+x-envoy-upstream-service-time: 62&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="1823662065", dtTao;desc="1"&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+expires: Mon, 17 Mar 2025 10:18:47 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Mon, 17 Mar 2025 10:18:47 GMT&#xd;
+content-length: 6998&#xd;
+set-cookie: dtCookie=v_4_srv_15_sn_5LIQG2VOJPNI1AMU701DB1APJOUTTT73_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+x-frame-options: SAMEORIGIN</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"query":"query($preview:Boolean){pageCheckoutCollection:fidoPageOvBfaCheckoutCollection(limit:1,locale:\"en\",preview:$preview){items{templateCheckoutUserProfileCollection:templateCollection(locale:\"en\",skip:0,limit:1){items{... on TemplateCheckoutUserProfile{pageTitle activationOptions{stepTitle{...label}stepTitleShort{...label}activationOptionSelectionPrompt{...label}immediateActivation{...label}futureDatedActivation{...label}minFutureDateDifference maxFutureDateDifference futureDateSelectionPrompt{...label}futureDate{...inputField}activationOptionsContinueButton{...button}daysFromNowCopy directFulfillmentInfoSection{...section}validationMessagesCollection{items{...section}}}billingPaymentOptions{stepTitle{...label}billingMethodTitle{...label}onlineBilling{...selection}onlineBillSubText{...label}paperBilling{...selection}paperBillSubText{...section}paymentMethodTitle{...label}selectPaymentMethod{...selectDropdown}preAuthCreditCard{...label}preAuthDebitCard{...label}invoice{...label}bankAccount{...label}billingAddressMatchCopy{...label}paymentServiceCopy{...label}payWithCreditCard{...selection}creditCardDetails{nameOnCard{...inputField}cardNumber{...inputField}expiryDate{...inputField}cvv{...inputField}creditCardInfo{...label}addCardCta{...button}changeCreditCardCta{...button}card{...label}ovResetSession{...button}}bankAccountDetails{transitNumber{...inputField},institutionNumber{...inputField},accountNumber{...inputField}bankChequeImage{...image}chequingInfo{...label}bankingInformationCopy{...label}}autoPayDetails{autoPayOfferRemovalModal{...modal},autoPayPayments{header{...label}subHeader{...label}title{...label}choosePayment{...label}setAutoPay{...label}doNotSetAutoPay{...label}}termsAndConditions{header{...label}subHeader{...label}printAgreement{...button}agreementConsent{...longText}sectionsCollection{items{...longSection}}}autoPayPromoBanner{...infoBannerContent}autoPayDataBonusBanner{...infoBannerContent}outstandingBalance{...label}currentBalance{...label}balanceMessage{...label}autoPayToolTip{...longText}autoPayNote{...longText}autoPayToolTipTitle{...label}}orderReviewCta{...button}addCardCta{...button}automaticPayments{...label}doNotSetUpAutoPay{...label}selectPaymentMethodError{...label}autoPayConsentError{...label}completeFieldsAboveError{...label}existingCardOption{...label}newCardOption{...label}preAuthCreditCardToken{...label}}shippingDeliveryOptions{stepTitle{...label}subText{...label}selectBillingAdress{...label}selectDifferentAddress{...label}shippingAddress{...inputField}addInfoHeader{...label}additionalInfo{...inputField}deliveryMethod{...label}learnMoreCta{...button}standardDelivery{...label}expressPickup{...label}expressPickupSubtextFirst{...label}expressPickupSubtextSecond{...label}pickUpLocationMessage{...label}closestLocationMessage{...label}brandName{...label}seeMoreLink{...label}pickupLocationLabel{...label}noLocationAvailableMessageLabel{...label}selectAnotherDeliveryMethodLabel{...label}sorryForInconvenienceMessageLabel{...label}expressPickupBtnInfoCopy{...longText}expressPickupLinkFaqCopy{...button}standardDeliverySubtext{...label}reserveInStoreCopy{...longText}linkToStoreCtaCopy{...button}deliveryScheduleTitle{...label}appointmentContactCopy{...label}appointmentContactSubtext{...label}phoneNumberLabel{...label}phoneNumber{...inputField}emailConfirmationLabel{...label}emailConfirmationSubtext{...label}emailAddressLabel{...label}appointmentTimeLabel{...label}dateCopy{...label}selectAvailableTimeLabel{...label}continueCta{...button}beforeTimerCopy{...label}afterTimerCopy{...label}shippingOptionExpander{... on ResourceAccordion{expandedHeader expandedAlt collapsedHeader collapsedAlt}}deliveryDateTime{...label}between{...label}}checkoutCommonDetails{editCta{...button}siteSecurity{...longSection}ineligibleTitle{...label}ineligibleMessage{...label}autoCompleteAddressLabel{...label}autoCompleteAddressToolTip{...longText}contactInfo{...label}expressPickupOrderInfo{...longText}expressPickupAggrement{...longText}expressPickupNoStoreSelectedError{...label}addressSelectionError{...label}orderReviewCta{...button}deliverySelectionError{...label}}authorizedContact{stepLabel contactInfoTitle selectContactType{...selectDropdown}contactNotFoundMessage authorizationLevelTitle selectAuthorizationLevel{...selectDropdown}selectLanguage{...selectDropdown}addContactCta{...button}searchCta{...button}skipCta{...button}chooseContactLabel checkContactLabel dobNote authorizationLevelListCollection{items{...section}}}checkoutAdditionalInfo{stepTitleAdditionalInfoMsdEpp stepTitleAdditionalInfoMsdStudent inputEmployeeId{...inputField}extLabel inputCompanyPhone{...inputField}inputCorporateEmailAddress{...inputField}inputOtherDetails{...inputField}proofOfEmploymentCopy listOfEmploymentDocuments inputStudentId{...inputField}inputSchoolPhone{...inputField}inputStudentEmailAddress{...inputField}proofOfEnrolmentCopy listOfEnrolmentDocuments proofOfEnrolmentErrorMessage{...errorMessage}proofOfEmploymentErrorMessage{...errorMessage}stepTitleAdditionalInfoRpp}shippingDeliveryOptionsV2{shipToHomeTitle{...label}shippingDeliveryMethodCardDelivery{...label}shippingContact{...section}shippingSaveBtn{...button}shipToHomeAddressThreshold standardDeliverySubtextHupNewcomer{...label}shippingDeliveryStaticContentsCollection{items{header body}}esimActivationBannersCollection{items{header body}}}}}}}}}fragment inputField on ResourceInputField{label helperText placeholder errorMessage{...errorMessage}successMessage popoverText}fragment errorMessage on ResourceErrors{genericError formatMismatch lengthError requiredError}fragment selectDropdown on ResourceSelectDropdown{label errorMessage{...errorMessage}successMessage helperText}fragment button on ResourceButton{copy alt val variants}fragment label on ResourceLabel{label}fragment selection on ResourceSelection{label alt}fragment longSection on ResourceLongSection{body header}fragment infoBannerContent on ComponentCheckoutCardInfoBanner{image{...image}content{header body}}fragment image on Asset{url description}fragment longText on ResourceLongText{text}fragment modal on ResourceHupErrorModal{header body cancelCta{...button}proceedCta{...button}}fragment section on ResourceSection{entryTitle header body}","applicationId":"UTEFidoCare"}]]></textPostContent>
+</http-action>

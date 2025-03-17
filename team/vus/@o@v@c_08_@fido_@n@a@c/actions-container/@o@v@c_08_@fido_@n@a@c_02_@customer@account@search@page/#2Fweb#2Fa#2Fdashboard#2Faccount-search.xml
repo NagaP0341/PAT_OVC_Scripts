@@ -1,0 +1,70 @@
+<http-page executeResourcesDynamically="false"
+    name="/web/a/dashboard/account-search"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/e2569e45-e9a0-4525-8eb5-255558fd6329.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e2569e45-e9a0-4525-8eb5-255558fd6329">
+    <embedded-action>d4841fe2-c3a9-4dfb-8183-04b6e27eeab7</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/a/dashboard/account-search"
+    path="/web/a/dashboard/account-search" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/e2569e45-e9a0-4525-8eb5-255558fd6329.zip"
+    recordedResponseCode="200" responseSize="2491"
+    serverUid="oneview-accountsearch.rogers.com"
+    slaProfileEnabled="false" uid="d4841fe2-c3a9-4dfb-8183-04b6e27eeab7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d4841fe2-c3a9-4dfb-8183-04b6e27eeab7.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d4841fe2-c3a9-4dfb-8183-04b6e27eeab7.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="appId"
+        recordRawValue="OVC" separator="=" value="OVC" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ovContextId"
+        recordRawValue="bf905eba-4829-4a83-8b26-2585a4e0cc6c"
+        separator="=" value="bf905eba-4829-4a83-8b26-2585a4e0cc6c" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sourceClientUrl"
+        recordRawValue="https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2F%3Fsource%3Dicm%26lang%3Den"
+        separator="="
+        value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="lang"
+        recordRawValue="en" separator="=" value="en" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="flowtype"
+        recordRawValue="AccountSearch" separator="="
+        value="AccountSearch" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://oneview.fido.ca/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/html&#xd;
+etag: "67ae07f9-7f6:dtagent1030725012409565948Ut"&#xd;
+x-oneagent-js-injection: true&#xd;
+x-ruxit-js-agent: true&#xd;
+last-modified: Thu, 13 Feb 2025 14:55:52 GMT&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-692510964"&#xd;
+x-envoy-upstream-service-time: 5&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+expires: Mon, 17 Mar 2025 09:51:34 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Mon, 17 Mar 2025 09:51:34 GMT&#xd;
+content-length: 1260&#xd;
+set-cookie: dtCookie=v_4_srv_5_sn_1491A7E54AFBFB45A5515A81EC7581EE_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+set-cookie: akaalb_Oneview_Account_Search=~op=ALB_AZURE_ONEVIEW_ACCOUNT_SEARCH:ALB_AZUCC_ONEVIEW_ACCOUNT_SEARCH|~rv=16~m=ALB_AZUCC_ONEVIEW_ACCOUNT_SEARCH:0|~os=4168d57008d2a7f87e75f2ae191fe099~id=9497ba8459e1f3f1408063e2ca5ac01a; path=/; HttpOnly; Secure; SameSite=None</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

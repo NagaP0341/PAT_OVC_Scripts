@@ -1,0 +1,28 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_06_Fido_HUP_10_DeliveryAddressPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="1e2ecbdf-1eb6-47b2-87a4-94946aee4e2a" weightsEnabled="false">
+    <weighted-embedded-action uid="6d53c52e-2124-4e51-9d55-3beefbd0362c"/>
+    <weighted-embedded-action uid="ed08ef72-72a7-405a-afe8-9ce8c25b5919"/>
+    <weighted-embedded-action uid="2d5737cd-3afb-4704-9c51-5f0cb2eeb4f4"/>
+    <weighted-embedded-action uid="b5e396aa-b87c-48db-b422-20ba320e7a6d"/>
+    <weighted-embedded-action uid="9e547d60-f69c-48a3-b014-5c670ec66704"/>
+    <weighted-embedded-action uid="b4f375a2-a374-4095-8216-f32a4a25c21e"/>
+    <weighted-embedded-action uid="453f93a7-f5cd-4499-9303-15c7491d0e91"/>
+    <weighted-embedded-action uid="5ef43e76-62e5-48d9-bff7-c5e95f48685a"/>
+    <weighted-embedded-action uid="7f01793e-8f19-4b63-ad80-331df61598d2"/>
+    <weighted-embedded-action uid="fccb777a-8a44-4c98-b4a6-a67dcac84922"/>
+    <weighted-embedded-action uid="3e71a455-3742-48ad-b52b-3a1a041e7096"/>
+    <weighted-embedded-action uid="90e01668-6644-48d9-9cfa-c32d94142d05"/>
+    <weighted-embedded-action uid="6be8d22e-6600-41f6-8dd3-a2194e7cf061"/>
+    <weighted-embedded-action uid="efdbc798-dbbf-4baa-b084-2b0b9ec7a2de"/>
+    <weighted-embedded-action uid="107cac6b-3990-461c-8dd9-62b27b8aa176"/>
+    <weighted-embedded-action uid="75b3527d-15c2-49c4-8c32-d18bde9f9b50"/>
+    <weighted-embedded-action uid="158a70ec-d6b5-470d-a7d3-fa7d34c011c0"/>
+    <weighted-embedded-action uid="4865ec9d-ec88-421c-bece-eb0852b6b544"/>
+    <weighted-embedded-action uid="f5429602-e7fd-41ce-95cc-37cff5b7faab"/>
+    <weighted-embedded-action uid="aa339167-ab3a-438d-8921-7faf72ad1ed6"/>
+    <weighted-embedded-action uid="fba7bf8b-3b06-440c-80ff-6f983dc58350"/>
+    <weighted-embedded-action uid="af01a744-0db2-47a7-aa69-5216ba7312d6"/>
+    <weighted-embedded-action uid="269eff90-0943-4f17-afc2-860bed25100c"/>
+</basic-logical-action-container>

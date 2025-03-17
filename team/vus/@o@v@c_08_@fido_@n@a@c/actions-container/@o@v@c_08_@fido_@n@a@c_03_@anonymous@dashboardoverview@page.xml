@@ -1,0 +1,29 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_08_Fido_NAC_03_AnonymousDashboardoverviewPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="60047fe2-015d-4e0a-b3e6-1724a6ea4fb2" weightsEnabled="false">
+    <weighted-embedded-action uid="452a5b9a-4d59-455a-8fd7-368d0bc9a764"/>
+    <weighted-embedded-action uid="cdf3beca-885e-4aee-b5ef-c5822861fc7c"/>
+    <weighted-embedded-action uid="13de7b9a-9397-4ac3-9275-5c2087043ba8"/>
+    <weighted-embedded-action uid="aabf00e3-6c35-4490-9113-bc97bd200ea2"/>
+    <weighted-embedded-action uid="5fa9997d-a5a3-4829-a027-956b0c79ce5f"/>
+    <weighted-embedded-action uid="44c6b787-5114-4e39-994d-bd74c02a93ae"/>
+    <weighted-embedded-action uid="c6a8e3d3-71f2-48fd-9baf-6d103734b8d0"/>
+    <weighted-embedded-action uid="4cd1cd1c-dbdc-4221-a793-9d75191ac525"/>
+    <weighted-embedded-action uid="d3532906-5244-402b-bf82-29352fdcb7b6"/>
+    <weighted-embedded-action uid="299cc74c-4496-477d-b101-239c44cc8f14"/>
+    <weighted-embedded-action uid="19df74fd-f6cc-4048-869a-f60244bc6483"/>
+    <weighted-embedded-action uid="d5195395-ab2d-4601-95af-fdde25e568fc"/>
+    <weighted-embedded-action uid="b29a7ec1-2a70-4cba-bebd-8fa6d2932df3"/>
+    <weighted-embedded-action uid="777002fd-9268-4b82-902b-6b52b1850569"/>
+    <weighted-embedded-action uid="5d7d710b-6e0a-486e-8a6f-54c062d643bc"/>
+    <weighted-embedded-action uid="5a34d84a-3e11-4c4c-9e03-afd90db278a6"/>
+    <weighted-embedded-action uid="7844c890-4273-408e-be65-d18c1f05bda8"/>
+    <weighted-embedded-action uid="4c48c3bd-159a-4c71-bc77-58df14882b25"/>
+    <weighted-embedded-action uid="6c4b0b51-3afa-41fd-a410-f1eae0d8aac9"/>
+    <weighted-embedded-action uid="39998923-0c4d-483f-a48a-aa89c9785c5f"/>
+    <weighted-embedded-action uid="ca85072d-0b6c-49c2-a334-1718e2126e78"/>
+    <weighted-embedded-action uid="202b80c9-d934-4b16-8d04-7ee6815f15b4"/>
+    <weighted-embedded-action uid="2b8e996b-8ac1-4ab3-9ee4-7aea4175a0fa"/>
+</basic-logical-action-container>

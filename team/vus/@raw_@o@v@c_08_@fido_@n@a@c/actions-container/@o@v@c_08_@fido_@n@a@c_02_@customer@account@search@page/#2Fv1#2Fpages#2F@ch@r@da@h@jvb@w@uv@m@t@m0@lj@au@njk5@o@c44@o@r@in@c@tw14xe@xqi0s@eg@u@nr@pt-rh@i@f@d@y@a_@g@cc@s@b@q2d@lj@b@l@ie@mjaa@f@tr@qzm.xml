@@ -1,0 +1,48 @@
+<http-page executeResourcesDynamically="false"
+    name="/v1/pages/ChRDaHJvbWUvMTM0LjAuNjk5OC44ORInCTw14xeXqi0sEgUNrPt-rhIFDYA_GCcSBQ2dLjBLIeMjaaFTrQzm"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/20969665-c30b-4ee0-8b8a-007d62c67abd.zip"
+    slaProfileEnabled="false" thinkTime="710"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="20969665-c30b-4ee0-8b8a-007d62c67abd">
+    <embedded-action>8c38d8cd-3b68-416a-b8a6-b03b56f1fc41</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/x-icon"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/a/dashboard/assets/favicon.rogers.ico"
+    path="/web/a/dashboard/assets/favicon.rogers.ico" postType="6"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/20969665-c30b-4ee0-8b8a-007d62c67abd.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="oneview-accountsearch.rogers.com"
+    slaProfileEnabled="false" uid="8c38d8cd-3b68-416a-b8a6-b03b56f1fc41" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_fcfda242-b30a-4c06-b34a-f17d0c7628d4.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://oneview-accountsearch.rogers.com/web/a/dashboard/account-search?flowtype=AccountSearch"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="akaalb_Oneview_Account_Search=~op=ALB_AZURE_ONEVIEW_ACCOUNT_SEARCH:ALB_AZUCC_ONEVIEW_ACCOUNT_SEARCH|~rv=16~m=ALB_AZUCC_ONEVIEW_ACCOUNT_SEARCH:0|~os=4168d57008d2a7f87e75f2ae191fe099~id=9497ba8459e1f3f1408063e2ca5ac01a; rxVisitor=1742205094790O4SJODIR839HQCMC34O0JBHO6RQJUMS4; dtSa=-; language=en; language=en; dtCookie=v_4_srv_2_sn_1491A7E54AFBFB45A5515A81EC7581EE_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C86418353325214444133025295767960126327; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C86418353325214444133025295767960126327%7CMCAAMLH-1742809895%7C7%7CMCAAMB-1742809895%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742212296s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742206897630%3B%20rcp_s_dslv%3D1742205097630%7C1836813097630%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742206897630%3B; X_DOM_session_guid=6b353112-0315-11f0-bba6-d1d3e6a5b852; X_DOM_REFERRER=https://oneview.fido.ca/; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22CxSearch%20Tool:web:a:dashboard:account-search%22%2C%22pURL%22:%22https://oneview-accountsearch.rogers.com/web/a/dashboard/account-search?flowtype=AccountSearch%22%2C%22buyflowName%22:%22%22}; s_cc=true; aam_dfp=aam_dfp%3D9719938%2C9749182%2C10561322%2C10561508%2C12227875%2C13375330%2C11057727%2C14026806; tech_sas_rtdm=sas_segments%3D10235138; aam_uuid=86221219100429702683005619744983519190; rxvt=1742206898888|1742205094792; dtPC=2$405094786_57h-vRHTFOVWQIPKLFJIMVTHPMGPHJGRFDVLU-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: image/x-icon&#xd;
+etag: "67ae07f9-37e:dtagent1030725012409565948Ut"&#xd;
+last-modified: Thu, 13 Feb 2025 14:55:52 GMT&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="2145892376"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+content-length: 511&#xd;
+date: Mon, 17 Mar 2025 09:51:38 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

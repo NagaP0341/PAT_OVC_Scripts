@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_08_Fido_NAC_11_DeviceListingPage_PostCheckout"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="70dd9a19-b2a9-4ad2-b645-defed6f4efa8" weightsEnabled="false">
+    <weighted-embedded-action uid="f4b503a9-ca9b-40b6-83a0-39b815e4c657"/>
+    <weighted-embedded-action uid="8b11cdb5-e422-4963-be9c-bc1ef9045da7"/>
+    <weighted-embedded-action uid="5c15d70e-76a9-4752-862f-9117044006b9"/>
+    <weighted-embedded-action uid="07e76548-854c-422e-a657-d8e42232fc0b"/>
+    <weighted-embedded-action uid="b2566b7d-bf34-4b24-9162-a744f60fc6fc"/>
+    <weighted-embedded-action uid="00498ded-4972-40c2-aa3b-9ce66662ef68"/>
+    <weighted-embedded-action uid="65b412a2-5640-44cc-8610-b78457e0943f"/>
+    <weighted-embedded-action uid="e03e4ecf-355e-49d7-80ee-730115617300"/>
+    <weighted-embedded-action uid="f264577a-5591-4964-8221-df027740837c"/>
+</basic-logical-action-container>

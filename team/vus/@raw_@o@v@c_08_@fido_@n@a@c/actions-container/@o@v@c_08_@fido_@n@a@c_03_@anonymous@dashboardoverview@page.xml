@@ -1,0 +1,29 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_08_Fido_NAC_03_AnonymousDashboardoverviewPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="b3b36087-43d6-42ac-8410-5258b4cbd2c2" weightsEnabled="false">
+    <weighted-embedded-action uid="6f144f98-95b6-4a1d-9cac-074dd3268c2f"/>
+    <weighted-embedded-action uid="15ae327e-b63f-41f3-8d63-3b9f448fb7c9"/>
+    <weighted-embedded-action uid="40504532-79e5-4637-b50e-03719cccbdcc"/>
+    <weighted-embedded-action uid="c453c006-de07-45d0-8c7b-6f4228d88b63"/>
+    <weighted-embedded-action uid="29d45c1a-73a8-47a1-a1d4-32776ab726df"/>
+    <weighted-embedded-action uid="7fbe1203-479a-4e12-803b-4d854cba44fa"/>
+    <weighted-embedded-action uid="90a07d90-ac04-42d5-acf3-1d4c33c6659e"/>
+    <weighted-embedded-action uid="dec16a11-6b4f-49b2-8015-26dfa78f0a71"/>
+    <weighted-embedded-action uid="8a00f4cf-a274-4414-9a2d-d551ab59aaf1"/>
+    <weighted-embedded-action uid="0aa36bd8-d404-4272-97be-753ea8b5604f"/>
+    <weighted-embedded-action uid="35ab2520-69ba-4ce1-857d-2fb69a3e506f"/>
+    <weighted-embedded-action uid="04bfcb53-9f32-438a-a256-0c96d3619de4"/>
+    <weighted-embedded-action uid="dc946976-3dda-445a-9c97-ceb0c123fe1d"/>
+    <weighted-embedded-action uid="08b91d10-1ce2-4929-99c4-b51a359e8748"/>
+    <weighted-embedded-action uid="30de9155-d00a-4475-9ea0-adc69e881dcd"/>
+    <weighted-embedded-action uid="f9d31ce1-bd1d-4033-85e4-b1e28b874f9a"/>
+    <weighted-embedded-action uid="ca7caeab-4a6d-4e4f-8fd2-a0e97add3df9"/>
+    <weighted-embedded-action uid="71a9a611-0b34-449b-90b2-3f93096b16dc"/>
+    <weighted-embedded-action uid="852b8db7-d96c-4435-9977-440fb561bd8a"/>
+    <weighted-embedded-action uid="be2ae26e-8d9e-4fe9-b75f-5e32c297a692"/>
+    <weighted-embedded-action uid="cd4beff3-2576-49d3-886d-fc227a615b33"/>
+    <weighted-embedded-action uid="b3b3abf5-a8fe-495c-968f-584f78975604"/>
+    <weighted-embedded-action uid="30b58ab3-94f3-4611-aade-a3dfab213e98"/>
+</basic-logical-action-container>

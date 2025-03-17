@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_08_Fido_NAC_02a_AccountSearchResultsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="8047fe81-bd74-499a-9e66-b4e30b1949f6" weightsEnabled="false">
+    <weighted-embedded-action uid="3f2f799b-59b9-4b2e-999f-4ae8418da54d"/>
+    <weighted-embedded-action uid="bb52962a-e804-4320-9925-bc46e71f98d0"/>
+    <weighted-embedded-action uid="a2e4d2c9-4726-4d1e-addc-01a5bfd91e1f"/>
+    <weighted-embedded-action uid="4579344b-1ec8-46ed-8920-e18f1ee71495"/>
+    <weighted-embedded-action uid="4bf91377-a3dd-456f-8370-6149fe6fddf8"/>
+</basic-logical-action-container>

@@ -1,0 +1,21 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_08_Fido_NAC_05_DeviceListingPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="c44683c3-6052-49de-8f12-dc50e0a61d80" weightsEnabled="false">
+    <weighted-embedded-action uid="3eef02da-48f2-4f55-87d2-5d289bf7f1a2"/>
+    <weighted-embedded-action uid="6ca8ea76-2562-4ec3-a0d4-3efea96cabc8"/>
+    <weighted-embedded-action uid="b52505f5-c3a1-491c-91d9-fb8ef83c9d98"/>
+    <weighted-embedded-action uid="802588b0-59e3-4f21-9004-eda719c0acca"/>
+    <weighted-embedded-action uid="755a6bd1-43e4-401c-b9c8-e048d7a66d95"/>
+    <weighted-embedded-action uid="3e1bc550-3b2c-4b07-a136-55d3b3bbae39"/>
+    <weighted-embedded-action uid="2c737d69-701b-46bf-af6a-7578ca51ead3"/>
+    <weighted-embedded-action uid="fe68d227-2247-4cb0-afe0-80709743afee"/>
+    <weighted-embedded-action uid="562435c8-85c3-463c-91fe-dbf512461f9b"/>
+    <weighted-embedded-action uid="36d43c2a-8bae-486e-a09e-e0a0e8660764"/>
+    <weighted-embedded-action uid="30978851-d3d1-42ce-aabd-a93ef40b5613"/>
+    <weighted-embedded-action uid="61a6bbd5-3721-4bd8-8a67-38b105980103"/>
+    <weighted-embedded-action uid="6bcfd395-33a2-4b50-a98b-cdca6d4f830e"/>
+    <weighted-embedded-action uid="90444b5d-0450-4f65-94a5-d5a0fa282fb3"/>
+    <weighted-embedded-action uid="21ceede7-bb7c-4d34-b5fd-d4343b523841"/>
+    <weighted-embedded-action uid="1d7a5511-ee06-410c-8778-4e44e2711868"/>
+</basic-logical-action-container>

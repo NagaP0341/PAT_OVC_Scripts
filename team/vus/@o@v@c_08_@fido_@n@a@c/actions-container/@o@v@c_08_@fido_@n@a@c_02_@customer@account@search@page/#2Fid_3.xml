@@ -1,0 +1,65 @@
+<http-page executeResourcesDynamically="false" name="/id_3"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/5dba9eaf-0dd2-4b9c-906d-69dde30baf26.zip"
+    slaProfileEnabled="false" thinkTime="113"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5dba9eaf-0dd2-4b9c-906d-69dde30baf26">
+    <embedded-action>7cb4643a-9fd6-4133-9594-0aaaa36cb7d2</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/x-javascript;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/id" path="/id" postType="1"
+    recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/5dba9eaf-0dd2-4b9c-906d-69dde30baf26.zip"
+    recordedResponseCode="200" responseSize="48"
+    serverUid="stracking.rogers.com" slaProfileEnabled="false"
+    uid="7cb4643a-9fd6-4133-9594-0aaaa36cb7d2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7cb4643a-9fd6-4133-9594-0aaaa36cb7d2</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7cb4643a-9fd6-4133-9594-0aaaa36cb7d2.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="d_visid_ver"
+        recordRawValue="5.5.0" separator="=" value="5.5.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="d_fieldgroup"
+        recordRawValue="A" separator="=" value="A" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="mcorgid"
+        recordRawValue="D7FD34FA53D63B860A490D44%40AdobeOrg"
+        separator="=" value="D7FD34FA53D63B860A490D44@AdobeOrg" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="mid"
+        recordRawValue="86418353325214444133025295767960126327"
+        separator="=" value="86418353325214444133025295767960126327" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ts"
+        recordRawValue="1742205095717" separator="="
+        value="1742205095717" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-accountsearch.rogers.com/"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="cookie" value="rxVisitor=1742205094790O4SJODIR839HQCMC34O0JBHO6RQJUMS4; dtSa=-; language=en; dtCookie=v_4_srv_2_sn_1491A7E54AFBFB45A5515A81EC7581EE_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}}; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C86418353325214444133025295767960126327%7CMCAAMLH-1742809895%7C7%7CMCAAMB-1742809895%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742212295s%7CNONE%7CvVersion%7C5.5.0; rxvt=1742206895718|1742205094792; dtPC=2$405094786_57h6vRHTFOVWQIPKLFJIMVTHPMGPHJGRFDVLU-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-accountsearch.rogers.com"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+access-control-allow-origin: https://oneview-accountsearch.rogers.com&#xd;
+access-control-allow-credentials: true&#xd;
+date: Mon, 17 Mar 2025 09:51:36 GMT&#xd;
+p3p: CP="This is not a P3P policy"&#xd;
+server: jag&#xd;
+set-cookie: s_ecid=MCMID%7C86418353325214444133025295767960126327; Path=/; Domain=rogers.com; Max-Age=63072000; Expires=Wed, 17 Mar 2027 09:51:51 GMT; SameSite=Lax;&#xd;
+vary: Origin&#xd;
+content-type: application/x-javascript;charset=utf-8&#xd;
+content-length: 48&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+cache-control: no-cache, no-store, max-age=0, no-transform, private&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-content-type-options: nosniff</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

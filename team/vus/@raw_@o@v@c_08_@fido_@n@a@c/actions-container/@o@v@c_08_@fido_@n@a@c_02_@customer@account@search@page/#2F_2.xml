@@ -1,0 +1,49 @@
+<http-page executeResourcesDynamically="false" name="/_2"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/5b924bb8-a2f1-4419-8c70-d79e69cc7c10.zip"
+    slaProfileEnabled="false" thinkTime="436"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5b924bb8-a2f1-4419-8c70-d79e69cc7c10">
+    <embedded-action>b4ae6bfc-f8fc-4321-b241-f863b7e03c35</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="6"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/5b924bb8-a2f1-4419-8c70-d79e69cc7c10.zip"
+    recordedResponseCode="200" responseSize="133"
+    serverUid="oneview.fido.ca" slaProfileEnabled="false"
+    uid="b4ae6bfc-f8fc-4321-b241-f863b7e03c35" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_28020108-a293-4b26-8ea9-986ee5cf0451.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_28020108-a293-4b26-8ea9-986ee5cf0451.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/html&#xd;
+etag: "67d49301-85:dtagent10307250124095659qXAr"&#xd;
+x-oneagent-js-injection: true&#xd;
+x-ruxit-js-agent: true&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:12 GMT&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="1346610871"&#xd;
+x-envoy-upstream-service-time: 11&#xd;
+content-length: 133&#xd;
+date: Mon, 17 Mar 2025 09:51:27 GMT&#xd;
+set-cookie: dtCookie=v_4_srv_3_sn_D65E82F0F8A97FA4682B9D0EF0CBF7F2_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+set-cookie: Prod=B; domain=.oneview.fido.ca&#xd;
+set-cookie: akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdB-oneview-Fido-ui-care|~rv=35~m=ProdB-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=473dba91421204b00f06765e2aa43616; path=/; HttpOnly; Secure; SameSite=None</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,126 @@
+<http-page executeResourcesDynamically="false"
+    name="/crsubsapi/ovc/subscriptions/v1/summary"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/3400d17f-999b-4a81-aa87-fcdfb50ac2a3.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3400d17f-999b-4a81-aa87-fcdfb50ac2a3">
+    <embedded-action>61048270-99b3-4535-bdc4-1dc4ff651cbd</embedded-action>
+    <embedded-action>0fb38ca1-499a-45b3-8d04-4a640965b760</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/crsubsapi/ovc/subscriptions/v1/summary"
+    path="/crsubsapi/ovc/subscriptions/v1/summary" postType="4"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/3400d17f-999b-4a81-aa87-fcdfb50ac2a3.zip"
+    recordedResponseCode="200" responseSize="1700"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="61048270-99b3-4535-bdc4-1dc4ff651cbd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c3a6bb78-dec6-4080-875d-ed8d35ba8f26</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c3a6bb78-dec6-4080-875d-ed8d35ba8f26.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdA-oneview-rogers-ui-care|~rv=75~m=ProdA-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=f473a5b57f6910958fbebf1231afbe00; rxVisitor=17422089774409518HOMLPF1AAMK3FME9C3MJJDSL1R38; dtSa=-; language=en; language=en; PLAY_SESSION=94c58696858abeda28b9d53f58443620c2b828a9-LANGUAGE=en&amp;CH_BAN=964540694&amp;LOGGING_ID=UIPATH.BOT16&amp;V21=V21&amp;UserId=14017175&amp;SOURCE=CRM&amp;FRANCHISE=ROGERS&amp;ACCTNBR=964540694&amp;CONTACT_ID=CO1063271067&amp;SessionId=491f82a2-0168-47bf-ad08-266ae46eb6e5&amp;TARGET_URL=ONEVIEWDASHBOARD; dtCookie=v_4_srv_15_sn_FBB4FC533019682DA540242BD0B21007_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1; rxvt=1742210778893|1742208977444; dtPC=15$408977436_92h16vSFJDKKLOTIUMMAJCRDDRSTKUPLHRIJAV-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-dtreferer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.H3TckS67hGDQKDNLBE22TvcIBgL0SGAf5kqkmQiPl3xIGR1bETTWvBkwBKVmDrIRQUe6d43xOeZ7G8dn4yO2t3wBCmxREsuwxhr_O0LeXwGi8jKqx7WMSHUZLWbWZNDpGwDuFAe5jW5y5clobgrlY1NBXOEoyJGvLftXyf6zAptVhoNWGnVl-GS106TURaVI8guCqKlORCUNEdNbMRFkEqWF8EyQnz_id4Q5ABspQi-_IfcoXtPQ_uL-68QIZAel2mGCfI93u1pLiZhr6a1BGOdEkeu0VMLPvgg1H_FwxNmHeSSVGebCLwt0BM4bDDpYMg8N_FncS9oKqDYI5kX18Q.NZZS88WKbGyLwdlV.fngPhtYr7Hy-mnZGevajKedILRrLgKnEk9HethoqlsGm5OGj-B9d1dUkxPwga6shlQmjiZAhdROZTlxBlq2jcDMAqv8R9p_CXD7s3VTuJFkOXUwQciXtGxhd4N4g0eRup8TyjUJqhdrHZmMx-Oi5XQGXfDnqWp3d8gAS-1SsSu00jpslRIHr0AE63VaqArZyThTah18UAOtC2rx1FLZujuSCexhvZPn8B-BVewAaseoDcz06Kdr_TphgN0rCCGlFzkCR1Pyq_qusW806ciEw5KtYzdgfgfgLZMl8CiImy4nsm8ZcaxWxptbTblS3_HVPywUg3shuhddq8ZXf3FqGg_wSSdXjAw.mezfQnjiteK4w6IPYVoB0w"/>
+    <header name="origin" value="https://oneview.rogers.com"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTc1LGxhbklkPVVJUEFUSC5CT1QxNiIsImF1ZCI6Ik9uZXZpZXcgRmlkbyBDYXJlIiwidG9rZW5EdXJhdGlvbiI6IjI3MDAwMDAiLCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3NSxsYW5JZD1VSVBBVEguQk9UMTYiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjEyNTc4LCJpYXQiOjE3NDIyMDg5NzgsImtleSI6ImIzQU12MVRCakVkbUtDeUNKWGdWMG5xZVB2dHl6c3p1L3pMaEZPZ3NkR0xWeXR5azhvTWNTS09JWUJ1NDczY0h3eVdMK0EwTStzS3dzYUFKdllaWXhzOXJzZDlScXd0aFZhenlZYU53UWloZ0ZhSXBPbWMzV0ozVEF3Y0lGV2dsRW9SZGVud1dIQTd6ZEhLdS96a3Q3emNIMFplRzBGNXp1cTZiNFp0ODNXejltL1F3R3lKM2VEcjlTRmx0ejl4eXJUZzdEUWxDdGFNYmtNL1ZjbmxHb2JUcTArZEdOUGt6OW9uWkNqV1hSYzZaRkVOb1VzZjdPd3pDekwvWmVsRmxsNE4wTDhQZjNWRTFqd2dTcTROcnIxbGF2THB3RDVuR2JudDIyb1VuUXo2ZElEb2tzM0Zacm82NElmQ0RiTmJPTlhsbkxtS21UTEFHclpBYXIrdFJHdz09IiwiY29udGVudCI6ImF1UHJ2azlhYzFrRVNncDRsMTF3RWNDR2YwTnl1Nm9RZG9jTytwUUF4d2FCTE80amJHeDYzNGNyQzVZMHlxTU1scWloS0E4ckpHZmlWWitweUdjclhhdHBwRzR3QUNkMlQwMThzVjZxSENGdWZDdmxtK3B3VFJKSUk4Yzc2YWFtWjU2OWhXdFF4SmtNcDIrMEl6SURmS1ZlUDZHanRuR2ppTGk4NFZmWnhOT0JqOHZMak5mdnB4THQvTEFXd0F4RnNQQ1oxZmNTUm9ab1BBMXJLenJySUtIdzVJWm9XSytQQklvZjFFRVlIMmdPdktEaEVRLzVsZFdPUXhXeEhHa0NlOUd0UmdodGh5SUl2eHpaWFZwRTI0b25NRXZTeDUzYTBmaDZqNE5laFVUOWcwVDFFNHcvQkZ4bWk2OWlZLzdlWmxYQlh5Uzh4NmxpOTY0SHVNN2NrWVlIWGgzY0Q5aVJZQnkyMXkyZFhoK29RdHhMRGYyMHZDamUraVk0KzNONXcyanpvd3JoTklTQlk4dUNGamh6SE1VWEpwQ1JGMjBxbS9lSnNXSDBmYmk5NDRpblZFdDZZWlQ5Q1RVeTl2WlV0S0xNOTFJditlZEtkUldtMm4wc2NmakpJMDFkc29idVQ1ak5QZDlISUhMMldoNUdhVEN1c3JkaVk2RVBDaUUyN1lnTGsvTXJCQW1Cd3c2Mjc5NUYzTUNZSkxTL3pLUm41Q2pRanBHNEk3RlNnVVZEc1B0ZnNxUnhKY1dURkJLdmg1cW5RTExDOUhKUS80bXFlYW5wUWJ2UWY5MU5DR2kyWlFKT01hVlJTMWVQOGU0Qk95SXdNRDZNRTZidm1SQWZRdFlHZlp2akRTdVBvSkljQjJDT1ltSkNteWZkL0JoMkhVTzdXM0NlQXljanJWRUMxTTFaM3hsclZpNUx1TEkvNGhxVVJlOUFnS2ZnS0VIZVZtbWJ6L2ZRQkJTdnhzZkNIT0Y3cUJtOTNSOTVMeTk3UktSeXllR3FWZUV6bDZ5dGkvcStsTEJCZnhwTUQ1eVVhVW1zNzNCTnk1SGNweTQ5T1lOdFVYS2xiUWdkYTRrdHFJQWoxaDIrTlV5akFNT1NqVnVTN3RZZXByb0NNUVlQbUQ0aXhwZXpPVGtjWTkwTU42WVVKQ29KeEwwNDk3RWFmeW1SMGwwRUZlL2dpMmRVMWNLRjl1bmdURnR1bWpDNlZQbHZ6VWlBelgyTkgvUWZNcFJHQ0FseU9VWlRQcXpTYzk2TzhoclFOTEtJQ0ozeXJ1aStCSkJXeXR0NG5wckxiQVJaMmRxQlg3NWIzc2RzSGdLMm9ub2Z1cVU0Ykh1WGFhdE1aeGFpa0VLWXRueVJBOWhFbkpsVHFTV0tDN0UwR29mRlJNVGdkMk5VR1VhZVlCc0wxclBzSDB4dVdTaUtzNG1SY1l5QzFsNGVuSFJUIiwidXNlckF0dHJpYnV0ZXMiOnsiTEFOR1VBR0UiOiJlbiIsIkNIX0JBTiI6Ijk2NDU0MDY5NCIsIkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTYiLCJWMjEiOiJWMjEiLCJVc2VySWQiOiIxNDAxNzE3NSIsIlNPVVJDRSI6IkNSTSIsIkZSQU5DSElTRSI6IlJPR0VSUyIsIkFDQ1ROQlIiOiI5NjQ1NDA2OTQiLCJDT05UQUNUX0lEIjoiQ08xMDYzMjcxMDY3IiwiU2Vzc2lvbklkIjoiNDkxZjgyYTItMDE2OC00N2JmLWFkMDgtMjY2YWU0NmViNmU1IiwiVEFSR0VUX1VSTCI6Ik9ORVZJRVdEQVNIQk9BUkQifX0.cWTJvBdd8U502dptHT_yUJbhI1laOxtGVGX5h-EXBdU"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="x-dtpc" value="15$408977436_92h16vSFJDKKLOTIUMMAJCRDDRSTKUPLHRIJAV-0e0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/json&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+expires: 0&#xd;
+x-oneagent-js-injection: true&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+pragma: no-cache&#xd;
+x-frame-options: DENY&#xd;
+x-envoy-upstream-service-time: 492&#xd;
+requestid: 78355fc0-b88b-4f8e-a27f-d95087d41953::&#xd;
+via-source: proda&#xd;
+originheadercheck: https://oneview.rogers.com&#xd;
+authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTc1LGxhbklkPVVJUEFUSC5CT1QxNiIsImF1ZCI6Ik9uZXZpZXcgRmlkbyBDYXJlIiwidG9rZW5EdXJhdGlvbiI6IjI3MDAwMDAiLCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3NSxsYW5JZD1VSVBBVEguQk9UMTYiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjEyNTc4LCJpYXQiOjE3NDIyMDg5NzgsImtleSI6ImIzQU12MVRCakVkbUtDeUNKWGdWMG5xZVB2dHl6c3p1L3pMaEZPZ3NkR0xWeXR5azhvTWNTS09JWUJ1NDczY0h3eVdMK0EwTStzS3dzYUFKdllaWXhzOXJzZDlScXd0aFZhenlZYU53UWloZ0ZhSXBPbWMzV0ozVEF3Y0lGV2dsRW9SZGVud1dIQTd6ZEhLdS96a3Q3emNIMFplRzBGNXp1cTZiNFp0ODNXejltL1F3R3lKM2VEcjlTRmx0ejl4eXJUZzdEUWxDdGFNYmtNL1ZjbmxHb2JUcTArZEdOUGt6OW9uWkNqV1hSYzZaRkVOb1VzZjdPd3pDekwvWmVsRmxsNE4wTDhQZjNWRTFqd2dTcTROcnIxbGF2THB3RDVuR2JudDIyb1VuUXo2ZElEb2tzM0Zacm82NElmQ0RiTmJPTlhsbkxtS21UTEFHclpBYXIrdFJHdz09IiwiY29udGVudCI6ImF1UHJ2azlhYzFrRVNncDRsMTF3RWNDR2YwTnl1Nm9RZG9jTytwUUF4d2FCTE80amJHeDYzNGNyQzVZMHlxTU1scWloS0E4ckpHZmlWWitweUdjclhhdHBwRzR3QUNkMlQwMThzVjZxSENGdWZDdmxtK3B3VFJKSUk4Yzc2YWFtWjU2OWhXdFF4SmtNcDIrMEl6SURmS1ZlUDZHanRuR2ppTGk4NFZmWnhOT0JqOHZMak5mdnB4THQvTEFXd0F4RnNQQ1oxZmNTUm9ab1BBMXJLenJySUtIdzVJWm9XSytQQklvZjFFRVlIMmdPdktEaEVRLzVsZFdPUXhXeEhHa0NlOUd0UmdodGh5SUl2eHpaWFZwRTI0b25NRXZTeDUzYTBmaDZqNE5laFVUOWcwVDFFNHcvQkZ4bWk2OWlZLzdlWmxYQlh5Uzh4NmxpOTY0SHVNN2NrWVlIWGgzY0Q5aVJZQnkyMXkyZFhoK29RdHhMRGYyMHZDamUraVk0KzNONXcyanpvd3JoTklTQlk4dUNGamh6SE1VWEpwQ1JGMjBxbS9lSnNXSDBmYmk5NDRpblZFdDZZWlQ5Q1RVeTl2WlV0S0xNOTFJditlZEtkUldtMm4wc2NmakpJMDFkc29idVQ1ak5QZDlISUhMMldoNUdhVEN1c3JkaVk2RVBDaUUyN1lnTGsvTXJCQW1Cd3c2Mjc5NUYzTUNZSkxTL3pLUm41Q2pRanBHNEk3RlNnVVZEc1B0ZnNxUnhKY1dURkJLdmg1cW5RTExDOUhKUS80bXFlYW5wUWJ2UWY5MU5DR2kyWlFKT01hVlJTMWVQOGU0Qk95SXdNRDZNRTZidm1SQWZRdFlHZlp2akRTdVBvSkljQjJDT1ltSkNteWZkL0JoMkhVTzdXM0NlQXljanJWRUMxTTFaM3hsclZpNUx1TEkvNGhxVVJlOUFnS2ZnS0VIZVZtbWJ6L2ZRQkJTdnhzZkNIT0Y3cUJtOTNSOTVMeTk3UktSeXllR3FWZUV6bDZ5dGkvcStsTEJCZnhwTUQ1eVVhVW1zNzNCTnk1SGNweTQ5T1lOdFVYS2xiUWdkYTRrdHFJQWoxaDIrTlV5akFNT1NqVnVTN3RZZXByb0NNUVlQbUQ0aXhwZXpPVGtjWTkwTU42WVVKQ29KeEwwNDk3RWFmeW1SMGwwRUZlL2dpMmRVMWNLRjl1bmdURnR1bWpDNlZQbHZ6VWlBelgyTkgvUWZNcFJHQ0FseU9VWlRQcXpTYzk2TzhoclFOTEtJQ0ozeXJ1aStCSkJXeXR0NG5wckxiQVJaMmRxQlg3NWIzc2RzSGdLMm9ub2Z1cVU0Ykh1WGFhdE1aeGFpa0VLWXRueVJBOWhFbkpsVHFTV0tDN0UwR29mRlJNVGdkMk5VR1VhZVlCc0wxclBzSDB4dVdTaUtzNG1SY1l5QzFsNGVuSFJUIiwidXNlckF0dHJpYnV0ZXMiOnsiTEFOR1VBR0UiOiJlbiIsIkNIX0JBTiI6Ijk2NDU0MDY5NCIsIkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTYiLCJWMjEiOiJWMjEiLCJVc2VySWQiOiIxNDAxNzE3NSIsIlNPVVJDRSI6IkNSTSIsIkZSQU5DSElTRSI6IlJPR0VSUyIsIkFDQ1ROQlIiOiI5NjQ1NDA2OTQiLCJDT05UQUNUX0lEIjoiQ08xMDYzMjcxMDY3IiwiU2Vzc2lvbklkIjoiNDkxZjgyYTItMDE2OC00N2JmLWFkMDgtMjY2YWU0NmViNmU1IiwiVEFSR0VUX1VSTCI6Ik9ORVZJRVdEQVNIQk9BUkQifX0.cWTJvBdd8U502dptHT_yUJbhI1laOxtGVGX5h-EXBdU&#xd;
+request-context: appId=cid-v1:22c57a57-4e03-4659-a8b1-d0566f8b9c00&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="658675584", dtTao;desc="1"&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+date: Mon, 17 Mar 2025 10:56:19 GMT&#xd;
+content-length: 539&#xd;
+set-cookie: Prod=A; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: NULL&#xd;
+access-control-allow-methods: NULL&#xd;
+access-control-allow-origin: https://oneview.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"accountNumber":"964540694","applicationId":"UTERogersCare"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/crofferapi/ovc/actionoffers/v1/treatments"
+    path="/crofferapi/ovc/actionoffers/v1/treatments" postType="4"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/3400d17f-999b-4a81-aa87-fcdfb50ac2a3.zip"
+    recordedResponseCode="404" responseSize="193"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="0fb38ca1-499a-45b3-8d04-4a640965b760" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_96d172d5-ec4e-4c3f-a2cd-b3533533c03d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_96d172d5-ec4e-4c3f-a2cd-b3533533c03d.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdA-oneview-rogers-ui-care|~rv=75~m=ProdA-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=f473a5b57f6910958fbebf1231afbe00; rxVisitor=17422089774409518HOMLPF1AAMK3FME9C3MJJDSL1R38; dtSa=-; language=en; language=en; PLAY_SESSION=94c58696858abeda28b9d53f58443620c2b828a9-LANGUAGE=en&amp;CH_BAN=964540694&amp;LOGGING_ID=UIPATH.BOT16&amp;V21=V21&amp;UserId=14017175&amp;SOURCE=CRM&amp;FRANCHISE=ROGERS&amp;ACCTNBR=964540694&amp;CONTACT_ID=CO1063271067&amp;SessionId=491f82a2-0168-47bf-ad08-266ae46eb6e5&amp;TARGET_URL=ONEVIEWDASHBOARD; dtCookie=v_4_srv_15_sn_FBB4FC533019682DA540242BD0B21007_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1; rxvt=1742210778897|1742208977444; dtPC=15$408977436_92h17vSFJDKKLOTIUMMAJCRDDRSTKUPLHRIJAV-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-dtreferer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.H3TckS67hGDQKDNLBE22TvcIBgL0SGAf5kqkmQiPl3xIGR1bETTWvBkwBKVmDrIRQUe6d43xOeZ7G8dn4yO2t3wBCmxREsuwxhr_O0LeXwGi8jKqx7WMSHUZLWbWZNDpGwDuFAe5jW5y5clobgrlY1NBXOEoyJGvLftXyf6zAptVhoNWGnVl-GS106TURaVI8guCqKlORCUNEdNbMRFkEqWF8EyQnz_id4Q5ABspQi-_IfcoXtPQ_uL-68QIZAel2mGCfI93u1pLiZhr6a1BGOdEkeu0VMLPvgg1H_FwxNmHeSSVGebCLwt0BM4bDDpYMg8N_FncS9oKqDYI5kX18Q.NZZS88WKbGyLwdlV.fngPhtYr7Hy-mnZGevajKedILRrLgKnEk9HethoqlsGm5OGj-B9d1dUkxPwga6shlQmjiZAhdROZTlxBlq2jcDMAqv8R9p_CXD7s3VTuJFkOXUwQciXtGxhd4N4g0eRup8TyjUJqhdrHZmMx-Oi5XQGXfDnqWp3d8gAS-1SsSu00jpslRIHr0AE63VaqArZyThTah18UAOtC2rx1FLZujuSCexhvZPn8B-BVewAaseoDcz06Kdr_TphgN0rCCGlFzkCR1Pyq_qusW806ciEw5KtYzdgfgfgLZMl8CiImy4nsm8ZcaxWxptbTblS3_HVPywUg3shuhddq8ZXf3FqGg_wSSdXjAw.mezfQnjiteK4w6IPYVoB0w"/>
+    <header name="origin" value="https://oneview.rogers.com"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTc1LGxhbklkPVVJUEFUSC5CT1QxNiIsImF1ZCI6Ik9uZXZpZXcgRmlkbyBDYXJlIiwidG9rZW5EdXJhdGlvbiI6IjI3MDAwMDAiLCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3NSxsYW5JZD1VSVBBVEguQk9UMTYiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjEyNTc4LCJpYXQiOjE3NDIyMDg5NzgsImtleSI6ImIzQU12MVRCakVkbUtDeUNKWGdWMG5xZVB2dHl6c3p1L3pMaEZPZ3NkR0xWeXR5azhvTWNTS09JWUJ1NDczY0h3eVdMK0EwTStzS3dzYUFKdllaWXhzOXJzZDlScXd0aFZhenlZYU53UWloZ0ZhSXBPbWMzV0ozVEF3Y0lGV2dsRW9SZGVud1dIQTd6ZEhLdS96a3Q3emNIMFplRzBGNXp1cTZiNFp0ODNXejltL1F3R3lKM2VEcjlTRmx0ejl4eXJUZzdEUWxDdGFNYmtNL1ZjbmxHb2JUcTArZEdOUGt6OW9uWkNqV1hSYzZaRkVOb1VzZjdPd3pDekwvWmVsRmxsNE4wTDhQZjNWRTFqd2dTcTROcnIxbGF2THB3RDVuR2JudDIyb1VuUXo2ZElEb2tzM0Zacm82NElmQ0RiTmJPTlhsbkxtS21UTEFHclpBYXIrdFJHdz09IiwiY29udGVudCI6ImF1UHJ2azlhYzFrRVNncDRsMTF3RWNDR2YwTnl1Nm9RZG9jTytwUUF4d2FCTE80amJHeDYzNGNyQzVZMHlxTU1scWloS0E4ckpHZmlWWitweUdjclhhdHBwRzR3QUNkMlQwMThzVjZxSENGdWZDdmxtK3B3VFJKSUk4Yzc2YWFtWjU2OWhXdFF4SmtNcDIrMEl6SURmS1ZlUDZHanRuR2ppTGk4NFZmWnhOT0JqOHZMak5mdnB4THQvTEFXd0F4RnNQQ1oxZmNTUm9ab1BBMXJLenJySUtIdzVJWm9XSytQQklvZjFFRVlIMmdPdktEaEVRLzVsZFdPUXhXeEhHa0NlOUd0UmdodGh5SUl2eHpaWFZwRTI0b25NRXZTeDUzYTBmaDZqNE5laFVUOWcwVDFFNHcvQkZ4bWk2OWlZLzdlWmxYQlh5Uzh4NmxpOTY0SHVNN2NrWVlIWGgzY0Q5aVJZQnkyMXkyZFhoK29RdHhMRGYyMHZDamUraVk0KzNONXcyanpvd3JoTklTQlk4dUNGamh6SE1VWEpwQ1JGMjBxbS9lSnNXSDBmYmk5NDRpblZFdDZZWlQ5Q1RVeTl2WlV0S0xNOTFJditlZEtkUldtMm4wc2NmakpJMDFkc29idVQ1ak5QZDlISUhMMldoNUdhVEN1c3JkaVk2RVBDaUUyN1lnTGsvTXJCQW1Cd3c2Mjc5NUYzTUNZSkxTL3pLUm41Q2pRanBHNEk3RlNnVVZEc1B0ZnNxUnhKY1dURkJLdmg1cW5RTExDOUhKUS80bXFlYW5wUWJ2UWY5MU5DR2kyWlFKT01hVlJTMWVQOGU0Qk95SXdNRDZNRTZidm1SQWZRdFlHZlp2akRTdVBvSkljQjJDT1ltSkNteWZkL0JoMkhVTzdXM0NlQXljanJWRUMxTTFaM3hsclZpNUx1TEkvNGhxVVJlOUFnS2ZnS0VIZVZtbWJ6L2ZRQkJTdnhzZkNIT0Y3cUJtOTNSOTVMeTk3UktSeXllR3FWZUV6bDZ5dGkvcStsTEJCZnhwTUQ1eVVhVW1zNzNCTnk1SGNweTQ5T1lOdFVYS2xiUWdkYTRrdHFJQWoxaDIrTlV5akFNT1NqVnVTN3RZZXByb0NNUVlQbUQ0aXhwZXpPVGtjWTkwTU42WVVKQ29KeEwwNDk3RWFmeW1SMGwwRUZlL2dpMmRVMWNLRjl1bmdURnR1bWpDNlZQbHZ6VWlBelgyTkgvUWZNcFJHQ0FseU9VWlRQcXpTYzk2TzhoclFOTEtJQ0ozeXJ1aStCSkJXeXR0NG5wckxiQVJaMmRxQlg3NWIzc2RzSGdLMm9ub2Z1cVU0Ykh1WGFhdE1aeGFpa0VLWXRueVJBOWhFbkpsVHFTV0tDN0UwR29mRlJNVGdkMk5VR1VhZVlCc0wxclBzSDB4dVdTaUtzNG1SY1l5QzFsNGVuSFJUIiwidXNlckF0dHJpYnV0ZXMiOnsiTEFOR1VBR0UiOiJlbiIsIkNIX0JBTiI6Ijk2NDU0MDY5NCIsIkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTYiLCJWMjEiOiJWMjEiLCJVc2VySWQiOiIxNDAxNzE3NSIsIlNPVVJDRSI6IkNSTSIsIkZSQU5DSElTRSI6IlJPR0VSUyIsIkFDQ1ROQlIiOiI5NjQ1NDA2OTQiLCJDT05UQUNUX0lEIjoiQ08xMDYzMjcxMDY3IiwiU2Vzc2lvbklkIjoiNDkxZjgyYTItMDE2OC00N2JmLWFkMDgtMjY2YWU0NmViNmU1IiwiVEFSR0VUX1VSTCI6Ik9ORVZJRVdEQVNIQk9BUkQifX0.cWTJvBdd8U502dptHT_yUJbhI1laOxtGVGX5h-EXBdU"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="x-dtpc" value="15$408977436_92h17vSFJDKKLOTIUMMAJCRDDRSTKUPLHRIJAV-0e0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 404&#xd;
+server: istio-envoy&#xd;
+content-type: application/json&#xd;
+x-oneagent-js-injection: true&#xd;
+x-envoy-upstream-service-time: 294&#xd;
+requestid: c8fae435-6376-4e52-92c1-771f9e313119::&#xd;
+via-source: proda&#xd;
+originheadercheck: https://oneview.rogers.com&#xd;
+authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTc1LGxhbklkPVVJUEFUSC5CT1QxNiIsImF1ZCI6Ik9uZXZpZXcgRmlkbyBDYXJlIiwidG9rZW5EdXJhdGlvbiI6IjI3MDAwMDAiLCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3NSxsYW5JZD1VSVBBVEguQk9UMTYiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjEyNTc4LCJpYXQiOjE3NDIyMDg5NzgsImtleSI6ImIzQU12MVRCakVkbUtDeUNKWGdWMG5xZVB2dHl6c3p1L3pMaEZPZ3NkR0xWeXR5azhvTWNTS09JWUJ1NDczY0h3eVdMK0EwTStzS3dzYUFKdllaWXhzOXJzZDlScXd0aFZhenlZYU53UWloZ0ZhSXBPbWMzV0ozVEF3Y0lGV2dsRW9SZGVud1dIQTd6ZEhLdS96a3Q3emNIMFplRzBGNXp1cTZiNFp0ODNXejltL1F3R3lKM2VEcjlTRmx0ejl4eXJUZzdEUWxDdGFNYmtNL1ZjbmxHb2JUcTArZEdOUGt6OW9uWkNqV1hSYzZaRkVOb1VzZjdPd3pDekwvWmVsRmxsNE4wTDhQZjNWRTFqd2dTcTROcnIxbGF2THB3RDVuR2JudDIyb1VuUXo2ZElEb2tzM0Zacm82NElmQ0RiTmJPTlhsbkxtS21UTEFHclpBYXIrdFJHdz09IiwiY29udGVudCI6ImF1UHJ2azlhYzFrRVNncDRsMTF3RWNDR2YwTnl1Nm9RZG9jTytwUUF4d2FCTE80amJHeDYzNGNyQzVZMHlxTU1scWloS0E4ckpHZmlWWitweUdjclhhdHBwRzR3QUNkMlQwMThzVjZxSENGdWZDdmxtK3B3VFJKSUk4Yzc2YWFtWjU2OWhXdFF4SmtNcDIrMEl6SURmS1ZlUDZHanRuR2ppTGk4NFZmWnhOT0JqOHZMak5mdnB4THQvTEFXd0F4RnNQQ1oxZmNTUm9ab1BBMXJLenJySUtIdzVJWm9XSytQQklvZjFFRVlIMmdPdktEaEVRLzVsZFdPUXhXeEhHa0NlOUd0UmdodGh5SUl2eHpaWFZwRTI0b25NRXZTeDUzYTBmaDZqNE5laFVUOWcwVDFFNHcvQkZ4bWk2OWlZLzdlWmxYQlh5Uzh4NmxpOTY0SHVNN2NrWVlIWGgzY0Q5aVJZQnkyMXkyZFhoK29RdHhMRGYyMHZDamUraVk0KzNONXcyanpvd3JoTklTQlk4dUNGamh6SE1VWEpwQ1JGMjBxbS9lSnNXSDBmYmk5NDRpblZFdDZZWlQ5Q1RVeTl2WlV0S0xNOTFJditlZEtkUldtMm4wc2NmakpJMDFkc29idVQ1ak5QZDlISUhMMldoNUdhVEN1c3JkaVk2RVBDaUUyN1lnTGsvTXJCQW1Cd3c2Mjc5NUYzTUNZSkxTL3pLUm41Q2pRanBHNEk3RlNnVVZEc1B0ZnNxUnhKY1dURkJLdmg1cW5RTExDOUhKUS80bXFlYW5wUWJ2UWY5MU5DR2kyWlFKT01hVlJTMWVQOGU0Qk95SXdNRDZNRTZidm1SQWZRdFlHZlp2akRTdVBvSkljQjJDT1ltSkNteWZkL0JoMkhVTzdXM0NlQXljanJWRUMxTTFaM3hsclZpNUx1TEkvNGhxVVJlOUFnS2ZnS0VIZVZtbWJ6L2ZRQkJTdnhzZkNIT0Y3cUJtOTNSOTVMeTk3UktSeXllR3FWZUV6bDZ5dGkvcStsTEJCZnhwTUQ1eVVhVW1zNzNCTnk1SGNweTQ5T1lOdFVYS2xiUWdkYTRrdHFJQWoxaDIrTlV5akFNT1NqVnVTN3RZZXByb0NNUVlQbUQ0aXhwZXpPVGtjWTkwTU42WVVKQ29KeEwwNDk3RWFmeW1SMGwwRUZlL2dpMmRVMWNLRjl1bmdURnR1bWpDNlZQbHZ6VWlBelgyTkgvUWZNcFJHQ0FseU9VWlRQcXpTYzk2TzhoclFOTEtJQ0ozeXJ1aStCSkJXeXR0NG5wckxiQVJaMmRxQlg3NWIzc2RzSGdLMm9ub2Z1cVU0Ykh1WGFhdE1aeGFpa0VLWXRueVJBOWhFbkpsVHFTV0tDN0UwR29mRlJNVGdkMk5VR1VhZVlCc0wxclBzSDB4dVdTaUtzNG1SY1l5QzFsNGVuSFJUIiwidXNlckF0dHJpYnV0ZXMiOnsiTEFOR1VBR0UiOiJlbiIsIkNIX0JBTiI6Ijk2NDU0MDY5NCIsIkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTYiLCJWMjEiOiJWMjEiLCJVc2VySWQiOiIxNDAxNzE3NSIsIlNPVVJDRSI6IkNSTSIsIkZSQU5DSElTRSI6IlJPR0VSUyIsIkFDQ1ROQlIiOiI5NjQ1NDA2OTQiLCJDT05UQUNUX0lEIjoiQ08xMDYzMjcxMDY3IiwiU2Vzc2lvbklkIjoiNDkxZjgyYTItMDE2OC00N2JmLWFkMDgtMjY2YWU0NmViNmU1IiwiVEFSR0VUX1VSTCI6Ik9ORVZJRVdEQVNIQk9BUkQifX0.cWTJvBdd8U502dptHT_yUJbhI1laOxtGVGX5h-EXBdU&#xd;
+request-context: appId=cid-v1:22c57a57-4e03-4659-a8b1-d0566f8b9c00&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-1583205601", dtTao;desc="1"&#xd;
+content-length: 193&#xd;
+date: Mon, 17 Mar 2025 10:56:19 GMT&#xd;
+set-cookie: Prod=A; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: NULL&#xd;
+access-control-allow-methods: NULL&#xd;
+access-control-allow-origin: https://oneview.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"brand":"rogers","accountNumber":"964540694","lang":"en"}]]></textPostContent>
+</http-action>

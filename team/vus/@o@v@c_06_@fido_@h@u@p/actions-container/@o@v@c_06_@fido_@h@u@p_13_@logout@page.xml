@@ -1,0 +1,28 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_06_Fido_HUP_13_LogoutPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="5c07d147-fe2e-467f-ad48-617ac4a25911" weightsEnabled="false">
+    <weighted-embedded-action uid="80e7354d-ad10-45fc-a79e-eb95169dc6ff"/>
+    <weighted-embedded-action uid="90e031b5-ee4b-4a75-856e-fc96c35083f8"/>
+    <weighted-embedded-action uid="f353b5e6-29da-469e-8e50-13080eebc7e9"/>
+    <weighted-embedded-action uid="bef8000d-8ebe-422d-9615-e45ad3610efc"/>
+    <weighted-embedded-action uid="7fca9673-a9f6-4283-92e5-7487df800308"/>
+    <weighted-embedded-action uid="0cb0a91f-63a7-4a6f-8785-d7d67435f8fc"/>
+    <weighted-embedded-action uid="6310a070-43d1-4a79-a534-507a95c7b2c9"/>
+    <weighted-embedded-action uid="f4ce8f59-6f90-4a82-803e-5881efb96781"/>
+    <weighted-embedded-action uid="8c06d91b-6cf6-48fe-ae55-e6d721d050cc"/>
+    <weighted-embedded-action uid="5a4c0e77-5f72-4224-9111-f83480d788fd"/>
+    <weighted-embedded-action uid="9a9da091-a2ea-40b3-a80a-a0c3eb6ca9d0"/>
+    <weighted-embedded-action uid="f2feb3bf-5146-4711-86e2-f8d6e7668b42"/>
+    <weighted-embedded-action uid="351ab827-0aeb-4610-bd79-2c189583f628"/>
+    <weighted-embedded-action uid="c74c01b0-e74e-41de-ac42-aa15ec2c51f8"/>
+    <weighted-embedded-action uid="1173767b-3f94-48e6-9121-c165d31bb9ec"/>
+    <weighted-embedded-action uid="43a2e3c7-6ed4-4478-8697-51dd549e8d96"/>
+    <weighted-embedded-action uid="341c4b89-b40e-464e-b011-b8c36e63eaf1"/>
+    <weighted-embedded-action uid="78c5c5d1-7e3c-4331-9b23-6b20a1b6df0c"/>
+    <weighted-embedded-action uid="60fa6c95-44a9-449f-a0e3-8d8559e9b560"/>
+    <weighted-embedded-action uid="e2e49b6f-6878-4a23-b1e4-6894ed2b7451"/>
+    <weighted-embedded-action uid="a7704433-4f09-4d62-953f-cd13c73e643c"/>
+    <weighted-embedded-action uid="dc0086b1-d3a5-49b8-8e33-c6b5fdfcb8c2"/>
+    <weighted-embedded-action uid="1ca097f5-6348-48b1-87bf-260e9b98855b"/>
+</basic-logical-action-container>

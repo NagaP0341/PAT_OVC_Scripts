@@ -1,0 +1,28 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_06_Fido_HUP_13_LogoutPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="05518281-1c02-4d8b-8d86-f4c316bc986c" weightsEnabled="false">
+    <weighted-embedded-action uid="fa940fca-2dfe-4920-a529-04e9c6f3d8de"/>
+    <weighted-embedded-action uid="c65ff9e9-63ad-49a2-8cd3-94418d75d513"/>
+    <weighted-embedded-action uid="a74ce587-f48b-4743-9943-5dd9640d642f"/>
+    <weighted-embedded-action uid="b0692568-a52f-47ec-8a51-cde70d58af1c"/>
+    <weighted-embedded-action uid="f6e5a35b-648f-4252-a595-cf279baa190f"/>
+    <weighted-embedded-action uid="c972deda-0b6b-4a82-ad71-5b45d2a9c8de"/>
+    <weighted-embedded-action uid="bc91199a-7e61-474f-9721-7c03afab28c9"/>
+    <weighted-embedded-action uid="c11b020d-a663-41c5-bdfd-d66044ac0015"/>
+    <weighted-embedded-action uid="d43fae64-7019-4088-a9e8-377a59079660"/>
+    <weighted-embedded-action uid="b7f234ca-14c7-4b8b-b082-a81db4941392"/>
+    <weighted-embedded-action uid="294e672f-2e91-48f1-9697-bd84ba2a1846"/>
+    <weighted-embedded-action uid="ee7ab335-5361-40b8-8c3f-428bcad8fb3c"/>
+    <weighted-embedded-action uid="54103b0c-96bd-4d7c-b3bf-93b963fa15fa"/>
+    <weighted-embedded-action uid="176882c8-0042-45f2-b37a-b5b8123b4855"/>
+    <weighted-embedded-action uid="d6c49ad9-6e47-43a0-9fa7-de913023ad2f"/>
+    <weighted-embedded-action uid="372ffcaf-8035-4b50-9466-547db711ce8c"/>
+    <weighted-embedded-action uid="d3117aa1-15cf-4ff1-b240-2da8a655d0c3"/>
+    <weighted-embedded-action uid="fb564a6d-06ea-415b-86f0-3474be23d2eb"/>
+    <weighted-embedded-action uid="86d43b86-2491-4222-8632-dcb17d9e1f98"/>
+    <weighted-embedded-action uid="03bc6568-21c2-479e-a3d2-8809f5a81590"/>
+    <weighted-embedded-action uid="985b72e0-1e65-44ef-a403-82b7287cd01c"/>
+    <weighted-embedded-action uid="31fb6b8f-a658-4430-bd83-fd2d153c6fd4"/>
+    <weighted-embedded-action uid="cd11923a-8a00-4612-9fa1-112a0966e9ff"/>
+</basic-logical-action-container>

@@ -1,0 +1,73 @@
+<http-page executeResourcesDynamically="false"
+    name="/api/contentful/content" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/1ff9441e-55ed-45bd-8527-1cb808824ed6.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="1ff9441e-55ed-45bd-8527-1cb808824ed6">
+    <embedded-action>67e187a4-6112-4239-a1e9-10acf9216edb</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/contentful/content"
+    path="/api/contentful/content" postType="4"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/1ff9441e-55ed-45bd-8527-1cb808824ed6.zip"
+    recordedResponseCode="200" responseSize="93716"
+    serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
+    uid="67e187a4-6112-4239-a1e9-10acf9216edb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b23883e9-e210-4528-97d5-12d91649e78b</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b23883e9-e210-4528-97d5-12d91649e78b.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=3786f359-b481-4f2e-9ae3-a0dfa5f809e9&amp;flowType=hup&amp;language=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="rxVisitor=17422089774409518HOMLPF1AAMK3FME9C3MJJDSL1R38; language=en; PLAY_SESSION=94c58696858abeda28b9d53f58443620c2b828a9-LANGUAGE=en&amp;CH_BAN=964540694&amp;LOGGING_ID=UIPATH.BOT16&amp;V21=V21&amp;UserId=14017175&amp;SOURCE=CRM&amp;FRANCHISE=ROGERS&amp;ACCTNBR=964540694&amp;CONTACT_ID=CO1063271067&amp;SessionId=491f82a2-0168-47bf-ad08-266ae46eb6e5&amp;TARGET_URL=ONEVIEWDASHBOARD; dtCookie=v_4_srv_15_sn_FBB4FC533019682DA540242BD0B21007_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_1; X_DOM_session_guid=74f1ef08-031e-11f0-bda3-dd0b4ab29a00; X_DOM_REFERRER=; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C32050356236582457031690142288512775229; s_cc=true; marketing_ban=3fbc089f6e4f2a074c74ea00a3e680aba08f6efb42c3a4433106b7fa7e9cd322; marketing_UID=3fbc089f6e4f2a074c74ea00a3e680aba08f6efb42c3a4433106b7fa7e9cd322; X_DOM_BAN=3fbc089f6e4f2a074c74ea00a3e680aba08f6efb42c3a4433106b7fa7e9cd322; marketing_user_name=fb94d78cfbb616160f81712b0e2c724d8a4c3fa33107154e11eca546152deb2a; X_DOM_USER_NAME=fb94d78cfbb616160f81712b0e2c724d8a4c3fa33107154e11eca546152deb2a; s_sq=%5B%5BB%5D%5D; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C32050356236582457031690142288512775229%7CMCAAMLH-1742813881%7C7%7CMCAAMB-1742813881%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742216281s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCCIDH%7C-1568094777%7CvVersion%7C5.5.0; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742210885552%3B%20rcp_s_dslv%3D1742209085552%7C1836817085552%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742210885552%3B; akaalb_Oneview_Buyflow_Rogers=~op=ALB_AZURE_ONEVIEW_BUYFLOW_ROGERS:ALB_AZUCC_ONEVIEW_BUYFLOW_ROGERS|~rv=62~m=ALB_AZUCC_ONEVIEW_BUYFLOW_ROGERS:0|~os=a6d27f4de61d3b185b9e61447d00414a~id=6537f7b4838f11e5b6688dcd72e31402; dtSa=-; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; province=ON; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=%22%2C%22pName%22:%22OV:web:a:dashboard:overview%22%2C%22accType%22:%22consumer|regular|idv2%22%2C%22buyflowName%22:%22HUP%22%2C%22optout_uuid%22:{}}; QSI_HistorySession=https%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2F%3FovContextId%3D3786f359-b481-4f2e-9ae3-a0dfa5f809e9%26flowType%3Dhup%26language%3Den~1742209090490; rxvt=1742210891921|1742208977444; dtPC=15$409086996_674h18vSFJDKKLOTIUMMAJCRDDRSTKUPLHRIJAV-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-dtreferer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=3786f359-b481-4f2e-9ae3-a0dfa5f809e9&amp;flowType=ovhup&amp;language=en"/>
+    <header name="origin" value="https://oneview-buyflow.rogers.com"/>
+    <header name="ovcontextid" value="3786f359-b481-4f2e-9ae3-a0dfa5f809e9"/>
+    <header name="accounttype" value="CONSUMER"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accountsubtype" value="REGULAR"/>
+    <header name="userid" value="3786f359-b481-4f2e-9ae3-a0dfa5f809e9"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="x-dtpc" value="15$409086996_674h18vSFJDKKLOTIUMMAJCRDDRSTKUPLHRIJAV-0e0"/>
+    <header name="postalcode" value="L6T0C1"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="cfqueryidentifier" value="cf-bfa-global-part-one"/>
+    <header name="applicationid" value="UTERogersCare"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/json&#xd;
+x-oneagent-js-injection: true&#xd;
+vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers&#xd;
+request-context: appId=cid-v1:22c57a57-4e03-4659-a8b1-d0566f8b9c00&#xd;
+access-control-allow-origin: *&#xd;
+x-auth-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MTY0OGM2My0xNmI1LTRkMDktODBmMS01ZmQzNzdiMzZjMTUiLCJpYXQiOjE3NDIyMDkwOTEsImV4cCI6MTc0MjIxMjY5MSwicm9sZSI6IkFOT05ZTU9VUyJ9.J9SPYJOzcX4bB918zo5Fdf3BlcBFQw9nyAyWlwb9lJlrxbBaj_c4jX8VktK7l8SmERYGnS7COvuqh9FRiOQ9Fw&#xd;
+x-contentful-ratelimit-second-remaining: 77&#xd;
+x-contentful-ratelimit-second-limit: 78&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-frame-options: DENY&#xd;
+x-envoy-upstream-service-time: 55&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-917954947", dtTao;desc="1"&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+expires: Mon, 17 Mar 2025 10:58:12 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Mon, 17 Mar 2025 10:58:12 GMT&#xd;
+content-length: 18618&#xd;
+x-frame-options: SAMEORIGIN</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"query":"query($preview:Boolean){pageCatalogCollection:pageOvBfaCollection(limit:1,skip:0,preview:$preview){items{global:templateCollection(limit:1,skip:0,locale:\"en\"){items{... on TemplateBfaGlobal{modal{... on ModuleBfaModal{content}}creditCheckConfig{entryTitle highRiskCategory mediumRiskCategory lowRiskCategory highRiskAmount mediumRiskAmount lowRiskAmount high1RiskCategoryAmount high2RiskCategoryAmount medium1RiskCategoryAmount medium2RiskCategoryAmount riskClassCategoryLow{body}riskClassCategoryMed{body}riskClassCategoryHigh{body}riskClassCategoryMed1{header body}riskClassCategoryMed2{header body}riskClassCategoryHig1{header body}riskClassCategoryHig2{header body}ineligibleRiskClassCodes}tiersV2{tiersCollection{items{tierKey tierName popoverCopy subText subTextStepper deviceSubTextUpfrontEdge popoverCopyUpfrontEdge}}}userInfoBannerV2{entryTitle userInfoLabel switchLineButton{...button}deviceSectionHeader deviceBalanceLabel hupOfferPromoLabel hupOfferPromoPopoverCopy contractSectionHeader upfrontEdgeLabel upfrontEdgePopoverCopy finDeviceBalanceLabel edgeFinancing monthsLeft currentPlanLabel subsidyBalanceDescription subsidyMonthlyDeduction subsidyTermLength subsidyTabBalance financingBalanceDescription financingMonthlyDeduction financingTermLength financingTabBalance expandedCta{...button}collapsedCta{...button}downPaymentBannerDetails{header body}creditEvaluationResults preCreditCheckBannerDetails{header body}}bfaCommon{... on ModuleBfaCommon{content componentBfaCommonLabels{delete{...button}duplicate{...button}backButton{...button}sharedLines nonSharedLines primaryLine sku saving hideDetails{...button}showDetails{...button}device plan totalSharedData addLineCta{...button}addFirstLine province{...label}physicalSim{...label}voucherSim{...label}digitalSim{...label}changeNewMainLineFirstError planTypePlaceholder dataOptionPlaceholder talkOptionPlaceholder nameCopy titleCopy titleList connectionTypesCollection{items{...label}}commonStaticContentsCollection{items{entryTitle header body}}phoneNumber{...inputField}mobileNumber{...inputField}homeNumber{...inputField}workNumber{...inputField}extensionLabel location customerInfoLabel ctn mins secs commonCancelButton{...button}accountNumber{...label}date{...label}}commonAssetsCollectionCollection{items{title url}}}}productRoutingV2{productSlugItemsCollection{items{productId slug}}}errors{... on ModuleBfaErrors{content}}callingOptions{... on ModuleBfaCallingOptions{content}}brtSwitches{... on ModuleBfaBrtSwitches{enableDeviceFinanceCharge}}skuSaleStatuses{mobileSkuSaleStatusesCollection{items{...skuSaleStatusesItem}}watchSkuSaleStatusesCollection{items{...skuSaleStatusesItem}}}bfaBreadcrumbsV2{shopCta{...button}wirelessCta{...button}planCta{...button}choosePhoneCta{...button}deviceConfigCta{...button}buildPlanCta{...button}ovAccountOverviewCta{...button}byodBuildPlanCta{...button}additionalLineOptionsCta{...button}checkoutPageCta{...button}shoppingCartCta{...button}}errorModal{entryTitle avsReject{nonCanadianCreditCard{...label}cardNotFound{...label}infoMismatchInCreditFile{...label}noOfAttempts noMoreAttempt{...label}cancelCta{...button}proceedCta{...button}}creditEvalFail{...errorModal}dateOfBirthAndSinMismatchErrorModal{...errorModal}sinMismatchErrorModal{...errorModal}dateOfBirthMismatchErrorModal{...errorModal}noAvailablePlansErrorModal{...errorModal}creditEvalDecline{...errorModal}fraudError{...errorModal}provinceMismatch{...errorModal}reserveNumber{...errorModal}userExists{...errorModal}creditCheckInProcess{...errorModal}fraudErrorWithRetry{...errorModal}generalError{...errorModalWithChat}ovSystemError{...errorModal}ovAccountOverviewRedirectError{...errorModal}tabletSharedIneligible{...errorModal}tabletIndIneligible{...errorModal}weCanHelp{...errorModalWithChat}invalidCard{...errorModal}maxCtnExceeded{...errorModal}ovFraudFr{...errorModal}ovFraudAr{...errorModal}ovFraudCont{...errorModal}ovFraudSyserr{...errorModal}safeSendCreditCardTokenErrorModal{...errorModal}maxAttemptsReached{...errorModal}errorCodeMessage3009{...errorModal}errorCodeMessage3010{...errorModal}errorCodeMessage3011{...errorModal}ovBotFalloutErrorModal{...errorModal}additionalErrorModals{...additionalErrorModal}errorCodeMessage1005762{...errorModal}errorCodeMessage10061{...errorModal}errorCodeMessage1006672{...errorModal}errorCodeMessageValidatePartial{...errorModal}errorCodeMessageSubmitPartial{...errorModal}}}}}}}}fragment skuSaleStatusesItem on ComponentBfaSkuSaleStatusesItem{salesStatusKey shipToHomeCta{...button}shipToStoreCta{...button}defaultCta{...button}}fragment button on ResourceButton{copy alt variants val}fragment label on ResourceLabel{label}fragment errorModalWithChat on ResourceErrorWithChat{entryTitle header body phoneNumber accessoriesFlowPhoneNumber chatCta{...button}proceedCta{...button}}fragment errorModal on ResourceErrorModal{entryTitle header body additionalBody subText cancelCta{...button}proceedCta{...button}additionalCta{...button}}fragment inputField on ResourceInputField{label helperText placeholder errorMessage{genericError formatMismatch lengthError requiredError}successMessage popoverText}fragment additionalErrorModal on ComponentAdditionalErrorModal{entryTitle nacModalsCollection{items{...errorModal}}aalModalsCollection{items{...errorModal}}hupModalsCollection{items{...errorModal}}ppcModalsCollection{items{...errorModal}}commonModalsCollection{items{...errorModal}}rppModalsCollection{items{...errorModal}}}","applicationId":"UTERogersCare"}]]></textPostContent>
+</http-action>
