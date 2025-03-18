@@ -1,0 +1,90 @@
+<http-page executeResourcesDynamically="false"
+    name="/cloud/buyflow/address/v1/serviceability"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/275bb859-b2a4-4c3b-af10-4af23184afc8.zip"
+    slaProfileEnabled="false" thinkTime="8"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="275bb859-b2a4-4c3b-af10-4af23184afc8">
+    <embedded-action>38f9e429-c438-4da3-abb9-dc38d7e8d1bc</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_275bb859-b2a4-4c3b-af10-4af23184afc8.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/cloud/buyflow/address/v1/serviceability"
+    path="/cloud/buyflow/address/v1/serviceability" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/275bb859-b2a4-4c3b-af10-4af23184afc8.zip"
+    recordedResponseCode="200" responseSize="661"
+    serverUid="oneview-a.rogers.com" slaProfileEnabled="false"
+    uid="38f9e429-c438-4da3-abb9-dc38d7e8d1bc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_38f9e429-c438-4da3-abb9-dc38d7e8d1bc</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_38f9e429-c438-4da3-abb9-dc38d7e8d1bc.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="samKey"
+        recordRawValue="2390000515280" separator="="
+        value="2390000515280" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="accountNumber"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="isMigration"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="objectID"
+        recordRawValue="2035934190.0000000000" separator="="
+        value="2035934190.0000000000" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="useThisAddr"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/ignite-bundles/tv-internet"/>
+    <header name="franchise" value="ROGERS"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="rxVisitor=1742295824966EL4DM3CBQ41UG4BV3RO1A3FDHK3QGDI7; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; language=en; PLAY_SESSION=23bcf0bfe519f2223402f901ee8eb59c609b241e-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=43163b68-c128-4a91-b1c7-a9aa3929065c&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C70832142474106823291688474496184356276; X_DOM_session_guid=aa17871d-03e8-11f0-9457-5101beecf8fd; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20166%7CMCMID%7C70832142474106823291688474496184356276%7CMCAAMLH-1742900629%7C7%7CMCAAMB-1742900629%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742303029s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20173%7CMCCIDH%7C1415946879%7CvVersion%7C5.5.0; akacd_PR_OV_Rogers_CHCare_Switch50=3919748644~rv=55~id=0816735744d6499a2fca029549e841e1; akacd_PR_OV_Rogers_CHCare_Switch10=3919748644~rv=17~id=6927204e37e4c5b5cbb95ee6b7a45eea; akacd_PR_OV_Rogers_CHCare_Switch=3919748644~rv=60~id=107cb31007b74b77d80a1fec978a91da; DataCenter=ProdA; akaalb_ALB_OV_Rogers_CHCare_APIM=~op=ALB_OV_Rogers_CHCare_APIM:ALB_OV_Rogers_CHCare_ProdA|~rv=90~m=ALB_OV_Rogers_CHCare_ProdA:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=35ff158a5fa7dfb6746268ee33b4a720; province=on; language=en; internetAddonsPermission=%7B%22freePodsPerm%22%3Atrue%2C%22regularPodsPerm%22%3Afalse%2C%22fwaPodsPage%22%3Afalse%2C%22addXlePerm%22%3Atrue%7D; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742297648015%3B%20rcp_s_dslv%3D1742295848015%7C1836903848015%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742297648015%3B; aam_dfp=aam_dfp%3D9719938%2C9749182%2C10039302%2C10178389%2C10180218%2C10561325%2C10561322%2C10561508%2C10561479%2C10804004%2C10811342%2C10865534%2C11352380%2C11447720%2C11647532%2C1847925%2C12227875%2C12336697%2C13375330%2C13724279%2C13873320%2C11057727%2C14058828%2C14653268%2C14676019%2C15742729%2C15840550%2C14026806%2C15384063%2C16270364%2C16312270%2C16313903%2C23526913%2C24956530; tech_sas_rtdm=sas_segments%3D10235138; aam_uuid=70635360262115342001667655504828367125; dtSa=-; QSI_HistorySession=https%3A%2F%2Foneview-a.rogers.com%2Fweb%2Frep%2Fignite-bundles%2Ftv-internet~1742295848981; dtCookie=v_4_srv_9_sn_5CB7560AF0DA5F190C40E26ED80BD0B3_app-3Abbf8f27703f77ba4_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_ol_0_perc_100000_mul_1_rcs-3Acss_0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:service-available%22%2C%22pURL%22:%22https://oneview-a.rogers.com/web/rep/ignite-bundles/tv-internet%22%2C%22accType%22:%22consumer|regular%22}; s_sq=rcp-r-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOV%25253Aservice-available%2526link%253DCheck%252520availability%2526region%253Dds-modal-container-2%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOV%25253Aservice-available%2526pidt%253D1%2526oid%253DCheck%252520availability%2526oidt%253D3%2526ot%253DSUBMIT; rxvt=1742297674016|1742295824964; dtPC=9$495848799_907h10vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="app-context" value="Care"/>
+    <header name="apim-subscription-key" value="L8IMwh8gFkLBAgaa1v6AdBo2573k2bCg"/>
+    <header name="channel" value="care"/>
+    <header name="atstamp" value="1742295874013"/>
+    <header name="x-rch-cache" value="false"/>
+    <header name="x-rch-url" value="v3/addressServices?samKey=2390000515280&amp;accountNumber=&amp;isMigration=false&amp;objectID=2035934190.0000000000&amp;useThisAddr=false"/>
+    <header name="language" value="en"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="auuid" value="47a7a87a-8710-481c-9097-1d3a6654d555"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="x-dtpc" value="9$495848799_907h10vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="applicationid" value="Rogers.com"/>
+    <header name="app-context-id" value="6ffb757b-4744-4975-9e37-bb69007d2d7f"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+content-type: application/json&#xd;
+expires: 0&#xd;
+x-oneagent-js-injection: true&#xd;
+server-timing: dtRpid;desc="1955642872",dtSInfo;desc="0"&#xd;
+app-context: Care&#xd;
+ute-request-id: 47a7a87a-8710-481c-9097-1d3a6654d555&#xd;
+isbrtsession: false&#xd;
+ute-request-proc-time: 394&#xd;
+app-context-id: 6ffb757b-4744-4975-9e37-bb69007d2d7f&#xd;
+recaptcha-bypass-flag: false&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+pragma: no-cache&#xd;
+x-frame-options: DENY&#xd;
+x-envoy-upstream-service-time: 408&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+access-control-allow-origin: *&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-methods: GET,PUT,POST,DELETE,PATCH,OPTIONS&#xd;
+access-control-allow-headers: DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization&#xd;
+access-control-max-age: 1728000&#xd;
+request-context: appId=cid-v1:18625cbc-9074-427f-9b69-732a0c9b2abd&#xd;
+content-length: 661&#xd;
+date: Tue, 18 Mar 2025 11:04:34 GMT&#xd;
+set-cookie: DataCenter=ProdA; path=/; domain=.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

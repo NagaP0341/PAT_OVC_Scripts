@@ -1,0 +1,19 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_10_Fido_AAL_03a_CreditEvaluationResults" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="b7a552f8-70b5-41b4-88be-1ae0f773e14e" weightsEnabled="false">
+    <weighted-embedded-action uid="e5a7e38d-d1de-4880-a9da-b1c2e230daa5"/>
+    <weighted-embedded-action uid="b9aacb4b-fec4-43e1-9605-345d068f31c3"/>
+    <weighted-embedded-action uid="848cbca9-6a22-4009-be93-fd4471402d6d"/>
+    <weighted-embedded-action uid="cd3f6710-71b6-49bb-8aaa-7eb8f08bb3a6"/>
+    <weighted-embedded-action uid="bc05d48f-611e-4773-858b-e108dd8afc1c"/>
+    <weighted-embedded-action uid="ed8d714b-f9f4-4f69-a95b-b2e8f6fb2fb8"/>
+    <weighted-embedded-action uid="d693f904-28e5-4a61-ac57-3ca259698ec2"/>
+    <weighted-embedded-action uid="04c5a647-da4e-477a-a782-cc5b8aa9f49f"/>
+    <weighted-embedded-action uid="98b2a5cf-51dc-4e63-8e0f-e2838889dbc0"/>
+    <weighted-embedded-action uid="31ca3919-b043-4f54-9c49-87ff94727c05"/>
+    <weighted-embedded-action uid="15bc27c3-9f21-4251-b74b-ee7e281aad84"/>
+    <weighted-embedded-action uid="a6d42e8a-706f-4d47-ac0f-56b60f296c01"/>
+    <weighted-embedded-action uid="257e1dcb-6dfc-412b-a3dc-09b5f8e576bb"/>
+    <weighted-embedded-action uid="ab912538-c34a-4360-867d-773e4c1d893d"/>
+</basic-logical-action-container>

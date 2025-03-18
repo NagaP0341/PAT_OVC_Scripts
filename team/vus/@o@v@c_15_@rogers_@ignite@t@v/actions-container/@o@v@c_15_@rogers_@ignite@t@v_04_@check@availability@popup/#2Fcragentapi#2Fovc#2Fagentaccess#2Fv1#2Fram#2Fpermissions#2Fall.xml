@@ -1,0 +1,295 @@
+<http-page executeResourcesDynamically="false"
+    name="/cragentapi/ovc/agentaccess/v1/ram/permissions/all"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/d555b05a-e65a-400f-a772-46cc3ce8f6b4.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d555b05a-e65a-400f-a772-46cc3ce8f6b4">
+    <embedded-action>bec02ce6-d698-4982-9398-b0916b1e2129</embedded-action>
+    <embedded-action>449d9993-ddeb-4437-b970-61ba4b637007</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_d555b05a-e65a-400f-a772-46cc3ce8f6b4.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="OPTIONS"
+    name="/cragentapi/ovc/agentaccess/v1/ram/permissions/all"
+    path="/cragentapi/ovc/agentaccess/v1/ram/permissions/all"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/d555b05a-e65a-400f-a772-46cc3ce8f6b4.zip"
+    recordedResponseCode="200" responseSize="443"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="bec02ce6-d698-4982-9398-b0916b1e2129" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bec02ce6-d698-4982-9398-b0916b1e2129.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bec02ce6-d698-4982-9398-b0916b1e2129.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=6ffb757b-4744-4975-9e37-bb69007d2d7f&amp;flowType=CH_NAC"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-a.rogers.com"/>
+    <header name="access-control-request-headers" value="flow,ocp-apim-subscription-key,requestid"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="access-control-request-method" value="GET"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: AkamaiGHost&#xd;
+mime-version: 1.0&#xd;
+content-type: text/html&#xd;
+content-length: 443&#xd;
+expires: Tue, 18 Mar 2025 11:04:08 GMT&#xd;
+date: Tue, 18 Mar 2025 11:04:08 GMT&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+set-cookie: akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=79~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=9964f97eda7d5507503f06aceb6456ce; path=/; HttpOnly; Secure; SameSite=None&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: flow,ocp-apim-subscription-key,requestid&#xd;
+access-control-allow-methods: GET&#xd;
+access-control-allow-origin: https://oneview-a.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/x-javascript;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/b/ss/rcp-r-oneview-prod/10/JS-2.25.0-LEWM/s32690651225460"
+    path="/b/ss/rcp-r-oneview-prod/10/JS-2.25.0-LEWM/s32690651225460"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/d555b05a-e65a-400f-a772-46cc3ce8f6b4.zip"
+    recordedResponseCode="200" responseSize="6793"
+    serverUid="stracking.rogers.com" slaProfileEnabled="false"
+    uid="449d9993-ddeb-4437-b970-61ba4b637007" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_449d9993-ddeb-4437-b970-61ba4b637007</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_449d9993-ddeb-4437-b970-61ba4b637007.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="AQB"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ndh"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pf"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false" name="callback"
+        recordRawValue="s_c_il[1].doPostbacks" separator="="
+        value="s_c_il[1].doPostbacks" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="et"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="t"
+        recordRawValue="18%2F2%2F2025%2011%3A4%3A8%202%200"
+        separator="=" value="18/2/2025 11:4:8 2 0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="d."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nsid"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="jsonv"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".d"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="mid"
+        recordRawValue="70832142474106823291688474496184356276"
+        separator="=" value="70832142474106823291688474496184356276" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="aamlh"
+        recordRawValue="7" separator="=" value="7" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ce"
+        recordRawValue="UTF-8" separator="=" value="UTF-8" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pageName"
+        recordRawValue="OV%3Aservice-available" separator="="
+        value="OV:service-available" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="g"
+        recordRawValue="https%3A%2F%2Foneview-a.rogers.com%2Fweb%2Frep%2Fignite-bundles%2Ftv-internet"
+        separator="="
+        value="https://oneview-a.rogers.com/web/rep/ignite-bundles/tv-internet" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="r"
+        recordRawValue="https%3A%2F%2Foneview-accountsearch.rogers.com"
+        separator="=" value="https://oneview-accountsearch.rogers.com" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cc"
+        recordRawValue="CAD" separator="=" value="CAD" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="events"
+        recordRawValue="event60%2Cevent178%3D1.49" separator="="
+        value="event60,event178=1.49" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="aamb"
+        recordRawValue="RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y"
+        separator="="
+        value="RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c1"
+        recordRawValue="D%3Dv1" separator="=" value="D=v1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c2"
+        recordRawValue="D%3Dv2" separator="=" value="D=v2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c3"
+        recordRawValue="D%3Dv3" separator="=" value="D=v3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c4"
+        recordRawValue="D%3Dv4" separator="=" value="D=v4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v4"
+        recordRawValue="OV%3Aservice-available" separator="="
+        value="OV:service-available" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c6"
+        recordRawValue="D%3Dv6" separator="=" value="D=v6" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v6"
+        recordRawValue="https%3A%2F%2Foneview-a.rogers.com%2Fweb%2Frep%2Fignite-bundles%2Ftv-internet"
+        separator="="
+        value="https://oneview-a.rogers.com/web/rep/ignite-bundles/tv-internet" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v10"
+        recordRawValue="R" separator="=" value="R" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v19"
+        recordRawValue="consumer%7Cregular" separator="="
+        value="consumer|regular" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v30"
+        recordRawValue="Oneview%20-%20Ignite%20Buy%7CNAC%7Cnew%20cx"
+        separator="=" value="Oneview - Ignite Buy|NAC|new cx" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v43"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v48"
+        recordRawValue="%7C%7C%7C%7C" separator="=" value="||||" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v50"
+        recordRawValue="%2B1" separator="=" value="+1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v51"
+        recordRawValue="OV" separator="=" value="OV" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v53"
+        recordRawValue="Tuesday%7C3%2F18%2F2025%207%3A04" separator="="
+        value="Tuesday|3/18/2025 7:04" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v54"
+        recordRawValue="on" separator="=" value="on" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v55"
+        recordRawValue="en" separator="=" value="en" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v61"
+        recordRawValue="ignite%20nac%7Cignite-tv" separator="="
+        value="ignite nac|ignite-tv" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v63"
+        recordRawValue="First%20Visit" separator="=" value="First Visit" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v65"
+        recordRawValue="https%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous"
+        separator="="
+        value="https://oneview.rogers.com/web/a/dashboard/overview/anonymous" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v71"
+        recordRawValue="Not%20Found" separator="=" value="Not Found" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v73"
+        recordRawValue="Adobe%20Launch" separator="="
+        value="Adobe Launch" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v74"
+        recordRawValue="70832142474106823291688474496184356276"
+        separator="=" value="70832142474106823291688474496184356276" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v75"
+        recordRawValue="D%3Daid" separator="=" value="D=aid" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v76"
+        recordRawValue="default" separator="=" value="default" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v78"
+        recordRawValue="1.49" separator="=" value="1.49" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v83"
+        recordRawValue="%7Cnot%20available" separator="="
+        value="|not available" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v99"
+        recordRawValue="aa17871d-03e8-11f0-9457-5101beecf8fd"
+        separator="=" value="aa17871d-03e8-11f0-9457-5101beecf8fd" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v100"
+        recordRawValue="Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36%7Cversion4"
+        separator="="
+        value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36|version4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v101"
+        recordRawValue="Rogers.com%20%28Launch%2C%20MAIN%20PROPERTY%29%7Cproduction%7C2.25.0%7C5.5.0%7Cv1.8.4%7C03%2F17%2F2025"
+        separator="="
+        value="Rogers.com (Launch, MAIN PROPERTY)|production|2.25.0|5.5.0|v1.8.4|03/17/2025" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v137"
+        recordRawValue="0%3A0" separator="=" value="0:0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v190"
+        recordRawValue="%7C%7C" separator="=" value="||" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v193"
+        recordRawValue="legacy" separator="=" value="legacy" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v197"
+        recordRawValue="oneview-a.rogers.com%2Fweb%2Frep%2Fignite-bundles%2Ftv-internet"
+        separator="="
+        value="oneview-a.rogers.com/web/rep/ignite-bundles/tv-internet" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v198"
+        recordRawValue="oneview-a.rogers.com" separator="="
+        value="oneview-a.rogers.com" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v200"
+        recordRawValue="doPluginsBottom%20Finished" separator="="
+        value="doPluginsBottom Finished" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="a."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="activitymap."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="page"
+        recordRawValue="OV%3Aweb%3Aa%3Adashboard%3Aoverview%3Aanonymous"
+        separator="=" value="OV:web:a:dashboard:overview:anonymous" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="link"
+        recordRawValue="Home" separator="=" value="Home" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="region"
+        recordRawValue="BODY" separator="=" value="BODY" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pageIDType"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".activitymap"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".a"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".c"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pid"
+        recordRawValue="OV%3Aweb%3Aa%3Adashboard%3Aoverview%3Aanonymous"
+        separator="=" value="OV:web:a:dashboard:overview:anonymous" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pidt"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="oid"
+        recordRawValue="Home" separator="=" value="Home" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="oidt"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ot"
+        recordRawValue="SUBMIT" separator="=" value="SUBMIT" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="s"
+        recordRawValue="1920x1080" separator="=" value="1920x1080" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c"
+        recordRawValue="24" separator="=" value="24" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="j"
+        recordRawValue="1.6" separator="=" value="1.6" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="N" separator="=" value="N" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="k"
+        recordRawValue="Y" separator="=" value="Y" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="bw"
+        recordRawValue="1920" separator="=" value="1920" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="bh"
+        recordRawValue="953" separator="=" value="953" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="mcorgid"
+        recordRawValue="D7FD34FA53D63B860A490D44%40AdobeOrg"
+        separator="=" value="D7FD34FA53D63B860A490D44@AdobeOrg" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="AQE"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/ignite-bundles/tv-internet"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="rxVisitor=1742295824966EL4DM3CBQ41UG4BV3RO1A3FDHK3QGDI7; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; language=en; PLAY_SESSION=23bcf0bfe519f2223402f901ee8eb59c609b241e-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=43163b68-c128-4a91-b1c7-a9aa3929065c&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C70832142474106823291688474496184356276; X_DOM_session_guid=aa17871d-03e8-11f0-9457-5101beecf8fd; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20166%7CMCMID%7C70832142474106823291688474496184356276%7CMCAAMLH-1742900629%7C7%7CMCAAMB-1742900629%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742303029s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20173%7CMCCIDH%7C1415946879%7CvVersion%7C5.5.0; rxvt=1742297643901|1742295824964; dtSa=false%7CKU%7C21%7CHome%7Cx%7C1742295843885%7C495825368_787%7Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous%7C%7C%7C%7C; dtPC=9$495825368_787h-vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0; dtCookie=v_4_srv_9_sn_5CB7560AF0DA5F190C40E26ED80BD0B3_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; DataCenter=ProdA; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742297648015%3B%20rcp_s_dslv%3D1742295848015%7C1836903848015%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742297648015%3B; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:service-available%22%2C%22pURL%22:%22https://oneview-a.rogers.com/web/rep/ignite-bundles/tv-internet%22%2C%22accType%22:%22consumer|regular%22%2C%22buyflowName%22:%22Oneview%20-%20Ignite%20Buy|NAC|new%20cx%22}; s_sq=%5B%5BB%5D%5D"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+access-control-allow-origin: *&#xd;
+date: Tue, 18 Mar 2025 11:04:08 GMT&#xd;
+expires: Mon, 17 Mar 2025 11:04:08 GMT&#xd;
+last-modified: Wed, 19 Mar 2025 11:04:08 GMT&#xd;
+pragma: no-cache&#xd;
+p3p: CP="This is not a P3P policy"&#xd;
+server: jag&#xd;
+set-cookie: s_ecid=MCMID%7C70832142474106823291688474496184356276; Path=/; Domain=rogers.com; Max-Age=63072000; Expires=Thu, 18 Mar 2027 11:04:04 GMT;&#xd;
+etag: 3741551844620337152-4614831649435063394&#xd;
+vary: *&#xd;
+x-aam-tid: Wx0PnJ6URgk=&#xd;
+dcs: dcs-prod-va6-1-v073-0c62a42a4.edge-va6.demdex.com 9 ms&#xd;
+content-type: application/x-javascript;charset=utf-8&#xd;
+content-length: 6793&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+cache-control: no-cache, no-store, max-age=0, no-transform, private&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-content-type-options: nosniff</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

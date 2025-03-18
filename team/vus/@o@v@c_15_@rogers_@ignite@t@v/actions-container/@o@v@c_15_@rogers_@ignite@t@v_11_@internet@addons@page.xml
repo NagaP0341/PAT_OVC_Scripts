@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_11_InternetAddonsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="8fd3cb8e-fa86-4577-9a9a-618fe576adec" weightsEnabled="false">
+    <weighted-embedded-action uid="a177239a-26cc-4599-b468-5189465b1911"/>
+    <weighted-embedded-action uid="9e5f6d7d-0643-49c2-9ffc-072883de3948"/>
+</basic-logical-action-container>

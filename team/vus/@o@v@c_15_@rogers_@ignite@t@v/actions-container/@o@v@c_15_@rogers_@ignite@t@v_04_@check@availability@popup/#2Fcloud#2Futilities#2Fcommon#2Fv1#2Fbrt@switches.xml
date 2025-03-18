@@ -1,0 +1,313 @@
+<http-page executeResourcesDynamically="false"
+    name="/cloud/utilities/common/v1/brtSwitches"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/f287ba20-5b3a-4f09-92dc-b5b909432b01.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f287ba20-5b3a-4f09-92dc-b5b909432b01">
+    <embedded-action>ec00fed4-dc94-48fe-9f19-04b98dc2b16f</embedded-action>
+    <embedded-action>efb7b63b-14fd-4a7e-a8a9-23bf5c4d2425</embedded-action>
+    <embedded-action>5923094f-889b-4d67-aece-333f73756bcf</embedded-action>
+    <embedded-action>4cc76eef-a3ef-4f04-9e47-be4821b3bb7e</embedded-action>
+    <embedded-action>09286635-8667-437b-900c-0eccf7b4a395</embedded-action>
+    <embedded-action>521887a5-c622-4848-8dc7-cd4174f12cab</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f287ba20-5b3a-4f09-92dc-b5b909432b01.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cloud/utilities/common/v1/brtSwitches"
+    path="/cloud/utilities/common/v1/brtSwitches" postType="4"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/f287ba20-5b3a-4f09-92dc-b5b909432b01.zip"
+    recordedResponseCode="200" responseSize="13965"
+    serverUid="oneview-a.rogers.com" slaProfileEnabled="false"
+    uid="ec00fed4-dc94-48fe-9f19-04b98dc2b16f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ec00fed4-dc94-48fe-9f19-04b98dc2b16f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ec00fed4-dc94-48fe-9f19-04b98dc2b16f.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=6ffb757b-4744-4975-9e37-bb69007d2d7f&amp;flowType=CH_NAC"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="rxVisitor=1742295824966EL4DM3CBQ41UG4BV3RO1A3FDHK3QGDI7; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; language=en; PLAY_SESSION=23bcf0bfe519f2223402f901ee8eb59c609b241e-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=43163b68-c128-4a91-b1c7-a9aa3929065c&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C70832142474106823291688474496184356276; X_DOM_session_guid=aa17871d-03e8-11f0-9457-5101beecf8fd; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20166%7CMCMID%7C70832142474106823291688474496184356276%7CMCAAMLH-1742900629%7C7%7CMCAAMB-1742900629%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742303029s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20173%7CMCCIDH%7C1415946879%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:web:a:dashboard:overview:anonymous%22%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview/anonymous%22%2C%22accType%22:%22consumer|regular%22}; s_sq=rcp-r-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526link%253DHome%2526region%253DBODY%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526pidt%253D1%2526oid%253DHome%2526oidt%253D3%2526ot%253DSUBMIT; rxvt=1742297643901|1742295824964; dtSa=false%7CKU%7C21%7CHome%7Cx%7C1742295843885%7C495825368_787%7Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous%7C%7C%7C%7C; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742297644202%3B%20rcp_s_dslv%3D1742295844202%7C1836903844202%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742297644202%3B; dtPC=9$495825368_787h-vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0; akacd_PR_OV_Rogers_CHCare_Switch50=3919748644~rv=55~id=0816735744d6499a2fca029549e841e1; akacd_PR_OV_Rogers_CHCare_Switch10=3919748644~rv=17~id=6927204e37e4c5b5cbb95ee6b7a45eea; akacd_PR_OV_Rogers_CHCare_Switch=3919748644~rv=60~id=107cb31007b74b77d80a1fec978a91da; dtCookie=v_4_srv_9_sn_5CB7560AF0DA5F190C40E26ED80BD0B3_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; DataCenter=ProdA; akaalb_ALB_OV_Rogers_CHCare_APIM=~op=ALB_OV_Rogers_CHCare_APIM:ALB_OV_Rogers_CHCare_ProdA|~rv=90~m=ALB_OV_Rogers_CHCare_ProdA:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=35ff158a5fa7dfb6746268ee33b4a720; internetAddonsPermission=; province=on"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="app-context" value="Care"/>
+    <header name="origin" value="https://oneview-a.rogers.com"/>
+    <header name="apim-subscription-key" value="L8IMwh8gFkLBAgaa1v6AdBo2573k2bCg"/>
+    <header name="atstamp" value="1742295846831"/>
+    <header name="x-rch-cache" value="true"/>
+    <header name="x-rch-url" value="v1/getBrtSwitches"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="auuid" value="8e8cdaaa-bdd1-41b4-9899-52a87b917aaa"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="app-context-id" value="6ffb757b-4744-4975-9e37-bb69007d2d7f"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+content-type: application/json&#xd;
+expires: 0&#xd;
+x-oneagent-js-injection: true&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtRpid;desc="1239578988",dtTao;desc="1",dtSInfo;desc="0"&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+pragma: no-cache&#xd;
+x-frame-options: DENY&#xd;
+x-envoy-upstream-service-time: 151&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+request-context: appId=cid-v1:18625cbc-9074-427f-9b69-732a0c9b2abd&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+date: Tue, 18 Mar 2025 11:04:07 GMT&#xd;
+content-length: 2482&#xd;
+set-cookie: DataCenter=ProdA; path=/; domain=.rogers.com&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: NULL&#xd;
+access-control-allow-methods: NULL&#xd;
+access-control-allow-origin: https://oneview-a.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/rep/assets/i18n/en.json"
+    path="/web/rep/assets/i18n/en.json" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/f287ba20-5b3a-4f09-92dc-b5b909432b01.zip"
+    recordedResponseCode="200" responseSize="313871"
+    serverUid="oneview-a.rogers.com" slaProfileEnabled="false"
+    uid="efb7b63b-14fd-4a7e-a8a9-23bf5c4d2425" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_efb7b63b-14fd-4a7e-a8a9-23bf5c4d2425</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_efb7b63b-14fd-4a7e-a8a9-23bf5c4d2425.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=6ffb757b-4744-4975-9e37-bb69007d2d7f&amp;flowType=CH_NAC"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="rxVisitor=1742295824966EL4DM3CBQ41UG4BV3RO1A3FDHK3QGDI7; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; language=en; PLAY_SESSION=23bcf0bfe519f2223402f901ee8eb59c609b241e-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=43163b68-c128-4a91-b1c7-a9aa3929065c&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C70832142474106823291688474496184356276; X_DOM_session_guid=aa17871d-03e8-11f0-9457-5101beecf8fd; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20166%7CMCMID%7C70832142474106823291688474496184356276%7CMCAAMLH-1742900629%7C7%7CMCAAMB-1742900629%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742303029s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20173%7CMCCIDH%7C1415946879%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:web:a:dashboard:overview:anonymous%22%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview/anonymous%22%2C%22accType%22:%22consumer|regular%22}; s_sq=rcp-r-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526link%253DHome%2526region%253DBODY%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526pidt%253D1%2526oid%253DHome%2526oidt%253D3%2526ot%253DSUBMIT; rxvt=1742297643901|1742295824964; dtSa=false%7CKU%7C21%7CHome%7Cx%7C1742295843885%7C495825368_787%7Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous%7C%7C%7C%7C; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742297644202%3B%20rcp_s_dslv%3D1742295844202%7C1836903844202%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742297644202%3B; dtPC=9$495825368_787h-vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0; akacd_PR_OV_Rogers_CHCare_Switch50=3919748644~rv=55~id=0816735744d6499a2fca029549e841e1; akacd_PR_OV_Rogers_CHCare_Switch10=3919748644~rv=17~id=6927204e37e4c5b5cbb95ee6b7a45eea; akacd_PR_OV_Rogers_CHCare_Switch=3919748644~rv=60~id=107cb31007b74b77d80a1fec978a91da; dtCookie=v_4_srv_9_sn_5CB7560AF0DA5F190C40E26ED80BD0B3_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; DataCenter=ProdA; akaalb_ALB_OV_Rogers_CHCare_APIM=~op=ALB_OV_Rogers_CHCare_APIM:ALB_OV_Rogers_CHCare_ProdA|~rv=90~m=ALB_OV_Rogers_CHCare_ProdA:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=35ff158a5fa7dfb6746268ee33b4a720; internetAddonsPermission=; province=on; language=en"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="app-context" value="Care"/>
+    <header name="atstamp" value="1742295847097"/>
+    <header name="x-rch-cache" value="true"/>
+    <header name="x-rch-url" value="/web/rep/assets/i18n/en.json"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="auuid" value="0cc99e30-84d9-4ee7-a75e-7ad85ec410b9"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="app-context-id" value="6ffb757b-4744-4975-9e37-bb69007d2d7f"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+content-type: application/json&#xd;
+etag: "288201915b54efd1e4a62496472d735e:1740536229.244493"&#xd;
+last-modified: Wed, 26 Feb 2025 02:17:09 GMT&#xd;
+server: AkamaiNetStorage&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=65&#xd;
+expires: Tue, 18 Mar 2025 11:05:12 GMT&#xd;
+date: Tue, 18 Mar 2025 11:04:07 GMT&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/rep/assets/config/config.json"
+    path="/web/rep/assets/config/config.json" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/f287ba20-5b3a-4f09-92dc-b5b909432b01.zip"
+    recordedResponseCode="200" responseSize="1337"
+    serverUid="oneview-a.rogers.com" slaProfileEnabled="false"
+    uid="5923094f-889b-4d67-aece-333f73756bcf" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5923094f-889b-4d67-aece-333f73756bcf</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5923094f-889b-4d67-aece-333f73756bcf.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=6ffb757b-4744-4975-9e37-bb69007d2d7f&amp;flowType=CH_NAC"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="rxVisitor=1742295824966EL4DM3CBQ41UG4BV3RO1A3FDHK3QGDI7; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; language=en; PLAY_SESSION=23bcf0bfe519f2223402f901ee8eb59c609b241e-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=43163b68-c128-4a91-b1c7-a9aa3929065c&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C70832142474106823291688474496184356276; X_DOM_session_guid=aa17871d-03e8-11f0-9457-5101beecf8fd; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20166%7CMCMID%7C70832142474106823291688474496184356276%7CMCAAMLH-1742900629%7C7%7CMCAAMB-1742900629%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742303029s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20173%7CMCCIDH%7C1415946879%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:web:a:dashboard:overview:anonymous%22%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview/anonymous%22%2C%22accType%22:%22consumer|regular%22}; s_sq=rcp-r-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526link%253DHome%2526region%253DBODY%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526pidt%253D1%2526oid%253DHome%2526oidt%253D3%2526ot%253DSUBMIT; rxvt=1742297643901|1742295824964; dtSa=false%7CKU%7C21%7CHome%7Cx%7C1742295843885%7C495825368_787%7Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous%7C%7C%7C%7C; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742297644202%3B%20rcp_s_dslv%3D1742295844202%7C1836903844202%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742297644202%3B; dtPC=9$495825368_787h-vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0; akacd_PR_OV_Rogers_CHCare_Switch50=3919748644~rv=55~id=0816735744d6499a2fca029549e841e1; akacd_PR_OV_Rogers_CHCare_Switch10=3919748644~rv=17~id=6927204e37e4c5b5cbb95ee6b7a45eea; akacd_PR_OV_Rogers_CHCare_Switch=3919748644~rv=60~id=107cb31007b74b77d80a1fec978a91da; dtCookie=v_4_srv_9_sn_5CB7560AF0DA5F190C40E26ED80BD0B3_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; DataCenter=ProdA; akaalb_ALB_OV_Rogers_CHCare_APIM=~op=ALB_OV_Rogers_CHCare_APIM:ALB_OV_Rogers_CHCare_ProdA|~rv=90~m=ALB_OV_Rogers_CHCare_ProdA:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=35ff158a5fa7dfb6746268ee33b4a720; internetAddonsPermission=; province=on; language=en"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="app-context" value="Care"/>
+    <header name="atstamp" value="1742295847096"/>
+    <header name="x-rch-cache" value="false"/>
+    <header name="x-rch-url" value="/web/rep/assets/config/config.json"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="auuid" value="b2859c0c-1893-4325-ad71-42e848221ee1"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="app-context-id" value="6ffb757b-4744-4975-9e37-bb69007d2d7f"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+content-type: application/json&#xd;
+etag: "bae4ab0fea3f38f8d1f47f33b2fb44bb:1740536232.056179"&#xd;
+last-modified: Wed, 26 Feb 2025 02:17:12 GMT&#xd;
+server: AkamaiNetStorage&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=7&#xd;
+expires: Tue, 18 Mar 2025 11:04:14 GMT&#xd;
+date: Tue, 18 Mar 2025 11:04:07 GMT&#xd;
+content-length: 607&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/web/rep/static/assets/common/css/channel-logo-mappings.css"
+    path="/web/rep/static/assets/common/css/channel-logo-mappings.css"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/f287ba20-5b3a-4f09-92dc-b5b909432b01.zip"
+    recordedResponseCode="200" responseSize="107948"
+    serverUid="oneview-a.rogers.com" slaProfileEnabled="false"
+    uid="4cc76eef-a3ef-4f04-9e47-be4821b3bb7e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4cc76eef-a3ef-4f04-9e47-be4821b3bb7e.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4cc76eef-a3ef-4f04-9e47-be4821b3bb7e.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=6ffb757b-4744-4975-9e37-bb69007d2d7f&amp;flowType=CH_NAC"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="rxVisitor=1742295824966EL4DM3CBQ41UG4BV3RO1A3FDHK3QGDI7; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; language=en; PLAY_SESSION=23bcf0bfe519f2223402f901ee8eb59c609b241e-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=43163b68-c128-4a91-b1c7-a9aa3929065c&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C70832142474106823291688474496184356276; X_DOM_session_guid=aa17871d-03e8-11f0-9457-5101beecf8fd; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20166%7CMCMID%7C70832142474106823291688474496184356276%7CMCAAMLH-1742900629%7C7%7CMCAAMB-1742900629%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742303029s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20173%7CMCCIDH%7C1415946879%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:web:a:dashboard:overview:anonymous%22%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview/anonymous%22%2C%22accType%22:%22consumer|regular%22}; s_sq=rcp-r-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526link%253DHome%2526region%253DBODY%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526pidt%253D1%2526oid%253DHome%2526oidt%253D3%2526ot%253DSUBMIT; rxvt=1742297643901|1742295824964; dtSa=false%7CKU%7C21%7CHome%7Cx%7C1742295843885%7C495825368_787%7Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous%7C%7C%7C%7C; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742297644202%3B%20rcp_s_dslv%3D1742295844202%7C1836903844202%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742297644202%3B; dtPC=9$495825368_787h-vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0; akacd_PR_OV_Rogers_CHCare_Switch50=3919748644~rv=55~id=0816735744d6499a2fca029549e841e1; akacd_PR_OV_Rogers_CHCare_Switch10=3919748644~rv=17~id=6927204e37e4c5b5cbb95ee6b7a45eea; akacd_PR_OV_Rogers_CHCare_Switch=3919748644~rv=60~id=107cb31007b74b77d80a1fec978a91da; dtCookie=v_4_srv_9_sn_5CB7560AF0DA5F190C40E26ED80BD0B3_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; DataCenter=ProdA; akaalb_ALB_OV_Rogers_CHCare_APIM=~op=ALB_OV_Rogers_CHCare_APIM:ALB_OV_Rogers_CHCare_ProdA|~rv=90~m=ALB_OV_Rogers_CHCare_ProdA:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=35ff158a5fa7dfb6746268ee33b4a720; internetAddonsPermission=; province=on; language=en"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+content-type: text/css&#xd;
+etag: "b98b1d3b8444c225b106163ff2f67e8f:1741810406.657249"&#xd;
+last-modified: Wed, 12 Mar 2025 20:13:26 GMT&#xd;
+server: AkamaiNetStorage&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=7&#xd;
+expires: Tue, 18 Mar 2025 11:04:14 GMT&#xd;
+date: Tue, 18 Mar 2025 11:04:07 GMT&#xd;
+content-length: 12520&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/rep/build-date.json"
+    path="/web/rep/build-date.json" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/f287ba20-5b3a-4f09-92dc-b5b909432b01.zip"
+    recordedResponseCode="200" responseSize="145"
+    serverUid="oneview-a.rogers.com" slaProfileEnabled="false"
+    uid="09286635-8667-437b-900c-0eccf7b4a395" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_09286635-8667-437b-900c-0eccf7b4a395</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_09286635-8667-437b-900c-0eccf7b4a395.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=6ffb757b-4744-4975-9e37-bb69007d2d7f&amp;flowType=CH_NAC"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="rxVisitor=1742295824966EL4DM3CBQ41UG4BV3RO1A3FDHK3QGDI7; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; language=en; PLAY_SESSION=23bcf0bfe519f2223402f901ee8eb59c609b241e-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=43163b68-c128-4a91-b1c7-a9aa3929065c&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C70832142474106823291688474496184356276; X_DOM_session_guid=aa17871d-03e8-11f0-9457-5101beecf8fd; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20166%7CMCMID%7C70832142474106823291688474496184356276%7CMCAAMLH-1742900629%7C7%7CMCAAMB-1742900629%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742303029s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20173%7CMCCIDH%7C1415946879%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:web:a:dashboard:overview:anonymous%22%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview/anonymous%22%2C%22accType%22:%22consumer|regular%22}; s_sq=rcp-r-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526link%253DHome%2526region%253DBODY%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526pidt%253D1%2526oid%253DHome%2526oidt%253D3%2526ot%253DSUBMIT; rxvt=1742297643901|1742295824964; dtSa=false%7CKU%7C21%7CHome%7Cx%7C1742295843885%7C495825368_787%7Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous%7C%7C%7C%7C; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742297644202%3B%20rcp_s_dslv%3D1742295844202%7C1836903844202%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742297644202%3B; dtPC=9$495825368_787h-vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0; akacd_PR_OV_Rogers_CHCare_Switch50=3919748644~rv=55~id=0816735744d6499a2fca029549e841e1; akacd_PR_OV_Rogers_CHCare_Switch10=3919748644~rv=17~id=6927204e37e4c5b5cbb95ee6b7a45eea; akacd_PR_OV_Rogers_CHCare_Switch=3919748644~rv=60~id=107cb31007b74b77d80a1fec978a91da; dtCookie=v_4_srv_9_sn_5CB7560AF0DA5F190C40E26ED80BD0B3_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; DataCenter=ProdA; akaalb_ALB_OV_Rogers_CHCare_APIM=~op=ALB_OV_Rogers_CHCare_APIM:ALB_OV_Rogers_CHCare_ProdA|~rv=90~m=ALB_OV_Rogers_CHCare_ProdA:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=35ff158a5fa7dfb6746268ee33b4a720; internetAddonsPermission=; province=on; language=en"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="app-context" value="Care"/>
+    <header name="atstamp" value="1742295847240"/>
+    <header name="x-rch-cache" value="false"/>
+    <header name="x-rch-url" value="build-date.json"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="auuid" value="cd5bc447-225d-4c70-83c1-13ebcaea43a3"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="app-context-id" value="6ffb757b-4744-4975-9e37-bb69007d2d7f"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+content-type: application/json&#xd;
+etag: "8fc9ce50bf5b00c9d69a2c81dc9837e1:1740536237.870064"&#xd;
+last-modified: Wed, 26 Feb 2025 02:17:17 GMT&#xd;
+server: AkamaiNetStorage&#xd;
+content-encoding: gzip&#xd;
+content-length: 134&#xd;
+cache-control: max-age=420&#xd;
+expires: Tue, 18 Mar 2025 11:11:07 GMT&#xd;
+date: Tue, 18 Mar 2025 11:04:07 GMT&#xd;
+vary: Accept-Encoding&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/rep/loading.0a8b550f7842e9ad.gif"
+    path="/web/rep/loading.0a8b550f7842e9ad.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/f287ba20-5b3a-4f09-92dc-b5b909432b01.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="oneview-a.rogers.com" slaProfileEnabled="false"
+    uid="521887a5-c622-4848-8dc7-cd4174f12cab" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_521887a5-c622-4848-8dc7-cd4174f12cab.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=6ffb757b-4744-4975-9e37-bb69007d2d7f&amp;flowType=CH_NAC"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="rxVisitor=1742295824966EL4DM3CBQ41UG4BV3RO1A3FDHK3QGDI7; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; language=en; PLAY_SESSION=23bcf0bfe519f2223402f901ee8eb59c609b241e-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=43163b68-c128-4a91-b1c7-a9aa3929065c&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C70832142474106823291688474496184356276; X_DOM_session_guid=aa17871d-03e8-11f0-9457-5101beecf8fd; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20166%7CMCMID%7C70832142474106823291688474496184356276%7CMCAAMLH-1742900629%7C7%7CMCAAMB-1742900629%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742303029s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20173%7CMCCIDH%7C1415946879%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:web:a:dashboard:overview:anonymous%22%2C%22pURL%22:%22https://oneview.rogers.com/web/a/dashboard/overview/anonymous%22%2C%22accType%22:%22consumer|regular%22}; s_sq=rcp-r-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526link%253DHome%2526region%253DBODY%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOV%25253Aweb%25253Aa%25253Adashboard%25253Aoverview%25253Aanonymous%2526pidt%253D1%2526oid%253DHome%2526oidt%253D3%2526ot%253DSUBMIT; rxvt=1742297643901|1742295824964; dtSa=false%7CKU%7C21%7CHome%7Cx%7C1742295843885%7C495825368_787%7Chttps%3A%2F%2Foneview.rogers.com%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous%7C%7C%7C%7C; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742297644202%3B%20rcp_s_dslv%3D1742295844202%7C1836903844202%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742297644202%3B; dtPC=9$495825368_787h-vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0; akacd_PR_OV_Rogers_CHCare_Switch50=3919748644~rv=55~id=0816735744d6499a2fca029549e841e1; akacd_PR_OV_Rogers_CHCare_Switch10=3919748644~rv=17~id=6927204e37e4c5b5cbb95ee6b7a45eea; akacd_PR_OV_Rogers_CHCare_Switch=3919748644~rv=60~id=107cb31007b74b77d80a1fec978a91da; dtCookie=v_4_srv_9_sn_5CB7560AF0DA5F190C40E26ED80BD0B3_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; DataCenter=ProdA; akaalb_ALB_OV_Rogers_CHCare_APIM=~op=ALB_OV_Rogers_CHCare_APIM:ALB_OV_Rogers_CHCare_ProdA|~rv=90~m=ALB_OV_Rogers_CHCare_ProdA:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=35ff158a5fa7dfb6746268ee33b4a720; internetAddonsPermission=; province=on; language=en"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+content-type: image/gif&#xd;
+etag: "480ec9ce71ad8b62e0720f40f510c27c:1740536238.535606"&#xd;
+last-modified: Wed, 26 Feb 2025 02:17:18 GMT&#xd;
+server: AkamaiNetStorage&#xd;
+content-length: 51006&#xd;
+cache-control: max-age=1&#xd;
+expires: Tue, 18 Mar 2025 11:04:08 GMT&#xd;
+date: Tue, 18 Mar 2025 11:04:07 GMT&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

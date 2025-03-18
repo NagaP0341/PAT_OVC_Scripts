@@ -1,0 +1,29 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_10_Fido_AAL_04_DeviceListingPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="445bd7ac-c257-44f4-bbba-1be47bdc1578" weightsEnabled="false">
+    <weighted-embedded-action uid="babc498e-3652-4a41-986e-fbbe96e77fe0"/>
+    <weighted-embedded-action uid="89c89674-4b9d-4dd6-a7e0-d0a08c85bb0e"/>
+    <weighted-embedded-action uid="d838a8e7-4147-4a31-9761-212cc420bb32"/>
+    <weighted-embedded-action uid="bcbd78cd-ab0e-4632-a9ee-75edd4e3f28f"/>
+    <weighted-embedded-action uid="a23c533c-b35f-4e09-a6a5-1a8725d6ed65"/>
+    <weighted-embedded-action uid="78bc62ec-47d0-403e-a174-f6adbb62972a"/>
+    <weighted-embedded-action uid="45b3f623-eae7-40f2-a458-36c26ca093f2"/>
+    <weighted-embedded-action uid="05c14fce-d776-4a86-b73a-50a40e77fcb6"/>
+    <weighted-embedded-action uid="812fa893-0c9f-436b-9727-ade8c522283d"/>
+    <weighted-embedded-action uid="87f014e4-d758-4bdc-a1c6-c4a826a4ba23"/>
+    <weighted-embedded-action uid="cdc552e8-6ef1-45fe-be94-c9e81d64cccc"/>
+    <weighted-embedded-action uid="1396dcc9-80a3-408d-9cab-b9b264d18e8e"/>
+    <weighted-embedded-action uid="00b8ceaa-5af0-4ea0-a057-661833f6cab4"/>
+    <weighted-embedded-action uid="98037696-2a84-4285-91ca-bcb8bbeca87c"/>
+    <weighted-embedded-action uid="b58db8fc-a825-466d-b01c-7e8a22110664"/>
+    <weighted-embedded-action uid="62562b47-2a03-41f2-a6e0-de5bf3b4d315"/>
+    <weighted-embedded-action uid="e6948e5f-5b08-4b5b-b6de-11ac7381d5f1"/>
+    <weighted-embedded-action uid="ff87ab0e-3312-4d68-bf6b-4f995534bc80"/>
+    <weighted-embedded-action uid="49e49eaf-8c13-47e9-b3fa-530bc17dc820"/>
+    <weighted-embedded-action uid="b3dc9e44-75c6-4b3e-bfb9-5cf23f65284a"/>
+    <weighted-embedded-action uid="c8d552f8-d32e-4172-95b6-1d833992b0b7"/>
+    <weighted-embedded-action uid="9baedc5e-651d-4d08-95e0-7df92200fa06"/>
+    <weighted-embedded-action uid="233424c3-ddd5-4d8a-bb96-049a1061940b"/>
+    <weighted-embedded-action uid="5c2fd1c1-4b87-4fdf-a343-1d95c828ce44"/>
+</basic-logical-action-container>

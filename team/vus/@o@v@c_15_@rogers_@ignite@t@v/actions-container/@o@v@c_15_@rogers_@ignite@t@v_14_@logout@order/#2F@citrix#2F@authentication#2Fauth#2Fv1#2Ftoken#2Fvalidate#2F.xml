@@ -1,0 +1,46 @@
+<http-page executeResourcesDynamically="false"
+    name="/Citrix/Authentication/auth/v1/token/validate/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/ea80d4c6-056b-4bbe-b3ff-84651d0e98bb.zip"
+    slaProfileEnabled="false" thinkTime="2533"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ea80d4c6-056b-4bbe-b3ff-84651d0e98bb">
+    <embedded-action>cd4f3184-ad4f-4f77-a40a-230e7b3db981</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_ea80d4c6-056b-4bbe-b3ff-84651d0e98bb.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/vnd.citrix.claimsidentity+xml; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/Citrix/Authentication/auth/v1/token/validate/"
+    path="/Citrix/Authentication/auth/v1/token/validate/" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/ea80d4c6-056b-4bbe-b3ff-84651d0e98bb.zip"
+    recordedResponseCode="200" responseSize="4924"
+    serverUid="intstflogin.rci.rogers.com" slaProfileEnabled="false"
+    uid="cd4f3184-ad4f-4f77-a40a-230e7b3db981" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cd4f3184-ad4f-4f77-a40a-230e7b3db981.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cd4f3184-ad4f-4f77-a40a-230e7b3db981.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Authorization" value="CitrixAuth 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"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="ASP.NET_SessionId=klkec0v1qkdfemva4leb2cc2"/>
+    <header name="Host" value="intstflogin.rci.rogers.com"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="User-Agent" value="CitrixReceiver/22.3.2000.3 Windows/10.0 SelfService/22.3.2000.2 (Release) X1Class CWACapable"/>
+    <header name="X-Citrix-AppProtection-Capable" value="True"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store&#xd;
+Pragma: no-cache&#xd;
+Content-Type: application/vnd.citrix.claimsidentity+xml; charset=utf-8&#xd;
+Expires: -1&#xd;
+Server: Microsoft-IIS/8.5&#xd;
+SF-ServerName: VMPLDCWSF05&#xd;
+Date: Tue, 18 Mar 2025 11:08:07 GMT&#xd;
+Content-Length: 4924&#xd;
+Set-Cookie: NSC_ESNS=1da662d0-5418-17d9-9678-5ac3c449117b_3538418027_2616051410_00000000000497175952; Path=/; Expires=Tue, 18-Mar-2025 11:08:22 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

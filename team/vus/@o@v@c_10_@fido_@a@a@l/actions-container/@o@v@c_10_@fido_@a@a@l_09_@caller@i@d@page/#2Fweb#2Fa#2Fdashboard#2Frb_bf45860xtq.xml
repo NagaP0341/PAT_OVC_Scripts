@@ -1,0 +1,89 @@
+<http-page executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/8d2e5f82-7161-4eca-8215-51ce8df77b05.zip"
+    slaProfileEnabled="false" thinkTime="1028"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8d2e5f82-7161-4eca-8215-51ce8df77b05">
+    <embedded-action>1063a675-78a3-4d9e-8625-155006d167fe</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_d8025f72-d643-422b-8bae-0a35a15ea223.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="2"
+    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/8d2e5f82-7161-4eca-8215-51ce8df77b05.zip"
+    recordedResponseCode="200" responseSize="120"
+    serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
+    uid="1063a675-78a3-4d9e-8625-155006d167fe" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[MSwxNzQyMjk2NjQ0NjQ0LDE3NDIyOTY2MzE1MjksMTc0MjI5NjY0NDYzNSwxOSymogHwYzM0AgIGY2xhc3MCYWRvYmUtdGFyZ2V0LXVuaGlkZQExMjAzNAFtNDYCZG9jLmRvY3R5cGUCZHRtZXRhBTwhRE9DVFlQRSBodG1sPhExEhQBMAIwAjABbTQ5AnJjLmxpbmsCZHQBLfCZBmhhc2gCOWNhYWZhZTUxODJiMGE2YzQ1N2FmN2Q2YmFhNmE4OWYwOTRkNDRiYjdlYTBkNjhlZThjYWQwZjc2YTA2OGUzZAZ1cmwCaHR0cHM6Ly9vbmV2aWV3LWJ1eWZsb3cuZmlkby5jYS9waG9uZXMvc3R5bGVzLmU1ZWJlY2I1YjRiN2UxNGEuY3NzETE3EhQBMTIzNDcCMT4GAAgBNTchFCx2YWx1ZQJhZGRvbnMtBwgyMzM1LUhkcy1zdGVwcGVyIGQtYmxvY2sgARNAaGFkb3cgYi1zb2xpZCBiLTEBFixici1ib2R5LXRpbGUBEIhjb3JuZXJzIG5nLXN0YXItaW5zZXJ0ZWQgY2RrLWZvY3VzZQkMGHByb2dyYW0RFP51AJZ1ABBtb3VzZRFzPAExMjE0NAIxMjIwMgE0Mzk+AAEBzxxrZXlib2FyZAk0MCBvdXRsaW5lLW5vbmUB40R0bnMtYzE0ODQxOTExMjUtNTGe6ADSXQAFsig2AjEyMTUxATE5NTKzARR0YWJzX18hjTJcABhlbGVtZW50bsEAMDMxMzUyODUzOTctNzUBPShuby1vdmVyZmxvdyGY/loADVoQATEyMzJBlRw4MzMBMTk0MDlxFC1mbGV4IAEFGC1jb2x1bW4JDBRzbS1yb3cBkgmDGHRhYmxpc3Q2hwEYdy0xMDAgdwEtDGF1dG81lzbWAD5/Aj4KAnQyMDQBMzAyMQJkaXYCBmNka3Njcm9sbGFibGUCAwaJRQRkcwGIDEl0ZW0NdSRuZy10cmlnZ2VyHQsQLXNsaWRZHjaHAD5BAjYkAzBuZy1hbmltYXRpbmcgBUgMaW5nAv53ALJ3AP5uAIJuAAQGaWXsIdEELTkBB1hQYW5lbC0xBmFyaWEtbGFiZWxsZWRieQ2JDSUMLTEGc4H0CAIDEUH4VUtVURgCMTI4OTECUWMJGBUGYS2B+f7IAcrIAQ3I/jYCZjYCCBEUEkW5pfVx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]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_583a09a9-5b9b-44e2-bf07-d74cf1c76fdb</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_583a09a9-5b9b-44e2-bf07-d74cf1c76fdb.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_-2D12196_sn_5DO8BC34F9U6SFU99TR0H56UMOL6RBFD"
+        separator="="
+        value="v_4_srv_-2D12196_sn_5DO8BC34F9U6SFU99TR0H56UMOL6RBFD" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="-12196" separator="=" value="-12196" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="MPMRVKAQAEHFPCFLFALRWKNKFJWJGGFA-0"
+        separator="=" value="MPMRVKAQAEHFPCFLFALRWKNKFJWJGGFA-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="contentType" recordRawValue="srBm" separator="="
+        value="srBm" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview-buyflow.fido.ca%2Fphones%2Fiphone-16%2Fbuild-plan%3FovContextId%3D0c370795-5c1a-4dca-b5de-35bc90233af0%26flowType%3Daal%26sku%3DIP16128PNK%26step%3D7%26deviceId%3Ddevice_prodIP16%26downPayment%3D0%26tier%3DFFIN3L%26data%3Dsku_plan_FPMM012JK_FPMM012JK%26addons%3DNOPROTECTION%2C%26dpaddons%3DNOPROTECTION"
+        separator="="
+        value="https://oneview-buyflow.fido.ca/phones/iphone-16/build-plan?ovContextId=0c370795-5c1a-4dca-b5de-35bc90233af0&amp;flowType=aal&amp;sku=IP16128PNK&amp;step=7&amp;deviceId=device_prodIP16&amp;downPayment=0&amp;tier=FFIN3L&amp;data=sku_plan_FPMM012JK_FPMM012JK&amp;addons=NOPROTECTION,&amp;dpaddons=NOPROTECTION" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="39f30da8dcd81ec2" separator="="
+        value="39f30da8dcd81ec2" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="10307250124095660" separator="="
+        value="10307250124095660" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="1892260989" separator="=" value="1892260989" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/iphone-16/build-plan?ovContextId=0c370795-5c1a-4dca-b5de-35bc90233af0&amp;flowType=aal&amp;sku=IP16128PNK&amp;step=7&amp;deviceId=device_prodIP16&amp;downPayment=0&amp;tier=FFIN3L&amp;data=sku_plan_FPMM012JK_FPMM012JK&amp;addons=NOPROTECTION,&amp;dpaddons=NOPROTECTION"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dtCookie=v_4_srv_-2D12196_sn_5DO8BC34F9U6SFU99TR0H56UMOL6RBFD; rxVisitor=174229643021354B7P7M7TKFGU06E8E4HIGTISM2CM9MO; language=en; PLAY_SESSION=8b76f3301290e4af8e89807b4573ab70864e7721-LANGUAGE=en&amp;CH_BAN=939751988&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=939751988&amp;CONTACT_ID=CO1059105357&amp;SessionId=9cabec01-4ca0-4a1c-b7ab-ccf671c92fd6&amp;TARGET_URL=ONEVIEWDASHBOARD; X_DOM_session_guid=1412004d-03ea-11f0-8ec3-5b43e3440c76; X_DOM_BAN=f5249b094759675fd619d1e015d6bd3ce12fe1e38287d2e2b1e07cfea4009a56; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C51036449263513313122232879435726629287; s_cc=true; X_DOM_REFERRER=https://oneview.fido.ca; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO|~rv=32~m=ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=052f0b444e46960619026b409f4d462d; dtSa=false%7Cxhr%7C51%7Cx%7Cx%7C1742296487336%7C496430189_20%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; language=en; province=ON; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; FB_PHONE=dc1a0b162d06bc637503ce09b50a7d898e862d215dcfc76b6e1454bfd4c8f712; aam_dpid942=f5249b094759675fd619d1e015d6bd3ce12fe1e38287d2e2b1e07cfea4009a56; aam_dpid943=791ddca1146811663f0af8a3eec66c9753a4c4510d8a8d46b9feeb8b8bceb9c6; X_DOM_CTN=791ddca1146811663f0af8a3eec66c9753a4c4510d8a8d46b9feeb8b8bceb9c6; aam_dpid1094=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20166%7CMCMID%7C51036449263513313122232879435726629287%7CMCAAMLH-1742901311%7C7%7CMCAAMB-1742901311%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCCIDH%7C395152982%7CMCOPTOUT-1742303711s%7CNONE%7CMCSYNCSOP%7C411-20173%7CMCAID%7CNONE%7CvVersion%7C5.5.0; s_sq=%5B%5BB%5D%5D; dtPC=-12196$496488701_270h-vMPMRVKAQAEHFPCFLFALRWKNKFJWJGGFA-0e0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pName%22:%22OVF:wireless:ecom:ovaal:plan-builder:addons%22%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/iphone-16/build-plan?ovContextId=0c370795-5c1a-4dca-b5de-35bc90233af0&amp;flowType=aal&amp;sku=IP16128PNK&amp;step=7&amp;deviceId=device_prodIP16&amp;downPayment=0&amp;tier=FFIN3L&amp;data=sku_plan_FPMM012JK_FPMM012JK&amp;addons=NOPROTECTION%2C&amp;dpaddons=NOPROTECTION%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}}; rxvt=1742298444642|1742296430215"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-buyflow.fido.ca"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/octet-stream"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 120&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+expires: Tue, 18 Mar 2025 11:17:24 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Tue, 18 Mar 2025 11:17:24 GMT&#xd;
+set-cookie: dtCookie=v_4_srv_8_sn_5DO8BC34F9U6SFU99TR0H56UMOL6RBFD_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+x-frame-options: SAMEORIGIN</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

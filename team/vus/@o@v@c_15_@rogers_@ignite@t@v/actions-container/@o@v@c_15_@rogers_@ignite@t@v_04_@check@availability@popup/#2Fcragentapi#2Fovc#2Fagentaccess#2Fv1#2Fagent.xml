@@ -1,0 +1,51 @@
+<http-page executeResourcesDynamically="false"
+    name="/cragentapi/ovc/agentaccess/v1/agent"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/3008f74d-d28a-4e0b-be94-e35b3b4fa348.zip"
+    slaProfileEnabled="false" thinkTime="550"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3008f74d-d28a-4e0b-be94-e35b3b4fa348">
+    <embedded-action>82bba5a5-51b5-493f-b05e-2f7cf83cb48d</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_3008f74d-d28a-4e0b-be94-e35b3b4fa348.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="OPTIONS" name="/cragentapi/ovc/agentaccess/v1/agent"
+    path="/cragentapi/ovc/agentaccess/v1/agent" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/3008f74d-d28a-4e0b-be94-e35b3b4fa348.zip"
+    recordedResponseCode="200" responseSize="421"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="82bba5a5-51b5-493f-b05e-2f7cf83cb48d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_82bba5a5-51b5-493f-b05e-2f7cf83cb48d.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_82bba5a5-51b5-493f-b05e-2f7cf83cb48d.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=6ffb757b-4744-4975-9e37-bb69007d2d7f&amp;flowType=CH_NAC"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-a.rogers.com"/>
+    <header name="access-control-request-headers" value="flow,ocp-apim-subscription-key,requestid"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="access-control-request-method" value="GET"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: AkamaiGHost&#xd;
+mime-version: 1.0&#xd;
+content-type: text/html&#xd;
+content-length: 421&#xd;
+expires: Tue, 18 Mar 2025 11:04:08 GMT&#xd;
+date: Tue, 18 Mar 2025 11:04:08 GMT&#xd;
+set-cookie: Prod=B; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+set-cookie: akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdB-oneview-rogers-ui-care|~rv=5~m=ProdB-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=38b527e531614f409c58147a26672f01; path=/; HttpOnly; Secure; SameSite=None&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: flow,ocp-apim-subscription-key,requestid&#xd;
+access-control-allow-methods: GET&#xd;
+access-control-allow-origin: https://oneview-a.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

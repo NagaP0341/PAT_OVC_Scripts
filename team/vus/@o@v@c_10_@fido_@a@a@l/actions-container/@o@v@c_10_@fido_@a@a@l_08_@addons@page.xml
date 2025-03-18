@@ -1,0 +1,17 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_10_Fido_AAL_08_AddonsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="238d97ab-91da-4d2b-b5d1-65a5fa2d9f43" weightsEnabled="false">
+    <weighted-embedded-action uid="3cedacad-cafb-468f-b862-3db62f114c0a"/>
+    <weighted-embedded-action uid="692c167d-d176-425d-bc11-775eefca569d"/>
+    <weighted-embedded-action uid="710d8d7a-21d1-4a9b-ba46-3c281def86ca"/>
+    <weighted-embedded-action uid="ca69c0af-dea8-4b47-9b7f-e063f4c8dcf7"/>
+    <weighted-embedded-action uid="37c07d6b-1da1-4bdd-80c9-9528017c3b27"/>
+    <weighted-embedded-action uid="ca7dba19-6eba-411f-a50b-30ede55fcb28"/>
+    <weighted-embedded-action uid="b18b277e-dff3-49ea-8c32-d3f6f3d84985"/>
+    <weighted-embedded-action uid="b48a05df-e154-443a-b8e8-5557b16bdf31"/>
+    <weighted-embedded-action uid="09d8e4bb-b18d-4c61-bc4c-616296458344"/>
+    <weighted-embedded-action uid="3a22a82f-962e-472f-ac45-6d06f37ec836"/>
+    <weighted-embedded-action uid="359db8d8-d3c5-40c4-af91-5904864ea0d7"/>
+    <weighted-embedded-action uid="d62049bc-bd43-4430-ba5a-46e3f848fbcb"/>
+</basic-logical-action-container>

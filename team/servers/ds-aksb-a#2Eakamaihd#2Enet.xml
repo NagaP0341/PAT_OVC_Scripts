@@ -1,0 +1,4 @@
+<http-server hostname="ds-aksb-a.akamaihd.net" port="443" ssl="true"
+    uid="ds-aksb-a.akamaihd.net" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

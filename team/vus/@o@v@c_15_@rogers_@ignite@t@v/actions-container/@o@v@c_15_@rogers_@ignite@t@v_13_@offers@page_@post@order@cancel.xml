@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_13_OffersPage_PostOrderCancel"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="e99bc074-f448-41d9-aeb1-c9fbd4033dbe" weightsEnabled="false">
+    <weighted-embedded-action uid="06bc096c-d8f4-4cdf-8335-ae67e1a9b10c"/>
+    <weighted-embedded-action uid="eec4d61e-d8af-4fd8-af8b-9b4217fb7da7"/>
+    <weighted-embedded-action uid="370570aa-0690-4e48-bee2-c7864c12830c"/>
+    <weighted-embedded-action uid="389b8695-ee31-470c-9317-157cb4e48a8e"/>
+    <weighted-embedded-action uid="ebbc8a3d-c02b-47de-9b7e-2c331c4b667c"/>
+</basic-logical-action-container>

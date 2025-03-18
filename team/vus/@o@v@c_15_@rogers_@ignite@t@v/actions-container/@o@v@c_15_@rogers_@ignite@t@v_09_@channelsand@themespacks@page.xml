@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_09_ChannelsandThemespacksPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="4b6ef905-8d1a-4fd3-b8ba-3c5674a70aad" weightsEnabled="false">
+    <weighted-embedded-action uid="16ce6e7c-aef3-4757-9cf3-ecdb52d966d1"/>
+    <weighted-embedded-action uid="9d8c496c-8d7b-44d7-b95c-e98fb17acdcd"/>
+    <weighted-embedded-action uid="6a973f81-bdf3-4d79-aded-6ebdf97fb7c7"/>
+    <weighted-embedded-action uid="7a09d730-9148-4710-a703-ef1f6efee8ae"/>
+</basic-logical-action-container>

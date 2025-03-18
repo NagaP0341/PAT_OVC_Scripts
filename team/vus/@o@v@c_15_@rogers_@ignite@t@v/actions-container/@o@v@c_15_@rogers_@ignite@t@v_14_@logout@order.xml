@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_14_LogoutOrder" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="a59aab49-8ad4-478c-ac2b-4b6135dfa7d1" weightsEnabled="false">
+    <weighted-embedded-action uid="047695bd-41ee-43a5-b9b6-420885077b1e"/>
+    <weighted-embedded-action uid="182aeeda-8d30-4be4-bffa-c67ceee1aabb"/>
+    <weighted-embedded-action uid="6bbee730-a982-4f42-9133-095465ede33a"/>
+    <weighted-embedded-action uid="6aa7b08f-10c2-4deb-a9a5-a125a23cba34"/>
+    <weighted-embedded-action uid="54391792-4122-437f-a22a-f5266fcd25d8"/>
+    <weighted-embedded-action uid="9263b5bd-0f9d-4a25-82e6-906b4f2176fa"/>
+    <weighted-embedded-action uid="792f165d-7bcf-486b-8571-0e013429ab5b"/>
+    <weighted-embedded-action uid="3644a31e-00ac-4946-bff3-bf657ab3c5f7"/>
+    <weighted-embedded-action uid="fdaad50b-d22a-4cc3-9762-61a64f9dc8af"/>
+    <weighted-embedded-action uid="ea80d4c6-056b-4bbe-b3ff-84651d0e98bb"/>
+</basic-logical-action-container>

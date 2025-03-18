@@ -1,0 +1,22 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_04_CheckAvailabilityPopup"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="8cc29255-c8e8-44e5-85d8-b8fa4f368cef" weightsEnabled="false">
+    <weighted-embedded-action uid="a117eac1-5b4e-4b28-9e2c-9eeae6ff315e"/>
+    <weighted-embedded-action uid="5b2aa095-c9df-483c-a7dd-91c7baf977e9"/>
+    <weighted-embedded-action uid="13d7c62e-94fa-49b3-a437-7e24945d1a3d"/>
+    <weighted-embedded-action uid="0c2bf29c-d5e0-4881-83f7-df89b9ce2210"/>
+    <weighted-embedded-action uid="641c7531-89a4-4b89-a509-a44f4a71bf26"/>
+    <weighted-embedded-action uid="d9939f64-cd7d-4fcb-9f59-8596ff3ec65e"/>
+    <weighted-embedded-action uid="f287ba20-5b3a-4f09-92dc-b5b909432b01"/>
+    <weighted-embedded-action uid="2f057034-8310-4851-9c71-8a9ea0e97a5f"/>
+    <weighted-embedded-action uid="2074ed20-3bcd-4d3f-b0cd-d5a069c972b9"/>
+    <weighted-embedded-action uid="cbf9c588-4a02-4299-a107-03123301f1ff"/>
+    <weighted-embedded-action uid="d555b05a-e65a-400f-a772-46cc3ce8f6b4"/>
+    <weighted-embedded-action uid="3008f74d-d28a-4e0b-be94-e35b3b4fa348"/>
+    <weighted-embedded-action uid="e6eeb97a-4e41-4560-99d7-250d820e0426"/>
+    <weighted-embedded-action uid="2e3cf818-7122-4c88-96f8-823704e4899d"/>
+    <weighted-embedded-action uid="ec7a3032-4260-4744-8312-2da8220d4d5f"/>
+    <weighted-embedded-action uid="ae9de0a1-cae3-42ee-ad38-68b1d3391152"/>
+</basic-logical-action-container>

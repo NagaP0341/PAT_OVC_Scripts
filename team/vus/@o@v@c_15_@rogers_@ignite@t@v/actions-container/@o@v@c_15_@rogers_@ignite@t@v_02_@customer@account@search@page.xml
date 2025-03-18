@@ -1,0 +1,29 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_02_CustomerAccountSearchPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="e66497a5-8e18-4df6-8f58-77bac4e80a3a" weightsEnabled="false">
+    <weighted-embedded-action uid="0909ba51-3cec-4ff6-bad7-82fc5d1fa482"/>
+    <weighted-embedded-action uid="beb397c3-ca7e-45cc-b196-db41859b891d"/>
+    <weighted-embedded-action uid="7c467d42-6dcd-4324-8637-3bceada8eaec"/>
+    <weighted-embedded-action uid="acc379d8-0fc6-4543-a37c-fb22d108457a"/>
+    <weighted-embedded-action uid="a71dacd8-0c94-4d7d-ae87-02840f5f7d31"/>
+    <weighted-embedded-action uid="c35bb206-805a-4164-b3e2-6b2aaf3594a9"/>
+    <weighted-embedded-action uid="77fa677f-d89f-408b-8b57-386e5040285b"/>
+    <weighted-embedded-action uid="6a1d804e-11f5-4233-b051-38d0618d5072"/>
+    <weighted-embedded-action uid="8d60538d-54fb-4ad8-ad19-5ee1915f4afd"/>
+    <weighted-embedded-action uid="d7e1302a-453c-4a1a-85cd-674aa4f57cd2"/>
+    <weighted-embedded-action uid="68b37f92-daa5-4088-a20c-f61d190384bb"/>
+    <weighted-embedded-action uid="ba3bed45-c5e1-49e9-b2b1-95bb4cabefde"/>
+    <weighted-embedded-action uid="68592be8-4253-4e8f-881c-1e2b6ee04d7c"/>
+    <weighted-embedded-action uid="6a354332-e352-440a-96f6-1d1f55fa7d5f"/>
+    <weighted-embedded-action uid="60521cf7-a185-47d8-b800-55cd33bd3f29"/>
+    <weighted-embedded-action uid="e9fad036-9768-48ca-bdbf-b2eca640f00b"/>
+    <weighted-embedded-action uid="6b562fda-b8c5-4d8a-b0d4-526579775a4d"/>
+    <weighted-embedded-action uid="4d78d714-7aa5-49c3-8bdf-bfed416ef47f"/>
+    <weighted-embedded-action uid="3bce0b5a-4492-451f-97e9-b6ddedf6208e"/>
+    <weighted-embedded-action uid="25e301c0-3694-4ce8-a820-27866c32adb4"/>
+    <weighted-embedded-action uid="d8aaef9c-36c1-451e-bb4a-afac6a0c0929"/>
+    <weighted-embedded-action uid="9771def9-f036-4113-9c19-1254756cf4c2"/>
+    <weighted-embedded-action uid="40511d09-b6fa-47bb-bc36-78d4ef5ae88d"/>
+</basic-logical-action-container>

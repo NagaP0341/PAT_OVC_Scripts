@@ -1,0 +1,53 @@
+<http-page executeResourcesDynamically="false"
+    name="/cragentapi/ovc/agentaccess/v1/agent"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/6aa7b08f-10c2-4deb-a9a5-a125a23cba34.zip"
+    slaProfileEnabled="false" thinkTime="14"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6aa7b08f-10c2-4deb-a9a5-a125a23cba34">
+    <embedded-action>22ff6bac-6dc0-463d-aed9-fc10fd6b053a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6aa7b08f-10c2-4deb-a9a5-a125a23cba34.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="OPTIONS" name="/cragentapi/ovc/agentaccess/v1/agent"
+    path="/cragentapi/ovc/agentaccess/v1/agent" postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/6aa7b08f-10c2-4deb-a9a5-a125a23cba34.zip"
+    recordedResponseCode="200" responseSize="423"
+    serverUid="mservices.rogers.com" slaProfileEnabled="false"
+    uid="22ff6bac-6dc0-463d-aed9-fc10fd6b053a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_22ff6bac-6dc0-463d-aed9-fc10fd6b053a.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_22ff6bac-6dc0-463d-aed9-fc10fd6b053a.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/a/dashboard/signout?statusCode=CRM_SIGN_OUT"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-a.rogers.com"/>
+    <header name="access-control-request-headers" value="content-type,flow,ocp-apim-subscription-key,requestid"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="access-control-request-method" value="GET"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: AkamaiGHost&#xd;
+mime-version: 1.0&#xd;
+content-type: text/html&#xd;
+content-length: 423&#xd;
+expires: Tue, 18 Mar 2025 11:08:03 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+date: Tue, 18 Mar 2025 11:08:03 GMT&#xd;
+pragma: no-cache&#xd;
+access-control-allow-methods: GET&#xd;
+access-control-expose-headers: Authorization, Location&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: content-type,flow,ocp-apim-subscription-key,requestid&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: https://oneview-a.rogers.com</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,74 @@
+<http-page executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq_8"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/b375e493-fa1c-483d-a48b-6f68edfbfaf8.zip"
+    slaProfileEnabled="false" thinkTime="687"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b375e493-fa1c-483d-a48b-6f68edfbfaf8">
+    <embedded-action>c1e914bf-6168-4175-8f76-8ef5fec088d6</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_51bfd4c6-244a-4d7d-bc6f-19f81a5bcc86.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="4"
+    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/b375e493-fa1c-483d-a48b-6f68edfbfaf8.zip"
+    recordedResponseCode="200" responseSize="120"
+    serverUid="oneview.fido.ca" slaProfileEnabled="false"
+    uid="c1e914bf-6168-4175-8f76-8ef5fec088d6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_33706a62-b571-49fe-a70a-8d8378ba410a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_33706a62-b571-49fe-a70a-8d8378ba410a.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="OBEIRTTEMSARKPSDISIMCVJVTNERGVAE-0"
+        separator="=" value="OBEIRTTEMSARKPSDISIMCVJVTNERGVAE-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Fsignout%3FstatusCode%3DCRM_SIGN_OUT"
+        separator="="
+        value="https://oneview.fido.ca/web/a/dashboard/signout?statusCode=CRM_SIGN_OUT" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="39f30da8dcd81ec2" separator="="
+        value="39f30da8dcd81ec2" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="3586559908" separator="=" value="3586559908" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/signout?statusCode=CRM_SIGN_OUT"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=A; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdA-oneview-Fido-ui-care|~rv=28~m=ProdA-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=75004a1dc727195c1141f6212c1530b5; language=en; aam_dpid942=f5249b094759675fd619d1e015d6bd3ce12fe1e38287d2e2b1e07cfea4009a56; aam_dpid1094=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; region=QC; city=QUEBEC; dtPC=$496430189_20h-vOBEIRTTEMSARKPSDISIMCVJVTNERGVAE-0e0; rxvt=1742298561798|1742296761798; rxVisitor=17422967618018A5LKTOT1Q60DNC5GV6PE283TQKEM18U"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.fido.ca"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="text/plain;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 120&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+date: Tue, 18 Mar 2025 11:19:21 GMT&#xd;
+set-cookie: dtCookie=v_4_srv_5_sn_1231DCF204D77DD9DD80F17A879A8FA1_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+set-cookie: Prod=A; domain=.oneview.fido.ca</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$a=1%7C64%7C_event_%7C1742296759332%7C_view_%7Csvn%7C%2Fweb%2Fa%2Fdashboard%2Foverview%7Csvt%7C1742296720704%7Csvtrg%7C1%7Csvm%7Ci3%5Esk2%5Esh0%7Ctvtrg%7C1%7Ctvm%7Ci4%5Esk1%5Esh0%2C1%7C65%7C_event_%7C1742296759332%7C_viewend_%7Cinp%7C96%7Csvn%7C%2Fweb%2Fa%2Fdashboard%2Foverview%7Csvt%7C1742296720704%7Csvtrg%7C1%7Csvm%7Ci3%5Esk2%5Esh0$rId=RID_612651783$rpId=180997821$domR=1742296441542$tvn=%2Fweb%2Fa%2Fdashboard%2Fsignout$tvt=1742296759332$tvm=i4%3Bk1%3Bh0$tvtrg=1$w=1920$h=953$sw=1920$sh=1080$ni=4g|10$md=mdcc4%2Cuipath.bot15%3Bmdcc7%2COVF%3Aweb%3Aa%3Adashboard%3Aoverview%3Bmdcc8%2Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%3Bmdcc10%2Cf5249b094759675fd619d1e015d6bd3ce12fe1e38287d2e2b1e07cfea4009a56$sr=1$url=https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Fsignout%3FstatusCode%3DCRM_SIGN_OUT$title=Rogers%3A%20Wireless%2C%20TV%2C%20Internet%2C%20Home%20Phone%20%26amp%3B%20Home%20Monitoring$latC=0$app=39f30da8dcd81ec2$vi=OBEIRTTEMSARKPSDISIMCVJVTNERGVAE-0$fId=496430189_20$v=10307250124095659$vID=17422967618018A5LKTOT1Q60DNC5GV6PE283TQKEM18U$nV=1$nVAT=1$vcr=t$time=1742296761801]]></textPostContent>
+</http-action>

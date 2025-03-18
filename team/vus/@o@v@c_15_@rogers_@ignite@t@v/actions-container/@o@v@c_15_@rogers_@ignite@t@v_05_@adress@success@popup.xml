@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_05_AdressSuccessPopup" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="f564476f-fd66-4b90-8772-2bb8cda41d16" weightsEnabled="false">
+    <weighted-embedded-action uid="275bb859-b2a4-4c3b-af10-4af23184afc8"/>
+    <weighted-embedded-action uid="ba417000-8f05-430a-b3bd-672ad4153cc9"/>
+</basic-logical-action-container>
