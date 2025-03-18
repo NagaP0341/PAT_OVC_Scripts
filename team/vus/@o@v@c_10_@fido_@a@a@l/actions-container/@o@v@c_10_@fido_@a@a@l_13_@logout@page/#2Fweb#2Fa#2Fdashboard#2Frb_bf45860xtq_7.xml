@@ -1,12 +1,12 @@
 <http-page executeResourcesDynamically="false"
     name="/web/a/dashboard/rb_bf45860xtq_7"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/48c99090-7d21-4960-903c-565ca9deb87a.zip"
-    slaProfileEnabled="false" thinkTime="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/bf6c19d5-ea87-45bb-bee4-ae38ec18f4ff.zip"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="48c99090-7d21-4960-903c-565ca9deb87a">
-    <embedded-action>8cffba07-79e9-46f5-bc60-df886df2e84a</embedded-action>
-    <screenshotFileDescription>recorded-screenshots/sc_4a2b7cd5-22d1-4e2a-a441-43094c1b75f0.jpg</screenshotFileDescription>
+    thinkTimeRangeStart="" uid="bf6c19d5-ea87-45bb-bee4-ae38ec18f4ff">
+    <embedded-action>5f25cf2b-02ce-4871-b85e-14110553b503</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_bf6c19d5-ea87-45bb-bee4-ae38ec18f4ff.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="text/plain; charset=utf-8"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -15,19 +15,19 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/web/a/dashboard/rb_bf45860xtq"
     path="/web/a/dashboard/rb_bf45860xtq" postType="4"
-    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/48c99090-7d21-4960-903c-565ca9deb87a.zip"
+    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/bf6c19d5-ea87-45bb-bee4-ae38ec18f4ff.zip"
     recordedResponseCode="200" responseSize="120"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
-    uid="8cffba07-79e9-46f5-bc60-df886df2e84a" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_22cc2739-82c1-440e-ba02-92b059ff1705</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_22cc2739-82c1-440e-ba02-92b059ff1705.txt</requestContentFileDescription>
+    uid="5f25cf2b-02ce-4871-b85e-14110553b503" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5f25cf2b-02ce-4871-b85e-14110553b503</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5f25cf2b-02ce-4871-b85e-14110553b503.txt</requestContentFileDescription>
     <urlPostParameter encodeName="true" encodeValue="true" name="type"
         recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
         recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true" name="vi"
-        recordRawValue="MPMRVKAQAEHFPCFLFALRWKNKFJWJGGFA-0"
-        separator="=" value="MPMRVKAQAEHFPCFLFALRWKNKFJWJGGFA-0" valueMode="USE_VALUE"/>
+        recordRawValue="IKIQILKKAPCFAMTUCEFAAGCFVLAJPGFE-0"
+        separator="=" value="IKIQILKKAPCFAMTUCEFAAGCFVLAJPGFE-0" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="contentType" recordRawValue="srTe" separator="="
         value="srTe" valueMode="USE_VALUE"/>
@@ -47,7 +47,7 @@
         recordRawValue="10307250124095660" separator="="
         value="10307250124095660" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true" name="crc"
-        recordRawValue="2447275329" separator="=" value="2447275329" valueMode="USE_VALUE"/>
+        recordRawValue="3960821097" separator="=" value="3960821097" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true" name="en"
         recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true" name="end"
@@ -55,7 +55,7 @@
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/signout?statusCode=CRM_SIGN_OUT"/>
     <header name="sec-fetch-site" value="same-origin"/>
-    <header name="cookie" value="Prod=A; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdA-oneview-Fido-ui-care|~rv=28~m=ProdA-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=75004a1dc727195c1141f6212c1530b5; language=en; aam_dpid942=f5249b094759675fd619d1e015d6bd3ce12fe1e38287d2e2b1e07cfea4009a56; aam_dpid1094=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; region=QC; city=QUEBEC; rxvt=1742298560870|0"/>
+    <header name="cookie" value="Prod=A; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdA-oneview-Fido-ui-care|~rv=53~m=ProdA-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=37479ed73162e396e9d7f19b4249df4d; language=en; aam_dpid942=9bc26d9df07c2ee9be5af1e771a4418b5d90427076a18a917f0d533fcc066ebf; aam_dpid1094=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; region=QC; city=QUEBEC; dtPC=$507189155_512h-vIKIQILKKAPCFAMTUCEFAAGCFVLAJPGFE-0e0; rxVisitor=17423072048434QL8UARG8M0UJAIH1DOVRR1NMA9BO2S6; rxvt=1742309004845|1742307204841"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
     <header name="origin" value="https://oneview.fido.ca"/>
     <header name="priority" value="u=1, i"/>
@@ -72,9 +72,9 @@ server: istio-envoy&#xd;
 content-type: text/plain; charset=utf-8&#xd;
 content-length: 120&#xd;
 x-envoy-upstream-service-time: 3&#xd;
-date: Tue, 18 Mar 2025 11:19:21 GMT&#xd;
-set-cookie: dtCookie=v_4_srv_15_sn_2BD134FB6D1B58C77AC3893DF4B417E3_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+date: Tue, 18 Mar 2025 14:13:24 GMT&#xd;
+set-cookie: dtCookie=v_4_srv_15_sn_675E92E3BFABCABE1E608482551000B1_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
 set-cookie: Prod=A; domain=.oneview.fido.ca</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
-    <textPostContent><![CDATA[3,1742296760978,1742296759846,1742296760870,1,1742296759846^v 0 https://oneview.fido.ca/web/a/dashboard/signout?statusCode=CRM_SIGN_OUT 1742296434490^r 14 1920 953^s 14 1 0 0^m 16 21 1228 823>63 ~ 1378 815>90 ~ 1213 767>123 ~ 1120 716>154 ~ 1099 687>184 ~ 1124 672>216 ~ 1261 639>248 ~ 1346 627>280 ~ 1338 ~>311 ~ 1259 633>372 ~ 1166 621>404 ~ 1154 614>435 ~ ~ 611>466 ~ 1156 605>498 ~ 1182 584>529 ~ 1228 568>560 ~ 1329 560>752 ~ 1204 529>780 ~ 1203 520>811 ~ ~ 505>841 ~ ~ 493>873 ~ ~ 486>903 ~ 1196 475>936 ~ 1148 440>967 ~ 1040 401>998 ~ 949 365]]></textPostContent>
+    <textPostContent><![CDATA[3,1742307204846,1742307204153,1742307204845,2,1742307203124^m 469 21 1198 499]]></textPostContent>
 </http-action>

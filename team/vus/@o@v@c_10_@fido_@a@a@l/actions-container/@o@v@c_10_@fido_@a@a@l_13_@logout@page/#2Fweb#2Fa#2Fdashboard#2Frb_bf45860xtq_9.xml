@@ -1,12 +1,12 @@
 <http-page executeResourcesDynamically="false"
     name="/web/a/dashboard/rb_bf45860xtq_9"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/a5ce0bb4-c777-41f7-9167-270cc90fe842.zip"
-    slaProfileEnabled="false" thinkTime="0"
+    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/4113aea1-8646-4893-b374-0589c28636e9.zip"
+    slaProfileEnabled="false" thinkTime="34"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="a5ce0bb4-c777-41f7-9167-270cc90fe842">
-    <embedded-action>a8b2cdc1-9c66-4453-bce9-268aad182f06</embedded-action>
-    <screenshotFileDescription>recorded-screenshots/sc_27500f11-f3bd-43ee-980d-df632368f18d.jpg</screenshotFileDescription>
+    thinkTimeRangeStart="" uid="4113aea1-8646-4893-b374-0589c28636e9">
+    <embedded-action>35979dbd-cbff-4a0f-9c9a-bcdb471919ae</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_4113aea1-8646-4893-b374-0589c28636e9.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="text/plain; charset=utf-8"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -15,22 +15,19 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/web/a/dashboard/rb_bf45860xtq"
     path="/web/a/dashboard/rb_bf45860xtq" postType="4"
-    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/a5ce0bb4-c777-41f7-9167-270cc90fe842.zip"
+    recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/4113aea1-8646-4893-b374-0589c28636e9.zip"
     recordedResponseCode="200" responseSize="120"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
-    uid="a8b2cdc1-9c66-4453-bce9-268aad182f06" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_f8ebe8f5-eaed-4b9e-8254-296ee1720d46</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_f8ebe8f5-eaed-4b9e-8254-296ee1720d46.txt</requestContentFileDescription>
+    uid="35979dbd-cbff-4a0f-9c9a-bcdb471919ae" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_35979dbd-cbff-4a0f-9c9a-bcdb471919ae</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_35979dbd-cbff-4a0f-9c9a-bcdb471919ae.txt</requestContentFileDescription>
     <urlPostParameter encodeName="true" encodeValue="true" name="type"
         recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
         recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true" name="vi"
-        recordRawValue="OBEIRTTEMSARKPSDISIMCVJVTNERGVAE-0"
-        separator="=" value="OBEIRTTEMSARKPSDISIMCVJVTNERGVAE-0" valueMode="USE_VALUE"/>
-    <urlPostParameter encodeName="true" encodeValue="true"
-        name="contentType" recordRawValue="srTe" separator="="
-        value="srTe" valueMode="USE_VALUE"/>
+        recordRawValue="IKIQILKKAPCFAMTUCEFAAGCFVLAJPGFE-0"
+        separator="=" value="IKIQILKKAPCFAMTUCEFAAGCFVLAJPGFE-0" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="modifiedSince" recordRawValue="1741895718739"
         separator="=" value="1741895718739" valueMode="USE_VALUE"/>
@@ -43,11 +40,8 @@
     <urlPostParameter encodeName="true" encodeValue="true" name="app"
         recordRawValue="39f30da8dcd81ec2" separator="="
         value="39f30da8dcd81ec2" valueMode="USE_VALUE"/>
-    <urlPostParameter encodeName="true" encodeValue="true" name="v"
-        recordRawValue="10307250124095660" separator="="
-        value="10307250124095660" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true" name="crc"
-        recordRawValue="2853684496" separator="=" value="2853684496" valueMode="USE_VALUE"/>
+        recordRawValue="1751655993" separator="=" value="1751655993" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true" name="en"
         recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
     <urlPostParameter encodeName="true" encodeValue="true" name="end"
@@ -55,7 +49,7 @@
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/signout?statusCode=CRM_SIGN_OUT"/>
     <header name="sec-fetch-site" value="same-origin"/>
-    <header name="cookie" value="Prod=A; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdA-oneview-Fido-ui-care|~rv=28~m=ProdA-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=75004a1dc727195c1141f6212c1530b5; language=en; aam_dpid942=f5249b094759675fd619d1e015d6bd3ce12fe1e38287d2e2b1e07cfea4009a56; aam_dpid1094=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; region=QC; city=QUEBEC; dtPC=$496430189_20h-vOBEIRTTEMSARKPSDISIMCVJVTNERGVAE-0e0; rxVisitor=17422967618018A5LKTOT1Q60DNC5GV6PE283TQKEM18U; rxvt=1742298561804|1742296761798"/>
+    <header name="cookie" value="Prod=A; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdA-oneview-Fido-ui-care|~rv=53~m=ProdA-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=37479ed73162e396e9d7f19b4249df4d; language=en; aam_dpid942=9bc26d9df07c2ee9be5af1e771a4418b5d90427076a18a917f0d533fcc066ebf; aam_dpid1094=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; region=QC; city=QUEBEC; dtPC=$507189155_512h-vIKIQILKKAPCFAMTUCEFAAGCFVLAJPGFE-0e0; rxVisitor=17423072048434QL8UARG8M0UJAIH1DOVRR1NMA9BO2S6; rxvt=1742309004845|1742307204841"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
     <header name="origin" value="https://oneview.fido.ca"/>
     <header name="priority" value="u=1, i"/>
@@ -72,9 +66,9 @@ server: istio-envoy&#xd;
 content-type: text/plain; charset=utf-8&#xd;
 content-length: 120&#xd;
 x-envoy-upstream-service-time: 3&#xd;
-date: Tue, 18 Mar 2025 11:19:21 GMT&#xd;
-set-cookie: dtCookie=v_4_srv_7_sn_48202BFEE6A7F8D8081C09871F9A2F39_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_1; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+date: Tue, 18 Mar 2025 14:13:25 GMT&#xd;
+set-cookie: dtCookie=v_4_srv_8_sn_A83366193D09EF137EC0AFBE78723E47_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
 set-cookie: Prod=A; domain=.oneview.fido.ca</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
-    <textPostContent><![CDATA[3,1742296761805,1742296760872,1742296761804,2,1742296759846^m 29 21 901 328>21 ~ 906 300>53 ~ 912 288>84 ~ 967 228>116 ~ 1072 170>147 ~ 1144 145>177 ~ 1162 142>264 ~ 1140 141>302 ~ 1108 137>334 ~ 1092 136>396 ~ 1136 127>428 ~ 1233 126>458 ~ 1442 174>490 ~ 1525 247>521 ~ 1521 284>589 ~ 1433 324>616 ~ 1403 330>647 ~ 1400 332>678 ~ 1415 345>708 ~ 1485 378>740 ~ 1564 410>771 ~ 1581 419>803 ~ 1548 439>835 ~ 1473 466>866 ~ 1403 478]]></textPostContent>
+    <textPostContent><![CDATA[$tvn=%2Fweb%2Fa%2Fdashboard%2Fsignout$tvt=1742307202615$tvm=i2%3Bk1%3Bh0$tvtrg=1$w=1920$h=953$sw=1920$sh=1080$ni=4g|10$rt=46-1742307188732%3Bhttps%3A%2F%2Fsiteintercept.qualtrics.com%2FWRSiteInterceptEngine%2FTargeting.php%3FQ_5FZoneID%3DZN_5FcH0KIGfjDk3seeF%26Q_5FCLIENTVERSION%3D2.26.1%26Q_5FCLIENTTYPE%3Dweb%7Cb13904e0f0g0h0i0j0k1l41m42u1773v1473w4086X200T-39z1I1$rt1=47-1742307188732%3Bhttps%3A%2F%2Foneview.fido.ca%2Fsessionapi%2Fovc%2Fsession%2Fbuilder%2Flogout%7Cb13912e0f0g0h0i0j0k6l241m242u302v2w2X200T-38z1I1M-774074776V0W1$sr=1$url=https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Fsignout%3FstatusCode%3DCRM_SIGN_OUT$title=Rogers%3A%20Wireless%2C%20TV%2C%20Internet%2C%20Home%20Phone%20%26amp%3B%20Home%20Monitoring$latC=0$app=39f30da8dcd81ec2$vi=IKIQILKKAPCFAMTUCEFAAGCFVLAJPGFE-0$fId=507189155_512$v=10307250124095659$vID=17423072048434QL8UARG8M0UJAIH1DOVRR1NMA9BO2S6$time=1742307204988]]></textPostContent>
 </http-action>
