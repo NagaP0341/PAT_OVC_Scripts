@@ -34,6 +34,9 @@
         uid="198fe0a0-624d-4b04-9907-feec5a19070f" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="SUCCESS"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="language"
         recordRawValue="EN" separator="=" value="EN" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>

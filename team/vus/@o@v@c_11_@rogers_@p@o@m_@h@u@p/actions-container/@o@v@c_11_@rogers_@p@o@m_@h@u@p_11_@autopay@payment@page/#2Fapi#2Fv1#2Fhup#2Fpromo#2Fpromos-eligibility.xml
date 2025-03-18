@@ -20,6 +20,9 @@
     uid="904f3548-5d79-4f4b-8977-d8e1fbbeb14d" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b76170d2-058c-4f4d-a017-2f1f5c196536</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b76170d2-058c-4f4d-a017-2f1f5c196536.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="subscriberNumber"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/iphone-16-pro-max/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=11&amp;sharingType=shared&amp;downPayment=0&amp;tier=${C_HUPCostDetailsjs_financingCostList_planTierCode}&amp;upfrontEdge=true&amp;data=${C_GetPlanDetailsJs_planId}&amp;addons=NOPROTECTION,${C_HUPAddonsDetailsJS_externalId}&amp;dpaddons=NOPROTECTION&amp;simType=eSIM"/>
     <header name="sec-fetch-site" value="same-origin"/>

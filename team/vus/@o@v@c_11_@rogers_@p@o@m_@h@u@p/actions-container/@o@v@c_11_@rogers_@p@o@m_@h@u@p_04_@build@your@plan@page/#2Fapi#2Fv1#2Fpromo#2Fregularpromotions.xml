@@ -20,6 +20,9 @@
     uid="d296a279-8cc3-4650-bf9f-ace191e2f63b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_66350403-b05e-475c-af9e-15875a48f867</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_66350403-b05e-475c-af9e-15875a48f867.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="regularPromotions"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/iphone-16-pro-max/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}"/>
     <header name="sec-fetch-site" value="same-origin"/>

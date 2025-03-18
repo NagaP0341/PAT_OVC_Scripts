@@ -21,6 +21,9 @@
     uid="4483a96e-ad59-4a30-b305-c0bccf8bc2b2" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_5679ce4e-8132-4dac-8d62-90155bbdb90a</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_5679ce4e-8132-4dac-8d62-90155bbdb90a.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="200"/>
+    </assertions>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/checkout/order-review"/>
     <header name="franchise" value="rogers"/>
     <header name="sec-fetch-site" value="same-origin"/>

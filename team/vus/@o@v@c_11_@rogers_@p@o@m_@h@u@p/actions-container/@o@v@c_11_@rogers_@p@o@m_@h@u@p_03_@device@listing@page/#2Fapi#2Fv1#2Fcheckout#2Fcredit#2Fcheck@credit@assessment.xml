@@ -20,6 +20,9 @@
     uid="83bb5975-a603-41cc-a487-5bf650e0343c" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_7c7f37bb-7e3d-4838-a4c3-5d8731c87d61</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_7c7f37bb-7e3d-4838-a4c3-5d8731c87d61.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="requiredDepositAmount"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="activityType" recordRawValue="hup" separator="="
         value="hup" valueMode="USE_VALUE"/>

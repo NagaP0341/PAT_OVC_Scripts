@@ -20,6 +20,9 @@
     uid="70bca9b9-c5b1-4845-9e7b-95a5ea8a7aee" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_4ed34458-fe5a-41dc-904e-531bfcc28132</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_4ed34458-fe5a-41dc-904e-531bfcc28132.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="qualifiedPromotions"/>
+    </assertions>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/checkout?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;language=en&amp;step=9"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="origin" value="https://oneview-buyflow.rogers.com"/>

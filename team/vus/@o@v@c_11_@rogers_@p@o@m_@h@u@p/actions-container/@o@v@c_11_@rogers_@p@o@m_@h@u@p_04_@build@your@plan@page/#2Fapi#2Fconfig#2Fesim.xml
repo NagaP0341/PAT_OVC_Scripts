@@ -19,6 +19,9 @@
     uid="374731c0-f781-4ecb-81d3-1ecbeea33429" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_a9ddf5ff-f0f2-4fe0-be77-0dad3ca5cec3</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_a9ddf5ff-f0f2-4fe0-be77-0dad3ca5cec3.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="onDemandEnabled"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="activityType" recordRawValue="hup" separator="="
         value="hup" valueMode="USE_VALUE"/>

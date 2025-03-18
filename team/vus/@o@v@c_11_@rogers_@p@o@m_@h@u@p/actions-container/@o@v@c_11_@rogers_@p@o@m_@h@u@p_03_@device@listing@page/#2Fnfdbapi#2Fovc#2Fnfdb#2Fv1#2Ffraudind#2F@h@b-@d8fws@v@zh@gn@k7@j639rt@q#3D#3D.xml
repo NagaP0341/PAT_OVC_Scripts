@@ -35,6 +35,9 @@
         uid="2fd17f57-858b-4e77-aa3e-75504fda12f1" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="SUCCESS"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="false"
         name="subscriptionAlias"
         recordRawValue="4_4kV6T8FHDyM7SNHN9Aog==" separator="="

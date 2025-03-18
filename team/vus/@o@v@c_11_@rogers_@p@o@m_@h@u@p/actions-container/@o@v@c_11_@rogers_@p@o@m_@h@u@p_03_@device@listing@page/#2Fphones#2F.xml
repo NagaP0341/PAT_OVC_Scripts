@@ -20,6 +20,9 @@
     uid="0acd001b-0341-45b7-bf8f-7801c4211fd8" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_15e8ad3d-8a66-42db-b1e1-810aabd9c48f.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_15e8ad3d-8a66-42db-b1e1-810aabd9c48f.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="ngProjectName"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="ovContextId"
         recordRawValue="4d7469cc-5d48-4cb0-a857-b6e6753f5e32"
         separator="=" value="${C_Context_ContextId}" valueMode="USE_VALUE"/>

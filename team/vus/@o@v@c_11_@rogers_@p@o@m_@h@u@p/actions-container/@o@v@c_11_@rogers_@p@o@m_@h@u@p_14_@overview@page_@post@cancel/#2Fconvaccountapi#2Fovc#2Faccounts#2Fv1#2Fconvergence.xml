@@ -20,6 +20,9 @@
     uid="3c960a24-b3b2-4097-b1f7-2b8e24d7efec" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_d21a1432-8f82-47c0-89aa-4bf7f1757ba4</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_d21a1432-8f82-47c0-89aa-4bf7f1757ba4.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="SUCCESS"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="accountId"
         recordRawValue="962719282" separator="="
         value="${C_IcmToken_AccountNumber}" valueMode="USE_VALUE"/>

@@ -23,6 +23,9 @@
     uid="10ef1882-e32a-4bd3-a83e-68a0d8aa9284" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b18aaaab-44ea-408c-b3c3-9b52e6cfba34</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b18aaaab-44ea-408c-b3c3-9b52e6cfba34.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="SUCCESS"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="language"
         recordRawValue="en" separator="=" value="en" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="userId"

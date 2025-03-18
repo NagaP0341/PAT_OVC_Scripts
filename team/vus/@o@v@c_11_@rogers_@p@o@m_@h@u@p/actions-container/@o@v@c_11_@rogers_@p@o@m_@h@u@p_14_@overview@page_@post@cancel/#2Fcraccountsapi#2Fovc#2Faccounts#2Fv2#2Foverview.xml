@@ -20,6 +20,9 @@
     uid="e2ea1a2c-b32c-4b64-a4e6-73b200d39d26" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_4b769677-46f8-4031-8ab0-dd0b338d26d5</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_4b769677-46f8-4031-8ab0-dd0b338d26d5.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="accountNumber"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?transactionState=incomplete&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
