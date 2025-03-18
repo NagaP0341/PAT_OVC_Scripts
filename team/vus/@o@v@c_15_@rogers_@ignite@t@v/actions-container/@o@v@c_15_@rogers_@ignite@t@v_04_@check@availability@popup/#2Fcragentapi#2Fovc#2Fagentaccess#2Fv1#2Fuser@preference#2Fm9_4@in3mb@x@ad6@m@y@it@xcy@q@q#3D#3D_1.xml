@@ -2,7 +2,7 @@
     name="/cragentapi/ovc/agentaccess/v1/userPreference/m9_4In3mbXAd6MYItXcyQQ==_1"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/ae9de0a1-cae3-42ee-ad38-68b1d3391152.zip"
-    slaProfileEnabled="false" thinkTime="13"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="ae9de0a1-cae3-42ee-ad38-68b1d3391152">
     <embedded-action>327a75b4-8747-4d36-bfd8-136b8a88849d</embedded-action>
@@ -15,7 +15,7 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/cragentapi/ovc/agentaccess/v1/userPreference/m9_4In3mbXAd6MYItXcyQQ=="
-    path="/cragentapi/ovc/agentaccess/v1/userPreference/m9_4In3mbXAd6MYItXcyQQ=="
+    path="/cragentapi/ovc/agentaccess/v1/userPreference/${c_agent_LanIdAlias}"
     postType="6"
     recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/ae9de0a1-cae3-42ee-ad38-68b1d3391152.zip"
     recordedResponseCode="200" responseSize="199"
@@ -23,6 +23,9 @@
     uid="327a75b4-8747-4d36-bfd8-136b8a88849d" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_327a75b4-8747-4d36-bfd8-136b8a88849d</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_327a75b4-8747-4d36-bfd8-136b8a88849d.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="userPreference"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-a.rogers.com/web/rep/ignite-bundles/tv-internet"/>
     <header name="sec-fetch-site" value="same-site"/>
@@ -34,7 +37,7 @@
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="requestid" value="2f0860e3-6fa2-002e-8fc1-b65c3fe4831b"/>
-    <header name="ocp-apim-subscription-key" value="ba82a160c4b945bfa843f2738369ae90"/>
+    <header name="ocp-apim-subscription-key" value="${c_Subscription_Key}"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
     <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
     <header name="flow" value=""/>

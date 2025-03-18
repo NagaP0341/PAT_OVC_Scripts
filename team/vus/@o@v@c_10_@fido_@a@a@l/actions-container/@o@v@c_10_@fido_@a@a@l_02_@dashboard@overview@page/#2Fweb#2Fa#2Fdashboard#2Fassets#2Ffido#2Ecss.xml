@@ -10,7 +10,7 @@
     <embedded-action>9087b9b5-5ab7-453c-a325-7faa282e93ae</embedded-action>
     <screenshotFileDescription>recorded-screenshots/sc_a62bd22f-7814-400e-bcd5-088a32c9278d.jpg</screenshotFileDescription>
 </http-page>
-<http-action actionType="1" contentType="text/css"
+<http-action actionType="1" contentType="text/css" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -24,7 +24,7 @@
     <responsePageFileDescription>recorded-responses/res_c58b49aa-750b-4826-96e7-8bffa301f6e4.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c58b49aa-750b-4826-96e7-8bffa301f6e4.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.sE50qkhUyeRxZtNcRcb6F3YZOvXs-QShUS4XBrgJFdiFtK43Pyqny6ULhxwtIgwDhZ_0yaECT9AG92gNpy9a_P0vlkbFdTJRxHmuW171zqD6i3sdXbnTGi6cx5cuEVVuTb4OWvvcSlMte5oDz2FrV0BWthAdHQyj7B5yeYy3hD19JspF3S25KrStL6wc4R7nF0AzIwt37YKwjyAdEna2Ww50bozjwyDXCy1bxqoF6lXGBPrOfMBL8IX75rslu3eX4sZBNCcI-qVFSaFSZrSbG0hlOKkZnIfgF1AEYnMOW8aQZTHylOisi_EPT4gRV5ybl9x3fAJh3kaO65C2p2QMjQ._q-Y5L_j4pNXOja2.hZGalyj-ti_qMA_MAufboe26yR8XNLVA_dwH8oiEIpysdqZqiV-BPuoCeIfIYXcbnWWBe3HID3XUyQGcretGh5DeUED2sgbVI8_8UA4_0OGVgj31o8TOccXoWCEpk6Vlz-Waef0rCtQvr4fJxT8LlqhmBcjES4opI1ibTpinD57dObU1Z8U47uThK3afLq8Qpaxgbg-V56IF8HP2DBmyE5ego_0PjCFdL31G-cyP04jmy8QVtqu71QGVKgDUCLXKpSjoISuVlmOSx9SWkOyhYsgC6vCNz70uW4ZqeaiDhxiilhtEaeKjCnT-RYnsJCN2CQaQym5m0m8WW7rnDNxXvQHBBxg.WrU3E-p1_jTR6YYQq2tpdg"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en&amp;jwt=${P_JwtToken}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -52,7 +52,7 @@ set-cookie: dtCookie=v_4_srv_10_sn_4S23DMRDP1BHFT45JDED6MBPM170NJRK_perc_100000_
 set-cookie: Prod=A; domain=.oneview.fido.ca</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" contentType="text/css"
+<http-action actionType="1" contentType="text/css" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -68,7 +68,7 @@ set-cookie: Prod=A; domain=.oneview.fido.ca</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_14ae3d41-f4b0-435e-bcd4-a359f6006353.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_14ae3d41-f4b0-435e-bcd4-a359f6006353.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.sE50qkhUyeRxZtNcRcb6F3YZOvXs-QShUS4XBrgJFdiFtK43Pyqny6ULhxwtIgwDhZ_0yaECT9AG92gNpy9a_P0vlkbFdTJRxHmuW171zqD6i3sdXbnTGi6cx5cuEVVuTb4OWvvcSlMte5oDz2FrV0BWthAdHQyj7B5yeYy3hD19JspF3S25KrStL6wc4R7nF0AzIwt37YKwjyAdEna2Ww50bozjwyDXCy1bxqoF6lXGBPrOfMBL8IX75rslu3eX4sZBNCcI-qVFSaFSZrSbG0hlOKkZnIfgF1AEYnMOW8aQZTHylOisi_EPT4gRV5ybl9x3fAJh3kaO65C2p2QMjQ._q-Y5L_j4pNXOja2.hZGalyj-ti_qMA_MAufboe26yR8XNLVA_dwH8oiEIpysdqZqiV-BPuoCeIfIYXcbnWWBe3HID3XUyQGcretGh5DeUED2sgbVI8_8UA4_0OGVgj31o8TOccXoWCEpk6Vlz-Waef0rCtQvr4fJxT8LlqhmBcjES4opI1ibTpinD57dObU1Z8U47uThK3afLq8Qpaxgbg-V56IF8HP2DBmyE5ego_0PjCFdL31G-cyP04jmy8QVtqu71QGVKgDUCLXKpSjoISuVlmOSx9SWkOyhYsgC6vCNz70uW4ZqeaiDhxiilhtEaeKjCnT-RYnsJCN2CQaQym5m0m8WW7rnDNxXvQHBBxg.WrU3E-p1_jTR6YYQq2tpdg"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en&amp;jwt=${P_JwtToken}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -102,22 +102,36 @@ set-cookie: Prod=A; domain=.oneview.fido.ca</responseHeaders>
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/cms/oneview/care-common-config.json"
-    path="/cms/oneview/care-common-config.json" postType="4"
+    path="/cms/oneview/care-common-config.json" postCharset=""
+    postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/a62bd22f-7814-400e-bcd5-088a32c9278d.zip"
     recordedResponseCode="200" responseSize="4976"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
     uid="9087b9b5-5ab7-453c-a325-7faa282e93ae" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_9087b9b5-5ab7-453c-a325-7faa282e93ae</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_9087b9b5-5ab7-453c-a325-7faa282e93ae.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_9087b9b5-5ab7-453c-a325-7faa282e93ae.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_Subscription_Key1"
+        refererUid="9087b9b5-5ab7-453c-a325-7faa282e93ae"
+        regExp="&quot;FIDO&quot;: &quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;FIDO&quot;: &quot;" template="$1$"
+        templateAdv="$1$" uid="8ffeed8d-2b3c-4324-8cf3-03292fed252c" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <parameter encodeName="true" encodeValue="true" name="t"
         recordRawValue="1742306885030" separator="="
-        value="1742306885030" valueMode="USE_VALUE"/>
+        value="${p_timestamp}" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="Prod=A; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdA-oneview-Fido-ui-care|~rv=53~m=ProdA-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=37479ed73162e396e9d7f19b4249df4d; dtCookie=v_4_srv_-2D15443_sn_4S23DMRDP1BHFT45JDED6MBPM170NJRK; rxVisitor=1742306884406GCVTPPM9HH9FRE6J3995EON7FLCTKHFT; dtSa=-; language=en; language=en; rxvt=1742308685035|1742306884408; dtPC=-15443$506884396_753h5vKMABFAENEVJAWKKRKUCMPGUISDPCUULJ-0e0"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
-    <header name="x-dtreferer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.sE50qkhUyeRxZtNcRcb6F3YZOvXs-QShUS4XBrgJFdiFtK43Pyqny6ULhxwtIgwDhZ_0yaECT9AG92gNpy9a_P0vlkbFdTJRxHmuW171zqD6i3sdXbnTGi6cx5cuEVVuTb4OWvvcSlMte5oDz2FrV0BWthAdHQyj7B5yeYy3hD19JspF3S25KrStL6wc4R7nF0AzIwt37YKwjyAdEna2Ww50bozjwyDXCy1bxqoF6lXGBPrOfMBL8IX75rslu3eX4sZBNCcI-qVFSaFSZrSbG0hlOKkZnIfgF1AEYnMOW8aQZTHylOisi_EPT4gRV5ybl9x3fAJh3kaO65C2p2QMjQ._q-Y5L_j4pNXOja2.hZGalyj-ti_qMA_MAufboe26yR8XNLVA_dwH8oiEIpysdqZqiV-BPuoCeIfIYXcbnWWBe3HID3XUyQGcretGh5DeUED2sgbVI8_8UA4_0OGVgj31o8TOccXoWCEpk6Vlz-Waef0rCtQvr4fJxT8LlqhmBcjES4opI1ibTpinD57dObU1Z8U47uThK3afLq8Qpaxgbg-V56IF8HP2DBmyE5ego_0PjCFdL31G-cyP04jmy8QVtqu71QGVKgDUCLXKpSjoISuVlmOSx9SWkOyhYsgC6vCNz70uW4ZqeaiDhxiilhtEaeKjCnT-RYnsJCN2CQaQym5m0m8WW7rnDNxXvQHBBxg.WrU3E-p1_jTR6YYQq2tpdg"/>
+    <header name="x-dtreferer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en&amp;jwt=${P_JwtToken}"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>

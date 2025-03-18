@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_10_4KContentPopup" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="fd164397-7a8b-40fc-bfbd-92d216c2e266" weightsEnabled="false">
+    <weighted-embedded-action uid="3a967aa2-9030-48ec-80ca-0894d082f085"/>
+    <weighted-embedded-action uid="459c3ace-4787-4d6f-9ad8-8efe954cbdbd"/>
+</basic-logical-action-container>

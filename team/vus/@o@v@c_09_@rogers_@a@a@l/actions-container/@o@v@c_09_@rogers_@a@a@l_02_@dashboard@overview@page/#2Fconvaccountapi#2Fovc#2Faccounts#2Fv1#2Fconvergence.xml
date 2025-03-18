@@ -20,7 +20,7 @@
     recordedResponseCode="200" responseSize="263"
     serverUid="oneview.rogers.com" slaProfileEnabled="false"
     uid="1adf6c02-712a-41f6-aaea-a5d2d4dfeecf" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_655e08b8-1990-4f83-a877-034499b44e04.0</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_655e08b8-1990-4f83-a877-034499b44e04.0.0.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_655e08b8-1990-4f83-a877-034499b44e04.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
         defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
@@ -48,7 +48,7 @@
     <header name="x-dtreferer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="${c_Overview_BearerToken2}"/>
+    <header name="authorization" value="Bearer ${c_Overview_BearerToken2}"/>
     <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="x-dtpc" value="9$407300804_654h13vHJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0e0"/>

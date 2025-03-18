@@ -14,13 +14,29 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/cragentapi/ovc/dealer/session/v1"
-    path="/cragentapi/ovc/dealer/session/v1" postType="4"
+    path="/cragentapi/ovc/dealer/session/v1" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/c9bc6d9a-3602-411a-8bd2-1f2cedda1d19.zip"
     recordedResponseCode="200" responseSize="42"
     serverUid="oneview.rogers.com" slaProfileEnabled="false"
     uid="51eab7c0-c4e1-4981-a232-d6e1978cd881" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_51eab7c0-c4e1-4981-a232-d6e1978cd881</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_51eab7c0-c4e1-4981-a232-d6e1978cd881.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_51eab7c0-c4e1-4981-a232-d6e1978cd881.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="c_SessionV1_BearerToken10"
+        refererUid="51eab7c0-c4e1-4981-a232-d6e1978cd881"
+        regExp="authorization: Bearer (.*)" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="authorization: Bearer "
+        template="$1$" templateAdv="$1$"
+        uid="6959a330-5415-4765-843f-4d2c102ff1b4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="Succeeded"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.rogers.com/web/a/dashboard/overview/anonymous"/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -29,7 +45,7 @@
     <header name="origin" value="https://oneview.rogers.com"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTUyLGxhbklkPVVJUEFUSC5CT1QxNSIsImF1ZCI6Ik9uZXZpZXcgRmlkbyBDYXJlIiwidG9rZW5EdXJhdGlvbiI6IjI3MDAwMDAiLCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE1MixsYW5JZD1VSVBBVEguQk9UMTUiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjk5NDI2LCJpYXQiOjE3NDIyOTU3MjcsImtleSI6IlFNT1JvdnhxOWZjSzQ4a0JNSjhRTS8xdFViUUhFVHh2enZNbGtLaUFwcTNuRXUyZkZwVWcyU013d2dwMU1Iakx1TERURklNOW8rbDE1TmJVcFRDZHNmMjlIcnVlU3NESktIZlhZcW5OQjdZcld3L0NlbzZJSWxKRGFUbVlsYkI5RzZZeE8zYzh6MXpGak1jTGp0Tk9JQktxNmVlYzNpRXlsVVhHVUNOVXVHZUw5U0g2eWVpd0FZdFM0WlZjMzlXd2JSb0pBNXpIODVmWFRyQkJXT2pNY0ZiTDZjc2RwNXMzS0x1Z28yVkhlUUZBSG1zQVRMU04vWU0wMXJ4RkFOQXA1SEptL3ZlWU8yV1dCTlpjNXh0K0dPb1NPbjg2azdzN2E5cjdlZlVDdDRtMkoyVW5Ddm1BeGQvSGlnaGN3eGpEZnFVYlRWWVovSE1YVVpCcWxGM0R4Zz09IiwiY29udGVudCI6ImZ4Zm45V0NZcy8vdlJvbm1yODM0MWl2dHZ3OXZWMEo2ZSsrRFZhQ2ZLenhtSkx1dlBIMUFGTTVjaFRhSzJONWsxc3dCdjIwU2N4L1VUSlVYZGJUSlhTd3kxdHIzMjhucVN5WU9KVTNPbVRPWGh4K3QvWm1ocUJkK3M5U0VCRVZ6bXNOaFkvQkVhaENMWXN6aVRkRmxWMC9VWXhFN3Y2Ty9jYTRudGVqNFVuYVRaRk13dzlxMEpPbmwwN3VyMExzVy9RT0NwZ0hJL3gvTjRBcVZ1a3h5UnpQZEcvWkoySTZ4NHNkSEhtd21ZcXlLeDg0NkUxL1JXQ3A3aEJZQzI0ZWs4d3Q1WEZEdVA1bTJtUS9IS0NjSDJSd3JsRldDNU1xeVdnMG1uZlgxdTZHU3pxZ2J3RVhUcGRaUitJY3BjZXA2UWxaeU1Vdk1DQnh1akxYRm1JUkF4M1Vtb3hpU0pqeGFxSHlhb2FBQ0txaEkwdjAra00vTldTTENNMG9EaXNHTUNUZTlUeGprZm82NlZlcHpISy9KUk1iOEdMdWQrS2NLcllrdGV3akp6UklaUnd2bjh3aTdlSjZkWFdnN2VWYitHRXJtNkswTlNyTDFhU09tL2RrRXdsZ0R2M1hsZ0hZTmVVS052eU9Wa3VhNFlWQWkyN3o0RkUzNUw2WEloMmJsWFZTb0hiL3BEVk1kVGVxUVVxbk51Y1g1NXk2cnJicEdjVzNHRGl6eTNvcVYyUTRGTWVkV3BCanF5SFJLNW5UV2tyR2UxMU1vWkFCUVhseDJkVmxvS2t4Vnpybmt0Q1ZjNkViZTBBd2hXT2xMemE4SWU0T2ttUzZXeXBvWlBRU0c1RENhdjVFYndIMlZOL013N2hpOU9zM2hGSXR3KzN3clAzanViYW5BQlUyZThtK2orTWRXQUo4cFQrUzdmKzZZNHdPMHl6eklHYW1USHpNNEdCb0lYZHlpRnBSV05UVVJjQmp1MlRNTXZHTWF1Rmh1QzdhanlCQk1lUFhidEd3Y2lUdVdoN0VnUWRpTFVVYTBJOFlzVExTYjBRYUFtcmlNNmRXOERQNnhwRFF5YTgyRm9panhoT3VTSkJxWnl2SFBvanAzekVMSmFrWmZHKzVlZ21xQjZoSVhheTFHTVE0akpPYTJVWDMyUFU0VWpkRjJpVGswMnA4QVpVNGttbFZNN294Y2ZUdlcxSllrYXNoNzR2YzIvWHNSZ2VqbGVENUd6UmcwU3Vxdys0MytVMFRLN1V6WnJCczBaSC96TXdPdEQvVEtOWFhpRlFBNVhRU3lsQTdaWU9vMlJ1d3YvSUx4bEV0YU1VN2hiYUdHSmdmTUFObExOVE04UGl1UjQwWkJiRHAvOGRIazdJcFhFcC9BSklhMm5YRHJTOVJncitENmpnYTFJdi95RkdwRmFOU2VJMk9xZU1GSVBlZlJOS0NtYWJNNnNzbGF4YW81NEZjaFRieWhEUT09IiwidXNlckF0dHJpYnV0ZXMiOnsiTEFOR1VBR0UiOiJlbiIsIkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTUiLCJWMjEiOiJWMjEiLCJVc2VySWQiOiIxNDAxNzE1MiIsIlNPVVJDRSI6IkNSTSIsIkFDQ1ROQlIiOiJVVEVfQU5PTllNT1VTIiwiQ09OVEFDVF9JRCI6IlVURV9BTk9OWU1PVVMiLCJTZXNzaW9uSWQiOiI0MzE2M2I2OC1jMTI4LTRhOTEtYjFjNy1hOWFhMzkyOTA2NWMiLCJUQVJHRVRfVVJMIjoiT05FVklFV0RBU0hCT0FSRCJ9fQ.O4bd5sZb9iqRjXAveK1ym_LqqnNfgR8FJtZzF5ScM3A"/>
+    <header name="authorization" value="Bearer ${c_Convergence_BearerToken9}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>

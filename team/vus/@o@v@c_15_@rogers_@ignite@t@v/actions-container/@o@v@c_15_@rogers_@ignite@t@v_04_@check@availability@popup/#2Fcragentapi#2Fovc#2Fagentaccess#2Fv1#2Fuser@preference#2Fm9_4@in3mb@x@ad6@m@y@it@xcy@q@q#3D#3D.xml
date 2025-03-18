@@ -2,7 +2,7 @@
     name="/cragentapi/ovc/agentaccess/v1/userPreference/m9_4In3mbXAd6MYItXcyQQ=="
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/ec7a3032-4260-4744-8312-2da8220d4d5f.zip"
-    slaProfileEnabled="false" thinkTime="29"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="ec7a3032-4260-4744-8312-2da8220d4d5f">
     <embedded-action>e8fd41e2-af14-4743-963a-819383ba872e</embedded-action>
@@ -16,7 +16,7 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="OPTIONS"
     name="/cragentapi/ovc/agentaccess/v1/userPreference/m9_4In3mbXAd6MYItXcyQQ=="
-    path="/cragentapi/ovc/agentaccess/v1/userPreference/m9_4In3mbXAd6MYItXcyQQ=="
+    path="/cragentapi/ovc/agentaccess/v1/userPreference/${c_agent_LanIdAlias}"
     postType="6"
     recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/ec7a3032-4260-4744-8312-2da8220d4d5f.zip"
     recordedResponseCode="200" responseSize="471"
@@ -52,9 +52,10 @@ access-control-allow-origin: https://oneview-a.rogers.com&#xd;
 referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" extractorInjectPathPolicy="2"
-    extractorPathPolicy="1" followRedirects="false"
-    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+<http-action actionType="1" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/cloud/buyflow/initialize/v1/session/keepAlive"
     path="/cloud/buyflow/initialize/v1/session/keepAlive" postType="6"
@@ -75,7 +76,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
-    <header name="app-context-id" value="6ffb757b-4744-4975-9e37-bb69007d2d7f"/>
+    <header name="app-context-id" value="${c_Context_ContextId2}"/>
     <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
     <header name="sec-fetch-dest" value="empty"/>
     <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>

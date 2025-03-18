@@ -14,13 +14,41 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/catalog/products/device_prodIP16PM"
-    path="/catalog/products/device_prodIP16PM" postType="4"
+    path="/catalog/products/${C_DeviceProductID2}" postCharset=""
+    postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/adda18e8-a57b-46ca-8742-229b6899676c.zip"
     recordedResponseCode="200" responseSize="74345"
     serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
     uid="30bae313-2602-44d0-b179-1b0fa0ccb916" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_b4f1162a-5890-4b11-a93d-5a011630fc3f</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_b4f1162a-5890-4b11-a93d-5a011630fc3f.0.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b4f1162a-5890-4b11-a93d-5a011630fc3f.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="c_products_PlanTierCode"
+        refererUid="30bae313-2602-44d0-b179-1b0fa0ccb916"
+        regExp="&quot;planTierCode&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;planTierCode&quot;:&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="c0807a66-cf3a-4212-89dc-91dc09191f18" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="c_device_pricetier2"
+        refererUid="30bae313-2602-44d0-b179-1b0fa0ccb916"
+        regExp="&quot;priceTier&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;priceTier&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="7a2b4e10-69f3-49e1-9fe9-8d791d2745d8" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <parameter encodeName="true" encodeValue="true"
         name="riskClassCategory" recordRawValue="LOW" separator="="
         value="LOW" valueMode="USE_VALUE"/>
@@ -30,7 +58,8 @@
     <parameter encodeName="true" encodeValue="true" name="activityType"
         recordRawValue="aal" separator="=" value="aal" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="cheapestSkuId"
-        recordRawValue="IP16PM256NAT" separator="=" value="IP16PM256NAT" valueMode="USE_VALUE"/>
+        recordRawValue="IP16PM256NAT" separator="="
+        value="${C_cheapestSkuId2}" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_v1context_conxtextID}&amp;flowType=aal&amp;language=en"/>
     <header name="franchise" value="rogers"/>

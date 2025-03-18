@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_08_ChannelExchangePage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="03b9bccd-dcbe-41ec-945f-cecc3c6b3e93" weightsEnabled="false">
+    <weighted-embedded-action uid="950c0e1c-16f2-47f8-8d01-300abc23830e"/>
+    <weighted-embedded-action uid="d96a4e12-9904-417e-8a88-b466d12b178f"/>
+</basic-logical-action-container>

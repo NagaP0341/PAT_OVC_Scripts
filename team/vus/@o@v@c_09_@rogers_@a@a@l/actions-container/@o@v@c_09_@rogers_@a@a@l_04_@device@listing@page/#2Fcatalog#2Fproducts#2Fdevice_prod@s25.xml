@@ -14,12 +14,13 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/catalog/products/device_prodS25"
-    path="/catalog/products/device_prodS25" postType="4"
+    path="/catalog/products/${C_DeviceProductID6}" postCharset=""
+    postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/16358424-b71f-47ed-a271-bd2b9107981e.zip"
     recordedResponseCode="200" responseSize="48389"
     serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
     uid="b1845bcb-3807-4ab6-8f43-3ded3248879a" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_1f9c103b-e0e8-46de-887e-b9cc33e237ed</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_1f9c103b-e0e8-46de-887e-b9cc33e237ed.0.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_1f9c103b-e0e8-46de-887e-b9cc33e237ed.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true"
         name="riskClassCategory" recordRawValue="LOW" separator="="
@@ -30,7 +31,8 @@
     <parameter encodeName="true" encodeValue="true" name="activityType"
         recordRawValue="aal" separator="=" value="aal" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="cheapestSkuId"
-        recordRawValue="S25128SLV" separator="=" value="S25128SLV" valueMode="USE_VALUE"/>
+        recordRawValue="S25128SLV" separator="="
+        value="${C_cheapestSkuId6}" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_v1context_conxtextID}&amp;flowType=aal&amp;language=en"/>
     <header name="franchise" value="rogers"/>

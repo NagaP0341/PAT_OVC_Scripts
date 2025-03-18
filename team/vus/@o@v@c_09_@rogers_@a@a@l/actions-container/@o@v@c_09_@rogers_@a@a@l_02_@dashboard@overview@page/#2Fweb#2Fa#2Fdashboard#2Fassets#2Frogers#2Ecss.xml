@@ -2,7 +2,7 @@
     name="/web/a/dashboard/assets/rogers.css"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/c3d79f42-1364-49ac-a567-ca91cf98f943.zip"
-    slaProfileEnabled="false" thinkTime="595"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="c3d79f42-1364-49ac-a567-ca91cf98f943">
     <embedded-action>5e2d479e-b887-40b5-92b0-4cf39f39c11a</embedded-action>
@@ -97,8 +97,10 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/json"
+    eTag="&quot;67d4f07f-1370:dtagent10307250124095659x+rL&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Sat, 15 Mar 2025 03:14:06 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/cms/oneview/care-common-config.json"

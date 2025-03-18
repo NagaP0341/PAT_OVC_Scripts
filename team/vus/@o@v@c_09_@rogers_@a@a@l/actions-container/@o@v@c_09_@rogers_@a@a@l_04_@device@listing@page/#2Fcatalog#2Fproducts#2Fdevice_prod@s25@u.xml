@@ -14,7 +14,7 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/catalog/products/device_prodS25U"
-    path="/catalog/products/device_prodS25U" postType="4"
+    path="/catalog/products/${C_DeviceProductID4}" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/730d7cb3-2611-4fe1-b061-eb81c3bf0f46.zip"
     recordedResponseCode="200" responseSize="39747"
     serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
@@ -30,7 +30,8 @@
     <parameter encodeName="true" encodeValue="true" name="activityType"
         recordRawValue="aal" separator="=" value="aal" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="cheapestSkuId"
-        recordRawValue="S25U256GRY" separator="=" value="S25U256GRY" valueMode="USE_VALUE"/>
+        recordRawValue="S25U256GRY" separator="="
+        value="${C_cheapestSkuId4}" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_v1context_conxtextID}&amp;flowType=aal&amp;language=en"/>
     <header name="franchise" value="rogers"/>

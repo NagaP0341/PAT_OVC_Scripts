@@ -1,0 +1,28 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_10_Fido_AAL_05_DeviceFinancingOptionsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="39d40b7c-d3f7-46e3-9c73-91dae6942359" weightsEnabled="false">
+    <weighted-embedded-action uid="03afda39-c071-4e83-95ae-e74f53528075"/>
+    <weighted-embedded-action uid="36c361bd-ce1c-4fe6-9c2a-68f8b54346cc"/>
+    <weighted-embedded-action uid="f48be3a1-ae8d-4055-b0ae-05dbe58bd45f"/>
+    <weighted-embedded-action uid="aad3bae8-2042-4002-bf2c-09f33cdbce31"/>
+    <weighted-embedded-action uid="43bb3d3a-800c-4f9e-8a34-ba9b2d761f1d"/>
+    <weighted-embedded-action uid="4a6bfdd8-2fb8-495e-a623-299456d89297"/>
+    <weighted-embedded-action uid="d10f418c-8e39-4d88-87a1-67f85735bd98"/>
+    <weighted-embedded-action uid="0f1f5614-ad6b-47e7-a804-1304b119c351"/>
+    <weighted-embedded-action uid="5685ce12-dbcd-46e8-9f4d-146e30e37722"/>
+    <weighted-embedded-action uid="f42bdac8-9ce0-4d59-bc17-33bdf0f99b75"/>
+    <weighted-embedded-action uid="f136a58c-9b8e-4bab-911f-5e4670a1bf70"/>
+    <weighted-embedded-action uid="5dbfc399-b952-416e-b0f6-ee094dce602b"/>
+    <weighted-embedded-action uid="60b025a7-8086-4bbb-914d-0a5e40f77831"/>
+    <weighted-embedded-action uid="e569b215-1bcd-4024-8da2-51137f18f0c1"/>
+    <weighted-embedded-action uid="07a3b458-9da7-47b0-b684-0866905ec17b"/>
+    <weighted-embedded-action uid="d709a9fb-cdb4-4291-b716-d3f456d54193"/>
+    <weighted-embedded-action uid="0c608890-71a8-49b2-8630-9ae8899ff085"/>
+    <weighted-embedded-action uid="b48666c2-5350-43c5-b760-bee46a53317d"/>
+    <weighted-embedded-action uid="f876fedd-2af0-4725-be19-91cf8908e3b1"/>
+    <weighted-embedded-action uid="f06469ac-e00d-4e01-9b4d-f4fe2996d404"/>
+    <weighted-embedded-action uid="3126daea-490b-4d72-bc06-e31d233dfb57"/>
+    <weighted-embedded-action uid="d818898a-e4ce-4d5b-afc3-5057138aadec"/>
+    <weighted-embedded-action uid="5274950e-c5b1-4b89-955e-56f45b0edbd1"/>
+</basic-logical-action-container>

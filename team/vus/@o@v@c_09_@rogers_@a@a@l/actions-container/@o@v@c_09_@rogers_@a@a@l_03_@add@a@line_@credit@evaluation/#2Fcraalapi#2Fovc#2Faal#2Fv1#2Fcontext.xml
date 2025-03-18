@@ -18,7 +18,7 @@
     recordedResponseCode="200" responseSize="1036"
     serverUid="oneview.rogers.com" slaProfileEnabled="false"
     uid="f937f000-acf2-4011-b44d-ec360e078929" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_a12b39a1-3195-4637-a577-c2c3b92a20aa.0.0</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_a12b39a1-3195-4637-a577-c2c3b92a20aa.0.0.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_a12b39a1-3195-4637-a577-c2c3b92a20aa.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
         defaultValue="&lt;NOT FOUND>" displayMode="0"
@@ -31,6 +31,19 @@
         setDefaultValue="true" startsWithSimple="contextId&quot;:&quot;"
         template="$1$" templateAdv="$1$"
         uid="9a172442-bdbc-4247-88e0-62b0c2d69318" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="c_Context_BearerToken9"
+        refererUid="f937f000-acf2-4011-b44d-ec360e078929"
+        regExp="authorization: Bearer (.*)" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="authorization: Bearer "
+        template="$1$" templateAdv="$1$"
+        uid="3c663423-056f-498d-9a99-4e83e2d83309" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
     <header name="sec-fetch-mode" value="cors"/>

@@ -11,20 +11,34 @@
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
         slaProfileEnabled="false" weightsEnabled="false">
         <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="7c11e0f9-e29e-4026-a356-f2b3b148348e"/>
+        <weighted-embedded-action uid="72664d85-20fb-43ea-9e3d-3a18659725fc"/>
         <weighted-embedded-action uid="e66497a5-8e18-4df6-8f58-77bac4e80a3a"/>
+        <weighted-embedded-action uid="ea0b756a-77c0-4776-8701-705d430fe56c"/>
         <weighted-embedded-action uid="91cd1682-df2f-4de4-909d-bc0fecb3e937"/>
+        <weighted-embedded-action uid="97742a63-b0ff-489a-8c92-a0e766931233"/>
         <weighted-embedded-action uid="7870b675-6645-46e6-8019-d5846de5c6ee"/>
+        <weighted-embedded-action uid="f6c4a5f5-a1a5-4317-97d4-f9225873fc3f"/>
         <weighted-embedded-action uid="8cc29255-c8e8-44e5-85d8-b8fa4f368cef"/>
+        <weighted-embedded-action uid="2e6d620e-404c-41f2-9517-31d0be905fe9"/>
         <weighted-embedded-action uid="f564476f-fd66-4b90-8772-2bb8cda41d16"/>
+        <weighted-embedded-action uid="b918c25f-0254-416b-9ecf-fbe534105d82"/>
         <weighted-embedded-action uid="f448ce91-ea99-4a44-9d67-b50614e45e18"/>
+        <weighted-embedded-action uid="96fa43f1-d120-48c4-b2d3-d15c8664b214"/>
         <weighted-embedded-action uid="63e83a43-dd42-444e-8879-bb122e0d9895"/>
+        <weighted-embedded-action uid="ad8da48d-caf4-4655-b57e-13cc3a4a2469"/>
         <weighted-embedded-action uid="97e99a98-8a54-4fae-9156-26516b63a921"/>
         <weighted-embedded-action uid="4b6ef905-8d1a-4fd3-b8ba-3c5674a70aad"/>
+        <weighted-embedded-action uid="7c84c5b3-8639-47bc-ba3f-90400449f63b"/>
         <weighted-embedded-action uid="5af8da20-d4c7-4551-80f3-aa7ce6a60700"/>
+        <weighted-embedded-action uid="59858e31-f202-42a3-ae6b-e5e9bbdff2bb"/>
         <weighted-embedded-action uid="8fd3cb8e-fa86-4577-9a9a-618fe576adec"/>
+        <weighted-embedded-action uid="548f7c1d-d180-4055-bbd9-0cd8f63ca1ed"/>
         <weighted-embedded-action uid="f1b42901-88c4-407f-9a6e-8c62ca99fd2c"/>
         <weighted-embedded-action uid="e99bc074-f448-41d9-aeb1-c9fbd4033dbe"/>
+        <weighted-embedded-action uid="1672d8b1-3e51-4ec7-aba7-111f7a765852"/>
         <weighted-embedded-action uid="a59aab49-8ad4-478c-ac2b-4b6135dfa7d1"/>
+        <weighted-embedded-action uid="a22b6c86-b1a2-47dd-81cc-dfc8054a0943"/>
     </actions-container>
     <end-container element-number="1" execution-type="0" pacingEnd="0"
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"

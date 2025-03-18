@@ -1,0 +1,63 @@
+<http-page executeResourcesDynamically="false"
+    name="/assearchapi/v1/fmsTransaction"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/53572920-ad4f-4420-b2f6-cba3a218fe7b.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="53572920-ad4f-4420-b2f6-cba3a218fe7b">
+    <embedded-action>a4fc12b6-8eda-4338-80fd-3cdfeaa34766</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_5ec47e77-5f89-49ad-9370-d4b33843e990.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/assearchapi/v1/fmsTransaction"
+    path="/assearchapi/v1/fmsTransaction" postType="4"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/53572920-ad4f-4420-b2f6-cba3a218fe7b.zip"
+    recordedResponseCode="200" responseSize="52"
+    serverUid="oneview-accountsearch.rogers.com"
+    slaProfileEnabled="false" uid="a4fc12b6-8eda-4338-80fd-3cdfeaa34766" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e287bb01-2fb5-429b-a849-baabf322513e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e287bb01-2fb5-429b-a849-baabf322513e.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-accountsearch.rogers.com/web/a/dashboard/account-search?flowtype=AccountSearch"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="rxVisitor=17422957260496F1NFPN8KV6U58P3DLM374RNVH7EQC9R; language=en; PLAY_SESSION=23bcf0bfe519f2223402f901ee8eb59c609b241e-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=43163b68-c128-4a91-b1c7-a9aa3929065c&amp;TARGET_URL=ONEVIEWDASHBOARD; jwtToken=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTUyLGxhbklkPVVJUEFUSC5CT1QxNSIsImF1ZCI6Ik9uZXZpZXcgRmlkbyBDYXJlIiwidG9rZW5EdXJhdGlvbiI6IjI3MDAwMDAiLCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE1MixsYW5JZD1VSVBBVEguQk9UMTUiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjk5MzI3LCJpYXQiOjE3NDIyOTU3MjcsImtleSI6IlFNT1JvdnhxOWZjSzQ4a0JNSjhRTS8xdFViUUhFVHh2enZNbGtLaUFwcTNuRXUyZkZwVWcyU013d2dwMU1Iakx1TERURklNOW8rbDE1TmJVcFRDZHNmMjlIcnVlU3NESktIZlhZcW5OQjdZcld3L0NlbzZJSWxKRGFUbVlsYkI5RzZZeE8zYzh6MXpGak1jTGp0Tk9JQktxNmVlYzNpRXlsVVhHVUNOVXVHZUw5U0g2eWVpd0FZdFM0WlZjMzlXd2JSb0pBNXpIODVmWFRyQkJXT2pNY0ZiTDZjc2RwNXMzS0x1Z28yVkhlUUZBSG1zQVRMU04vWU0wMXJ4RkFOQXA1SEptL3ZlWU8yV1dCTlpjNXh0K0dPb1NPbjg2azdzN2E5cjdlZlVDdDRtMkoyVW5Ddm1BeGQvSGlnaGN3eGpEZnFVYlRWWVovSE1YVVpCcWxGM0R4Zz09IiwiY29udGVudCI6ImZ4Zm45V0NZcy8vdlJvbm1yODM0MWl2dHZ3OXZWMEo2ZSsrRFZhQ2ZLenhtSkx1dlBIMUFGTTVjaFRhSzJONWsxc3dCdjIwU2N4L1VUSlVYZGJUSlhTd3kxdHIzMjhucVN5WU9KVTNPbVRPWGh4K3QvWm1ocUJkK3M5U0VCRVZ6bXNOaFkvQkVhaENMWXN6aVRkRmxWMC9VWXhFN3Y2Ty9jYTRudGVqNFVuYVRaRk13dzlxMEpPbmwwN3VyMExzVy9RT0NwZ0hJL3gvTjRBcVZ1a3h5UnpQZEcvWkoySTZ4NHNkSEhtd21ZcXlLeDg0NkUxL1JXQ3A3aEJZQzI0ZWs4d3Q1WEZEdVA1bTJtUS9IS0NjSDJSd3JsRldDNU1xeVdnMG1uZlgxdTZHU3pxZ2J3RVhUcGRaUitJY3BjZXA2UWxaeU1Vdk1DQnh1akxYRm1JUkF4M1Vtb3hpU0pqeGFxSHlhb2FBQ0txaEkwdjAra00vTldTTENNMG9EaXNHTUNUZTlUeGprZm82NlZlcHpISy9KUk1iOEdMdWQrS2NLcllrdGV3akp6UklaUnd2bjh3aTdlSjZkWFdnN2VWYitHRXJtNkswTlNyTDFhU09tL2RrRXdsZ0R2M1hsZ0hZTmVVS052eU9Wa3VhNFlWQWkyN3o0RkUzNUw2WEloMmJsWFZTb0hiL3BEVk1kVGVxUVVxbk51Y1g1NXk2cnJicEdjVzNHRGl6eTNvcVYyUTRGTWVkV3BCanF5SFJLNW5UV2tyR2UxMU1vWkFCUVhseDJkVmxvS2t4Vnpybmt0Q1ZjNkViZTBBd2hXT2xMemE4SWU0T2ttUzZXeXBvWlBRU0c1RENhdjVFYndIMlZOL013N2hpOU9zM2hGSXR3KzN3clAzanViYW5BQlUyZThtK2orTWRXQUo4cFQrUzdmKzZZNHdPMHl6eklHYW1USHpNNEdCb0lYZHlpRnBSV05UVVJjQmp1MlRNTXZHTWF1Rmh1QzdhanlCQk1lUFhidEd3Y2lUdVdoN0VnUWRpTFVVYTBJOFlzVExTYjBRYUFtcmlNNmRXOERQNnhwRFF5YTgyRm9panhoT3VTSkJxWnl2SFBvanAzekVMSmFrWmZHKzVlZ21xQjZoSVhheTFHTVE0akpPYTJVWDMyUFU0VWpkRjJpVGswMnA4QVpVNGttbFZNN294Y2ZUdlcxSllrYXNoNzR2YzIvWHNSZ2VqbGVENUd6UmcwU3Vxdys0MytVMFRLN1V6WnJCczBaSC96TXdPdEQvVEtOWFhpRlFBNVhRU3lsQTdaWU9vMlJ1d3YvSUx4bEV0YU1VN2hiYUdHSmdmTUFObExOVE04UGl1UjQwWkJiRHAvOGRIazdJcFhFcC9BSklhMm5YRHJTOVJncitENmpnYTFJdi95RkdwRmFOU2VJMk9xZU1GSVBlZlJOS0NtYWJNNnNzbGF4YW81NEZjaFRieWhEUT09IiwidXNlckF0dHJpYnV0ZXMiOnsiTEFOR1VBR0UiOiJlbiIsIkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTUiLCJWMjEiOiJWMjEiLCJVc2VySWQiOiIxNDAxNzE1MiIsIlNPVVJDRSI6IkNSTSIsIkFDQ1ROQlIiOiJVVEVfQU5PTllNT1VTIiwiQ09OVEFDVF9JRCI6IlVURV9BTk9OWU1PVVMiLCJTZXNzaW9uSWQiOiI0MzE2M2I2OC1jMTI4LTRhOTEtYjFjNy1hOWFhMzkyOTA2NWMiLCJUQVJHRVRfVVJMIjoiT05FVklFV0RBU0hCT0FSRCJ9fQ._VyGISz7BwVKLA0duM1zCZvu6w_HTOzQMgqj_Ux0iuU; subscriptionKey=undefined; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; akaalb_Oneview_Account_Search=~op=ALB_AZURE_ONEVIEW_ACCOUNT_SEARCH:ALB_AZUCE_ONEVIEW_ACCOUNT_SEARCH|~rv=6~m=ALB_AZUCE_ONEVIEW_ACCOUNT_SEARCH:0|~os=4168d57008d2a7f87e75f2ae191fe099~id=e1d3f0a71a533fcab8cc76d053e09455; dtSa=-; language=en; s_ecid=MCMID%7C70832142474106823291688474496184356276; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20166%7CMCMID%7C70832142474106823291688474496184356276%7CMCAAMLH-1742900530%7C7%7CMCAAMB-1742900530%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742302932s%7CNONE%7CvVersion%7C5.5.0%7CMCAID%7CNONE; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742297533817%3B%20rcp_s_dslv%3D1742295733817%7C1836903733817%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742297533817%3B; X_DOM_session_guid=7295c7cf-03e8-11f0-9fde-e9dd4d264d51; s_cc=true; aam_dfp=aam_dfp%3D9719938%2C9749182%2C10561322%2C10561508%2C12227875%2C13375330%2C11057727%2C14026806; tech_sas_rtdm=sas_segments%3D10235138; aam_uuid=70635360262115342001667655504828367125; dtCookie=v_4_srv_10_sn_114F408340200E62404BA56E87D2EDE9_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_ol_0_perc_100000_mul_1_rcs-3Acss_0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22CxSearch%20Tool:web:a:dashboard:account-search%22%2C%22pURL%22:%22https://oneview-accountsearch.rogers.com/web/a/dashboard/account-search?flowtype=AccountSearch%22}; s_sq=rcp-r-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DCxSearch%252520Tool%25253Aweb%25253Aa%25253Adashboard%25253Aaccount-search%2526link%253DSearch%2526region%253DBODY%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DCxSearch%252520Tool%25253Aweb%25253Aa%25253Adashboard%25253Aaccount-search%2526pidt%253D1%2526oid%253DSearch%2526oidt%253D3%2526ot%253DSUBMIT; rxvt=1742297572862|1742295726052; dtPC=10$495731346_510h16vARVURVDSIKHDHDMARWUEWFNNTLSJNFHC-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-accountsearch.rogers.com"/>
+    <header name="language" value="en_CA"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTUyLGxhbklkPVVJUEFUSC5CT1QxNSIsImF1ZCI6Ik9uZXZpZXcgQWNjb3VudCBTZWFyY2giLCJ0b2tlbkR1cmF0aW9uIjoiMzAwMDAwMCIsInVzZXJBdHRyaWJ1dGVzIjp7IkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTUiLCJVc2VySWQiOiIxNDAxNzE1MiIsIkFzcFNlc3Npb25JZCI6IjIzYWVmOGM2LTAzODEtNDhiOC1hMDdjLWVjZGFmOWQyMDQxZCIsIlNPVVJDRSI6IkNSTSJ9LCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE1MixsYW5JZD1VSVBBVEguQk9UMTUiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjk5MzcyLCJpYXQiOjE3NDIyOTU3MzIsImtleSI6Ill0eG10Qm9hZ1pvZjhyL3BXdEx1Vkxsdk0zYnpTNnlVaXFvUE5CS29IOWFNdm9QbjYyeXFFREdhMlFFRGYxN0lXRlJUdUJMbUttRzBkRXdtdHZwQWJiS1lqeXdWcmp0WHBVeUVFL3JpaWJQa3BBb1NtN0VVZ1R6bFFMclFvMjhtZlNyeWE1U0hVVXF1OWliK0xmS0JsKzhtTVlXOGJ3Z2k2VnlvRlovRFpGZXluYzB1dm0vbjR1TUxKQlE1S0dlL0E2Nk1ScXNxbThjVmlwOXZOR3FjNTFjaU5Ic25WeUVvMmpQM21zeXovQ1F6VXkyc0N4eG9yUFVJK283MENYZUFrczlyaFUzYlpxUmI2MGI3cGR1MXlDQ3czcEVnSkZwWUpaWG51L0FHaUVaTG8rc1FVTktFYTRjRCsrUTdwOXFrc2VSamlGNSt4UEhKci9SMFVndllxQT09IiwiY29udGVudCI6ImpFcFhHN3RxeWdoTEdXZ1FUWUJBUnNNV3h3azNKNmVkSzNkTis0MlhwelA2STZOMk5yNEpSeVBuZlBZR0plUktxMWZiWGYrdHBOcFg3YTVMTVpxWjVnTVRWTjQva0xVaXRXS052dFlBTGdnPSJ9.QHSclsKR1_B1uhqSQr-1eg2HASm2-9gEWqGJ6wLpOsc"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="requestid" value="094b72cf-f65c-6248-168c-1a4bc7dfb49b"/>
+    <header name="x-dtpc" value="10$495731346_510h16vARVURVDSIKHDHDMARWUEWFNNTLSJNFHC-0e0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/json&#xd;
+x-oneagent-js-injection: true&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: DENY&#xd;
+x-envoy-upstream-service-time: 335&#xd;
+requestid: 094b72cf-f65c-6248-168c-1a4bc7dfb49b&#xd;
+authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTUyLGxhbklkPVVJUEFUSC5CT1QxNSIsImF1ZCI6Ik9uZXZpZXcgQWNjb3VudCBTZWFyY2giLCJ0b2tlbkR1cmF0aW9uIjoiMzAwMDAwMCIsInVzZXJBdHRyaWJ1dGVzIjp7IkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTUiLCJVc2VySWQiOiIxNDAxNzE1MiIsIkFzcFNlc3Npb25JZCI6IjIzYWVmOGM2LTAzODEtNDhiOC1hMDdjLWVjZGFmOWQyMDQxZCIsIlNPVVJDRSI6IkNSTSJ9LCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE1MixsYW5JZD1VSVBBVEguQk9UMTUiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjk5MzcyLCJpYXQiOjE3NDIyOTU3MzIsImtleSI6Ill0eG10Qm9hZ1pvZjhyL3BXdEx1Vkxsdk0zYnpTNnlVaXFvUE5CS29IOWFNdm9QbjYyeXFFREdhMlFFRGYxN0lXRlJUdUJMbUttRzBkRXdtdHZwQWJiS1lqeXdWcmp0WHBVeUVFL3JpaWJQa3BBb1NtN0VVZ1R6bFFMclFvMjhtZlNyeWE1U0hVVXF1OWliK0xmS0JsKzhtTVlXOGJ3Z2k2VnlvRlovRFpGZXluYzB1dm0vbjR1TUxKQlE1S0dlL0E2Nk1ScXNxbThjVmlwOXZOR3FjNTFjaU5Ic25WeUVvMmpQM21zeXovQ1F6VXkyc0N4eG9yUFVJK283MENYZUFrczlyaFUzYlpxUmI2MGI3cGR1MXlDQ3czcEVnSkZwWUpaWG51L0FHaUVaTG8rc1FVTktFYTRjRCsrUTdwOXFrc2VSamlGNSt4UEhKci9SMFVndllxQT09IiwiY29udGVudCI6ImpFcFhHN3RxeWdoTEdXZ1FUWUJBUnNNV3h3azNKNmVkSzNkTis0MlhwelA2STZOMk5yNEpSeVBuZlBZR0plUktxMWZiWGYrdHBOcFg3YTVMTVpxWjVnTVRWTjQva0xVaXRXS052dFlBTGdnPSJ9.QHSclsKR1_B1uhqSQr-1eg2HASm2-9gEWqGJ6wLpOsc&#xd;
+request-context: appId=cid-v1:22c57a57-4e03-4659-a8b1-d0566f8b9c00&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-365292121", dtTao;desc="1"&#xd;
+content-length: 52&#xd;
+expires: Tue, 18 Mar 2025 11:02:53 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Tue, 18 Mar 2025 11:02:53 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"transaction":{"customer":{"ctn":"","ban":"09876789765"},"transactionStatus":"SUCCESS"}}]]></textPostContent>
+</http-action>

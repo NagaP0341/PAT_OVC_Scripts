@@ -135,7 +135,7 @@
     <parameter encodeName="true" encodeValue="true" name="products"
         recordRawValue="%3BIP16P128WHT%3AiPhone%2016%20Pro%20128GB%20White%20Titanium%3B%3B%3B%3BeVar31%3DOVAAL%7CeVar32%3Dwireless%7CeVar33%3Ddevice%7CeVar134%3DEDGEFIN2TAB%3A24%3A37%3A8.08%3A22%3A602%7CeVar145%3D0.00%7CeVar146%3D0.00%7CeVar147%3D0.00%7CeVar148%3D0.00%2C%3BCONM423ZF%3AData%205G%20Mobile%2020GB%20NS-%20Unlimited%20Canada-Wide%20Calling%5BSUPER%5D%3B%3B%3B%3BeVar31%3DOVAAL%7CeVar32%3Dwireless%7CeVar33%3Dplan%7CeVar136%3D20%3Afinancing%3Agb%3A0%3An%2Fa%7CeVar138%3D70.00%7CeVar145%3D0.00%7CeVar146%3D0.00%7CeVar147%3D0.00%7CeVar148%3D0.00%2C%3BNOPROTECTION%3ADecline%20Device%20Protection%20offer%3B%3B%3B%3BeVar31%3DOVAAL%7CeVar32%3Dwireless%7CeVar33%3Daddon%7CeVar145%3D0.00%7CeVar146%3D0.00%7CeVar147%3D0.00%7CeVar148%3D0.00%2C%3BOPTSRA3PX%3A200%20International%20LD%20Minutes%3B%3B%3B%3BeVar31%3DOVAAL%7CeVar32%3Dwireless%7CeVar33%3Daddon%7CeVar145%3D0.00%7CeVar146%3D0.00%7CeVar147%3D0.00%7CeVar148%3D0.00"
         separator="="
-        value=";IP16P128WHT:iPhone 16 Pro 128GB White Titanium;;;;eVar31=OVAAL|eVar32=wireless|eVar33=device|eVar134=EDGEFIN2TAB:24:37:8.08:22:602|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;CONM423ZF:Data 5G Mobile 20GB NS- Unlimited Canada-Wide Calling[SUPER];;;;eVar31=OVAAL|eVar32=wireless|eVar33=plan|eVar136=20:financing:gb:0:n/a|eVar138=70.00|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;NOPROTECTION:Decline Device Protection offer;;;;eVar31=OVAAL|eVar32=wireless|eVar33=addon|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;OPTSRA3PX:200 International LD Minutes;;;;eVar31=OVAAL|eVar32=wireless|eVar33=addon|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00" valueMode="USE_VALUE"/>
+        value=";${C_cheapestSkuId3}:iPhone 16 Pro 128GB White Titanium;;;;eVar31=OVAAL|eVar32=wireless|eVar33=device|eVar134=${C_Content_Tierkey}:24:37:8.08:22:602|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;CONM423ZF:Data 5G Mobile 20GB NS- Unlimited Canada-Wide Calling[SUPER];;;;eVar31=OVAAL|eVar32=wireless|eVar33=plan|eVar136=20:financing:gb:0:n/a|eVar138=70.00|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;${C_CatalogPlans_ExternalID}:Decline Device Protection offer;;;;eVar31=OVAAL|eVar32=wireless|eVar33=addon|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;${C_CatalogAddons_ValueID}:200 International LD Minutes;;;;eVar31=OVAAL|eVar32=wireless|eVar33=addon|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="aamb"
         recordRawValue="j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI"
         separator="="
@@ -201,7 +201,7 @@
     <parameter encodeName="true" encodeValue="true" name="v37"
         recordRawValue="IP16P128WHT%7Chttps%3A%2F%2Fimages.ctfassets.net%2Fvgwhlb9i7419%2F7nybnB9d2HjcjgwYE3Z6PD%2Fbe81c6a0bdf11db433814a4865ed6f81%2Fapple-iPhone16-Pro-white-pos1.png"
         separator="="
-        value="IP16P128WHT|https://images.ctfassets.net/vgwhlb9i7419/7nybnB9d2HjcjgwYE3Z6PD/be81c6a0bdf11db433814a4865ed6f81/apple-iPhone16-Pro-white-pos1.png" valueMode="USE_VALUE"/>
+        value="${C_cheapestSkuId3}|https://images.ctfassets.net/vgwhlb9i7419/7nybnB9d2HjcjgwYE3Z6PD/be81c6a0bdf11db433814a4865ed6f81/apple-iPhone16-Pro-white-pos1.png" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="v43"
         recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="v48"
@@ -224,7 +224,7 @@
     <parameter encodeName="true" encodeValue="true" name="v65"
         recordRawValue="https%3A%2F%2Foneview-buyflow.rogers.com%2Fphones%2Fiphone-16-pro%2Fbuild-plan%3FovContextId%3D4ee7a684-0074-4c86-bf3f-ce487c32d846%26flowType%3Daal%26sku%3DIP16P128WHT%26step%3D11%26deviceId%3Ddevice_prodIP16P%26sharingType%3Dindividual%26downPayment%3D0%26tier%3DEDGEFIN2TAB%26upfrontEdge%3Dtrue%26data%3Dsku_plan_LTPM422HG_LTPM422HG%26addons%3DNOPROTECTION%2COPTSRA3PX%26dpaddons%3DNOPROTECTION%26callerIdFirst%3DJohn%26callerIdLast%3DDoe"
         separator="="
-        value="https://oneview-buyflow.rogers.com/phones/iphone-16-pro/build-plan?ovContextId=${C_v1context_conxtextID}&amp;flowType=aal&amp;sku=IP16P128WHT&amp;step=11&amp;deviceId=device_prodIP16P&amp;sharingType=individual&amp;downPayment=0&amp;tier=EDGEFIN2TAB&amp;upfrontEdge=true&amp;data=sku_plan_LTPM422HG_LTPM422HG&amp;addons=NOPROTECTION,OPTSRA3PX&amp;dpaddons=NOPROTECTION&amp;callerIdFirst=John&amp;callerIdLast=Doe" valueMode="USE_VALUE"/>
+        value="https://oneview-buyflow.rogers.com/phones/iphone-16-pro/build-plan?ovContextId=${C_v1context_conxtextID}&amp;flowType=aal&amp;sku=${C_cheapestSkuId3}&amp;step=11&amp;deviceId=${C_DeviceProductID3}&amp;sharingType=individual&amp;downPayment=0&amp;tier=${C_Content_Tierkey}&amp;upfrontEdge=true&amp;data=${C_CatalogPlans_PlanID}&amp;addons=${C_CatalogPlans_ExternalID},${C_CatalogAddons_ValueID}&amp;dpaddons=${C_CatalogPlans_ExternalID}&amp;callerIdFirst=John&amp;callerIdLast=Doe" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="v71"
         recordRawValue="microsoft%7Chosted%7C5000%7Cca%7Cqc%7C8075"
         separator="=" value="microsoft|hosted|5000|ca|qc|8075" valueMode="USE_VALUE"/>

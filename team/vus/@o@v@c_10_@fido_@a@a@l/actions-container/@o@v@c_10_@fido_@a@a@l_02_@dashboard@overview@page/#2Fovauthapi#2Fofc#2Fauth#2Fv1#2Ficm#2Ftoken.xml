@@ -2,7 +2,7 @@
     name="/ovauthapi/ofc/auth/v1/icm/token"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/680371c1-324a-43af-b481-9f80df84bd2b.zip"
-    slaProfileEnabled="false" thinkTime="22"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="680371c1-324a-43af-b481-9f80df84bd2b">
     <embedded-action>39bd29cf-1f22-4b3f-8848-9a6590609bcb</embedded-action>
@@ -14,29 +14,55 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/ovauthapi/ofc/auth/v1/icm/token"
-    path="/ovauthapi/ofc/auth/v1/icm/token" postType="4"
+    path="/ovauthapi/ofc/auth/v1/icm/token" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/680371c1-324a-43af-b481-9f80df84bd2b.zip"
     recordedResponseCode="200" responseSize="104"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
     uid="39bd29cf-1f22-4b3f-8848-9a6590609bcb" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_39bd29cf-1f22-4b3f-8848-9a6590609bcb</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_39bd29cf-1f22-4b3f-8848-9a6590609bcb.0.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_39bd29cf-1f22-4b3f-8848-9a6590609bcb.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="c_IcmToken_BearerToken1"
+        refererUid="39bd29cf-1f22-4b3f-8848-9a6590609bcb"
+        regExp="authorization: Bearer (.*)" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="authorization: Bearer "
+        template="$1$" templateAdv="$1$"
+        uid="02221f78-f031-4afd-8636-450f8e092850" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="c_Token_AccNum"
+        refererUid="39bd29cf-1f22-4b3f-8848-9a6590609bcb"
+        regExp="accountNumber&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="accountNumber&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="b0fb8c92-077b-40ab-906a-510ecd4cc375" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="Prod=A; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdA-oneview-Fido-ui-care|~rv=53~m=ProdA-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=37479ed73162e396e9d7f19b4249df4d; dtCookie=v_4_srv_-2D15443_sn_4S23DMRDP1BHFT45JDED6MBPM170NJRK; rxVisitor=1742306884406GCVTPPM9HH9FRE6J3995EON7FLCTKHFT; dtSa=-; language=en; language=en; rxvt=1742308685284|1742306884408; dtPC=-15443$506884396_753h6vKMABFAENEVJAWKKRKUCMPGUISDPCUULJ-0e0"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
-    <header name="x-dtreferer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.sE50qkhUyeRxZtNcRcb6F3YZOvXs-QShUS4XBrgJFdiFtK43Pyqny6ULhxwtIgwDhZ_0yaECT9AG92gNpy9a_P0vlkbFdTJRxHmuW171zqD6i3sdXbnTGi6cx5cuEVVuTb4OWvvcSlMte5oDz2FrV0BWthAdHQyj7B5yeYy3hD19JspF3S25KrStL6wc4R7nF0AzIwt37YKwjyAdEna2Ww50bozjwyDXCy1bxqoF6lXGBPrOfMBL8IX75rslu3eX4sZBNCcI-qVFSaFSZrSbG0hlOKkZnIfgF1AEYnMOW8aQZTHylOisi_EPT4gRV5ybl9x3fAJh3kaO65C2p2QMjQ._q-Y5L_j4pNXOja2.hZGalyj-ti_qMA_MAufboe26yR8XNLVA_dwH8oiEIpysdqZqiV-BPuoCeIfIYXcbnWWBe3HID3XUyQGcretGh5DeUED2sgbVI8_8UA4_0OGVgj31o8TOccXoWCEpk6Vlz-Waef0rCtQvr4fJxT8LlqhmBcjES4opI1ibTpinD57dObU1Z8U47uThK3afLq8Qpaxgbg-V56IF8HP2DBmyE5ego_0PjCFdL31G-cyP04jmy8QVtqu71QGVKgDUCLXKpSjoISuVlmOSx9SWkOyhYsgC6vCNz70uW4ZqeaiDhxiilhtEaeKjCnT-RYnsJCN2CQaQym5m0m8WW7rnDNxXvQHBBxg.WrU3E-p1_jTR6YYQq2tpdg"/>
+    <header name="x-dtreferer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en&amp;jwt=${P_JwtToken}"/>
     <header name="origin" value="https://oneview.fido.ca"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="Bearer eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.sE50qkhUyeRxZtNcRcb6F3YZOvXs-QShUS4XBrgJFdiFtK43Pyqny6ULhxwtIgwDhZ_0yaECT9AG92gNpy9a_P0vlkbFdTJRxHmuW171zqD6i3sdXbnTGi6cx5cuEVVuTb4OWvvcSlMte5oDz2FrV0BWthAdHQyj7B5yeYy3hD19JspF3S25KrStL6wc4R7nF0AzIwt37YKwjyAdEna2Ww50bozjwyDXCy1bxqoF6lXGBPrOfMBL8IX75rslu3eX4sZBNCcI-qVFSaFSZrSbG0hlOKkZnIfgF1AEYnMOW8aQZTHylOisi_EPT4gRV5ybl9x3fAJh3kaO65C2p2QMjQ._q-Y5L_j4pNXOja2.hZGalyj-ti_qMA_MAufboe26yR8XNLVA_dwH8oiEIpysdqZqiV-BPuoCeIfIYXcbnWWBe3HID3XUyQGcretGh5DeUED2sgbVI8_8UA4_0OGVgj31o8TOccXoWCEpk6Vlz-Waef0rCtQvr4fJxT8LlqhmBcjES4opI1ibTpinD57dObU1Z8U47uThK3afLq8Qpaxgbg-V56IF8HP2DBmyE5ego_0PjCFdL31G-cyP04jmy8QVtqu71QGVKgDUCLXKpSjoISuVlmOSx9SWkOyhYsgC6vCNz70uW4ZqeaiDhxiilhtEaeKjCnT-RYnsJCN2CQaQym5m0m8WW7rnDNxXvQHBBxg.WrU3E-p1_jTR6YYQq2tpdg"/>
+    <header name="authorization" value="Bearer ${P_JwtToken}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="x-transaction-id" value="09d16d93-3644-c47b-0a9e-e7d739f1dacb"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="x-app-id" value="OVF"/>
     <header name="x-dtpc" value="-15443$506884396_753h6vKMABFAENEVJAWKKRKUCMPGUISDPCUULJ-0e0"/>
-    <header name="ocp-apim-subscription-key" value="ba82a160c4b945bfa843f2738369ae90"/>
+    <header name="ocp-apim-subscription-key" value="${C_Subscription_Key1}"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
     <header name="content-type" value="application/json"/>
     <header name="lang" value="en"/>

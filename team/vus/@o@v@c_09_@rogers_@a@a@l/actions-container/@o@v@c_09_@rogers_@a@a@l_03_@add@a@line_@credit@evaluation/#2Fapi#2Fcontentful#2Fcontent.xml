@@ -13,13 +13,39 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/api/contentful/content"
-    path="/api/contentful/content" postType="4"
+    path="/api/contentful/content" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/517ba0e4-c1b8-4295-9fdf-c65f939462ab.zip"
     recordedResponseCode="200" responseSize="93716"
     serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
     uid="7f692af4-73fb-409c-8152-c5f99e3d554d" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_6ae27c06-8c09-475d-82ef-9c806b8e03d7</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_6ae27c06-8c09-475d-82ef-9c806b8e03d7.0.0.0.0.0.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_6ae27c06-8c09-475d-82ef-9c806b8e03d7.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="16" matchNumberAdv="1"
+        matchNumberSimple="16" name="C_Content_Tierkey3"
+        refererUid="7f692af4-73fb-409c-8152-c5f99e3d554d"
+        regExp="&quot;tierKey&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;tierKey&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="37c04f5b-ccc2-4e71-aa2c-fbcc5c29516a" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;," extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="26" matchNumberAdv="1"
+        matchNumberSimple="26" name="C_Content_TierKey2"
+        refererUid="7f692af4-73fb-409c-8152-c5f99e3d554d"
+        regExp="tierKey&quot;:&quot;(.*?)&quot;," regExpAdv=""
+        setDefaultValue="true" startsWithSimple="tierKey&quot;:&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="2a6c5b53-9a49-4e47-bc4a-c9b8f796f052" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_v1context_conxtextID}&amp;flowType=aal&amp;language=en"/>
     <header name="sec-fetch-site" value="same-origin"/>

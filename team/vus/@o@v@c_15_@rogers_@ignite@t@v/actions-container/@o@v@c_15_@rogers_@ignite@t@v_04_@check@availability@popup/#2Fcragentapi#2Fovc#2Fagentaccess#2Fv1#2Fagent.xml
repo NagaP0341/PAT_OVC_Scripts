@@ -2,7 +2,7 @@
     name="/cragentapi/ovc/agentaccess/v1/agent"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/3008f74d-d28a-4e0b-be94-e35b3b4fa348.zip"
-    slaProfileEnabled="false" thinkTime="550"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="3008f74d-d28a-4e0b-be94-e35b3b4fa348">
     <embedded-action>82bba5a5-51b5-493f-b05e-2f7cf83cb48d</embedded-action>
@@ -22,7 +22,7 @@
     <responsePageFileDescription>recorded-responses/res_82bba5a5-51b5-493f-b05e-2f7cf83cb48d.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_82bba5a5-51b5-493f-b05e-2f7cf83cb48d.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="cors"/>
-    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=6ffb757b-4744-4975-9e37-bb69007d2d7f&amp;flowType=CH_NAC"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=${c_Context_ContextId2}&amp;flowType=CH_NAC"/>
     <header name="sec-fetch-site" value="same-site"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
     <header name="origin" value="https://oneview-a.rogers.com"/>

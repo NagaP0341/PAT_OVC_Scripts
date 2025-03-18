@@ -2,7 +2,7 @@
     name="/cragentapi/ovc/agentaccess/v1/agent"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/6aa7b08f-10c2-4deb-a9a5-a125a23cba34.zip"
-    slaProfileEnabled="false" thinkTime="14"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="6aa7b08f-10c2-4deb-a9a5-a125a23cba34">
     <embedded-action>22ff6bac-6dc0-463d-aed9-fc10fd6b053a</embedded-action>

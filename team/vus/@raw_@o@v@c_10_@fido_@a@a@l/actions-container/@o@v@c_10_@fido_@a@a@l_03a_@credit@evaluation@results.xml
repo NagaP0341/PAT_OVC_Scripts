@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_10_Fido_AAL_03a_CreditEvaluationResults" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="5403fd8d-322c-484e-a3c3-d34cc423294f" weightsEnabled="false">
+    <weighted-embedded-action uid="6bc1b184-dca9-4b16-9be1-38328359d354"/>
+    <weighted-embedded-action uid="0d7d247a-4f23-4181-96ed-ff75d2b033a7"/>
+    <weighted-embedded-action uid="41c8f336-34a4-498a-96c8-eae1cedf5434"/>
+    <weighted-embedded-action uid="8f65dcaf-a1f3-4b98-ab1b-04a99395309c"/>
+    <weighted-embedded-action uid="2cc56f22-0f50-4d01-a218-9011999ccb57"/>
+    <weighted-embedded-action uid="174d651e-d44a-4ed2-bb8d-f8bd38ca81a2"/>
+    <weighted-embedded-action uid="3f75b820-4eef-4a2e-ab1c-406941ba331b"/>
+    <weighted-embedded-action uid="aad1d77f-e115-484b-91f1-11b782986fad"/>
+    <weighted-embedded-action uid="87e92627-a550-49d1-8815-409f7e112b59"/>
+    <weighted-embedded-action uid="207f63eb-e9be-45b4-8407-5249fa6cfe6f"/>
+</basic-logical-action-container>

@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false" name="/web/a/dashboard"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/0909ba51-3cec-4ff6-bad7-82fc5d1fa482.zip"
-    slaProfileEnabled="false" thinkTime="1675"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="0909ba51-3cec-4ff6-bad7-82fc5d1fa482">
     <embedded-action>d7e96d3f-38c3-4bc8-a4a2-45e9b89d8a49</embedded-action>
@@ -20,8 +20,10 @@
     <screenshotFileDescription>recorded-screenshots/sc_0909ba51-3cec-4ff6-bad7-82fc5d1fa482.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;67d49301-851:dtagent10307250124095659x+rL&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 14 Mar 2025 20:35:12 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard" path="/web/a/dashboard"
@@ -32,6 +34,9 @@
     uid="d7e96d3f-38c3-4bc8-a4a2-45e9b89d8a49" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_d7e96d3f-38c3-4bc8-a4a2-45e9b89d8a49.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_d7e96d3f-38c3-4bc8-a4a2-45e9b89d8a49.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="data-critters-container"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="Lang"
         recordRawValue="en" separator="=" value="en" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="CustType"
@@ -42,8 +47,7 @@
         recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="jwt"
         recordRawValue="eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"
-        separator="="
-        value="eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A" valueMode="USE_VALUE"/>
+        separator="=" value="${P_JwtToken}" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="navigate"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="none"/>
@@ -78,9 +82,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="text/javascript; charset=utf-8"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/web/a/dashboard/ruxitagentjs_ICA7NQVfghqrux_10307250124095659.js"
@@ -94,7 +98,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_3efe05dc-e8ad-4e18-b14f-e4ef68c65cf7</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_3efe05dc-e8ad-4e18-b14f-e4ef68c65cf7.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -128,9 +132,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
         extractorRegExp="false" htmlType="1"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/runtime.a663eae09e673f44.js"
     path="/web/a/dashboard/runtime.a663eae09e673f44.js" postType="6"
@@ -142,7 +146,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_842cde40-8dc8-4cb6-ae31-2fe4dcfafd5a</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_842cde40-8dc8-4cb6-ae31-2fe4dcfafd5a.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="cors"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="Prod=A; dtCookie=v_4_srv_4_sn_9FAAD5A3794D0B9D2464C27FEC9E6A88_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdA-oneview-rogers-ui-care|~rv=15~m=ProdA-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=3227e8f2b1dff4a6cc564cb7bd3f2609"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
@@ -184,9 +188,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
         extractorRegExp="false" htmlType="1"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/polyfills.e604818929e9da62.js"
     path="/web/a/dashboard/polyfills.e604818929e9da62.js" postType="6"
@@ -198,7 +202,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_7a47808f-8145-49a7-aed2-6349ef6416f6</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_7a47808f-8145-49a7-aed2-6349ef6416f6.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="cors"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="Prod=A; dtCookie=v_4_srv_4_sn_9FAAD5A3794D0B9D2464C27FEC9E6A88_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdA-oneview-rogers-ui-care|~rv=15~m=ProdA-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=3227e8f2b1dff4a6cc564cb7bd3f2609"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
@@ -239,7 +243,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorContent="" extractorOccurence="5"
         extractorRegExp="false" htmlType="1"/>
 </http-action>
-<http-action actionType="1" contentType="image/gif"
+<http-action actionType="1" contentType="image/gif" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -252,7 +256,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     uid="54e47b92-a671-4165-a94a-007e6d3b87f6" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_54e47b92-a671-4165-a94a-007e6d3b87f6.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -279,9 +283,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/vendor.4930590c2793f8ee.js"
     path="/web/a/dashboard/vendor.4930590c2793f8ee.js" postType="6"
@@ -293,7 +297,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_f6981f7c-fe92-47f7-8562-9378bb1ccbb0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_f6981f7c-fe92-47f7-8562-9378bb1ccbb0.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="cors"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="Prod=A; dtCookie=v_4_srv_4_sn_9FAAD5A3794D0B9D2464C27FEC9E6A88_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdA-oneview-rogers-ui-care|~rv=15~m=ProdA-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=3227e8f2b1dff4a6cc564cb7bd3f2609"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
@@ -336,9 +340,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
         extractorRegExp="false" htmlType="1"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/main.c8a57b0a8a6f57a6.js"
     path="/web/a/dashboard/main.c8a57b0a8a6f57a6.js" postType="6"
@@ -350,7 +354,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_f4536d3c-66ee-48d6-8409-16dc0daa0de9</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_f4536d3c-66ee-48d6-8409-16dc0daa0de9.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="cors"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="Prod=A; dtCookie=v_4_srv_4_sn_9FAAD5A3794D0B9D2464C27FEC9E6A88_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdA-oneview-rogers-ui-care|~rv=15~m=ProdA-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=3227e8f2b1dff4a6cc564cb7bd3f2609"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
@@ -391,9 +395,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
         extractorRegExp="false" htmlType="1"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/assets/load-analytics.js"
     path="/web/a/dashboard/assets/load-analytics.js" postType="6"
@@ -405,7 +409,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_927b1d6e-97b5-4ebe-b976-80e97602a05b</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_927b1d6e-97b5-4ebe-b976-80e97602a05b.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -441,9 +445,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
         extractorRegExp="false" htmlType="1"/>
 </http-action>
 <http-action actionType="1" contentType="text/javascript; charset=utf-8"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/web/a/dashboard/ruxitagentjs_D_10307250124095659.js"
@@ -456,7 +460,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_14642ce5-b597-440b-9922-f831b86bbf00</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_14642ce5-b597-440b-9922-f831b86bbf00.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="same-origin"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="Prod=A; Prod=A; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdA-oneview-rogers-ui-care|~rv=15~m=ProdA-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=3227e8f2b1dff4a6cc564cb7bd3f2609; rxVisitor=17422957260496F1NFPN8KV6U58P3DLM374RNVH7EQC9R; dtCookie=v_4_srv_-2D10780_sn_9FAAD5A3794D0B9D2464C27FEC9E6A88_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; dtSa=-; rxvt=1742297526062|1742295726052; dtPC=-10780$495726047_460h1vARVURVDSIKHDHDMARWUEWFNNTLSJNFHC-0e0"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
@@ -485,7 +489,7 @@ access-control-allow-origin: *&#xd;
 referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" contentType="text/css"
+<http-action actionType="1" contentType="text/css" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -499,7 +503,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_149ba1f4-7724-4525-855c-1ce6a657b801.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_149ba1f4-7724-4525-855c-1ce6a657b801.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -528,7 +532,7 @@ set-cookie: Prod=A; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
 referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" contentType="text/css"
+<http-action actionType="1" contentType="text/css" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -542,7 +546,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_e26f8fd0-8394-4b68-8bd9-1f422a762f77.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_e26f8fd0-8394-4b68-8bd9-1f422a762f77.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -570,7 +574,7 @@ set-cookie: Prod=A; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
 referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" contentType="text/css"
+<http-action actionType="1" contentType="text/css" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -586,7 +590,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <responsePageFileDescription>recorded-responses/res_b222e983-97d9-4c39-8508-f6de20e9213f.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b222e983-97d9-4c39-8508-f6de20e9213f.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="no-cors"/>
-    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
@@ -615,18 +619,34 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/json"
+    eTag="&quot;67d4f07e-1370:dtagent10307250124095659x+rL&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Sat, 15 Mar 2025 03:14:05 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/cms/oneview/care-common-config.json"
-    path="/cms/oneview/care-common-config.json" postType="4"
+    path="/cms/oneview/care-common-config.json" postCharset=""
+    postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/0909ba51-3cec-4ff6-bad7-82fc5d1fa482.zip"
     recordedResponseCode="200" responseSize="4976"
     serverUid="oneview.rogers.com" slaProfileEnabled="false"
     uid="2e7bc683-d4e5-4483-8ceb-6a5374e86274" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_2e7bc683-d4e5-4483-8ceb-6a5374e86274</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_2e7bc683-d4e5-4483-8ceb-6a5374e86274.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_2e7bc683-d4e5-4483-8ceb-6a5374e86274.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="c_Subscription_Key"
+        refererUid="2e7bc683-d4e5-4483-8ceb-6a5374e86274"
+        regExp="ROGERS&quot;: &quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="ROGERS&quot;: &quot;"
+        template="$1$" templateAdv="$1$"
+        uid="ceee6df0-08c7-4a0e-938a-c09064d65eda" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <parameter encodeName="true" encodeValue="true" name="t"
         recordRawValue="1742295726666" separator="="
         value="1742295726666" valueMode="USE_VALUE"/>
@@ -635,7 +655,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdA-oneview-rogers-ui-care|~rv=15~m=ProdA-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=3227e8f2b1dff4a6cc564cb7bd3f2609; rxVisitor=17422957260496F1NFPN8KV6U58P3DLM374RNVH7EQC9R; dtSa=-; dtCookie=v_4_srv_15_sn_9FAAD5A3794D0B9D2464C27FEC9E6A88_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; language=en; language=en; rxvt=1742297526671|1742295726052; dtPC=15$495726047_460h5vARVURVDSIKHDHDMARWUEWFNNTLSJNFHC-0e0"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
-    <header name="x-dtreferer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.DxqUnsQKOviNNsyPlE_wlBm9QYv_7wGuyoC0D5zCM1GUqDQUuBbjkdpiwNC1inkRy5hkYTQgZBM_2q6NsNiQoIC6il3Djd63oe9zY81GQ27m90iOEntYhcgq-g3SJr--eJW-PtlFud-RZjJyG80tzdjX9My2MkYURVo9QHl8MGkUtVI1BAmyDjlisLrNV8D6_p-Ty00mOUBQJNczAxP5pVt-tNrZEjjpWIyxLNpdAOFzB9IMaHvk4zOclwkaREmvsHC803ITFeRVt0-EgU3ENac3ZJ9FBGAACcqPh6ZRVowj-iRUUBtxHRs0SCtTp1zLAGHsFK4yOhvhAzJcg1MNew.qvgaQ566TbPuzA9j.btuosKS84Qmf_Q5aiU_c1A2Gntj4T8hl-54ZuM8SpC7TKM_NLbPkVODWlCoSnftp1sjhKoMXys_ADLW3vkuR0jo1rHSeK6mTMvHRsFlgxYH0oAjXMl1zw-pgRhPR58Xh7FQYp0GkupFPrK0vontQ93i6NB2kddvNuPsLr_Z272EGIeKMO7dE7PTUrLW3TRuor7EK4x1u6FueqbAx59Od6NZ_Vq1HSd33ROwVJtamRTFXUM6yH5E9t_a0bZM7Lk9wvr8LdiQ8x7vRhiHHZl3S.XLsCl9JoM46gFNl4xQT_8A"/>
+    <header name="x-dtreferer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=&amp;CustSubType=&amp;connid=&amp;jwt=${P_JwtToken}"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>

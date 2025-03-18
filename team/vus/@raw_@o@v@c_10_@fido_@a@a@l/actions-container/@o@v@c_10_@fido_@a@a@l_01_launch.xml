@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_10_Fido_AAL_01_launch" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="7b78773c-4795-423a-8865-b147745ed5e1" weightsEnabled="false">
+    <weighted-embedded-action uid="7e9caa21-2b43-46d6-8711-0565807b8e5f"/>
+</basic-logical-action-container>

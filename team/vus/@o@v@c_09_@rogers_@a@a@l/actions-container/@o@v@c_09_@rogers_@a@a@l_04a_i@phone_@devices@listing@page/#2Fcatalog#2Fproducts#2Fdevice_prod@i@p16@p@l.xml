@@ -14,7 +14,7 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/catalog/products/device_prodIP16PL"
-    path="/catalog/products/device_prodIP16PL" postType="4"
+    path="/catalog/products/${C_DeviceProductID8}" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_09_@rogers_@a@a@l/%resources%/recorded-artifacts/1c0f9748-8ccc-4701-a988-597d4199c449.zip"
     recordedResponseCode="200" responseSize="83161"
     serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
@@ -30,7 +30,8 @@
     <parameter encodeName="true" encodeValue="true" name="activityType"
         recordRawValue="aal" separator="=" value="aal" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="cheapestSkuId"
-        recordRawValue="IP16PL128PNK" separator="=" value="IP16PL128PNK" valueMode="USE_VALUE"/>
+        recordRawValue="IP16PL128PNK" separator="="
+        value="${C_cheapestSkuId8}" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_v1context_conxtextID}&amp;flowType=aal&amp;language=en&amp;filters=manufacturer:apple"/>
     <header name="franchise" value="rogers"/>

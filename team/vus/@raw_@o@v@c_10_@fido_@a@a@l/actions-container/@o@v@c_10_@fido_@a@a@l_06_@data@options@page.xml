@@ -1,0 +1,28 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_10_Fido_AAL_06_DataOptionsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="5436c273-283e-4e37-9453-8fd229b142a9" weightsEnabled="false">
+    <weighted-embedded-action uid="8fb4b146-de7d-4678-8d46-e64f7f7bbf69"/>
+    <weighted-embedded-action uid="06781fc0-248c-4575-990a-833f77b93d39"/>
+    <weighted-embedded-action uid="4a419dbf-2bcc-43c0-a309-3d2c817fea99"/>
+    <weighted-embedded-action uid="9cc3d48f-9c10-4e32-82ce-4f31df419e47"/>
+    <weighted-embedded-action uid="71b0a4d5-8ba0-45e6-8633-e76691e64708"/>
+    <weighted-embedded-action uid="70db0b80-3458-4661-9666-12b4c4d3d877"/>
+    <weighted-embedded-action uid="325d88b3-98f0-443a-b28c-4e7348975192"/>
+    <weighted-embedded-action uid="7c1cadf4-6294-4f7c-a48c-bb9994884b27"/>
+    <weighted-embedded-action uid="1a6f4790-ab5c-498a-93fd-b9f49d837db2"/>
+    <weighted-embedded-action uid="d37dfde2-0449-4ccb-ae66-d2eadbc0363b"/>
+    <weighted-embedded-action uid="3adec2c3-fbaa-46e8-8a57-1ff0df021617"/>
+    <weighted-embedded-action uid="23eb5adb-0929-4c3b-a2ed-7c91f33822eb"/>
+    <weighted-embedded-action uid="8faeec3f-05b1-4dfd-af23-4fd0c9bcba65"/>
+    <weighted-embedded-action uid="761f7071-2d68-4eb3-b62f-3c1f5f976b04"/>
+    <weighted-embedded-action uid="de112880-996d-416e-83ec-39b95bec4d13"/>
+    <weighted-embedded-action uid="eb72c49f-4540-4d56-be69-d0c667fd8bbb"/>
+    <weighted-embedded-action uid="09b2db95-7762-4644-bb4e-e939d5ed56c1"/>
+    <weighted-embedded-action uid="d47fd1a0-e8d8-4223-8da7-80df877398b5"/>
+    <weighted-embedded-action uid="d588aadc-0459-4a4b-965c-4fa83d003df2"/>
+    <weighted-embedded-action uid="9c5ee860-3738-46fa-ba17-4c3c7458212c"/>
+    <weighted-embedded-action uid="c02badb5-1d6c-4455-a05a-9c599d1353c7"/>
+    <weighted-embedded-action uid="93f4a9fc-26ee-4c2b-8aab-70b14ad6a90f"/>
+    <weighted-embedded-action uid="38b2445c-cb4f-4ed1-be81-f41ff64654ca"/>
+</basic-logical-action-container>

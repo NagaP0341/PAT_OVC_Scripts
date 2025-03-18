@@ -1,0 +1,65 @@
+<http-page executeResourcesDynamically="false" name="/web/a/dashboard"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/54a81b91-78e6-4f8a-a08e-595d2e7b43ff.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="54a81b91-78e6-4f8a-a08e-595d2e7b43ff">
+    <embedded-action>e0151526-807d-4843-899c-fd6e3a3a0e8a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9d70a8ff-a959-4a02-897f-703b4aa62556.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/a/dashboard" path="/web/a/dashboard"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/54a81b91-78e6-4f8a-a08e-595d2e7b43ff.zip"
+    recordedResponseCode="200" responseSize="7133"
+    serverUid="oneview.rogers.com" slaProfileEnabled="false"
+    uid="e0151526-807d-4843-899c-fd6e3a3a0e8a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8bb8844b-e983-429c-9c32-8bb49985861c.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8bb8844b-e983-429c-9c32-8bb49985861c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="Lang"
+        recordRawValue="en" separator="=" value="en" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ovContextId"
+        recordRawValue="57fb0973-74c3-4ae9-af9e-e8f98c5c048d"
+        separator="=" value="57fb0973-74c3-4ae9-af9e-e8f98c5c048d" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="accountSearchRedirect" recordRawValue="true" separator="="
+        value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="lang"
+        recordRawValue="en" separator="=" value="en" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://oneview-accountsearch.rogers.com/"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="cookie" value="Prod=A; Prod=A; akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdA-oneview-rogers-ui-care|~rv=15~m=ProdA-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=3227e8f2b1dff4a6cc564cb7bd3f2609; language=en; userType=care; dtSa=false%7CKU%7C19%7CCreate%20new%20account%7Cx%7C1742295823523%7C495731346_510%7Chttps%3A%2F%2Foneview-accountsearch.rogers.com%2Fweb%2Fa%2Fdashboard%2Faccount-search%3Fflowtype%3DAccountSearch%7C%7C%7C%7C; dtPC=$495731346_510h-vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0; rxvt=1742297624964|1742295824964; rxVisitor=1742295824966EL4DM3CBQ41UG4BV3RO1A3FDHK3QGDI7; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742297624969%3B%20rcp_s_dslv%3D1742295824969%7C1836903824969%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742297624969%3B; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/html&#xd;
+etag: "67d49301-851:dtagent10307250124095659x+rL"&#xd;
+x-oneagent-js-injection: true&#xd;
+x-ruxit-js-agent: true&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:12 GMT&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="1423625783"&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+date: Tue, 18 Mar 2025 11:03:45 GMT&#xd;
+content-length: 2751&#xd;
+set-cookie: dtCookie=v_4_srv_9_sn_5CB7560AF0DA5F190C40E26ED80BD0B3_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+set-cookie: Prod=A; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

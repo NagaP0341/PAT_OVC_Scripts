@@ -30,7 +30,7 @@
     <header name="origin" value="https://oneview.rogers.com"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="${c_Overview_BearerToken2}"/>
+    <header name="authorization" value="Bearer ${c_Overview_BearerToken2}"/>
     <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="x-dtpc" value="9$407300804_654h16vHJRMMCIFFHKPRACFCRPOHPUICTWLACHK-0e0"/>

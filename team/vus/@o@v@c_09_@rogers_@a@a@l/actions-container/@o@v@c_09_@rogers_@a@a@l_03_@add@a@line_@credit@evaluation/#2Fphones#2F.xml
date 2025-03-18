@@ -8,8 +8,10 @@
     <screenshotFileDescription>recorded-screenshots/sc_08e772de-5d6e-49b1-8f48-6ec16110cb9c.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;67d674d8-12b3:dtagent10307250124095659x+rL&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Sun, 16 Mar 2025 06:51:03 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/phones/" path="/phones/" postType="6"

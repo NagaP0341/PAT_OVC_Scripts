@@ -1,0 +1,77 @@
+<http-page executeResourcesDynamically="false"
+    name="/cloud/buyflow/igniteoffers/v1/bundleoffers"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/6ea6fa8f-a564-4390-9a8f-db432c90de5d.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6ea6fa8f-a564-4390-9a8f-db432c90de5d">
+    <embedded-action>c503573e-23e9-4a18-a050-e91decb82f24</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_4d27c54c-9a62-44b9-8efd-d48d40356a0b.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cloud/buyflow/igniteoffers/v1/bundleoffers"
+    path="/cloud/buyflow/igniteoffers/v1/bundleoffers" postType="4"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_15_@rogers_@ignite@t@v/%resources%/recorded-artifacts/6ea6fa8f-a564-4390-9a8f-db432c90de5d.zip"
+    recordedResponseCode="200" responseSize="91429"
+    serverUid="oneview-a.rogers.com" slaProfileEnabled="false"
+    uid="c503573e-23e9-4a18-a050-e91decb82f24" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_afbc4c9d-5a7c-4025-90d2-4a15b64dbc34</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_afbc4c9d-5a7c-4025-90d2-4a15b64dbc34.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/ignite-bundles/offers"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="rxVisitor=1742295824966EL4DM3CBQ41UG4BV3RO1A3FDHK3QGDI7; X_DOM_REFERRER=https://oneview-accountsearch.rogers.com; language=en; PLAY_SESSION=23bcf0bfe519f2223402f901ee8eb59c609b241e-LANGUAGE=en&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;ACCTNBR=UTE_ANONYMOUS&amp;CONTACT_ID=UTE_ANONYMOUS&amp;SessionId=43163b68-c128-4a91-b1c7-a9aa3929065c&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C70832142474106823291688474496184356276; X_DOM_session_guid=aa17871d-03e8-11f0-9457-5101beecf8fd; s_cc=true; marketing_ban=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; marketing_UID=60f2223ad0991127cfc6a3138837c020d0696f571d6bb831d4adfd28d8f84983; X_DOM_BAN=d8f2c90ee0d6990a03c38c30d7986aa692367b5bf47eb0cdcee0119507961a1a; marketing_user_name=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; akacd_PR_OV_Rogers_CHCare_Switch50=3919748644~rv=55~id=0816735744d6499a2fca029549e841e1; akacd_PR_OV_Rogers_CHCare_Switch10=3919748644~rv=17~id=6927204e37e4c5b5cbb95ee6b7a45eea; akacd_PR_OV_Rogers_CHCare_Switch=3919748644~rv=60~id=107cb31007b74b77d80a1fec978a91da; DataCenter=ProdA; akaalb_ALB_OV_Rogers_CHCare_APIM=~op=ALB_OV_Rogers_CHCare_APIM:ALB_OV_Rogers_CHCare_ProdA|~rv=90~m=ALB_OV_Rogers_CHCare_ProdA:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=35ff158a5fa7dfb6746268ee33b4a720; province=on; language=en; internetAddonsPermission=%7B%22freePodsPerm%22%3Atrue%2C%22regularPodsPerm%22%3Afalse%2C%22fwaPodsPage%22%3Afalse%2C%22addXlePerm%22%3Atrue%7D; tech_sas_rtdm=sas_segments%3D10235138; aam_uuid=70635360262115342001667655504828367125; dtSa=-; dtCookie=v_4_srv_9_sn_5CB7560AF0DA5F190C40E26ED80BD0B3_app-3Abbf8f27703f77ba4_1_app-3Aea7c4b59f27d43eb_1_app-3A2ae0303e3c9b36b0_1_ol_0_perc_100000_mul_1_rcs-3Acss_0; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20166%7CMCMID%7C70832142474106823291688474496184356276%7CMCAAMLH-1742900686%7C7%7CMCAAMB-1742900686%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742303086s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20173%7CMCCIDH%7C2121401939%7CvVersion%7C5.5.0; QSI_HistorySession=https%3A%2F%2Foneview-a.rogers.com%2Fweb%2Frep%2Fignite-bundles%2Ftv-internet~1742295848981%7Chttps%3A%2F%2Foneview-a.rogers.com%2Fweb%2Frep%2Fignite-bundles%2Foffers~1742295886161; aam_dfp=aam_dfp%3D9719938%2C9749180%2C9749182%2C10039302%2C10178389%2C10180218%2C10561325%2C10561322%2C10561508%2C10561479%2C10804004%2C10811342%2C10865534%2C11352380%2C11447720%2C11647532%2C1847925%2C12227875%2C12336697%2C13375330%2C13724279%2C13873320%2C11057727%2C14058828%2C14653268%2C14676019%2C15742729%2C15840550%2C14026806%2C15384063%2C16270364%2C16312270%2C16313903%2C23526913%2C24956530; s_pers=%20s_dfa%3Drcp-r-oneview-prod%7C1742297693654%3B%20rcp_s_dslv%3D1742295893654%7C1836903893654%3B%20rcp_s_dslv_s%3DFirst%2520Visit%7C1742297693654%3B; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}%2C%22pName%22:%22OV:rep:ignite-bundles:tv-internet%22%2C%22pURL%22:%22https://oneview-a.rogers.com/web/rep/ignite-bundles/offers%22%2C%22accType%22:%22consumer|regular%22%2C%22samKey%22:%222390000515280%22%2C%22buyflowName%22:%22Oneview%20-%20Ignite%20Buy|NAC|SATV%22}; s_sq=%5B%5BB%5D%5D; rxvt=1742297693704|1742295824964; dtPC=9$495848799_907h20vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="app-context" value="Care"/>
+    <header name="origin" value="https://oneview-a.rogers.com"/>
+    <header name="apim-subscription-key" value="L8IMwh8gFkLBAgaa1v6AdBo2573k2bCg"/>
+    <header name="atstamp" value="1742295893701"/>
+    <header name="x-rch-cache" value="true"/>
+    <header name="x-rch-url" value="v4/bundleOffers"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="auuid" value="0a1cc9b5-8687-41d2-b8a2-3a70cc0a9c45"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="x-dtpc" value="9$495848799_907h20vCUDUAHIULQKDFMGFAMLCAFHDAPCUUAAN-0e0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="app-context-id" value="6ffb757b-4744-4975-9e37-bb69007d2d7f"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+content-type: application/json&#xd;
+expires: 0&#xd;
+x-oneagent-js-injection: true&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtRpid;desc="1596900012",dtTao;desc="1",dtSInfo;desc="0"&#xd;
+app-context: Care&#xd;
+ute-request-id: 0a1cc9b5-8687-41d2-b8a2-3a70cc0a9c45&#xd;
+isbrtsession: false&#xd;
+ute-request-proc-time: 345&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+pragma: no-cache&#xd;
+x-frame-options: DENY&#xd;
+x-envoy-upstream-service-time: 361&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+request-context: appId=cid-v1:18625cbc-9074-427f-9b69-732a0c9b2abd&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+date: Tue, 18 Mar 2025 11:04:54 GMT&#xd;
+content-length: 4448&#xd;
+set-cookie: DataCenter=ProdA; path=/; domain=.rogers.com&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: NULL&#xd;
+access-control-allow-methods: NULL&#xd;
+access-control-allow-origin: https://oneview-a.rogers.com&#xd;
+referrer-policy: no-referrer-when-downgrade</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"postalCode":"M1M2M3","channelLineup":"68","langId":"2148152922","language":"en","lineOfBusiness":"iptv","province":"on","recordClass":"satv","recordType":"sku","samKey":"2390000515280","accountNumber":"","customerType":"N","shm":false,"targetedOfferSelected":false,"selectedCustomerSegments":[],"moveMigration":false}]]></textPostContent>
+</http-action>

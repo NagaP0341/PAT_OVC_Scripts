@@ -1,0 +1,29 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_02_CustomerAccountSearchPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="1bb67afa-09f9-4392-8a88-6a6244b79883" weightsEnabled="false">
+    <weighted-embedded-action uid="a2c65ea8-627d-4f17-ac07-da85e7f998d1"/>
+    <weighted-embedded-action uid="99e6a8bc-e5e6-423c-8f40-1eaf26f06f66"/>
+    <weighted-embedded-action uid="fcd227dc-df87-4030-be6e-19c1b5e07415"/>
+    <weighted-embedded-action uid="d127e913-fdba-4690-93f8-07476d4c16f5"/>
+    <weighted-embedded-action uid="50579d45-f213-446d-a02a-9e0baee530c1"/>
+    <weighted-embedded-action uid="d06fa15a-b9ae-4596-808d-abcb23ebc915"/>
+    <weighted-embedded-action uid="14f81a6c-d251-4aa3-943d-95e28fcc4f6b"/>
+    <weighted-embedded-action uid="1c474af4-ae5a-4a1a-963a-0691ec311429"/>
+    <weighted-embedded-action uid="1255c598-f8d7-4678-bf17-0b5523829b4f"/>
+    <weighted-embedded-action uid="224be9f1-8c5c-4d8a-bd17-6d0ad7e9f5a6"/>
+    <weighted-embedded-action uid="3234c955-8f9f-43dc-b654-9fd27f04bc04"/>
+    <weighted-embedded-action uid="fcfa84d7-318b-4849-b806-251c55eecdf0"/>
+    <weighted-embedded-action uid="2ed4fde5-5615-4fec-83b9-d2b1a0cc3b7b"/>
+    <weighted-embedded-action uid="7bcb8daf-e1a2-4085-9b1a-934199ebc541"/>
+    <weighted-embedded-action uid="a21ddcd1-23e8-4cb5-93e5-27ec488f75cc"/>
+    <weighted-embedded-action uid="9fbf8a9c-9788-42eb-b897-c7a467f28168"/>
+    <weighted-embedded-action uid="2cc24017-dacb-4f89-a6b5-487a7e52438c"/>
+    <weighted-embedded-action uid="09bbba39-5f22-4dd6-8153-c6a09afc673f"/>
+    <weighted-embedded-action uid="6373a40a-5a59-4a4e-97df-faa8b743cad8"/>
+    <weighted-embedded-action uid="9ba4f3b5-b17a-4afe-b5f2-1f070362cc21"/>
+    <weighted-embedded-action uid="3ee2b23d-6a1b-4e58-be0f-56f4dfd53084"/>
+    <weighted-embedded-action uid="d07830cf-73d6-49c2-b40f-28624f76a0b7"/>
+    <weighted-embedded-action uid="7a546fef-db55-43d8-9f65-63ea006d9995"/>
+</basic-logical-action-container>

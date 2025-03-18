@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_07_PackageDetailsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="9b5f1b11-6273-4435-b22b-1bae5abfc6a7" weightsEnabled="false">
+    <weighted-embedded-action uid="fe1312fa-05a5-4bdc-8557-e100b51e7630"/>
+    <weighted-embedded-action uid="5c434af3-95af-4bcf-a0b0-c99278ae2c4e"/>
+    <weighted-embedded-action uid="6d06ed4b-8097-4fe8-aa04-12686c56c23b"/>
+    <weighted-embedded-action uid="015fab62-8d66-4b68-9eee-684e3beb3f5b"/>
+    <weighted-embedded-action uid="964329ac-544f-48b7-8cf9-c5763d3c5f11"/>
+</basic-logical-action-container>

@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_02a_AccountSearchResultsPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="7a6a6887-fabf-4301-ac5f-bf62ad95c067" weightsEnabled="false">
+    <weighted-embedded-action uid="140d2c67-45b9-4b12-a5c1-a6b5415c7e83"/>
+    <weighted-embedded-action uid="53572920-ad4f-4420-b2f6-cba3a218fe7b"/>
+    <weighted-embedded-action uid="e345fcd1-d06f-4bc4-9baf-6f255af4f3a1"/>
+</basic-logical-action-container>

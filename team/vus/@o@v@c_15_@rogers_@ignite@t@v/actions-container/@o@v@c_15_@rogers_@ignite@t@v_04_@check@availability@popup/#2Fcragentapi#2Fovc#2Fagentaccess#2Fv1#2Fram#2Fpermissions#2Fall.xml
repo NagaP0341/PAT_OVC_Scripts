@@ -25,7 +25,7 @@
     <responsePageFileDescription>recorded-responses/res_bec02ce6-d698-4982-9398-b0916b1e2129.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_bec02ce6-d698-4982-9398-b0916b1e2129.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="cors"/>
-    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=6ffb757b-4744-4975-9e37-bb69007d2d7f&amp;flowType=CH_NAC"/>
+    <header name="referer" value="https://oneview-a.rogers.com/web/rep/init?ovContextId=${c_Context_ContextId2}&amp;flowType=CH_NAC"/>
     <header name="sec-fetch-site" value="same-site"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
     <header name="origin" value="https://oneview-a.rogers.com"/>
@@ -53,7 +53,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1"
-    contentType="application/x-javascript;charset=utf-8"
+    contentType="application/x-javascript;charset=utf-8" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"

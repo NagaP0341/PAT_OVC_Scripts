@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_15_Rogers_IgniteTV_01_Launch" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="7c11e0f9-e29e-4026-a356-f2b3b148348e" weightsEnabled="false">
+    <weighted-embedded-action uid="6b97cb19-3024-4268-b6dc-e0c3d4cd0095"/>
+</basic-logical-action-container>
