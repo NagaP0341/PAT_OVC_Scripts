@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false" name="/catalog/bizSearch"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/b43063ae-9258-4c12-91d0-b12084af1b22.zip"
-    slaProfileEnabled="false" thinkTime="41"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="b43063ae-9258-4c12-91d0-b12084af1b22">
     <embedded-action>00b5b11a-c2ac-4eca-bf0c-f39c06403a1f</embedded-action>

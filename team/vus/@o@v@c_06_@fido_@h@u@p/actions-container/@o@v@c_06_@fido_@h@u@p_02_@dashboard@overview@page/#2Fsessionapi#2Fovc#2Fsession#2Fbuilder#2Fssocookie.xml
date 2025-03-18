@@ -2,7 +2,7 @@
     name="/sessionapi/ovc/session/builder/ssocookie"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/65c0e288-53ac-4703-8373-5d2b926987ca.zip"
-    slaProfileEnabled="false" thinkTime="214"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="65c0e288-53ac-4703-8373-5d2b926987ca">
     <embedded-action>2e58afd4-0e06-4e81-a328-cfef2fc75621</embedded-action>

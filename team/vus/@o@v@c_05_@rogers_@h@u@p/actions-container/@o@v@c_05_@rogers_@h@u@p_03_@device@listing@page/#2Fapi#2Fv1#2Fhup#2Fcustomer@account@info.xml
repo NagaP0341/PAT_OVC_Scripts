@@ -2,7 +2,7 @@
     name="/api/v1/hup/customerAccountInfo"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/328ca0a5-6ecc-4481-8766-bb718f63a675.zip"
-    slaProfileEnabled="false" thinkTime="257"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="328ca0a5-6ecc-4481-8766-bb718f63a675">
     <embedded-action>00bf4ff9-da14-4985-a79b-9064f85a2f30</embedded-action>

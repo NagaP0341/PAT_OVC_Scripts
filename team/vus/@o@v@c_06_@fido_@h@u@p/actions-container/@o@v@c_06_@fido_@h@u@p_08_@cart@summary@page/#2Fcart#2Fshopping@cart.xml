@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false" name="/cart/shoppingCart"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/bac4430b-d749-460d-ab74-a206ca36070f.zip"
-    slaProfileEnabled="false" thinkTime="1226"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="bac4430b-d749-460d-ab74-a206ca36070f">
     <embedded-action>51b10a75-e413-4028-9332-709b31411fe1</embedded-action>

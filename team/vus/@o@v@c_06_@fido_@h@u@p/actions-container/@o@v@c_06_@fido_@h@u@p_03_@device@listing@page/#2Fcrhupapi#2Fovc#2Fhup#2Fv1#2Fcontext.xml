@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false"
     name="/crhupapi/ovc/hup/v1/context" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/3c4ff533-ced8-487f-879f-13b64d8d2fa9.zip"
-    slaProfileEnabled="false" thinkTime="14"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="3c4ff533-ced8-487f-879f-13b64d8d2fa9">
     <embedded-action>6140a2b6-948d-4069-a082-d62ec269178e</embedded-action>

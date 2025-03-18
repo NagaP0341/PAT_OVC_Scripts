@@ -2,7 +2,7 @@
     name="/api/v1/hup/promo/promos-eligibility"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/f1d522a7-c043-45f3-b3c7-a14245caff12.zip"
-    slaProfileEnabled="false" thinkTime="945"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="f1d522a7-c043-45f3-b3c7-a14245caff12">
     <embedded-action>d3d29c0a-9c48-4f19-8be5-a0db6a1f52fb</embedded-action>

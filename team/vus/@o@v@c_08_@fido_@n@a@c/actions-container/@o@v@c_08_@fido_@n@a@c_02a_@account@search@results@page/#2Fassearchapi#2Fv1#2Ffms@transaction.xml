@@ -2,7 +2,7 @@
     name="/assearchapi/v1/fmsTransaction"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/a2e4d2c9-4726-4d1e-addc-01a5bfd91e1f.zip"
-    slaProfileEnabled="false" thinkTime="9"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="a2e4d2c9-4726-4d1e-addc-01a5bfd91e1f">
     <embedded-action>32c5ae19-a66b-4c54-a35c-2820a56fe89e</embedded-action>
@@ -20,6 +20,9 @@
     slaProfileEnabled="false" uid="32c5ae19-a66b-4c54-a35c-2820a56fe89e" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_32c5ae19-a66b-4c54-a35c-2820a56fe89e</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_32c5ae19-a66b-4c54-a35c-2820a56fe89e.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="status&quot;:&quot;SUCCESS"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-accountsearch.rogers.com/web/a/dashboard/account-search?flowtype=AccountSearch"/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -29,7 +32,7 @@
     <header name="language" value="en_CA"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTc1LGxhbklkPVVJUEFUSC5CT1QxNiIsImF1ZCI6Ik9uZXZpZXcgQWNjb3VudCBTZWFyY2giLCJ0b2tlbkR1cmF0aW9uIjoiMzAwMDAwMCIsInVzZXJBdHRyaWJ1dGVzIjp7IkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTYiLCJVc2VySWQiOiIxNDAxNzE3NSIsIkFzcFNlc3Npb25JZCI6Ijk3ZmZiNDU2LTU5ZWMtNDY0My05MGQzLTA0NGQ3ODNhZWMzOCIsIlNPVVJDRSI6IkNSTSJ9LCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3NSxsYW5JZD1VSVBBVEguQk9UMTYiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjA4OTA2LCJpYXQiOjE3NDIyMDUwOTYsImtleSI6IkVydVExYURvMEo2SE02SEpNY25ScjhkRHp4SFlsLzdGbHNPeVRnc0ZYZWpucm1OU3hUTzE5ZnQxRk9JZmV5SU1OZjNlWmpaeU9qeDQwRC9yOFY4K2RSdmU5OVE3T2tlaVpidk1FcnFxZzBrc3dpOU9QRG9uRUpBTm5yVDdoYkJkRGVvZzNWNEFPSnZhWVRaeEg1MWhQT01HVjZtZ2FGbTdQaHhxbXF0em5VWWdWdFJPdHdwK2pFVVFwd1A2U0FBb0RzdmVhdERWQndIMHdOdDRhQXhSM2kzKzJsdFFRQ3ErdWFTV1BSNHVXY0F5K2Z5TmtsNjZyUkNzUmRpYzQ5eHh5K0gveFc1ME1uQzc4em01dERYclB6QjZtWmdzakdKSVBiaU1YemNLM3RBSGFqeWk3ZXNzL1ZBSlpVbjJ2UEVsSDUzUXB6TkEwQTFxU1cxZFppR3l3QT09IiwiY29udGVudCI6IkVhaFp4WEtNS2lmMU94MHlpN3dkQzRnclh5a0FFM05hWGgyNHNSN0FWNmNOcXJNNmRIVHhRbU9JQ1RldEo1SFlPTTFXdUppSnd5MGJ4QjY0WHN2MGlxYzAyT2ErY3gzR3dvSnlHZTV1ZXY0PSJ9.naZ7l_4-i6WeeeJRA7Hg3SE3OUg6KH2L2_zG_gqiNgQ"/>
+    <header name="authorization" value="Bearer ${C_Search_BearerToken6}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="requestid" value="c004efd2-1dcc-0db6-5670-145545b17a76"/>

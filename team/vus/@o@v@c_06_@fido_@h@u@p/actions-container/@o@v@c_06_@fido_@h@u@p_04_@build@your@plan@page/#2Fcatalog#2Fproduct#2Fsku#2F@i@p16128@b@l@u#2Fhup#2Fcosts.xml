@@ -2,7 +2,7 @@
     name="/catalog/product/sku/IP16128BLU/hup/costs"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/f81d2a39-5449-4e82-8674-6af0141e1616.zip"
-    slaProfileEnabled="false" thinkTime="52"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="f81d2a39-5449-4e82-8674-6af0141e1616">
     <embedded-action>7d05c327-8d49-475e-8740-3648c16d648e</embedded-action>

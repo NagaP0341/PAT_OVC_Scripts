@@ -2,7 +2,7 @@
     name="/api/v1/promo/regularpromotions"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/a5b8640c-facb-4006-996c-d618e6038dbe.zip"
-    slaProfileEnabled="false" thinkTime="260"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="a5b8640c-facb-4006-996c-d618e6038dbe">
     <embedded-action>24527565-f714-4d86-be8e-b422266f9f53</embedded-action>

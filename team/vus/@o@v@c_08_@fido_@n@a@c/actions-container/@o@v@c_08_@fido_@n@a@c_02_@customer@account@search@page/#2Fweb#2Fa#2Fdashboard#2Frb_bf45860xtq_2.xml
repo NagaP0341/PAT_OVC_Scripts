@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/web/a/dashboard/rb_bf45860xtq_2"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/e437a692-4d81-4605-b95e-a06838765b12.zip"
@@ -9,9 +9,9 @@
     <embedded-action>cfe5d189-a576-430b-a0fa-0a1a00d60f61</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/plain; charset=utf-8"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/web/a/dashboard/rb_bf45860xtq"
     path="/web/a/dashboard/rb_bf45860xtq" postType="4"
@@ -77,7 +77,7 @@ set-cookie: Prod=B; domain=.oneview.fido.ca</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
     <textPostContent><![CDATA[$a=1%7C20%7C_event_%7C1742205091545%7C_nosr_%7Cr%7Cidle$rId=RID_96526500$rpId=-1266119831$domR=1742205090379$tvn=%2Fweb%2Fa%2Fdashboard%2F$tvt=1742205087132$tvm=i1%3Bk0%3Bh0$tvtrg=1$w=1218$h=633$sw=1280$sh=720$ni=4g|10$md=mdcc17%2C179643557%257CMCIDTS%257C20165%257CMCMID%257C86418353325214444133025295767960126327%257CMCAAMLH-1742809890%257C7%257CMCAAMB-1742809890%257CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%257CMCOPTOUT-1742212290s%257CNONE%257CvVersion%257C5.5.0$sr=1$url=https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2F$title=Create%20an%20account$latC=0$app=39f30da8dcd81ec2$vi=UMHDPKCAFSUWQISPEOCNQEJNEUCIMSUI-0$fId=405087441_144$v=10307250124095659$vID=1742205087448TSM5P5E5LRMQHN9FLP37U9LMUJ0KUD1A$nV=1$time=1742205091548]]></textPostContent>
 </http-action>
-<http-action actionType="1" contentType="font/woff"
+<http-action actionType="1" contentType="font/woff" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"

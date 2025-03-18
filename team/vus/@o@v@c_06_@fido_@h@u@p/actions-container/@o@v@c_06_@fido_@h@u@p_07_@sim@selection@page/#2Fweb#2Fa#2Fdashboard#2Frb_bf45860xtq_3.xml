@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/web/a/dashboard/rb_bf45860xtq_3"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/3e484834-864b-4fef-9372-3ea9869903aa.zip"
@@ -8,9 +8,9 @@
     <embedded-action>9afcf836-3c58-47f8-938e-7b3b1836208a</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/plain; charset=utf-8"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/web/a/dashboard/rb_bf45860xtq"
     path="/web/a/dashboard/rb_bf45860xtq" postType="2"

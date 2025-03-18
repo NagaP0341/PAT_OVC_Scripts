@@ -1,5 +1,5 @@
-<http-page executeResourcesDynamically="false" name="/dest5.html"
-    playRequestsSequentially="false"
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/dest5.html" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/cbdfdbd5-9f4c-48e2-89be-8372016fa219.zip"
     slaProfileEnabled="false" thinkTime="153"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""

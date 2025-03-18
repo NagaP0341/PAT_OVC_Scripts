@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false"
     name="/api/v1/ppc/ppcFeeCharge" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/5cfa477e-4a00-4a71-b54f-88966655108f.zip"
-    slaProfileEnabled="false" thinkTime="655"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="5cfa477e-4a00-4a71-b54f-88966655108f">
     <embedded-action>f5bf8834-9ece-4c6c-b6cf-c50021222058</embedded-action>

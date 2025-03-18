@@ -2,7 +2,7 @@
     name="/convaccountapi/ovc/accounts/v1/convergence"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/48e73d0a-cabb-47e9-9bf9-b93fbe5c9afb.zip"
-    slaProfileEnabled="false" thinkTime="100"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="48e73d0a-cabb-47e9-9bf9-b93fbe5c9afb">
     <embedded-action>c3c65b8d-9e35-4a6a-8ac5-cf414ade9fca</embedded-action>

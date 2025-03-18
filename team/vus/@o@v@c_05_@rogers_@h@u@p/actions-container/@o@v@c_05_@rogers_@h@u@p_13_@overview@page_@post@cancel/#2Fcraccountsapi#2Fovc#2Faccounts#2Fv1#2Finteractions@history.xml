@@ -65,9 +65,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <textPostContent><![CDATA[{"accountNumber":"964540694","lang":"en"}]]></textPostContent>
 </http-action>
 <http-action actionType="1" contentType="application/json"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/cms/oneview/oneview-semafone.json"
     path="/cms/oneview/oneview-semafone.json" postType="4"

@@ -13,13 +13,29 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/assessionapi/ovas/v1/session/keepAlive"
-    path="/assessionapi/ovas/v1/session/keepAlive" postType="4"
+    path="/assessionapi/ovas/v1/session/keepAlive" postCharset=""
+    postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/4bf91377-a3dd-456f-8370-6149fe6fddf8.zip"
     recordedResponseCode="200" responseSize="143"
     serverUid="oneview-accountsearch.rogers.com"
     slaProfileEnabled="false" uid="56097321-5847-4073-91ff-2d51b132c9cb" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_56097321-5847-4073-91ff-2d51b132c9cb</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_56097321-5847-4073-91ff-2d51b132c9cb.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_56097321-5847-4073-91ff-2d51b132c9cb.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="C_BearerToken8"
+        refererUid="56097321-5847-4073-91ff-2d51b132c9cb"
+        regExp="Bearer (.*)" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="Bearer " template="$1$" templateAdv="$1$"
+        uid="1a2707b8-5e93-4f57-be3b-d8e8e9a1bf4d" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="active&quot;:true"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-accountsearch.rogers.com/web/a/dashboard/account-search?flowtype=AccountSearch"/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -29,11 +45,11 @@
     <header name="language" value="en_CA"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTc1LGxhbklkPVVJUEFUSC5CT1QxNiIsImF1ZCI6Ik9uZXZpZXcgQWNjb3VudCBTZWFyY2giLCJ0b2tlbkR1cmF0aW9uIjoiMzAwMDAwMCIsInVzZXJBdHRyaWJ1dGVzIjp7IkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTYiLCJVc2VySWQiOiIxNDAxNzE3NSIsIkFzcFNlc3Npb25JZCI6Ijk3ZmZiNDU2LTU5ZWMtNDY0My05MGQzLTA0NGQ3ODNhZWMzOCIsIlNPVVJDRSI6IkNSTSJ9LCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3NSxsYW5JZD1VSVBBVEguQk9UMTYiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjA4OTA3LCJpYXQiOjE3NDIyMDUwOTYsImtleSI6IkVydVExYURvMEo2SE02SEpNY25ScjhkRHp4SFlsLzdGbHNPeVRnc0ZYZWpucm1OU3hUTzE5ZnQxRk9JZmV5SU1OZjNlWmpaeU9qeDQwRC9yOFY4K2RSdmU5OVE3T2tlaVpidk1FcnFxZzBrc3dpOU9QRG9uRUpBTm5yVDdoYkJkRGVvZzNWNEFPSnZhWVRaeEg1MWhQT01HVjZtZ2FGbTdQaHhxbXF0em5VWWdWdFJPdHdwK2pFVVFwd1A2U0FBb0RzdmVhdERWQndIMHdOdDRhQXhSM2kzKzJsdFFRQ3ErdWFTV1BSNHVXY0F5K2Z5TmtsNjZyUkNzUmRpYzQ5eHh5K0gveFc1ME1uQzc4em01dERYclB6QjZtWmdzakdKSVBiaU1YemNLM3RBSGFqeWk3ZXNzL1ZBSlpVbjJ2UEVsSDUzUXB6TkEwQTFxU1cxZFppR3l3QT09IiwiY29udGVudCI6IkVhaFp4WEtNS2lmMU94MHlpN3dkQzRnclh5a0FFM05hWGgyNHNSN0FWNmNOcXJNNmRIVHhRbU9JQ1RldEo1SFlPTTFXdUppSnd5MGJ4QjY0WHN2MGlxYzAyT2ErY3gzR3dvSnlHZTV1ZXY0PSJ9.pO-GHCUkGGlPEzPbo8MQI1ZXYVbLc4-TULXQO9lK4EY"/>
+    <header name="authorization" value="Bearer ${C_TranscatioN_bearerToken7}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="requestid" value="aa934a56-7ec9-bc67-4b5c-193ea98cd1b1"/>
-    <header name="ocp-apim-subscription-key" value="f889ada087c6482d8ff0f3badcc3c07c"/>
+    <header name="ocp-apim-subscription-key" value="${C_SubscriptionKey}"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
     <header name="content-type" value="application/json"/>
     <header name="accept-encoding" value="gzip, deflate, br, zstd"/>

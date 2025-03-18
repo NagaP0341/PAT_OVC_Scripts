@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/web/a/dashboard/rb_bf45860xtq"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/b29a7ec1-2a70-4cba-bebd-8fa6d2932df3.zip"
@@ -9,9 +9,9 @@
     <embedded-action>cc535b45-5374-42d1-bafe-65df23c1bf90</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/plain; charset=utf-8"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/web/a/dashboard/rb_bf45860xtq"
     path="/web/a/dashboard/rb_bf45860xtq" postType="4"
@@ -79,7 +79,7 @@ set-cookie: Prod=B; domain=.oneview.fido.ca</responseHeaders>
     <textPostContent><![CDATA[$a=1%7C2%7C_event_%7C1742205342820%7C_nosr_%7Cr%7Cno%2C1%7C3%7C_event_%7C1742205342820%7C_sr_%7Ctype%7Cinit%7Cfh%7CICANQVfghqrux%2C1%7C4%7C_event_%7C1742205342983%7C_sr_%7Ctype%7Cboot%7Csrad%7C1%2C1%7C18%7C_event_%7C1742205343991%7C_viewend_%7Cinp%7C0%7Csvn%7C%2Fweb%2Fa%2Fdashboard%2F%7Csvt%7C1742205342238%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0$dO=oneview.fido.ca,rogers.com$rId=RID_-2069240723$rpId=-1671899592$domR=1742205343631$tvn=%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous$tvt=1742205343991$tvm=i2%3Bk1%3Bh0$tvtrg=1$w=1218$h=633$sw=1280$sh=720$fd=g17.3.12$md=mdcc5%2CUIPATH%20BOT16%3Bmdcc7%2COVF%3Aweb%3Aa%3Adashboard%3Aoverview%3Aanonymous%3Bmdcc8%2Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous%3Bmdcc17%2C179643557%257CMCIDTS%257C20165%257CMCMID%257C86418353325214444133025295767960126327%257CMCAAMLH-1742809890%257C7%257CMCAAMB-1742809890%257CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%257CMCOPTOUT-1742212292s%257CNONE%257CMCAID%257CNONE%257CMCSYNCSOP%257C411-20172%257CvVersion%257C5.5.0$url=https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%2Fanonymous$title=Create%20an%20account$latC=0$app=39f30da8dcd81ec2$vi=UMHDPKCAFSUWQISPEOCNQEJNEUCIMSUI-0$fId=405342802_204$v=10307250124095659$vID=1742205087448TSM5P5E5LRMQHN9FLP37U9LMUJ0KUD1A$time=1742205344833]]></textPostContent>
 </http-action>
 <http-action actionType="1"
-    contentType="application/x-javascript;charset=utf-8"
+    contentType="application/x-javascript;charset=utf-8" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"

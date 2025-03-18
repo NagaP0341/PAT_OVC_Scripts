@@ -1,5 +1,5 @@
-<http-page executeResourcesDynamically="false" name="/id_1"
-    playRequestsSequentially="false"
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/id_1" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/47d1eb76-aee1-4123-8b93-b39afd8b037a.zip"
     slaProfileEnabled="false" thinkTime="227"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""

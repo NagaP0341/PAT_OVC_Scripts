@@ -2,7 +2,7 @@
     name="/cragentapi/ovc/dealer/session/v1"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/7844c890-4273-408e-be65-d18c1f05bda8.zip"
-    slaProfileEnabled="false" thinkTime="429"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="7844c890-4273-408e-be65-d18c1f05bda8">
     <embedded-action>015ea2e3-dbb5-4d10-8f98-3c44d35a88ea</embedded-action>
@@ -13,13 +13,28 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/cragentapi/ovc/dealer/session/v1"
-    path="/cragentapi/ovc/dealer/session/v1" postType="4"
+    path="/cragentapi/ovc/dealer/session/v1" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/7844c890-4273-408e-be65-d18c1f05bda8.zip"
     recordedResponseCode="200" responseSize="42"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
     uid="015ea2e3-dbb5-4d10-8f98-3c44d35a88ea" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_015ea2e3-dbb5-4d10-8f98-3c44d35a88ea</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_015ea2e3-dbb5-4d10-8f98-3c44d35a88ea.0.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_015ea2e3-dbb5-4d10-8f98-3c44d35a88ea.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="C_Session_BearerToken11"
+        refererUid="015ea2e3-dbb5-4d10-8f98-3c44d35a88ea"
+        regExp="Bearer (.*)" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="Bearer " template="$1$" templateAdv="$1$"
+        uid="04819c60-e7cb-4545-812e-140481280330" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="status&quot;:&quot;Success"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/overview/anonymous"/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -28,7 +43,7 @@
     <header name="origin" value="https://oneview.fido.ca"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTc1LGxhbklkPVVJUEFUSC5CT1QxNiIsImF1ZCI6Ik9uZXZpZXcgRmlkbyBDYXJlIiwidG9rZW5EdXJhdGlvbiI6IjI3MDAwMDAiLCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3NSxsYW5JZD1VSVBBVEguQk9UMTYiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjA4OTQ0LCJpYXQiOjE3NDIyMDUwODgsImtleSI6IlJxRFEwVUUxelRXNTRsN1hycHJNMytZZmpiR2xUWmtCZGc0SlVkajdraGVWeHowdHVyY3F3Q05IODVkLzloWW1hQ3NqZXZIa3UyUVpEK1BZZGJVY3lJRjBycWplTmNXaDZEWm0yQW40bTNRdzJTVFRDalVMSVFWSnhYZjIxcFF2SXZtOWVkNldsb28xbE5zN1hGNFdrQjE2eUF1d01yMzlzcytvMExFbE93ajlxbTBVdEp4YTlMc3VaT0J6QldHL2lZWnFqeDl5dkUzTGltM0dlanRSMUNBTnNRQ3VlNUZzRGpHZm1pbDFTeU1ia09aYXJjWFplS29JREJSbWlSbE1tcHM0RDN5SmtJNmJXSkV0cjZtMmpmMzlwS25taHNKUmRLUVhabkRIa1VHc2tYWHdZQ09wZW1Yc0ZXczZMaXJXak5ia2I2cEV0RlpTbyszSUJiSmdXZz09IiwiY29udGVudCI6IkNGQU1KcWJMMUtsV2NmOFdRLzdhWDh6NHJSazJEbGd6SlZLNGdFSE5RbTd6R1VFZXRva0JqYi9BYUVrdU93Y1Ivd0c1cEptNUdmT2ZsWVVTQU0rLzFTOWcySElyb3ZvZS9vRUtCLy9ycUFTWHJLM2lyOGp5eDNxLzY5R3N6SHN5THpaVWJSN3o0NlE1Wi9zUkhIYnNiS1RML05PZU9vOVlsbEhlbjMzKzZxSFQxRGhLUjk5QmRiYWJuUGc3ZERKWkNJcU1qZjVERWZ6WENwcnFHNHhzZHd6dlYyYWo1d1NHdkhVZmoxQ3gzVUhVaURsU2VJQ0ppZUJQMnl5UWRqSlZ4Wmk3d0xscndYZW1ZZ3RXdStpZTcxaGNLb1RRZzMzQ0E5SWptWnR4Q3dJYmNWbWJSR1VKdU1pbno3TTF4dDNkbDZ5dDRxL0k4c2Q2dit2UnJNeDdNcXFWM0dOU2VPVnBqVGRJUms1dlJPV1RLNlNicnB4TzNxRG9GZXZLbERIL1RMOTFjZnRZUVptWXNvZXIyd1l0eE9DbzJMdUFDQmFsUDFhY3lEOVZKcGZWWnRrY0c4V3M4anIvZEJvWERxUE9oR1Q0a3NlRjk3UUZPZ1RqMWJ0Zi9TNzlOM2J0bjBBa2d3QVpaUFpPOW82WHU3UzZEdHZ6S0d3R2VncW5jQ0Ztck5ZQnFkL0lwNVRyQ2Q3ODlDMDV4SmlnM1ZUT2UrSTk1Uy80WHRsT0V5Q1Bvd082c1B2RlBXSDF6bC9xQTU5TDVBQ0NGblJLMllQUmIxTUJzYkJoUW16TXFxcmZuWWp5ci84MXRPb3cxM1oyak04QUxzd1dDUXZzTVA3d2V0aFQ4NHU4TUZrclQzZStiTTNpckRVcW16M1lMUW1UdkNaN201TjVPaVNGRDJuRnhBaEZ0RHFNeEJPbXBId2dIU0NDQ3o1OVpxM2QvNjl1RlF0SWhxa2dpYnlOdE5HVzNxbnM1cjhGN1FDRDZHakNOZkNpV2svTWpVQ3NOZUhpVmZsNXJabmNSOUYyQ0dDRUs4dDhIWkYwN0RkUUpVY1FYckxrT1FQMm9OTUFrdlUwU2tyeWZ2blhBVGQyVTNYdmh4Zis1Z0FYdlBlV05yOCs4eUVURm1GaGpnTFlIZnV5QngrMEkvakVYTkYzeVBaVDFwckdlbVNPNXJaRFZFZm1HSWNxenIyWVA4RU9EZWE5UnRaQXA5aHArOHlXMGxJU3JLTi9Demlza2E2N09ER2FMV1BkSXNVdTE2UG5uUlFhbWJzR0lVK09QZ01DU2RqRlpLMVNoNXlsNlRONFBDRkJUNkVka2w1dmNMZHJGcmcxSk92eHVRaVlwZlBtaVJyZzYyU1NRcFlYV1hNUE4rbXltYmhEUU9CdXlaeUpGTWlRMkdyREI4c0lVZlYwd2dFK2Qxa1Bjb2pzOGswdTEwS1hkS0tTSUQyM2lFVjVhclhxa0FReWd4UWx2QT09IiwidXNlckF0dHJpYnV0ZXMiOnsiTEFOR1VBR0UiOiJlbiIsIkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTYiLCJWMjEiOiJWMjEiLCJVc2VySWQiOiIxNDAxNzE3NSIsIlNPVVJDRSI6IkNSTSIsIkFDQ1ROQlIiOiJVVEVfQU5PTllNT1VTIiwiQ09OVEFDVF9JRCI6IlVURV9BTk9OWU1PVVMiLCJTZXNzaW9uSWQiOiIzNzRkNGY1Ny02MDVmLTQwMmUtYTk0MC1jYmRhZjg5NzQ0ZTciLCJUQVJHRVRfVVJMIjoiT05FVklFV0RBU0hCT0FSRCJ9fQ.61yvVBgaxL8Kwc2n_5Vc8UBNDHhRqqiyA84VIjl0ORE"/>
+    <header name="authorization" value="Bearer ${C_Session_BearerToken10}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>

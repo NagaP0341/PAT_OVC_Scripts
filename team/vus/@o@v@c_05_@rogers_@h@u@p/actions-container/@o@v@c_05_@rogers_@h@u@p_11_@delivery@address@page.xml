@@ -2,24 +2,5 @@
     name="OVC_05_Rogers_HUP_11_DeliveryAddressPage" pacingEnd="0"
     pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
     slaProfileEnabled="false" uid="cafe775f-fe1c-47fe-b604-8668a300333f" weightsEnabled="false">
-    <weighted-embedded-action uid="a9a2c3fb-abd6-4b78-9b83-253cb3f9d95b"/>
-    <weighted-embedded-action uid="9b5fe94c-39c7-4d5c-800f-d597449414f0"/>
-    <weighted-embedded-action uid="ca92cd2d-25d1-474f-a49b-390e3d1c68c3"/>
-    <weighted-embedded-action uid="f027c8e7-8e58-4e50-b4d4-848931736ad7"/>
-    <weighted-embedded-action uid="6c44ea89-cf02-431b-98d9-0308427c959f"/>
     <weighted-embedded-action uid="86145173-574b-4445-a55e-40c3b8d4aaa3"/>
-    <weighted-embedded-action uid="721e2e06-7dce-4230-91c3-0a397f1b6670"/>
-    <weighted-embedded-action uid="ae7461f9-9c47-46ed-869a-dd067040cb3b"/>
-    <weighted-embedded-action uid="163339d7-ce40-4397-87ac-4c5786ba4afe"/>
-    <weighted-embedded-action uid="0208685c-8101-4081-9600-7f9652d72052"/>
-    <weighted-embedded-action uid="81a8c210-dbf0-4a26-96eb-ed5d0cbdc2dd"/>
-    <weighted-embedded-action uid="55be9f11-8b64-48f0-b237-62050ce4aa2d"/>
-    <weighted-embedded-action uid="f96ed2b7-4bfa-4156-910e-e3157e39dff2"/>
-    <weighted-embedded-action uid="44507275-a4cb-410c-a1b4-05e701b26c12"/>
-    <weighted-embedded-action uid="8cf53a5f-ff6b-419f-b2ae-4ee995fae005"/>
-    <weighted-embedded-action uid="dca931b2-92c8-45e5-8c33-74cddb1b1716"/>
-    <weighted-embedded-action uid="9bab6df2-65a6-408e-bf1c-f4db36aea269"/>
-    <weighted-embedded-action uid="867abbb4-cfdd-4e1b-9143-82a70ba8d8a1"/>
-    <weighted-embedded-action uid="1b1f340e-f405-4fc4-9d55-80396ba4bdd6"/>
-    <weighted-embedded-action uid="60221be7-2fff-49e0-b3d7-47e7a987a722"/>
 </basic-logical-action-container>

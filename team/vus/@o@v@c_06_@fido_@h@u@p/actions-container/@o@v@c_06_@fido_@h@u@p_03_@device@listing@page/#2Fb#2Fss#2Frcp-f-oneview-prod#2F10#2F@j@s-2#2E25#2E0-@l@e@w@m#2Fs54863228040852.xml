@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/b/ss/rcp-f-oneview-prod/10/JS-2.25.0-LEWM/s54863228040852"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/047a886d-8127-43c2-97bf-93f1388b6326.zip"

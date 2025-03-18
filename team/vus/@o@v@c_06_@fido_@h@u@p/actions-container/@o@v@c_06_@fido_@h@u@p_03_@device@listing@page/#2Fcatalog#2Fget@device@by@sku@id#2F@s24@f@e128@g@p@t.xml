@@ -2,7 +2,7 @@
     name="/catalog/getDeviceBySkuId/S24FE128GPT"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/49d41633-4058-4e9c-9358-76e429c5bfa7.zip"
-    slaProfileEnabled="false" thinkTime="367"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="49d41633-4058-4e9c-9358-76e429c5bfa7">
     <embedded-action>50f3af9e-aa09-4384-9af9-7ffac3a43eb3</embedded-action>

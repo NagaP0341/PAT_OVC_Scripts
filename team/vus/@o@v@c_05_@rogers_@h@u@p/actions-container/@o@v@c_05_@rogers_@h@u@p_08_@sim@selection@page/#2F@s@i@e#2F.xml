@@ -1,5 +1,5 @@
-<http-page executeResourcesDynamically="false" name="/SIE/"
-    playRequestsSequentially="false"
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/SIE/" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/144c0d67-5604-4674-8da1-9e460cd96372.zip"
     slaProfileEnabled="false" thinkTime="1602"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
@@ -7,7 +7,7 @@
     <embedded-action>c7c7a90f-3326-4d53-a736-7a76e6f0db04</embedded-action>
 </http-page>
 <http-action actionType="1"
-    contentType="application/x-javascript;charset=utf-8"
+    contentType="application/x-javascript;charset=utf-8" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"

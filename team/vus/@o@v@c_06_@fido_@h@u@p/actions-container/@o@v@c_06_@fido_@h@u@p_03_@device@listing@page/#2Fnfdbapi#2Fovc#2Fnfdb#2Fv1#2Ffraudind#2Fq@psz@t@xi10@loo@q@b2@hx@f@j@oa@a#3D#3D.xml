@@ -2,7 +2,7 @@
     name="/nfdbapi/ovc/nfdb/v1/fraudind/qPszTXi10LooQB2HxFJOaA=="
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/25b32f6e-163f-4d95-ba8b-901344d8061e.zip"
-    slaProfileEnabled="false" thinkTime="5992"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="25b32f6e-163f-4d95-ba8b-901344d8061e">
     <embedded-action>d4653993-3647-47f1-a394-bc3781bb43c0</embedded-action>

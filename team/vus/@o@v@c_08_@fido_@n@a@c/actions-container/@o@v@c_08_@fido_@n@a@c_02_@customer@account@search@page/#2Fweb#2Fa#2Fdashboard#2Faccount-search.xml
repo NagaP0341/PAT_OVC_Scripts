@@ -8,8 +8,10 @@
     <embedded-action>d4841fe2-c3a9-4dfb-8183-04b6e27eeab7</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;67ae07f9-7f6:dtagent1030725012409565948Ut&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 13 Feb 2025 14:55:52 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/account-search"
@@ -20,11 +22,14 @@
     slaProfileEnabled="false" uid="d4841fe2-c3a9-4dfb-8183-04b6e27eeab7" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_d4841fe2-c3a9-4dfb-8183-04b6e27eeab7.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_d4841fe2-c3a9-4dfb-8183-04b6e27eeab7.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="data-critters-container"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="appId"
         recordRawValue="OVC" separator="=" value="OVC" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="ovContextId"
         recordRawValue="bf905eba-4829-4a83-8b26-2585a4e0cc6c"
-        separator="=" value="bf905eba-4829-4a83-8b26-2585a4e0cc6c" valueMode="USE_VALUE"/>
+        separator="=" value="${C_ContextID}" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true"
         name="sourceClientUrl"
         recordRawValue="https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2F%3Fsource%3Dicm%26lang%3Den"

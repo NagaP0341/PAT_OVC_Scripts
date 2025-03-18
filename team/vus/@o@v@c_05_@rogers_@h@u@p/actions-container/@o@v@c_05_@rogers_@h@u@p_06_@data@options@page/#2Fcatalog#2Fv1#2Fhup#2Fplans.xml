@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false"
     name="/catalog/v1/hup/plans" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/006e6d05-63b6-4865-a381-3f71458d411b.zip"
-    slaProfileEnabled="false" thinkTime="1072"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="006e6d05-63b6-4865-a381-3f71458d411b">
     <embedded-action>3f880064-c13b-41e4-a03b-947d7032eef1</embedded-action>

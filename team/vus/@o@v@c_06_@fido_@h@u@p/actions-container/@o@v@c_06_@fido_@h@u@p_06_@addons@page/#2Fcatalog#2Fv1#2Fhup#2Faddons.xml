@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false"
     name="/catalog/v1/hup/addons" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/1650d864-5cad-4fc7-bbd2-6c3ddcd50317.zip"
-    slaProfileEnabled="false" thinkTime="1254"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="1650d864-5cad-4fc7-bbd2-6c3ddcd50317">
     <embedded-action>5ca7d7a8-5d0e-4071-bc88-f0b24e3dfb1d</embedded-action>

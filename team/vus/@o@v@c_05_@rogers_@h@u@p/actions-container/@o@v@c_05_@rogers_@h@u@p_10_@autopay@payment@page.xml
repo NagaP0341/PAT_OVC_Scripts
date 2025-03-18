@@ -2,25 +2,7 @@
     name="OVC_05_Rogers_HUP_10_AutopayPaymentPage" pacingEnd="0"
     pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
     slaProfileEnabled="false" uid="e22fe07a-6b21-4cd4-a1d2-cf251498f26f" weightsEnabled="false">
-    <weighted-embedded-action uid="e6a677c2-f0ab-4367-bc3b-093da88af320"/>
-    <weighted-embedded-action uid="9e7f0719-3bf9-41b4-9a34-a0ea505931b6"/>
-    <weighted-embedded-action uid="b38737bf-90a6-4aa8-bbd0-3a131ce51669"/>
     <weighted-embedded-action uid="f1d522a7-c043-45f3-b3c7-a14245caff12"/>
-    <weighted-embedded-action uid="8dcee102-6192-43b6-a00e-26d0f4d97284"/>
-    <weighted-embedded-action uid="9f9bcf28-1a2f-433f-8bc2-6d5199271bff"/>
-    <weighted-embedded-action uid="ebd8f184-1b43-4ce0-baae-030ab099a21e"/>
     <weighted-embedded-action uid="be5985dc-3152-4cbe-b97a-6bb7c301f504"/>
     <weighted-embedded-action uid="3f14b718-382b-4fa3-912d-68c85c020604"/>
-    <weighted-embedded-action uid="77bd2276-46a7-49ea-8d57-8cc64e983d2c"/>
-    <weighted-embedded-action uid="a8b4b7e0-a9e1-4a6a-a36d-523e27d804b5"/>
-    <weighted-embedded-action uid="931f129c-9314-42f5-be8d-b416bd12d410"/>
-    <weighted-embedded-action uid="9ffa319f-63cf-4f3c-ad43-fe5718157311"/>
-    <weighted-embedded-action uid="f749da14-6fd0-4030-9015-dd9a1708f98e"/>
-    <weighted-embedded-action uid="2a05be63-d296-4cd5-ab0b-963b7c332ac1"/>
-    <weighted-embedded-action uid="6f0e0333-4315-4f5b-bf04-81287a465706"/>
-    <weighted-embedded-action uid="957ae8d5-baaa-491c-9927-93ca6413ba6a"/>
-    <weighted-embedded-action uid="1ce1f709-f66c-4f02-b285-bfb885a091ab"/>
-    <weighted-embedded-action uid="94ce4a1f-ebfb-4475-9d89-ab1366b3d3a1"/>
-    <weighted-embedded-action uid="01e1b768-970d-48bd-bc8a-b3171536ed26"/>
-    <weighted-embedded-action uid="a09b96a1-8e40-429f-add5-8f1a42afbeeb"/>
 </basic-logical-action-container>

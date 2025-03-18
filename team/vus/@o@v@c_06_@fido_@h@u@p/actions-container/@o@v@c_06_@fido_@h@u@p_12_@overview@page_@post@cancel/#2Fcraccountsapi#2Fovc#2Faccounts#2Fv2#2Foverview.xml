@@ -2,7 +2,7 @@
     name="/craccountsapi/ovc/accounts/v2/overview"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/f3b217da-88b0-4e98-9edd-7be88a36cb4c.zip"
-    slaProfileEnabled="false" thinkTime="90"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="f3b217da-88b0-4e98-9edd-7be88a36cb4c">
     <embedded-action>a50a9c11-c47a-4148-b7a4-fe549ebf536e</embedded-action>

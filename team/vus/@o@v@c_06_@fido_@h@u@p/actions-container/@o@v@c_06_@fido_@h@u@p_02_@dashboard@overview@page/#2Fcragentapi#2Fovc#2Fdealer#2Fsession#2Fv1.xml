@@ -2,7 +2,7 @@
     name="/cragentapi/ovc/dealer/session/v1"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/e17ab515-8fbb-428c-9d35-f26bbea83c12.zip"
-    slaProfileEnabled="false" thinkTime="599"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="e17ab515-8fbb-428c-9d35-f26bbea83c12">
     <embedded-action>51d1c532-e228-43c5-adfa-a7fcccaaa3dd</embedded-action>

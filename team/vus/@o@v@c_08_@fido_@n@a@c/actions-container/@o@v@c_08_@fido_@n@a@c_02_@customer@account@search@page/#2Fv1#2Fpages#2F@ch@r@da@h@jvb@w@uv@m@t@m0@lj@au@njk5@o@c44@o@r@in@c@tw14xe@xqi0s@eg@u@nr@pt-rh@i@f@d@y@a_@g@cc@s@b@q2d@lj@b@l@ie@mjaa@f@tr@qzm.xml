@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/v1/pages/ChRDaHJvbWUvMTM0LjAuNjk5OC44ORInCTw14xeXqi0sEgUNrPt-rhIFDYA_GCcSBQ2dLjBLIeMjaaFTrQzm"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/6309ea93-fd25-4485-8a13-b15bb62f7616.zip"

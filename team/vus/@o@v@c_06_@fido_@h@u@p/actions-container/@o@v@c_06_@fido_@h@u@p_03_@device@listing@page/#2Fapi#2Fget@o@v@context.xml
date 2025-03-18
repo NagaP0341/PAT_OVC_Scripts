@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false" name="/api/getOVContext"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/e69752ff-88da-4795-ad79-8afc3847e789.zip"
-    slaProfileEnabled="false" thinkTime="42"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="e69752ff-88da-4795-ad79-8afc3847e789">
     <embedded-action>6c2d41c1-3327-413f-bae1-697972176eb3</embedded-action>

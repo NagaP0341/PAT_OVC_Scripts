@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/dxjsmodule/8.df5dcf8aaf67ccb082ce.chunk.js"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/2cfa543b-416d-417f-9ffb-4fa1ec108325.zip"

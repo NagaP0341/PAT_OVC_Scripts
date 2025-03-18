@@ -2,7 +2,7 @@
     name="/crbillingapi/ovc/billing/v1/billtype/qPszTXi10LooQB2HxFJOaA=="
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/ea3af2dc-d855-4895-ac43-be9352758180.zip"
-    slaProfileEnabled="false" thinkTime="136"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="ea3af2dc-d855-4895-ac43-be9352758180">
     <embedded-action>f93c08e5-20f9-4a04-a658-e71bda5328d5</embedded-action>

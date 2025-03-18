@@ -2,7 +2,7 @@
     name="/crwmncapi/ovc/wireless/maintenance/hup/eligibility/v1/zv3w0lJ2C2ClRtRbHjBJgw=="
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/21220597-b3b0-4cf3-a03d-e3fa7aae810e.zip"
-    slaProfileEnabled="false" thinkTime="297"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="21220597-b3b0-4cf3-a03d-e3fa7aae810e">
     <embedded-action>5e58e434-d420-43c9-9de7-be04a5c0dbfc</embedded-action>

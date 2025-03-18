@@ -2,7 +2,7 @@
     name="/ovauthapi/ofc/auth/v1/icm/token"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/52ec838f-9173-4e95-ab9c-941a99f47232.zip"
-    slaProfileEnabled="false" thinkTime="189"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="52ec838f-9173-4e95-ab9c-941a99f47232">
     <embedded-action>e8137db8-b41c-4891-af9a-8d2f83ede1de</embedded-action>

@@ -2,25 +2,5 @@
     name="OVC_05_Rogers_HUP_09_CartSummaryPage" pacingEnd="0"
     pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
     slaProfileEnabled="false" uid="a79b1701-2f32-44a7-8daa-ecb8543d24d1" weightsEnabled="false">
-    <weighted-embedded-action uid="c5136a9a-1631-4dbe-8d25-689c56718162"/>
-    <weighted-embedded-action uid="b4d7f569-857e-4cf5-8a85-a927c7589f0c"/>
-    <weighted-embedded-action uid="00925a13-51d1-42a0-988c-f9ffdcb0f36a"/>
-    <weighted-embedded-action uid="07bfd2aa-3c7c-4d6b-b38e-ed41a1295c8e"/>
-    <weighted-embedded-action uid="7664ae94-885a-4b17-89b4-7b39ad4d1104"/>
     <weighted-embedded-action uid="8759a7e0-59cd-4bb9-8e26-42bde7377c4a"/>
-    <weighted-embedded-action uid="2ba1ea44-9320-46a6-b3e7-9a6079d0abd4"/>
-    <weighted-embedded-action uid="0bed2914-e3dc-4d34-b8a6-a07e299e9cb7"/>
-    <weighted-embedded-action uid="71ce584a-3dfe-4434-a298-5cf848cde551"/>
-    <weighted-embedded-action uid="545dfd4b-e501-42a5-b89a-45dfd43efed2"/>
-    <weighted-embedded-action uid="41b840dc-812c-413c-944a-7b1b77cbd5b7"/>
-    <weighted-embedded-action uid="32e8d83a-ef27-4c20-9613-3a930a1f7d71"/>
-    <weighted-embedded-action uid="d834a898-36c1-43c5-9d6f-582ba98e314d"/>
-    <weighted-embedded-action uid="4695417f-9156-4090-a144-1470003b4b1c"/>
-    <weighted-embedded-action uid="9ca7c993-f4e1-490f-85d6-5686d1c0e73d"/>
-    <weighted-embedded-action uid="2f048b7b-53ac-4594-b26a-40b95001a48e"/>
-    <weighted-embedded-action uid="d0bad6c3-be7b-4e3b-87db-fecd53619054"/>
-    <weighted-embedded-action uid="292bb382-9d30-4bf5-8ef2-dd073fe42aa7"/>
-    <weighted-embedded-action uid="68862434-d10e-42ed-be7b-eaf34aa75f53"/>
-    <weighted-embedded-action uid="21d9683e-47db-4f58-a64d-20106343718e"/>
-    <weighted-embedded-action uid="3f660481-5309-4c63-aea9-ab965dfd19db"/>
 </basic-logical-action-container>

@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false" name="/web/a/dashboard"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/de9836d6-54ce-4f3b-8daa-c297d796f706.zip"
-    slaProfileEnabled="false" thinkTime="57578"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="de9836d6-54ce-4f3b-8daa-c297d796f706">
     <embedded-action>6663b845-0e5b-43f8-b5e7-b04e97881ae4</embedded-action>
@@ -76,9 +76,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="text/javascript; charset=utf-8"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/web/a/dashboard/ruxitagentjs_ICA7NQVfghqrux_10307250124095659.js"
@@ -125,7 +125,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorContent="" extractorOccurence="1"
         extractorRegExp="false" htmlType="1"/>
 </http-action>
-<http-action actionType="1" contentType="image/gif"
+<http-action actionType="1" contentType="image/gif" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -165,9 +165,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/runtime.a663eae09e673f44.js"
     path="/web/a/dashboard/runtime.a663eae09e673f44.js" postType="6"
@@ -221,9 +221,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
         extractorRegExp="false" htmlType="1"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/polyfills.e604818929e9da62.js"
     path="/web/a/dashboard/polyfills.e604818929e9da62.js" postType="6"
@@ -277,9 +277,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
         extractorRegExp="false" htmlType="1"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/vendor.4930590c2793f8ee.js"
     path="/web/a/dashboard/vendor.4930590c2793f8ee.js" postType="6"
@@ -334,9 +334,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
         extractorRegExp="false" htmlType="1"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/main.c8a57b0a8a6f57a6.js"
     path="/web/a/dashboard/main.c8a57b0a8a6f57a6.js" postType="6"
@@ -389,9 +389,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
         extractorRegExp="false" htmlType="1"/>
 </http-action>
 <http-action actionType="1" contentType="text/javascript; charset=utf-8"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/web/a/dashboard/ruxitagentjs_D_10307250124095659.js"
@@ -434,9 +434,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard/assets/load-analytics.js"
     path="/web/a/dashboard/assets/load-analytics.js" postType="6"
@@ -483,7 +483,7 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorContent="" extractorOccurence="2"
         extractorRegExp="false" htmlType="1"/>
 </http-action>
-<http-action actionType="1" contentType="text/css"
+<http-action actionType="1" contentType="text/css" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -526,7 +526,7 @@ set-cookie: Prod=A; domain=.oneview.rogers.com; secure; HttpOnly&#xd;
 referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" contentType="text/css"
+<http-action actionType="1" contentType="text/css" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"

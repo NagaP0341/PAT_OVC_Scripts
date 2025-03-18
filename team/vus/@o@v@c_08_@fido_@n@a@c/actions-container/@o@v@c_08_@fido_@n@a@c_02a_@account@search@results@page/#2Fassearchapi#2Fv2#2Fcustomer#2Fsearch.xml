@@ -2,7 +2,7 @@
     name="/assearchapi/v2/customer/search"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/bb52962a-e804-4320-9925-bc46e71f98d0.zip"
-    slaProfileEnabled="false" thinkTime="26252"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="bb52962a-e804-4320-9925-bc46e71f98d0">
     <embedded-action>af2f3afe-ad60-45a7-bee2-74b106e7c78e</embedded-action>
@@ -13,13 +13,28 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/assearchapi/v2/customer/search"
-    path="/assearchapi/v2/customer/search" postType="4"
+    path="/assearchapi/v2/customer/search" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/bb52962a-e804-4320-9925-bc46e71f98d0.zip"
     recordedResponseCode="200" responseSize="46"
     serverUid="oneview-accountsearch.rogers.com"
     slaProfileEnabled="false" uid="af2f3afe-ad60-45a7-bee2-74b106e7c78e" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_af2f3afe-ad60-45a7-bee2-74b106e7c78e</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_af2f3afe-ad60-45a7-bee2-74b106e7c78e.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_af2f3afe-ad60-45a7-bee2-74b106e7c78e.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="C_Search_BearerToken6"
+        refererUid="af2f3afe-ad60-45a7-bee2-74b106e7c78e"
+        regExp="Bearer (.*)" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="Bearer " template="$1$" templateAdv="$1$"
+        uid="8fa5a3c2-93c5-4562-b3b4-404c1094b6af" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="status&quot;:&quot;Success"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-accountsearch.rogers.com/web/a/dashboard/account-search?flowtype=AccountSearch"/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -29,7 +44,7 @@
     <header name="language" value="en_CA"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTc1LGxhbklkPVVJUEFUSC5CT1QxNiIsImF1ZCI6Ik9uZXZpZXcgQWNjb3VudCBTZWFyY2giLCJ0b2tlbkR1cmF0aW9uIjoiMzAwMDAwMCIsInVzZXJBdHRyaWJ1dGVzIjp7IkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTYiLCJVc2VySWQiOiIxNDAxNzE3NSIsIkFzcFNlc3Npb25JZCI6Ijk3ZmZiNDU2LTU5ZWMtNDY0My05MGQzLTA0NGQ3ODNhZWMzOCIsIlNPVVJDRSI6IkNSTSJ9LCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3NSxsYW5JZD1VSVBBVEguQk9UMTYiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjA4ODc4LCJpYXQiOjE3NDIyMDUwOTYsImtleSI6IkVydVExYURvMEo2SE02SEpNY25ScjhkRHp4SFlsLzdGbHNPeVRnc0ZYZWpucm1OU3hUTzE5ZnQxRk9JZmV5SU1OZjNlWmpaeU9qeDQwRC9yOFY4K2RSdmU5OVE3T2tlaVpidk1FcnFxZzBrc3dpOU9QRG9uRUpBTm5yVDdoYkJkRGVvZzNWNEFPSnZhWVRaeEg1MWhQT01HVjZtZ2FGbTdQaHhxbXF0em5VWWdWdFJPdHdwK2pFVVFwd1A2U0FBb0RzdmVhdERWQndIMHdOdDRhQXhSM2kzKzJsdFFRQ3ErdWFTV1BSNHVXY0F5K2Z5TmtsNjZyUkNzUmRpYzQ5eHh5K0gveFc1ME1uQzc4em01dERYclB6QjZtWmdzakdKSVBiaU1YemNLM3RBSGFqeWk3ZXNzL1ZBSlpVbjJ2UEVsSDUzUXB6TkEwQTFxU1cxZFppR3l3QT09IiwiY29udGVudCI6IkVhaFp4WEtNS2lmMU94MHlpN3dkQzRnclh5a0FFM05hWGgyNHNSN0FWNmNOcXJNNmRIVHhRbU9JQ1RldEo1SFlPTTFXdUppSnd5MGJ4QjY0WHN2MGlxYzAyT2ErY3gzR3dvSnlHZTV1ZXY0PSJ9.CCCNhhLPTIBjB9nJHbyQ9dUsTzEnxtKoswf8ng3pWho"/>
+    <header name="authorization" value="Bearer ${C_BeraerToken3}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="requestid" value="36179219-602f-6165-b92b-cf88eb07154c"/>

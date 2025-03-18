@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false" name="/api/static/data"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/1be2203f-f575-42bb-b519-76391ed1b60f.zip"
-    slaProfileEnabled="false" thinkTime="175"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="1be2203f-f575-42bb-b519-76391ed1b60f">
     <embedded-action>e5e023a2-fdbe-4b0b-b665-037fcbc0763d</embedded-action>

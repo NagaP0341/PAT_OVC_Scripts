@@ -1,7 +1,7 @@
-<http-page executeResourcesDynamically="false" name="/"
+<http-page enabled="false" executeResourcesDynamically="false" name="/"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/3309abc7-d5b4-45f3-9963-a53023586db7.zip"
-    slaProfileEnabled="false" thinkTime="198504"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="3309abc7-d5b4-45f3-9963-a53023586db7">
     <embedded-action>03933899-595a-47c1-aa00-bcac969c77ff</embedded-action>

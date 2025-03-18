@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false"
     name="/WRSiteInterceptEngine/" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/78daa6e7-c82c-4a03-923e-e295c8199493.zip"
-    slaProfileEnabled="false" thinkTime="20"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="78daa6e7-c82c-4a03-923e-e295c8199493">
     <embedded-action>b6bf1a02-b81d-47a1-b5ef-c962f569b386</embedded-action>

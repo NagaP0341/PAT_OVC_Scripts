@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false"
     name="/account/releasePhoneNumber" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/d6f1d458-f516-4ae4-a49d-836c9cd292e5.zip"
-    slaProfileEnabled="false" thinkTime="7107"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="d6f1d458-f516-4ae4-a49d-836c9cd292e5">
     <embedded-action>c51c8987-cfc0-4622-9751-7a0e6e710a13</embedded-action>

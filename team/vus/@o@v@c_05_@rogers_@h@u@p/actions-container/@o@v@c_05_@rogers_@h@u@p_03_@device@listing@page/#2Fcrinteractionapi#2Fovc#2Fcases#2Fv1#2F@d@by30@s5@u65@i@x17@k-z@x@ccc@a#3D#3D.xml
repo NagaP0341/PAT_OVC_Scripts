@@ -2,7 +2,7 @@
     name="/crinteractionapi/ovc/cases/v1/DBy30S5U65IX17K-zXCccA=="
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/5baf8340-00f2-4965-9955-7b09f72336b1.zip"
-    slaProfileEnabled="false" thinkTime="28"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="5baf8340-00f2-4965-9955-7b09f72336b1">
     <embedded-action>858f88a0-7823-41c8-95bb-3f3c99beceb5</embedded-action>

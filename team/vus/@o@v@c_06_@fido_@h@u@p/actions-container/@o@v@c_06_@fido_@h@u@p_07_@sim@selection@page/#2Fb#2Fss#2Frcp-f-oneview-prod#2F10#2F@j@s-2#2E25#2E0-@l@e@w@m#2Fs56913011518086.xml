@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/b/ss/rcp-f-oneview-prod/10/JS-2.25.0-LEWM/s56913011518086"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/81319562-428d-4bd9-a87e-ac4cf7c616a1.zip"
@@ -8,7 +8,7 @@
     <embedded-action>40c4c3f3-3ebd-4401-9e15-4f9814d06da4</embedded-action>
 </http-page>
 <http-action actionType="1"
-    contentType="application/x-javascript;charset=utf-8"
+    contentType="application/x-javascript;charset=utf-8" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"

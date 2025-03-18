@@ -19,29 +19,33 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/assessionapi/ovas/v1/session/keepAlive"
-    path="/assessionapi/ovas/v1/session/keepAlive" postType="4"
+    path="/assessionapi/ovas/v1/session/keepAlive" postCharset=""
+    postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_08_@fido_@n@a@c/%resources%/recorded-artifacts/def81df6-bab8-41bb-91ef-1793c276d744.zip"
     recordedResponseCode="200" responseSize="143"
     serverUid="oneview-accountsearch.rogers.com"
     slaProfileEnabled="false" uid="a65ba04d-adfb-4174-9f1a-77e8bd303fde" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_a65ba04d-adfb-4174-9f1a-77e8bd303fde</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_a65ba04d-adfb-4174-9f1a-77e8bd303fde.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_a65ba04d-adfb-4174-9f1a-77e8bd303fde.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="active&quot;:true"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-accountsearch.rogers.com/web/a/dashboard/account-search?flowtype=AccountSearch"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="akaalb_Oneview_Account_Search=~op=ALB_AZURE_ONEVIEW_ACCOUNT_SEARCH:ALB_AZUCC_ONEVIEW_ACCOUNT_SEARCH|~rv=16~m=ALB_AZUCC_ONEVIEW_ACCOUNT_SEARCH:0|~os=4168d57008d2a7f87e75f2ae191fe099~id=9497ba8459e1f3f1408063e2ca5ac01a; rxVisitor=1742205094790O4SJODIR839HQCMC34O0JBHO6RQJUMS4; dtSa=-; language=en; language=en; dtCookie=v_4_srv_2_sn_1491A7E54AFBFB45A5515A81EC7581EE_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.rogers.com%22}}; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C86418353325214444133025295767960126327; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C86418353325214444133025295767960126327%7CMCAAMLH-1742809895%7C7%7CMCAAMB-1742809895%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742212296s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0; rxvt=1742206896741|1742205094792; dtPC=2$405094786_57h10vRHTFOVWQIPKLFJIMVTHPMGPHJGRFDVLU-0e0"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
-    <header name="x-dtreferer" value="https://oneview-accountsearch.rogers.com/web/a/dashboard/account-search?appId=OVC&amp;ovContextId=bf905eba-4829-4a83-8b26-2585a4e0cc6c&amp;sourceClientUrl=https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2F%3Fsource%3Dicm%26lang%3Den&amp;lang=en&amp;flowtype=AccountSearch"/>
+    <header name="x-dtreferer" value="https://oneview-accountsearch.rogers.com/web/a/dashboard/account-search?appId=OVC&amp;ovContextId=${C_ContextID}&amp;sourceClientUrl=https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2F%3Fsource%3Dicm%26lang%3Den&amp;lang=en&amp;flowtype=AccountSearch"/>
     <header name="origin" value="https://oneview-accountsearch.rogers.com"/>
     <header name="language" value="en_CA"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTc1LGxhbklkPVVJUEFUSC5CT1QxNiIsImF1ZCI6Ik9uZXZpZXcgQWNjb3VudCBTZWFyY2giLCJ0b2tlbkR1cmF0aW9uIjoiMzAwMDAwMCIsInVzZXJBdHRyaWJ1dGVzIjp7IkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTYiLCJVc2VySWQiOiIxNDAxNzE3NSIsIkFzcFNlc3Npb25JZCI6Ijk3ZmZiNDU2LTU5ZWMtNDY0My05MGQzLTA0NGQ3ODNhZWMzOCIsIlNPVVJDRSI6IkNSTSJ9LCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE3NSxsYW5JZD1VSVBBVEguQk9UMTYiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjA4Njk2LCJpYXQiOjE3NDIyMDUwOTYsImtleSI6IkVydVExYURvMEo2SE02SEpNY25ScjhkRHp4SFlsLzdGbHNPeVRnc0ZYZWpucm1OU3hUTzE5ZnQxRk9JZmV5SU1OZjNlWmpaeU9qeDQwRC9yOFY4K2RSdmU5OVE3T2tlaVpidk1FcnFxZzBrc3dpOU9QRG9uRUpBTm5yVDdoYkJkRGVvZzNWNEFPSnZhWVRaeEg1MWhQT01HVjZtZ2FGbTdQaHhxbXF0em5VWWdWdFJPdHdwK2pFVVFwd1A2U0FBb0RzdmVhdERWQndIMHdOdDRhQXhSM2kzKzJsdFFRQ3ErdWFTV1BSNHVXY0F5K2Z5TmtsNjZyUkNzUmRpYzQ5eHh5K0gveFc1ME1uQzc4em01dERYclB6QjZtWmdzakdKSVBiaU1YemNLM3RBSGFqeWk3ZXNzL1ZBSlpVbjJ2UEVsSDUzUXB6TkEwQTFxU1cxZFppR3l3QT09IiwiY29udGVudCI6IkVhaFp4WEtNS2lmMU94MHlpN3dkQzRnclh5a0FFM05hWGgyNHNSN0FWNmNOcXJNNmRIVHhRbU9JQ1RldEo1SFlPTTFXdUppSnd5MGJ4QjY0WHN2MGlxYzAyT2ErY3gzR3dvSnlHZTV1ZXY0PSJ9.CcIZ5-Vh6C2FbD2ykuhgTlvR_Gg7YyPz5zXgJbvsloc"/>
+    <header name="authorization" value="Bearer ${C_Permission_BearerToken5}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="requestid" value="b043b114-8c9e-90d2-37d9-1b69ea7894ae"/>
     <header name="x-dtpc" value="2$405094786_57h10vRHTFOVWQIPKLFJIMVTHPMGPHJGRFDVLU-0e0"/>
-    <header name="ocp-apim-subscription-key" value="f889ada087c6482d8ff0f3badcc3c07c"/>
+    <header name="ocp-apim-subscription-key" value="${C_SubscriptionKey}"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
     <header name="content-type" value="application/json"/>
     <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
@@ -69,7 +73,7 @@ date: Mon, 17 Mar 2025 09:51:36 GMT</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
     <textPostContent><![CDATA[{"active":true}]]></textPostContent>
 </http-action>
-<http-action actionType="1" contentType="image/png"
+<http-action actionType="1" contentType="image/png" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -106,7 +110,7 @@ x-envoy-upstream-service-time: 3&#xd;
 date: Mon, 17 Mar 2025 09:51:37 GMT</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" contentType="image/png"
+<http-action actionType="1" contentType="image/png" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -143,7 +147,7 @@ x-envoy-upstream-service-time: 3&#xd;
 date: Mon, 17 Mar 2025 09:51:37 GMT</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" contentType="image/png"
+<http-action actionType="1" contentType="image/png" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -180,7 +184,7 @@ x-envoy-upstream-service-time: 4&#xd;
 date: Mon, 17 Mar 2025 09:51:37 GMT</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" contentType="image/png"
+<http-action actionType="1" contentType="image/png" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -217,7 +221,7 @@ x-envoy-upstream-service-time: 2&#xd;
 date: Mon, 17 Mar 2025 09:51:37 GMT</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" contentType="font/woff"
+<http-action actionType="1" contentType="font/woff" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
@@ -259,7 +263,7 @@ date: Mon, 17 Mar 2025 09:51:37 GMT</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1"
-    contentType="application/x-javascript;charset=utf-8"
+    contentType="application/x-javascript;charset=utf-8" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"

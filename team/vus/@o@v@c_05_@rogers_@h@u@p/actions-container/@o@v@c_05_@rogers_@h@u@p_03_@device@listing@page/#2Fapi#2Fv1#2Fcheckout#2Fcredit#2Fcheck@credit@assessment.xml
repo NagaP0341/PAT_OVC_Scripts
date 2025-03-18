@@ -2,7 +2,7 @@
     name="/api/v1/checkout/credit/checkCreditAssessment"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/3d004a59-6d32-4ba1-b371-64ec61b26ea4.zip"
-    slaProfileEnabled="false" thinkTime="856"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="3d004a59-6d32-4ba1-b371-64ec61b26ea4">
     <embedded-action>5877e4ed-163c-4d76-9339-029409dfbff7</embedded-action>

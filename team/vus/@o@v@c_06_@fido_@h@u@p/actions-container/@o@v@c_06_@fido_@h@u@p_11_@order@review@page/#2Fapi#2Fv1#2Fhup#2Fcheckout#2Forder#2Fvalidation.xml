@@ -2,7 +2,7 @@
     name="/api/v1/hup/checkout/order/validation"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/7490736d-5ecc-4873-a1a3-5e470f4f50f2.zip"
-    slaProfileEnabled="false" thinkTime="415"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="7490736d-5ecc-4873-a1a3-5e470f4f50f2">
     <embedded-action>387a6e3e-aea4-4187-9dd6-3ffcba7e6341</embedded-action>

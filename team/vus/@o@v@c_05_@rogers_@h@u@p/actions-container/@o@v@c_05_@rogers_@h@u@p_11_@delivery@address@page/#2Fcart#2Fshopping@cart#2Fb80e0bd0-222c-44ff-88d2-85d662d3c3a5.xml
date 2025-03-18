@@ -2,7 +2,7 @@
     name="/cart/shoppingCart/b80e0bd0-222c-44ff-88d2-85d662d3c3a5"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/86145173-574b-4445-a55e-40c3b8d4aaa3.zip"
-    slaProfileEnabled="false" thinkTime="364"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="86145173-574b-4445-a55e-40c3b8d4aaa3">
     <embedded-action>6ac26d3d-43b0-427e-bf69-e96f156c70da</embedded-action>
