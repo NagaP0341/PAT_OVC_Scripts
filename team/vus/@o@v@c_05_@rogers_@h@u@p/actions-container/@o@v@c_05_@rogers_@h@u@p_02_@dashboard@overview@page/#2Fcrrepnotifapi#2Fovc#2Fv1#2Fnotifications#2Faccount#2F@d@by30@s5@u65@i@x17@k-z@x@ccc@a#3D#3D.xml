@@ -22,6 +22,9 @@
     uid="4d2381da-b30c-4144-8ffd-63b10ce0edcc" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_4d2381da-b30c-4144-8ffd-63b10ce0edcc</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_4d2381da-b30c-4144-8ffd-63b10ce0edcc.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="status&quot;:&quot;SUCCESS"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="language"
         recordRawValue="en" separator="=" value="en" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="userId"

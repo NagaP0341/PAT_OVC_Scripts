@@ -21,6 +21,9 @@
     uid="6ac26d3d-43b0-427e-bf69-e96f156c70da" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_6ac26d3d-43b0-427e-bf69-e96f156c70da</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_6ac26d3d-43b0-427e-bf69-e96f156c70da.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="lineItems"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="filterLines" recordRawValue="false" separator="="
         value="false" valueMode="USE_VALUE"/>

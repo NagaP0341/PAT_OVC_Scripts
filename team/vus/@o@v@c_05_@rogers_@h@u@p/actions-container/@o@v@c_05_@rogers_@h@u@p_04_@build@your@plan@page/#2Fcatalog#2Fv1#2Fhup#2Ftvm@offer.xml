@@ -19,6 +19,9 @@
     uid="9519c3c9-15be-45e2-a9a1-a4532a85996d" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_9519c3c9-15be-45e2-a9a1-a4532a85996d</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_9519c3c9-15be-45e2-a9a1-a4532a85996d.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="isSharedTvmOffer"/>
+    </assertions>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/iphone-16/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=2"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="x-dtreferer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;language=en"/>

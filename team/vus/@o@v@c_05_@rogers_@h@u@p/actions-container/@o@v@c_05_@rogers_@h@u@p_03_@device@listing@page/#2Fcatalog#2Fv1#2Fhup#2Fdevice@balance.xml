@@ -32,6 +32,9 @@
         uid="bc1897b0-6964-4d92-b698-357bed224755" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="eligibleForHup&quot;:true"/>
+    </assertions>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;language=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="x-dtreferer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_Context_ContextId}&amp;flowType=ovhup&amp;language=en"/>

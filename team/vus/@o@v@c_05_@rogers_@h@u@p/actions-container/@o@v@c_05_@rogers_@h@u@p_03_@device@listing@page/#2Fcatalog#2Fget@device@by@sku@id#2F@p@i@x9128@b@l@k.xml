@@ -21,6 +21,9 @@
     uid="8d98a4d4-e6ef-4fd4-9925-caec63675cee" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_8d98a4d4-e6ef-4fd4-9925-caec63675cee</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_8d98a4d4-e6ef-4fd4-9925-caec63675cee.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="onDemand&quot;:true"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="riskClassCategory" recordRawValue="LOW" separator="="
         value="LOW" valueMode="USE_VALUE"/>

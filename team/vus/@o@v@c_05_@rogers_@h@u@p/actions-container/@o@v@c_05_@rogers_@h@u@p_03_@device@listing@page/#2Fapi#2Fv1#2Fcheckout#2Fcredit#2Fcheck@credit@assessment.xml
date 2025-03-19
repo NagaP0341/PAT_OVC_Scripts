@@ -20,6 +20,9 @@
     uid="5877e4ed-163c-4d76-9339-029409dfbff7" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_5877e4ed-163c-4d76-9339-029409dfbff7</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_5877e4ed-163c-4d76-9339-029409dfbff7.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="requiredDepositMap"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="activityType" recordRawValue="hup" separator="="
         value="hup" valueMode="USE_VALUE"/>

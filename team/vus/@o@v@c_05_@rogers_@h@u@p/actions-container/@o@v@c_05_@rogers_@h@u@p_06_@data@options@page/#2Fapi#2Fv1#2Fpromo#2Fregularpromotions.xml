@@ -21,6 +21,9 @@
     uid="6e74c9f7-7a5e-4c62-88e1-5cac608392b0" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_6e74c9f7-7a5e-4c62-88e1-5cac608392b0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_6e74c9f7-7a5e-4c62-88e1-5cac608392b0.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="regularPromotions"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/iphone-16/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=5&amp;sharingType=shared&amp;downPayment=0&amp;tier=${C_HUPCostDetailsjs_financingCostList_planTierCode}&amp;upfrontEdge=true"/>
     <header name="sec-fetch-site" value="same-origin"/>

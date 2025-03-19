@@ -19,6 +19,9 @@
     uid="cd0d5a1e-03d6-4360-87bd-bfb710bf6809" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cd0d5a1e-03d6-4360-87bd-bfb710bf6809</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cd0d5a1e-03d6-4360-87bd-bfb710bf6809.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="showSimStepper&quot;:true"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="activityType" recordRawValue="hup" separator="="
         value="hup" valueMode="USE_VALUE"/>

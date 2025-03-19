@@ -20,6 +20,9 @@
     uid="d8139ba9-0c5f-47cf-9a4b-e9ec741910d2" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_d8139ba9-0c5f-47cf-9a4b-e9ec741910d2</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_d8139ba9-0c5f-47cf-9a4b-e9ec741910d2.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="province"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;language=en"/>
     <header name="sec-fetch-site" value="same-origin"/>

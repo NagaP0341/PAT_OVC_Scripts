@@ -19,6 +19,9 @@
     uid="d0cf03e6-bb21-4766-9fae-22a6055c9d7a" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_d0cf03e6-bb21-4766-9fae-22a6055c9d7a</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_d0cf03e6-bb21-4766-9fae-22a6055c9d7a.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="idv&quot;:false"/>
+    </assertions>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;language=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="x-dtreferer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_Context_ContextId}&amp;flowType=ovhup&amp;language=en"/>

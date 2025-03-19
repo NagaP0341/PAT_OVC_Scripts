@@ -20,6 +20,9 @@
     uid="00bf4ff9-da14-4985-a79b-9064f85a2f30" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_00bf4ff9-da14-4985-a79b-9064f85a2f30</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_00bf4ff9-da14-4985-a79b-9064f85a2f30.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="accountModalHeader"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="activityType" recordRawValue="hup" separator="="
         value="hup" valueMode="USE_VALUE"/>

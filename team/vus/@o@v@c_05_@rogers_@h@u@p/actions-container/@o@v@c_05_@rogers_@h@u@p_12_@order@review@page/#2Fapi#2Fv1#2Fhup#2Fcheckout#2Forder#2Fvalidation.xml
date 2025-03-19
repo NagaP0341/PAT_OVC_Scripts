@@ -20,6 +20,9 @@
     uid="581220e8-3c45-403c-a09a-349be0108db1" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_581220e8-3c45-403c-a09a-349be0108db1</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_581220e8-3c45-403c-a09a-349be0108db1.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="success&quot;:true"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/checkout?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;language=en&amp;step=10"/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -89,7 +92,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
             "sharingType": "main"
         },
         "device": {
-            "imeiCode": "${C_Accountdetailsjs_homePhone}11119",
+            "imeiCode": "${C_EligibilityDetailsjs_IMEICode}",
             "externalId": "Non_Rogers"
         },
         "effectiveDate": null

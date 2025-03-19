@@ -19,8 +19,10 @@
     <embedded-action>1004ed5c-9d11-459a-b8e9-ae560e00329b</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;67d49301-851:dtagent10307250124095659x+rL&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 14 Mar 2025 20:35:12 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/web/a/dashboard" path="/web/a/dashboard"
@@ -615,8 +617,10 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/json"
+    eTag="&quot;67d4f07f-1370:dtagent10307250124095659x+rL&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Sat, 15 Mar 2025 03:14:06 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/cms/oneview/care-common-config.json"

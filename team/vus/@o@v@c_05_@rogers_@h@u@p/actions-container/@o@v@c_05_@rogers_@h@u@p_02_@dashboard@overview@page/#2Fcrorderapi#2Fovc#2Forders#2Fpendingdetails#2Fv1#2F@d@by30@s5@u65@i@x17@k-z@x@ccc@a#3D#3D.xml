@@ -24,6 +24,9 @@
     uid="6e9f2b8e-21a5-4fe4-aa54-c6ed898d0ecc" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_6e9f2b8e-21a5-4fe4-aa54-c6ed898d0ecc</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_6e9f2b8e-21a5-4fe4-aa54-c6ed898d0ecc.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="status&quot;:&quot;SUCCESS"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -112,6 +115,9 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
     serverUid="oneview.rogers.com" slaProfileEnabled="false"
     uid="7b8a2412-838b-4c0a-9b0a-743be5440a22" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_7b8a2412-838b-4c0a-9b0a-743be5440a22.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="HTTP/2.0 200"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
     <header name="sec-fetch-site" value="same-origin"/>

@@ -19,6 +19,9 @@
     uid="06706853-23db-4b2b-86e6-314d1a91b752" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_06706853-23db-4b2b-86e6-314d1a91b752</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_06706853-23db-4b2b-86e6-314d1a91b752.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="pageCheckoutOrderReview"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/checkout/order-review"/>
     <header name="sec-fetch-site" value="same-origin"/>

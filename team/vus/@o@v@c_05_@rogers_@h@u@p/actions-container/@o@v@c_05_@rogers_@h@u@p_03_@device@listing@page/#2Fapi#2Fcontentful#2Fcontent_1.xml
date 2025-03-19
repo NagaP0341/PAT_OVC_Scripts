@@ -19,6 +19,9 @@
     uid="befa2bd2-0a74-4121-8b24-2aa2aa0ceeab" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_befa2bd2-0a74-4121-8b24-2aa2aa0ceeab</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_befa2bd2-0a74-4121-8b24-2aa2aa0ceeab.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="pageCatalogCollection"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.rogers.com/phones/?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;language=en"/>
     <header name="sec-fetch-site" value="same-origin"/>

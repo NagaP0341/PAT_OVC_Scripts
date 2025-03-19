@@ -22,6 +22,9 @@
     uid="00b9fb26-4417-4f62-af77-15dece93ddab" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_00b9fb26-4417-4f62-af77-15dece93ddab</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_00b9fb26-4417-4f62-af77-15dece93ddab.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="status&quot;:&quot;Success"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.rogers.com/web/a/dashboard/overview?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
     <header name="sec-fetch-site" value="same-origin"/>

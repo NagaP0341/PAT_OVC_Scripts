@@ -33,6 +33,9 @@
         uid="80eeccbd-da33-4a2e-b19b-256eb9f2d49d" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="accountNumber"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?transactionState=incomplete&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>

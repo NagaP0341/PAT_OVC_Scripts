@@ -31,6 +31,9 @@
         uid="f5fcaf92-9dbd-44dd-bcb9-65be42ac31d5" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="selectionTitleCollapsedMode"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="activityType" recordRawValue="hup" separator="="
         value="hup" valueMode="USE_VALUE"/>
