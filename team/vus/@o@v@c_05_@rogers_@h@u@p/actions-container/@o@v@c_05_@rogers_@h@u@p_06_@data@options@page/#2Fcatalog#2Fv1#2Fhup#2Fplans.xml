@@ -12,14 +12,26 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/catalog/v1/hup/plans"
-    path="/catalog/v1/hup/plans" postType="4"
+    path="/catalog/v1/hup/plans" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/006e6d05-63b6-4865-a381-3f71458d411b.zip"
     recordedResponseCode="200" responseSize="21737"
     serverUid="oneview-buyflow.rogers.com" slaProfileEnabled="false"
     uid="3f880064-c13b-41e4-a03b-947d7032eef1" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_3f880064-c13b-41e4-a03b-947d7032eef1</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_3f880064-c13b-41e4-a03b-947d7032eef1.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_3f880064-c13b-41e4-a03b-947d7032eef1.txt</requestContentFileDescription>
-    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/iphone-16/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=5&amp;sharingType=shared&amp;downPayment=0&amp;tier=RFIN3HIGH&amp;upfrontEdge=true"/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="0" extractTypeSimple="4"
+        jsonpath="$" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_PlansDetails"
+        refererUid="3f880064-c13b-41e4-a03b-947d7032eef1" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="91e3b884-ab53-4e8d-9402-d0bd8dd04e6e" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="referer" value="https://oneview-buyflow.rogers.com/phones/iphone-16/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=5&amp;sharingType=shared&amp;downPayment=0&amp;tier=${C_HUPCostDetailsjs_financingCostList_planTierCode}&amp;upfrontEdge=true"/>
     <header name="franchise" value="rogers"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="x-dtreferer" value="https://oneview-buyflow.rogers.com/phones/iphone-16/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=3&amp;sharingType=shared"/>
@@ -70,7 +82,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     "byod": false,
     "phoneNumber": "${C_v1Subscriptions_SubNumber}",
     "currentPlanExternalId": "${C_EligibilityDetailsjs_planExternalId}",
-    "tierCode": "RFIN3HIGH",
+    "tierCode": "${C_HUPCostDetailsjs_financingCostList_planTierCode}",
     "sharingType": "shared",
     "msdCostOption": false,
     "activityType": "hup",

@@ -36,6 +36,9 @@ for (var i = 0; i<tilesData.length;++i){
        DeviceID =  tilesData[i]['id'];
        atgProductId = tilesData[i]['atgProductId']
        Selected_urlSlugID =  tilesData[i]['cheapestSkuId'];
+       var subModelList =  tilesData[i]['subModelList'];
+       var childSku =  subModelList[0]['childSku'];
+       var childSkuid =  childSku[0]['id'];
        skuAttributes_color =  tilesData[i]['subModelList'][0]['childSku'][0]['color'];   
        skuAttributes_id =  tilesData[i]['subModelList'][0]['childSku'][0]['id'];   
        skuAttributes_atgSkuId =  tilesData[i]['subModelList'][0]['childSku'][0]['atgSkuId'];   
@@ -60,6 +63,7 @@ for (var i = 0; i<tilesData.length;++i){
   context.variableManager.setValue("C_getRandomDeviceJS_skuAttributes_atgSkuId",skuAttributes_atgSkuId);//
   context.variableManager.setValue("C_getRandomDeviceJS_skuAttributes_externalID",skuAttributes_externalID);//IP16128PNK
   context.variableManager.setValue("C_getRandomDeviceJS_skuAttributes_id",skuAttributes_id); //sku_devicePrice_regular_RFIN3LOW_p198923413_IP16128PNK_HUP_RF3LOW_HUP
+  context.variableManager.setValue("C_getRandomDeviceJS_childSkuid",childSkuid); //sku_device_IP16128BLU_prodIP16
 
 
 

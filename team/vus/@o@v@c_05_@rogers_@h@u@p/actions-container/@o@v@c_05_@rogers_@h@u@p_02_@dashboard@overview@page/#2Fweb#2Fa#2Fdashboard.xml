@@ -31,6 +31,9 @@
     uid="6663b845-0e5b-43f8-b5e7-b04e97881ae4" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_6663b845-0e5b-43f8-b5e7-b04e97881ae4.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_6663b845-0e5b-43f8-b5e7-b04e97881ae4.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="data-critters-containe"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="Lang"
         recordRawValue="en" separator="=" value="en" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="CustType"
@@ -638,9 +641,12 @@ referrer-policy: no-referrer-when-downgrade</responseHeaders>
         uid="d4950623-7653-4d59-be87-890af1190626" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="HTTP/2.0 200"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="t"
         recordRawValue="1742208977995" separator="="
-        value="1742208977995" valueMode="USE_VALUE"/>
+        value="${p_timestamp}" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
     <header name="sec-fetch-site" value="same-origin"/>

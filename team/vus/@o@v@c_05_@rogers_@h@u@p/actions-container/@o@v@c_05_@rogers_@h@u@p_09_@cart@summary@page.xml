@@ -3,4 +3,5 @@
     pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
     slaProfileEnabled="false" uid="a79b1701-2f32-44a7-8daa-ecb8543d24d1" weightsEnabled="false">
     <weighted-embedded-action uid="8759a7e0-59cd-4bb9-8e26-42bde7377c4a"/>
+    <weighted-embedded-action uid="b2210d7c-f4b6-48ea-9cdb-cb1e7c405047"/>
 </basic-logical-action-container>

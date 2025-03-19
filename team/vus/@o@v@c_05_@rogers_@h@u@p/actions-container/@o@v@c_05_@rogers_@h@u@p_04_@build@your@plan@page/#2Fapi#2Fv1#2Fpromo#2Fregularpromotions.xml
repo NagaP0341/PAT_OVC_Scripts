@@ -80,7 +80,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     "transactionType": "hup",
     "upfrontEdge": "Y",
     "interimQualification": true,
-    "tierCode": "RFIN3HIGH",
+    "tierCode": "${C_HUPCostDetailsjs_financingCostList_planTierCode}",
     "applicationId": "UTERogersCare",
     "device": {"sku": "${C_getRandomDeviceJS_Selected_urlSlugID}"},
     "channelId": "UTERogersCare"

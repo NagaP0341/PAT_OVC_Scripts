@@ -58,6 +58,9 @@
         uid="693c0be0-360a-457d-b07a-360744a58718" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="errorCode&quot;:&quot;0"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
     <header name="sec-fetch-site" value="same-origin"/>
