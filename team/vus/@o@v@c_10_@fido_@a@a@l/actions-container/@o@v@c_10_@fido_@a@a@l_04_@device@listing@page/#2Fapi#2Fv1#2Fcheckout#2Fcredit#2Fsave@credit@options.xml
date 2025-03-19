@@ -21,6 +21,9 @@
     uid="df3d2fb9-232b-48ab-9644-5b7e2b013863" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_df3d2fb9-232b-48ab-9644-5b7e2b013863</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_df3d2fb9-232b-48ab-9644-5b7e2b013863.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="errorsCode"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="activityType" recordRawValue="aal" separator="="
         value="aal" valueMode="USE_VALUE"/>

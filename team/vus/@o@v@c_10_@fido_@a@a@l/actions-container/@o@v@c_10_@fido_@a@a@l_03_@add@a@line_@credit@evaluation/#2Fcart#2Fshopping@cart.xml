@@ -20,6 +20,9 @@
     uid="b2d72b5a-184d-4215-afd5-2ad3684ea415" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b2d72b5a-184d-4215-afd5-2ad3684ea415</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b2d72b5a-184d-4215-afd5-2ad3684ea415.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="message"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="activityType"
         recordRawValue="aal" separator="=" value="aal" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>

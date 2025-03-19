@@ -21,6 +21,9 @@
     uid="1bcdc366-5d22-4aaf-b52c-4ecbc9b76688" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_1bcdc366-5d22-4aaf-b52c-4ecbc9b76688</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_1bcdc366-5d22-4aaf-b52c-4ecbc9b76688.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="deviceName"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true"
         name="riskClassCategory" recordRawValue="LOW" separator="="
         value="LOW" valueMode="USE_VALUE"/>

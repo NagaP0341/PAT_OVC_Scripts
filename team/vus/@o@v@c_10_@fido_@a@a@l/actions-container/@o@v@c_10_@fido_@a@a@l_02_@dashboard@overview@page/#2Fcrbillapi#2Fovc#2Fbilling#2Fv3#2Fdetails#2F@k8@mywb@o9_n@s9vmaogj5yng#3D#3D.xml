@@ -23,6 +23,9 @@
     uid="0118bcf4-96c5-4429-919e-98a27a0582dc" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_0118bcf4-96c5-4429-919e-98a27a0582dc</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_0118bcf4-96c5-4429-919e-98a27a0582dc.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="ippDetails"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="LOB"
         recordRawValue="W" separator="=" value="W" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="backend"

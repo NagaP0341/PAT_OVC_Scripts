@@ -23,6 +23,9 @@
     uid="2404719f-b353-4026-a770-8ce952da891d" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_2404719f-b353-4026-a770-8ce952da891d</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_2404719f-b353-4026-a770-8ce952da891d.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="accountNumber"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>

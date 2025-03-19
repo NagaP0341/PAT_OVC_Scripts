@@ -29,13 +29,13 @@ financingCostList_planTier =financingCostList[1]['planTierCode'];
 
 
 // Inject the computed value in a runtime variable
-  context.variableManager.setValue("C_Device_SkuID",deviceConfigurationSelectedMode_skuId);  
-  context.variableManager.setValue("C_ProductCost_PriceID",financingCostList_skuId); 
-  context.variableManager.setValue("C_Content_Tierkey",financingCostList_planTierCode); 
-  context.variableManager.setValue("c_programCode",financingCostList_programCode); 
-  context.variableManager.setValue("C_Content_TierKey2",financingCostList_hupTier); 
-  context.variableManager.setValue("c_device_pricetier2",financingCostList_priceTier); 
-  context.variableManager.setValue("c_device_plantier",financingCostList_planTier); 
+  context.variableManager.setValue("C_Device_SkuID",deviceConfigurationSelectedMode_skuId);  //sku_device_IP16128PNK_prodIP16
+  context.variableManager.setValue("C_ProductCost_PriceID",financingCostList_skuId); //sku_devicePrice_regular_FFIN3L_p109031934_IP16128PNK_AAL_FFIN3L_AAL
+  context.variableManager.setValue("C_Content_Tierkey",financingCostList_planTierCode); //FFIN3L
+  context.variableManager.setValue("c_programCode",financingCostList_programCode); //FFIN3L_NAC
+  context.variableManager.setValue("C_Content_TierKey2",financingCostList_hupTier); //FFIN3LNAC
+  context.variableManager.setValue("c_device_pricetier2",financingCostList_priceTier); //FINANCING
+  context.variableManager.setValue("c_device_plantier",financingCostList_planTier); //FFIN3L
 
 
 

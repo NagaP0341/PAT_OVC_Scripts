@@ -21,6 +21,9 @@
     uid="1379237a-dd65-470d-b866-a1146f609211" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_1379237a-dd65-470d-b866-a1146f609211</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_1379237a-dd65-470d-b866-a1146f609211.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="regularPromotions"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.fido.ca/phones/iphone-16/build-plan?ovContextId=${c_Context_ContextId}&amp;flowType=aal&amp;sku=${C_CatalogSearch_CheapestSkuID}&amp;step=5&amp;deviceId=${C_CatalogSearch_DeviceID}&amp;downPayment=0&amp;tier=${c_device_plantier}"/>
     <header name="sec-fetch-site" value="same-origin"/>

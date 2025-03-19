@@ -20,6 +20,9 @@
     uid="b400174d-16ab-42c4-90bf-1557ac068c3b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b400174d-16ab-42c4-90bf-1557ac068c3b</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b400174d-16ab-42c4-90bf-1557ac068c3b.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="showFutureDatedStepper"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.fido.ca/phones/checkout?ovContextId=${c_Context_ContextId}&amp;flowType=aal&amp;language=en&amp;step=6"/>
     <header name="sec-fetch-site" value="same-origin"/>

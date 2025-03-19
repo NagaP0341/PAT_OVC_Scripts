@@ -21,6 +21,9 @@
     uid="b3c321f0-4861-44b0-9980-f152c717aa07" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b3c321f0-4861-44b0-9980-f152c717aa07</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b3c321f0-4861-44b0-9980-f152c717aa07.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="accountNumber"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>

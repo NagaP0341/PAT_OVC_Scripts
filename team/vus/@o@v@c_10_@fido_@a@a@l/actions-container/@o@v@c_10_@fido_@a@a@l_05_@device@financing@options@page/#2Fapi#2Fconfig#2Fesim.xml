@@ -20,6 +20,9 @@
     uid="059eea83-c1aa-4695-88a5-859fc4c7e715" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_059eea83-c1aa-4695-88a5-859fc4c7e715</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_059eea83-c1aa-4695-88a5-859fc4c7e715.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="showSimStepper"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="activityType" recordRawValue="aal" separator="="
         value="aal" valueMode="USE_VALUE"/>

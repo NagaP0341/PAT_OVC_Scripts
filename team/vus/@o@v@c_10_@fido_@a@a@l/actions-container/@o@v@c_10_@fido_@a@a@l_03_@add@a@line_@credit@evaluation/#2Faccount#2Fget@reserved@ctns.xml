@@ -20,6 +20,9 @@
     uid="bfa73597-90ed-4c74-9729-9b1952999c6f" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_bfa73597-90ed-4c74-9729-9b1952999c6f</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_bfa73597-90ed-4c74-9729-9b1952999c6f.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="reservedCtn"/>
+    </assertions>
     <header name="referer" value="https://oneview-buyflow.fido.ca/phones/internal-credit-check?ovContextId=${c_Context_ContextId}&amp;flowType=aal&amp;language=en"/>
     <header name="franchise" value="fido"/>
     <header name="sec-fetch-site" value="same-origin"/>

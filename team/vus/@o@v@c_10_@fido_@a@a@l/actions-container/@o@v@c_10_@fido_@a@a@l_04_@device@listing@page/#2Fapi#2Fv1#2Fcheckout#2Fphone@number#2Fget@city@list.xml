@@ -21,6 +21,9 @@
     uid="1131a74f-c828-4554-b787-3fd1e7dca14e" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_1131a74f-c828-4554-b787-3fd1e7dca14e</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_1131a74f-c828-4554-b787-3fd1e7dca14e.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="provincialCityList"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="activityType" recordRawValue="aal" separator="="
         value="aal" valueMode="USE_VALUE"/>

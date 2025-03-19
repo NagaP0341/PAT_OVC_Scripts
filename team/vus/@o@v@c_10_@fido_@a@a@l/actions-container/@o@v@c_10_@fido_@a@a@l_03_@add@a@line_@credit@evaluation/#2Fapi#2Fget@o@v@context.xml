@@ -20,6 +20,9 @@
     uid="1e48d31c-09b7-42aa-b209-515a8dc1c81b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_1e48d31c-09b7-42aa-b209-515a8dc1c81b</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_1e48d31c-09b7-42aa-b209-515a8dc1c81b.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="agentInfo"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true" name="activityType"
         recordRawValue="aal" separator="=" value="aal" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>

@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     name="/crofferapi/ovc/actionoffers/v1/treatments"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/753cd9e4-cb41-432f-bf4c-9776610e31aa.zip"
@@ -14,13 +14,17 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/crofferapi/ovc/actionoffers/v1/treatments"
-    path="/crofferapi/ovc/actionoffers/v1/treatments" postType="4"
+    path="/crofferapi/ovc/actionoffers/v1/treatments" postCharset=""
+    postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_10_@fido_@a@a@l/%resources%/recorded-artifacts/753cd9e4-cb41-432f-bf4c-9776610e31aa.zip"
-    recordedResponseCode="200" responseSize="2542"
+    recordedResponseCode="404" responseSize="2542"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
     uid="376f8441-7d65-4bfd-846a-b8536dcb4a12" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_376f8441-7d65-4bfd-846a-b8536dcb4a12</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_376f8441-7d65-4bfd-846a-b8536dcb4a12.0.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_376f8441-7d65-4bfd-846a-b8536dcb4a12.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="declineReasonList"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -39,7 +43,7 @@
     <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
     <header name="sec-fetch-dest" value="empty"/>
     <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
-    <responseHeaders>HTTP/2.0 200&#xd;
+    <responseHeaders>HTTP/2.0 404&#xd; ,200 ,500
 server: istio-envoy&#xd;
 content-type: application/json&#xd;
 x-oneagent-js-injection: true&#xd;

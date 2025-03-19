@@ -36,6 +36,9 @@
         templateAdv="$1$" uid="8a974a16-517b-42f0-bb12-b7922d1e945b" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="subscriptionRole"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/overview?source=icm&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>

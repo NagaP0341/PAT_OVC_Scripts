@@ -21,6 +21,9 @@
     uid="61c2049c-b9e1-486a-bae2-a047c5a0e0e9" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_61c2049c-b9e1-486a-bae2-a047c5a0e0e9</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_61c2049c-b9e1-486a-bae2-a047c5a0e0e9.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="requiredDepositMap"/>
+    </assertions>
     <urlPostParameter encodeName="true" encodeValue="true"
         name="activityType" recordRawValue="aal" separator="="
         value="aal" valueMode="USE_VALUE"/>

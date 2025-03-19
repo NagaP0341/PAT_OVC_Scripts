@@ -18,7 +18,7 @@
     recordedResponseCode="200" responseSize="906"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
     uid="9858f70e-76a8-468e-907c-3d7afb1af90f" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_9858f70e-76a8-468e-907c-3d7afb1af90f.0</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_9858f70e-76a8-468e-907c-3d7afb1af90f.0.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_9858f70e-76a8-468e-907c-3d7afb1af90f.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
         defaultValue="&lt;NOT FOUND>" displayMode="0"
@@ -33,6 +33,22 @@
         uid="60f4685d-1e88-40af-89c8-209a61120235" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="c_Context_BearerToken8"
+        refererUid="9858f70e-76a8-468e-907c-3d7afb1af90f"
+        regExp="authorization: Bearer (.*)" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="authorization: Bearer "
+        template="$1$" templateAdv="$1$"
+        uid="31a1f81c-de40-41c0-b648-6424f451efa0" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="buyFlowRetail"/>
+    </assertions>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/overview?source=icm&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
