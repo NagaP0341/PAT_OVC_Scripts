@@ -12,13 +12,26 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/crhupapi/ovc/hup/v1/context"
-    path="/crhupapi/ovc/hup/v1/context" postType="4"
+    path="/crhupapi/ovc/hup/v1/context" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/3c4ff533-ced8-487f-879f-13b64d8d2fa9.zip"
     recordedResponseCode="200" responseSize="783"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
     uid="6140a2b6-948d-4069-a082-d62ec269178e" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_6140a2b6-948d-4069-a082-d62ec269178e</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_6140a2b6-948d-4069-a082-d62ec269178e.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_6140a2b6-948d-4069-a082-d62ec269178e.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_Context_ContextId"
+        refererUid="8715e75e-2bdd-4801-bf01-da66f9fd4865"
+        regExp="contextId&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="contextId&quot;:&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="d7d3ea02-d9fa-441b-8224-7c2a584e27bd" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/overview?source=icm&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>

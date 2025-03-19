@@ -14,13 +14,51 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/ovauthapi/ofc/auth/v1/icm/token"
-    path="/ovauthapi/ofc/auth/v1/icm/token" postType="4"
+    path="/ovauthapi/ofc/auth/v1/icm/token" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/5cdcbdd6-e262-4e5a-9dff-442ceb6655c8.zip"
     recordedResponseCode="200" responseSize="104"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
     uid="a524d0d7-d0b8-4ea7-ab7e-659611621182" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_a524d0d7-d0b8-4ea7-ab7e-659611621182</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_a524d0d7-d0b8-4ea7-ab7e-659611621182.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_a524d0d7-d0b8-4ea7-ab7e-659611621182.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;," extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_IcmToken_ContactID"
+        refererUid="c4af3aaa-67fa-4dfc-ad70-8dc2ab29ca83"
+        regExp="contactId&quot;:&quot;(.*?)&quot;," regExpAdv=""
+        setDefaultValue="true" startsWithSimple="contactId&quot;:&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="d175335d-3f81-4ac7-add1-930f511b4b3e" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;}" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_IcmToken_AccountNumber"
+        refererUid="c4af3aaa-67fa-4dfc-ad70-8dc2ab29ca83"
+        regExp="accountNumber&quot;:&quot;(.*?)&quot;\}" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="accountNumber&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="813c7482-a9bc-4d33-9990-1cef6ad6baf5" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="C_IcmToken_BearerToken"
+        refererUid="c4af3aaa-67fa-4dfc-ad70-8dc2ab29ca83"
+        regExp="Bearer (.*)" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="Bearer " template="$1$" templateAdv="$1$"
+        uid="693c0be0-360a-457d-b07a-360744a58718" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -62,7 +100,7 @@ set-cookie: Prod=A; domain=.oneview.fido.ca</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
     <textPostContent><![CDATA[{}]]></textPostContent>
 </http-action>
-<http-action actionType="1" contentType="font/woff"
+<http-action actionType="1" contentType="font/woff" enabled="false"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"

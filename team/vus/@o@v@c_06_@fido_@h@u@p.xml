@@ -11,17 +11,31 @@
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
         slaProfileEnabled="false" weightsEnabled="false">
         <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="36d7938a-ac4d-479e-b874-3152188019fc"/>
+        <weighted-embedded-action uid="cf2cba2f-e236-450d-8600-deb43b55190d"/>
+        <weighted-embedded-action uid="2aafdee2-13f8-4e07-9dc1-a5d1306bc2bd"/>
         <weighted-embedded-action uid="325d7e92-2b78-4008-9ca5-34b23581f60f"/>
+        <weighted-embedded-action uid="f752b79b-0ff4-47b1-92d1-21de1b6dc7b2"/>
         <weighted-embedded-action uid="d98f2314-049b-4229-8d42-726c7e512ac7"/>
+        <weighted-embedded-action uid="a8b85421-b15e-4f61-b586-aac7117377b0"/>
         <weighted-embedded-action uid="1686e94b-180c-4640-b99a-9ceb8ee4def6"/>
+        <weighted-embedded-action uid="ebf00101-ac8c-40ac-abea-2ad1ba9b3868"/>
         <weighted-embedded-action uid="c8b3d77e-f0f6-4f44-82aa-2ca6303676b0"/>
+        <weighted-embedded-action uid="57928ee2-9fb9-4b58-a969-283c169bc696"/>
         <weighted-embedded-action uid="636a10e2-ac71-44a1-add2-25d0b92acf14"/>
+        <weighted-embedded-action uid="d60bf1ed-0a19-4369-83f2-ad6010101f9b"/>
         <weighted-embedded-action uid="debcac16-379d-4def-8b0b-8f0f44a4d2a7"/>
+        <weighted-embedded-action uid="f51f404c-cd82-4f46-beca-d3f751dd5e7c"/>
         <weighted-embedded-action uid="eeb86570-8afa-4596-8571-e6d19d879f3a"/>
+        <weighted-embedded-action uid="f9367dae-9def-4940-b894-f470405f405e"/>
         <weighted-embedded-action uid="f28147f7-56a1-4c4b-9b2f-8149f5d4fc3d"/>
+        <weighted-embedded-action uid="96e6816a-986f-4536-9eed-12cd7c42c9b6"/>
         <weighted-embedded-action uid="30e55e4f-8620-4e9d-b52b-450b7b9fbd7f"/>
+        <weighted-embedded-action uid="35255471-6093-430e-8a35-52a7eb354c8a"/>
         <weighted-embedded-action uid="642cfe5e-3ba7-4081-a1bc-c2684313774f"/>
+        <weighted-embedded-action uid="23186785-007b-4981-8b1d-7225ed50f9b0"/>
         <weighted-embedded-action uid="20a5fa3b-9e55-4a06-91cb-d09188be8d51"/>
+        <weighted-embedded-action uid="8e01529d-48f4-41b2-ac67-23039e9f255c"/>
         <weighted-embedded-action uid="5c07d147-fe2e-467f-ad48-617ac4a25911"/>
     </actions-container>
     <end-container element-number="1" execution-type="0" pacingEnd="0"

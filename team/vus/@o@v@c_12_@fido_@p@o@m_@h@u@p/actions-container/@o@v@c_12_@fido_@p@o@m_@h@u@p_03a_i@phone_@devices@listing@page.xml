@@ -1,0 +1,26 @@
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0"
+    name="OVC_12_Fido_POM_HUP_03a_iPhone_DevicesListingPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="16d26726-dcab-40bb-83b1-5885b72ec859" weightsEnabled="false">
+    <weighted-embedded-action uid="6a76c085-c7cd-49a6-bfa3-54491a66e90d"/>
+    <weighted-embedded-action uid="91d3cba3-d8b0-4148-b048-69be62e78205"/>
+    <weighted-embedded-action uid="c21a28e1-98a9-47f8-8ab6-589ce220828b"/>
+    <weighted-embedded-action uid="23f7bd8d-7f80-4ade-b31e-04ef9f82e0f7"/>
+    <weighted-embedded-action uid="6a19eeb5-f47c-45aa-b72a-3114abfe7a30"/>
+    <weighted-embedded-action uid="f2ed21b6-9a83-45f6-9d21-7b0ca94ffdc3"/>
+    <weighted-embedded-action uid="70a3571d-4376-48b4-9625-2d58fc0a0982"/>
+    <weighted-embedded-action uid="5d8ad4be-4654-447b-b88e-daf264bb29dc"/>
+    <weighted-embedded-action uid="5f771337-5699-47b8-9be1-32a9a877ba40"/>
+    <weighted-embedded-action uid="b5b4c422-aac7-4a39-8b73-c4e521d3d26b"/>
+    <weighted-embedded-action uid="aa9e0421-1a16-4bf8-9770-680a1be3613e"/>
+    <weighted-embedded-action uid="7e1d9fee-33c9-49a5-beb7-4e122be4db18"/>
+    <weighted-embedded-action uid="78c2c88b-37f9-4fdd-88a0-ee19f6d5dd87"/>
+    <weighted-embedded-action uid="ba1e1da2-57ea-44e2-a86e-99750731d452"/>
+    <weighted-embedded-action uid="a5a3b29e-b55b-4881-b49a-8d1b7d5b0299"/>
+    <weighted-embedded-action uid="d7678a72-a196-41fb-80ce-0ca2796445da"/>
+    <weighted-embedded-action uid="d13a00a3-6b1f-4ae5-8fdb-40f5df48250d"/>
+    <weighted-embedded-action uid="f6537961-3199-4c6b-a7a4-cb0e723d4854"/>
+    <weighted-embedded-action uid="3ae39fdb-b9af-456d-9ee9-91f4aa3ca93e"/>
+</basic-logical-action-container>

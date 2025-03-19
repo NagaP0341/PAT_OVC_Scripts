@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_12_Fido_POM_HUP_05_DeviceFinancingOptionsPage"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="f34193b2-693b-4467-adb4-d5ad81db5727" weightsEnabled="false">
+    <weighted-embedded-action uid="7796dd6d-33d8-4938-a117-2de821eef691"/>
+    <weighted-embedded-action uid="3ca6e2b4-017c-46a8-9b0f-44d690cbb2d8"/>
+    <weighted-embedded-action uid="18a873e0-3aac-407b-9d94-8217645ce8c1"/>
+    <weighted-embedded-action uid="7bc3bea4-062f-4e19-9bbd-d6f67ca0ecd5"/>
+</basic-logical-action-container>

@@ -590,13 +590,27 @@ set-cookie: Prod=A; domain=.oneview.fido.ca</responseHeaders>
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/cms/oneview/care-common-config.json"
-    path="/cms/oneview/care-common-config.json" postType="4"
+    path="/cms/oneview/care-common-config.json" postCharset=""
+    postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/589c894d-f8a3-43cd-9534-68f717ac7198.zip"
     recordedResponseCode="200" responseSize="4976"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
     uid="59890767-8a51-40cc-8615-a4b9aa664120" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_59890767-8a51-40cc-8615-a4b9aa664120</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_59890767-8a51-40cc-8615-a4b9aa664120.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_59890767-8a51-40cc-8615-a4b9aa664120.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_cmmnCfig_ocm_sub_key"
+        refererUid="99a1549c-d1fb-4e93-9e5a-4ab442b720b2"
+        regExp="ROGERS&quot;: &quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="ROGERS&quot;: &quot;"
+        template="$1$" templateAdv="$1$"
+        uid="d4950623-7653-4d59-be87-890af1190626" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <parameter encodeName="true" encodeValue="true" name="t"
         recordRawValue="1742206331955" separator="="
         value="1742206331955" valueMode="USE_VALUE"/>

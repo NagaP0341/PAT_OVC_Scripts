@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_12_Fido_POM_HUP_10_AutopayPaymentPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="bb696f3d-00eb-408b-b2df-db23144ec337" weightsEnabled="false">
+    <weighted-embedded-action uid="c41ec4ee-af2f-4e34-a814-d7da1243413b"/>
+    <weighted-embedded-action uid="604c4a3a-9702-4c11-9cbe-9d4bb1e45437"/>
+    <weighted-embedded-action uid="ddb7a0cd-16bf-4ff5-a9fb-43560bcd9ce4"/>
+</basic-logical-action-container>

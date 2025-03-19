@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_06_Fido_HUP_01_launch" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="cf2cba2f-e236-450d-8600-deb43b55190d" weightsEnabled="false">
+    <weighted-embedded-action uid="0dc273a9-c02c-486a-bbec-f2d5cb9e6a8a"/>
+</basic-logical-action-container>

@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_12_Fido_POM_HUP_07_AddonsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="580fb955-fd7d-4f4c-9955-fb5e5a33d8f5" weightsEnabled="false">
+    <weighted-embedded-action uid="635e3686-f20a-4348-bf82-b777b3dbde73"/>
+    <weighted-embedded-action uid="c45d893e-9cee-4409-b90a-41f7d3772b86"/>
+    <weighted-embedded-action uid="f3289e7c-b76d-4b4d-8db4-2140ac4837aa"/>
+    <weighted-embedded-action uid="c7288424-612c-4b4a-96eb-284f9d84ee52"/>
+</basic-logical-action-container>

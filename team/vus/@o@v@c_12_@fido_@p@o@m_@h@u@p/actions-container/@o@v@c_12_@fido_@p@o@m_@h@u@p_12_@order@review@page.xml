@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_12_Fido_POM_HUP_12_OrderReviewPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="6f208790-0021-4b67-81c1-e1726e839ccd" weightsEnabled="false">
+    <weighted-embedded-action uid="98336df0-b7cb-4ca1-b1bd-ff0a55f2a409"/>
+    <weighted-embedded-action uid="a8e285ef-a301-4d45-b8ed-e953b588719f"/>
+    <weighted-embedded-action uid="4d800222-1feb-485e-b1fa-3a522c7095d4"/>
+    <weighted-embedded-action uid="9c061a4c-7947-4654-945d-884c320881a9"/>
+    <weighted-embedded-action uid="4f927eb4-d73e-4102-baf2-5d82d859e2a9"/>
+</basic-logical-action-container>

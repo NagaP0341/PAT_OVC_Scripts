@@ -13,29 +13,67 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/ovauthapi/ofc/auth/v1/icm/token"
-    path="/ovauthapi/ofc/auth/v1/icm/token" postType="4"
+    path="/ovauthapi/ofc/auth/v1/icm/token" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_05_@rogers_@h@u@p/%resources%/recorded-artifacts/52ec838f-9173-4e95-ab9c-941a99f47232.zip"
     recordedResponseCode="200" responseSize="104"
     serverUid="oneview.rogers.com" slaProfileEnabled="false"
     uid="e8137db8-b41c-4891-af9a-8d2f83ede1de" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_e8137db8-b41c-4891-af9a-8d2f83ede1de</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_e8137db8-b41c-4891-af9a-8d2f83ede1de.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_e8137db8-b41c-4891-af9a-8d2f83ede1de.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;," extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_IcmToken_ContactID"
+        refererUid="c4af3aaa-67fa-4dfc-ad70-8dc2ab29ca83"
+        regExp="contactId&quot;:&quot;(.*?)&quot;," regExpAdv=""
+        setDefaultValue="true" startsWithSimple="contactId&quot;:&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="d175335d-3f81-4ac7-add1-930f511b4b3e" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;}" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_IcmToken_AccountNumber"
+        refererUid="c4af3aaa-67fa-4dfc-ad70-8dc2ab29ca83"
+        regExp="accountNumber&quot;:&quot;(.*?)&quot;\}" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="accountNumber&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="813c7482-a9bc-4d33-9990-1cef6ad6baf5" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="C_IcmToken_BearerToken"
+        refererUid="c4af3aaa-67fa-4dfc-ad70-8dc2ab29ca83"
+        regExp="Bearer (.*)" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="Bearer " template="$1$" templateAdv="$1$"
+        uid="693c0be0-360a-457d-b07a-360744a58718" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid="/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="akaalb_ALB-Oneview-Rogers-UI-Care=~op=ALB_Oneview_Rogers_UI_Care:ProdA-oneview-rogers-ui-care|~rv=75~m=ProdA-oneview-rogers-ui-care:0|~os=5e7a3d12b09ff13943fb86740e2ad092~id=f473a5b57f6910958fbebf1231afbe00; rxVisitor=17422089774409518HOMLPF1AAMK3FME9C3MJJDSL1R38; dtSa=-; dtCookie=v_4_srv_10_sn_61B4A80BF3A2E9D05E8D80750081FCDD_perc_100000_ol_0_mul_1_app-3A2ae0303e3c9b36b0_1_rcs-3Acss_0; language=en; language=en; rxvt=1742210778135|1742208977444; dtPC=10$408977436_92h6vSFJDKKLOTIUMMAJCRDDRSTKUPLHRIJAV-0e0"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
-    <header name="x-dtreferer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.H3TckS67hGDQKDNLBE22TvcIBgL0SGAf5kqkmQiPl3xIGR1bETTWvBkwBKVmDrIRQUe6d43xOeZ7G8dn4yO2t3wBCmxREsuwxhr_O0LeXwGi8jKqx7WMSHUZLWbWZNDpGwDuFAe5jW5y5clobgrlY1NBXOEoyJGvLftXyf6zAptVhoNWGnVl-GS106TURaVI8guCqKlORCUNEdNbMRFkEqWF8EyQnz_id4Q5ABspQi-_IfcoXtPQ_uL-68QIZAel2mGCfI93u1pLiZhr6a1BGOdEkeu0VMLPvgg1H_FwxNmHeSSVGebCLwt0BM4bDDpYMg8N_FncS9oKqDYI5kX18Q.NZZS88WKbGyLwdlV.fngPhtYr7Hy-mnZGevajKedILRrLgKnEk9HethoqlsGm5OGj-B9d1dUkxPwga6shlQmjiZAhdROZTlxBlq2jcDMAqv8R9p_CXD7s3VTuJFkOXUwQciXtGxhd4N4g0eRup8TyjUJqhdrHZmMx-Oi5XQGXfDnqWp3d8gAS-1SsSu00jpslRIHr0AE63VaqArZyThTah18UAOtC2rx1FLZujuSCexhvZPn8B-BVewAaseoDcz06Kdr_TphgN0rCCGlFzkCR1Pyq_qusW806ciEw5KtYzdgfgfgLZMl8CiImy4nsm8ZcaxWxptbTblS3_HVPywUg3shuhddq8ZXf3FqGg_wSSdXjAw.mezfQnjiteK4w6IPYVoB0w"/>
+    <header name="x-dtreferer" value="https://oneview.rogers.com/web/a/dashboard?Lang=en&amp;CustType=I&amp;CustSubType=R&amp;connid=&amp;jwt=${C_JwtToken}"/>
     <header name="origin" value="https://oneview.rogers.com"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="Bearer eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.H3TckS67hGDQKDNLBE22TvcIBgL0SGAf5kqkmQiPl3xIGR1bETTWvBkwBKVmDrIRQUe6d43xOeZ7G8dn4yO2t3wBCmxREsuwxhr_O0LeXwGi8jKqx7WMSHUZLWbWZNDpGwDuFAe5jW5y5clobgrlY1NBXOEoyJGvLftXyf6zAptVhoNWGnVl-GS106TURaVI8guCqKlORCUNEdNbMRFkEqWF8EyQnz_id4Q5ABspQi-_IfcoXtPQ_uL-68QIZAel2mGCfI93u1pLiZhr6a1BGOdEkeu0VMLPvgg1H_FwxNmHeSSVGebCLwt0BM4bDDpYMg8N_FncS9oKqDYI5kX18Q.NZZS88WKbGyLwdlV.fngPhtYr7Hy-mnZGevajKedILRrLgKnEk9HethoqlsGm5OGj-B9d1dUkxPwga6shlQmjiZAhdROZTlxBlq2jcDMAqv8R9p_CXD7s3VTuJFkOXUwQciXtGxhd4N4g0eRup8TyjUJqhdrHZmMx-Oi5XQGXfDnqWp3d8gAS-1SsSu00jpslRIHr0AE63VaqArZyThTah18UAOtC2rx1FLZujuSCexhvZPn8B-BVewAaseoDcz06Kdr_TphgN0rCCGlFzkCR1Pyq_qusW806ciEw5KtYzdgfgfgLZMl8CiImy4nsm8ZcaxWxptbTblS3_HVPywUg3shuhddq8ZXf3FqGg_wSSdXjAw.mezfQnjiteK4w6IPYVoB0w"/>
+    <header name="authorization" value="Bearer ${C_JwtToken}"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="x-transaction-id" value="3df51de7-f1e0-eec8-1817-3d713add2666"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="x-app-id" value="OVF"/>
     <header name="x-dtpc" value="10$408977436_92h6vSFJDKKLOTIUMMAJCRDDRSTKUPLHRIJAV-0e0"/>
-    <header name="ocp-apim-subscription-key" value="ba82a160c4b945bfa843f2738369ae90"/>
+    <header name="ocp-apim-subscription-key" value="${C_cmmnCfig_ocm_sub_key}"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
     <header name="content-type" value="application/json"/>
     <header name="lang" value="en"/>

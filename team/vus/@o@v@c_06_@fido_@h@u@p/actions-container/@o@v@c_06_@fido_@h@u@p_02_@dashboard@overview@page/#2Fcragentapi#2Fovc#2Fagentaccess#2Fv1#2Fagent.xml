@@ -13,13 +13,27 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/cragentapi/ovc/agentaccess/v1/agent"
-    path="/cragentapi/ovc/agentaccess/v1/agent" postType="4"
+    path="/cragentapi/ovc/agentaccess/v1/agent" postCharset=""
+    postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/1fef04f9-13e8-4f31-8579-095899e4f425.zip"
     recordedResponseCode="200" responseSize="1103"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
     uid="5e3dc80a-b46d-4b21-bdde-3efc76e37d65" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_5e3dc80a-b46d-4b21-bdde-3efc76e37d65</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_5e3dc80a-b46d-4b21-bdde-3efc76e37d65.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_5e3dc80a-b46d-4b21-bdde-3efc76e37d65.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_Agent_LanIdAlias"
+        refererUid="a1dd9a5a-94c7-44d4-ae10-a0e9e9b864c3"
+        regExp="lanIdAlias&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="lanIdAlias&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="fb54e4cb-7cd7-47ec-b103-f4a2f8508681" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
