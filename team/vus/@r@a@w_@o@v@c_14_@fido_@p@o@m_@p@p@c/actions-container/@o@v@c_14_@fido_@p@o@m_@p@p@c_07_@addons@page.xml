@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_14_Fido_POM_PPC_07_AddonsPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="3030ab9d-aa97-475b-ab3b-86e33c200f34" weightsEnabled="false">
+    <weighted-embedded-action uid="a4fae1de-9be1-48af-a908-4dc74532cc93"/>
+    <weighted-embedded-action uid="86c112a0-2b90-4694-8b03-dc56ecf9a524"/>
+    <weighted-embedded-action uid="76d6d1fb-6ecc-4644-b6e8-f2d2a865efc1"/>
+    <weighted-embedded-action uid="ef7eb749-410a-4302-8a41-931e34f5a838"/>
+    <weighted-embedded-action uid="481fb754-3848-4dae-938c-3aedd76014f4"/>
+    <weighted-embedded-action uid="c26d2f4d-3075-4df5-80c9-929fd3d07130"/>
+    <weighted-embedded-action uid="c0c8f1a5-bbf2-479b-8280-36a8d79ecb15"/>
+    <weighted-embedded-action uid="8590c4a3-5e05-4457-9d93-685b8db1041f"/>
+    <weighted-embedded-action uid="c2c812b8-10b6-4fca-bfa5-0ec5cf60f546"/>
+    <weighted-embedded-action uid="6cf7be05-a428-4a02-817d-f90d45a2ceef"/>
+</basic-logical-action-container>

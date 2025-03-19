@@ -1,0 +1,17 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_14_Fido_POM_PPC_13_LogoutPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="a9590c3d-d1a3-45f8-abb0-90477a6d5540" weightsEnabled="false">
+    <weighted-embedded-action uid="8bb5623c-f13a-46f8-a04a-b3186bcaad17"/>
+    <weighted-embedded-action uid="1bd73bdd-860f-458d-89f3-601b95c8b35b"/>
+    <weighted-embedded-action uid="d3af6233-23c0-4490-927e-753f3b818cd5"/>
+    <weighted-embedded-action uid="d2828ec2-71f1-462b-82e7-7c927a53e1eb"/>
+    <weighted-embedded-action uid="34dab049-f8a2-43ab-8852-95c32e70d758"/>
+    <weighted-embedded-action uid="d790b57e-9325-4dc8-aa0a-492614855dec"/>
+    <weighted-embedded-action uid="875d240b-5be1-43e3-bc50-b43aa9b0262f"/>
+    <weighted-embedded-action uid="3ab5c6d5-71cb-4b3a-b2d4-e7a66db6d54e"/>
+    <weighted-embedded-action uid="3205aeaf-6125-439c-93cb-a19918fb40b7"/>
+    <weighted-embedded-action uid="1aa09c08-9982-4149-83c1-91206b72042f"/>
+    <weighted-embedded-action uid="32e5d16a-c7c6-4797-b1d9-460a6bb0802d"/>
+    <weighted-embedded-action uid="6dbd62bc-9cfe-47ba-9fb1-730ec9f6ec7f"/>
+</basic-logical-action-container>

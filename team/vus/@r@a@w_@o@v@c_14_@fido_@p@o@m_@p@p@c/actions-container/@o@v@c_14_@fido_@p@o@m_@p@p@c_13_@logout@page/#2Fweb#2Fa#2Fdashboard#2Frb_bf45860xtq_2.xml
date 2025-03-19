@@ -1,0 +1,80 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq_2"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@r@a@w_@o@v@c_14_@fido_@p@o@m_@p@p@c/%resources%/recorded-artifacts/d2828ec2-71f1-462b-82e7-7c927a53e1eb.zip"
+    slaProfileEnabled="false" thinkTime="6"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d2828ec2-71f1-462b-82e7-7c927a53e1eb">
+    <embedded-action>dd524622-0e1f-458f-89f0-7c72b10860e5</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_cecd9a84-1b9f-406a-8d60-34afc22a3f56.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="4"
+    recordedArtifactZipFileName="team/vus/@r@a@w_@o@v@c_14_@fido_@p@o@m_@p@p@c/%resources%/recorded-artifacts/d2828ec2-71f1-462b-82e7-7c927a53e1eb.zip"
+    recordedResponseCode="200" responseSize="120"
+    serverUid="oneview.fido.ca" slaProfileEnabled="false"
+    uid="dd524622-0e1f-458f-89f0-7c72b10860e5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d40d0001-0021-4797-a55e-0c1235fcabfd</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d40d0001-0021-4797-a55e-0c1235fcabfd.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="ARDGLNLRIRBMFEGRKFFEMPRPLHPJKAEV-0"
+        separator="=" value="ARDGLNLRIRBMFEGRKFFEMPRPLHPJKAEV-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="contentType" recordRawValue="srTe" separator="="
+        value="srTe" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Fsignout%3FstatusCode%3DCRM_SIGN_OUT"
+        separator="="
+        value="https://oneview.fido.ca/web/a/dashboard/signout?statusCode=CRM_SIGN_OUT" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="39f30da8dcd81ec2" separator="="
+        value="39f30da8dcd81ec2" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="10307250124095660" separator="="
+        value="10307250124095660" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="48856024" separator="=" value="48856024" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/signout?statusCode=CRM_SIGN_OUT"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdB-oneview-Fido-ui-care|~rv=82~m=ProdB-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=cc500658f1d5d44da437dd3bff72305f; language=en; aam_dpid942=a408d3c2037ab2b5948854e0db08f82c7875e7069dd5a9d1967da5524aff4787; aam_dpid1094=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; region=QC; city=QUEBEC; s_ecid=MCMID%7C24068743254517532233962759127696129688; rxvt=1742379919140|0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.fido.ca"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="text/plain;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 120&#xd;
+x-envoy-upstream-service-time: 2&#xd;
+date: Wed, 19 Mar 2025 09:55:19 GMT&#xd;
+set-cookie: dtCookie=v_4_srv_1_sn_3358EAD575C31D247C9DAB0C3DE3ECF3_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+set-cookie: Prod=B; domain=.oneview.fido.ca</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[3,1742378119210,1742378118111,1742378119140,1,1742378118111^v 0 https://oneview.fido.ca/web/a/dashboard/signout?statusCode=CRM_SIGN_OUT 1742378103842^r 10 1920 953^s 10 1 0 0^m 11 21 692 898>56 ~ 1119 742>116 ~ 1312 708>123 ~ 1351 698>161 ~ 1358 692>183 ~ 1359 682>215 ~ 1355 659>246 ~ 1332 614>278 ~ 1313 577>309 ~ 1288 544>339 ~ 1273 527>517 ~ 1226 468>532 ~ 1210 450>558 ~ 1176 421>591 ~ 1154 403>622 ~ 1078 361>653 ~ 940 320>683 ~ 850 307>715 ~ 724 289>747 ~ 521 244>778 ~ 429 219>809 ~ 379 204>934 ~ 420 199>965 ~ 546 196>997 ~ 606 205]]></textPostContent>
+</http-action>

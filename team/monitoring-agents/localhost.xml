@@ -1,6 +1,6 @@
 <me-host browserBasedSupport="false" citrixSupport="false"
     loadWeight="1" sapSupport="false" standalone="false"
-    supportWANEmulation="false" uid="localhost" version="9.2.4;build=20230905-114">
+    supportWANEmulation="false" uid="localhost" version="9.2.2;build=20230420-80">
     <!--****** LG NETWORK INTERFACES ******-->
     <lg-networkiface description="Software Loopback Interface 1"
         enabled="false" isLoopBack="true" name="lo">
@@ -13,14 +13,11 @@
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
-    <lg-networkiface description="Microsoft Hyper-V Network Adapter"
-        enabled="false" isLoopBack="false" name="eth0">
+    <lg-networkiface description="vmxnet3 Ethernet Adapter"
+        enabled="false" isLoopBack="false" name="eth2">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="nperpaautovm035.rci.rogers.ca">
-            <ip value="10.73.26.16"/>
-        </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:5d19:8073:ef98:c482%eth0">
-            <ip value="fe80:0:0:0:5d19:8073:ef98:c482%eth0"/>
+        <lg-address enabled="false" hostname="ldcpetneogen14.rci.rogers.ca">
+            <ip value="10.61.124.134"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>

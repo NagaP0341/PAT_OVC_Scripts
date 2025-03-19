@@ -1,3 +1,1 @@
-<variable-file delimiters=";" filename="variables/OVC_12_Fido_POM_HUP.txt" name="P_OVC_12_Fido_POM_HUP" offset="1" order="3" policy="5" range="1" uid="b824c54c-2726-462c-a441-91673dabff32" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
-<column name="P_BAN" number="0"/>
-</variable-file>
+<variable-file delimiters=";" filename="variables/OVC_12_Fido_POM_HUP.txt" name="P_OVC_12_Fido_POM_HUP" offset="1" order="3" policy="5" range="1" uid="b824c54c-2726-462c-a441-91673dabff32" useFirstLine="true" whenOutOfValues="CYCLE_VALUES"/>

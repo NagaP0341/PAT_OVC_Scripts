@@ -1,0 +1,89 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/web/a/dashboard/rb_bf45860xtq_10"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@r@a@w_@o@v@c_14_@fido_@p@o@m_@p@p@c/%resources%/recorded-artifacts/2165d9c6-182d-4349-bcf1-6417600deb29.zip"
+    slaProfileEnabled="false" thinkTime="397"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2165d9c6-182d-4349-bcf1-6417600deb29">
+    <embedded-action>5ee6fb92-45c2-497b-abc4-393b9ad5a0dc</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8fd74b8d-7d90-4c69-ac4d-8983b1217afb.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/web/a/dashboard/rb_bf45860xtq"
+    path="/web/a/dashboard/rb_bf45860xtq" postType="2"
+    recordedArtifactZipFileName="team/vus/@r@a@w_@o@v@c_14_@fido_@p@o@m_@p@p@c/%resources%/recorded-artifacts/2165d9c6-182d-4349-bcf1-6417600deb29.zip"
+    recordedResponseCode="200" responseSize="120"
+    serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
+    uid="5ee6fb92-45c2-497b-abc4-393b9ad5a0dc" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[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]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_b0157e1a-2636-440f-a4fd-f574c6090efe</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b0157e1a-2636-440f-a4fd-f574c6090efe.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_-2D24431_sn_OUT0KUCLHE18H5CV409K443PQ77BJ89K"
+        separator="="
+        value="v_4_srv_-2D24431_sn_OUT0KUCLHE18H5CV409K443PQ77BJ89K" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="-24431" separator="=" value="-24431" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="ARDGLNLRIRBMFEGRKFFEMPRPLHPJKAEV-0"
+        separator="=" value="ARDGLNLRIRBMFEGRKFFEMPRPLHPJKAEV-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="contentType" recordRawValue="srBm" separator="="
+        value="srBm" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1741895718739"
+        separator="=" value="1741895718739" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Foneview-buyflow.fido.ca%2Fphones%2Fbuild-plan%3FovContextId%3D34a9d4a9-7bde-42d3-b655-d34441fda0b7%26flowType%3Dppc%26step%3D8%26planType%3DFIN_DATA_TALK_TEXT%26data%3Dsku_plan_LTOM012U3_LTOM012U3%26addons%3DFULLDETF%2COPTSRA1AK%2CTAGSRA6T4"
+        separator="="
+        value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=34a9d4a9-7bde-42d3-b655-d34441fda0b7&amp;flowType=ppc&amp;step=8&amp;planType=FIN_DATA_TALK_TEXT&amp;data=sku_plan_LTOM012U3_LTOM012U3&amp;addons=FULLDETF,OPTSRA1AK,TAGSRA6T4" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="39f30da8dcd81ec2" separator="="
+        value="39f30da8dcd81ec2" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="10307250124095660" separator="="
+        value="10307250124095660" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="761999664" separator="=" value="761999664" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="btve37ae" separator="=" value="btve37ae" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=34a9d4a9-7bde-42d3-b655-d34441fda0b7&amp;flowType=ppc&amp;step=8&amp;planType=FIN_DATA_TALK_TEXT&amp;data=sku_plan_LTOM012U3_LTOM012U3&amp;addons=FULLDETF,OPTSRA1AK,TAGSRA6T4"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dtCookie=v_4_srv_-2D24431_sn_OUT0KUCLHE18H5CV409K443PQ77BJ89K; rxVisitor=1742377928378H4DCLVAKJ0LEFDRJG5A2QRIPHS4SIEDM; language=en; PLAY_SESSION=8a68ff15e129fbe75322dec1e9a617ce783ce103-LANGUAGE=en&amp;CH_BAN=939762175&amp;LOGGING_ID=UIPATH.BOT15&amp;V21=V21&amp;UserId=14017152&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=939762175&amp;CONTACT_ID=CO1059107496&amp;SessionId=82c62fd1-2f14-46b4-b05d-f18bbddc8bcc&amp;TARGET_URL=ONEVIEWDASHBOARD; X_DOM_session_guid=d44cfc38-04a7-11f0-978d-517ede0f54bb; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; X_DOM_BAN=a408d3c2037ab2b5948854e0db08f82c7875e7069dd5a9d1967da5524aff4787; X_DOM_USER_NAME=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; s_ecid=MCMID%7C24068743254517532233962759127696129688; s_cc=true; X_DOM_REFERRER=https://oneview.fido.ca; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO|~rv=88~m=ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=a374b3804f1ec05c655568f8d7efb42d; dtSa=false%7Cxhr%7C56%7Cx%7Cx%7C1742377947525%7C577928282_590%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; language=en; province=ON; QuantumMetricSessionID=294c321a600d327759788570be689f2b; QuantumMetricUserID=a81dfd607befbe0ebd1bef0532d317ec; FB_PHONE=5b1a8b73df7445da99b5c6ded13489eb6c9b45b3b7e9c84e8c83afa39fe193d8; aam_dpid942=a408d3c2037ab2b5948854e0db08f82c7875e7069dd5a9d1967da5524aff4787; aam_dpid943=321d98f03e726531f9d86d6f4c4173b9a6e6070050178b6c93a5cb7a64da34d2; X_DOM_CTN=321d98f03e726531f9d86d6f4c4173b9a6e6070050178b6c93a5cb7a64da34d2; aam_dpid1094=3d6a7efa98171e0116e07e6bd2d5b287db285cb547e42edbafb1c52d3e522384; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20167%7CMCMID%7C24068743254517532233962759127696129688%7CMCAAMLH-1742982755%7C7%7CMCAAMB-1742982755%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742385155s%7CNONE%7CMCSYNCSOP%7C411-20174%7CMCAID%7CNONE%7CMCCIDH%7C147902274%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=34a9d4a9-7bde-42d3-b655-d34441fda0b7&amp;flowType=ppc&amp;step=8&amp;planType=FIN_DATA_TALK_TEXT&amp;data=sku_plan_LTOM012U3_LTOM012U3&amp;addons=FULLDETF%2COPTSRA1AK%2CTAGSRA6T4%22%2C%22pName%22:%22OVF:wireless:ecom:ppc:plan-builder:change-date%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}%2C%22buyflowName%22:%22PPC|SL%22}; s_sq=%5B%5BB%5D%5D; dtPC=-24431$577948924_391h-vARDGLNLRIRBMFEGRKFFEMPRPLHPJKAEV-0e0; rxvt=1742379848289|1742377928380"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview-buyflow.fido.ca"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/octet-stream"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 120&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+expires: Wed, 19 Mar 2025 09:54:08 GMT&#xd;
+cache-control: max-age=0, no-cache, no-store&#xd;
+pragma: no-cache&#xd;
+date: Wed, 19 Mar 2025 09:54:08 GMT&#xd;
+set-cookie: dtCookie=v_4_srv_15_sn_OUT0KUCLHE18H5CV409K443PQ77BJ89K_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
+x-frame-options: SAMEORIGIN</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

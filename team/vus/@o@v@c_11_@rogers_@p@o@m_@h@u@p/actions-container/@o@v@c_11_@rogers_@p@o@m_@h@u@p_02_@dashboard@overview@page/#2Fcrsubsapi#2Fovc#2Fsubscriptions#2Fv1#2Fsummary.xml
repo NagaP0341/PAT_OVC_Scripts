@@ -125,5 +125,9 @@ access-control-allow-methods: NULL&#xd;
 access-control-allow-origin: https://oneview.rogers.com&#xd;
 referrer-policy: no-referrer-when-downgrade</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
-    <textPostContent><![CDATA[{"brand":"rogers","accountNumber":"${C_IcmToken_AccountNumber}","lang":"en"}]]></textPostContent>
+    <textPostContent><![CDATA[{
+    "accountNumber": "${C_IcmToken_AccountNumber}",
+    "lang": "en",
+    "brand": "rogers"
+}]]></textPostContent>
 </http-action>
