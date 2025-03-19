@@ -1,0 +1,25 @@
+<lg-host browserBasedSupport="true" citrixSupport="false"
+    hostname="VWRENBPRPERNL02:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="e3272e48-e3a1-4a7a-bc7a-5256974c0231" version="9.1.1;build=20221123-83">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="vmxnet3 Ethernet Adapter"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="vwrenbprpernl02.rci.rogers.ca">
+            <ip value="10.61.127.66"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

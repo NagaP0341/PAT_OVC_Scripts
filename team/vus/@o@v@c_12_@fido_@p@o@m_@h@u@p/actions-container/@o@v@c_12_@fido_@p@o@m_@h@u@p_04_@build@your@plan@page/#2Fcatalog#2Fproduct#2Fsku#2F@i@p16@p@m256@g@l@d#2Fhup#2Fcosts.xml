@@ -68,5 +68,22 @@ content-length: 1713&#xd;
 set-cookie: dtCookie=v_4_srv_5_sn_5GR8O3VESE0565GQFAGL93GRHHIO3QOK_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
 x-frame-options: SAMEORIGIN</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
-    <textPostContent><![CDATA[{"accountNumber":"947641601","phoneNumber":"4372997194","sharingStatus":"all","creditClass":"N","riskClass":"EN80","creditOption":"TAL5","sharingType":"","activityType":"hup","variantExternalId":"IP16PM256GLD","atgProductId":"prodIP16PM","id":"IP16PM256GLD","deviceType":"smartphone","eligibilityInd":"ELIGIBLE","maxDpPercent":100,"riskClassCategory":"LOW","applicationId":"UTEFidoCare"}]]></textPostContent>
+    <textPostContent><![CDATA[{
+    "deviceType": "smartphone",
+    "creditClass": "N",
+    "sharingStatus": "all",
+    "sharingType": "",
+    "atgProductId": "prodIP16PM",
+    "accountNumber": "947641601",
+    "eligibilityInd": "ELIGIBLE",
+    "variantExternalId": "IP16PM256GLD",
+    "phoneNumber": "4372997194",
+    "riskClass": "EN80",
+    "creditOption": "TAL5",
+    "id": "IP16PM256GLD",
+    "activityType": "hup",
+    "applicationId": "UTEFidoCare",
+    "riskClassCategory": "LOW",
+    "maxDpPercent": 100
+}]]></textPostContent>
 </http-action>

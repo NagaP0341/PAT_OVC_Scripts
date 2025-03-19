@@ -1,4 +1,5 @@
 <errorHandleSettings alwaysApplyPacing="true" enabled="true">
     <httpCode value="404"/>
     <httpCode value="500"/>
+    <httpCode value="422"/>
 </errorHandleSettings>
