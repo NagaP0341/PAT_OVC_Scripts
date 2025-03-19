@@ -1,0 +1,9 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/agentapi/ovc/v2/ram/permissions/all"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/bfcedcb0-411b-4b60-b701-d096f367b6af.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="bfcedcb0-411b-4b60-b701-d096f367b6af">
+    <screenshotFileDescription>recorded-screenshots/sc_9f71b72b-0891-4896-b480-9c42727b5433.jpg</screenshotFileDescription>
+</http-page>

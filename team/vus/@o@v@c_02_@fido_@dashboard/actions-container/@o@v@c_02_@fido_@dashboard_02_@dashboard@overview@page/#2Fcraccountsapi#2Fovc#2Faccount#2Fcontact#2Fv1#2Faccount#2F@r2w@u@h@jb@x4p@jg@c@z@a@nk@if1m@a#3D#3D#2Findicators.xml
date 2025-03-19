@@ -1,0 +1,9 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/craccountsapi/ovc/account/contact/v1/account/R2wUHJbX4pJgCZANkIf1mA==/indicators"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/20c30e37-39e5-4d5f-a369-9697046012d6.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="20c30e37-39e5-4d5f-a369-9697046012d6">
+    <screenshotFileDescription>recorded-screenshots/sc_4f08e2fd-3953-46ca-b574-0bcebcd5d441.jpg</screenshotFileDescription>
+</http-page>

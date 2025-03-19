@@ -1,0 +1,9 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/crofferapi/ovc/actionoffers/v1/readDisposition"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/83f6aee3-5eff-413f-87a4-af58968d2a6c.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="83f6aee3-5eff-413f-87a4-af58968d2a6c">
+    <screenshotFileDescription>recorded-screenshots/sc_cdec51e7-1a30-470c-857e-a11b7626a74b.jpg</screenshotFileDescription>
+</http-page>

@@ -1,0 +1,9 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/sessionapi/ovc/session/builder/ssocookie"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/a2da618a-d38a-4b12-87e3-0df4969d2aa0.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a2da618a-d38a-4b12-87e3-0df4969d2aa0">
+    <screenshotFileDescription>recorded-screenshots/sc_7038189a-fbbb-4edc-90bf-cd2924e067f4.jpg</screenshotFileDescription>
+</http-page>

@@ -7,25 +7,28 @@ var infinitePlans = dataPlans['infinitePlans'];
 var plans = infinitePlans['plans'];
 var Plans_planId = plans[0]['planId'];
 var Plans_externalId = plans[0]['externalId'];
-// var Plans_atgSkuId = plans[0]['atgSkuId'];
+var Plans_atgSkuId = plans[0]['atgSkuId'];
 var autoDeploySocs = plans[0]['autoDeploySocs'];
 var autoDeploySocs_skuId = autoDeploySocs[0]['skuId'];
 var autoDeploySocs_externalId = autoDeploySocs[0]['externalId'];
+// var autoDeploySocs_externalId2 = autoDeploySocs[1]['externalId'];
  
+
 // Inject the computed value in a runtime variable
-   context.variableManager.setValue("c_Plans_planId",Plans_planId);//sku_plan_LTOM012T4_LTOM012T4
-   context.variableManager.setValue("c_Plans_externalId",Plans_externalId);  //LTOM012T4
-//    context.variableManager.setValue("c_Plans_atgSkuId",Plans_atgSkuId);  //LTOM012T4
-   context.variableManager.setValue("c_autoDeploySocs_skuId",autoDeploySocs_skuId);  //sku_addon_sku2780326_sku2780326
-   context.variableManager.setValue("c_autoDeploySocs_externalId",autoDeploySocs_externalId);  //TAGSRA6PA
+   context.variableManager.setValue("c_Plans_planId",Plans_planId);//sku_plan_CCMM4225N_CCMM4225N
+   context.variableManager.setValue("c_Plans_externalId",Plans_externalId);  //CCMM4225N
+   context.variableManager.setValue("C_GetPlanDetailsJs_atgSkuId",Plans_atgSkuId);  //CCMM4225N
+   context.variableManager.setValue("c_autoDeploySocs_skuId",autoDeploySocs_skuId);  //sku_addon_sku2780327_sku2780327
+   context.variableManager.setValue("c_autoDeploySocs_externalId",autoDeploySocs_externalId);  //TAGSRA6PB
+//    context.variableManager.setValue("C_GetPlanDetailsJs_autoDeploySocs_externalId2",autoDeploySocs_externalId2);  //TAGSRA6PB   
+
    
 // Do some computation using the methods
  
 // outpuvalue
-logger.debug("Plans_planId="+Plans_planId);
-logger.debug("Plans_externalId="+Plans_externalId);
-// logger.debug("Plans_atgSkuId="+Plans_atgSkuId);
-logger.debug("autoDeploySocs_skuId="+autoDeploySocs_skuId);
-logger.debug("autoDeploySocs_externalId="+autoDeploySocs_externalId);
- 
-//context.variableManager.setValue("computedVar",computedValue);
+logger.debug("c_Plans_planId="+Plans_planId);
+logger.debug("c_Plans_externalId="+Plans_externalId);
+logger.debug("C_GetPlanDetailsJs_atgSkuId="+Plans_atgSkuId);
+logger.debug("c_autoDeploySocs_skuId="+autoDeploySocs_skuId);
+logger.debug("c_autoDeploySocs_externalId="+autoDeploySocs_externalId);
+// logger.debug("C_GetPlanDetailsJs_autoDeploySocs_externalId2="+autoDeploySocs_externalId2);

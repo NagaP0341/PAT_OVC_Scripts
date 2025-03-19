@@ -1,0 +1,9 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/craccountsapi/ovc/accounts/v1/fraud"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/edd5d4d7-4f05-4814-b4e0-d7e18efb35a8.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="edd5d4d7-4f05-4814-b4e0-d7e18efb35a8">
+    <screenshotFileDescription>recorded-screenshots/sc_c32cc2a9-685d-4707-b682-cc3c276327d1.jpg</screenshotFileDescription>
+</http-page>

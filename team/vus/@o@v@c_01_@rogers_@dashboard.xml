@@ -1,0 +1,30 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="OVC_01_Rogers_Dashboard">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_PACING_SIMPLE" pacingStart="0" pacingValue="90"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="51f5b5d2-9049-45d9-8d9f-4f541d38c8df"/>
+        <weighted-embedded-action uid="53205a8c-967d-479f-aa43-b03a8aec669d"/>
+        <weighted-embedded-action uid="cc3c638a-8464-4a3b-b3a2-18ffc9557a1d"/>
+        <weighted-embedded-action uid="6cee73c1-618c-430f-8113-0775b68a5852"/>
+        <weighted-embedded-action uid="2aef2a35-d59a-456e-a1d4-e1278d9883a3"/>
+        <weighted-embedded-action uid="f6f143cb-8112-48f9-aabe-61e1504ec82f"/>
+        <weighted-embedded-action uid="2da8ffb1-84a2-48d5-90e3-0b4eba899c87"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

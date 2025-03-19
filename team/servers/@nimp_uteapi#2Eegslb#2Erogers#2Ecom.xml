@@ -1,0 +1,7 @@
+<http-server hostname="uteapi.egslb.rogers.com" port="443" ssl="false"
+    uid="Nimp_uteapi.egslb.rogers.com" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";">
+    <authorization password="NCYx7LffrWCRDySzmWRTnQ==$2"
+        realm="uteapi.egslb.rogers.com" scheme="Basic" userName="RCI.ROGERS.CA\\N.Palem"/>
+</http-server>

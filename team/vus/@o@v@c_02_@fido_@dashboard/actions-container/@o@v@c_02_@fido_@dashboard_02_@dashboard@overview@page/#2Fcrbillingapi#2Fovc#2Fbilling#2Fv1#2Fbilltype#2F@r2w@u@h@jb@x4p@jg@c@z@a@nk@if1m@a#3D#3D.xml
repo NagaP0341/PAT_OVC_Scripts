@@ -1,0 +1,9 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/crbillingapi/ovc/billing/v1/billtype/R2wUHJbX4pJgCZANkIf1mA=="
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/c083983e-a20d-45b4-98ae-70503972f2d7.zip"
+    slaProfileEnabled="false" thinkTime="97"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c083983e-a20d-45b4-98ae-70503972f2d7">
+    <screenshotFileDescription>recorded-screenshots/sc_074d24de-17e1-4944-b977-7c20dfce16ce.jpg</screenshotFileDescription>
+</http-page>

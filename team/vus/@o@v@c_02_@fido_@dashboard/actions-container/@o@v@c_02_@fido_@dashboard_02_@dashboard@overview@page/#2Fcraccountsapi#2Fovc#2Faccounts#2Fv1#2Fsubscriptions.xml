@@ -1,0 +1,9 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/craccountsapi/ovc/accounts/v1/subscriptions"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/771c888c-4d14-4116-908b-5a7ba967f116.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="771c888c-4d14-4116-908b-5a7ba967f116">
+    <screenshotFileDescription>recorded-screenshots/sc_4bbc56fe-9af4-47ff-80bf-26c1e0d85a99.jpg</screenshotFileDescription>
+</http-page>

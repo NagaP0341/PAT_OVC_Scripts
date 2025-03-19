@@ -1,0 +1,9 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/crcorpdiscapi/ovc/corporate/discount/idv/details/v1/R2wUHJbX4pJgCZANkIf1mA=="
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/42625994-87cd-4fa6-a562-5dc574a0eec2.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="42625994-87cd-4fa6-a562-5dc574a0eec2">
+    <screenshotFileDescription>recorded-screenshots/sc_e2e9ac34-a995-42d2-b03d-ec36d95a199f.jpg</screenshotFileDescription>
+</http-page>

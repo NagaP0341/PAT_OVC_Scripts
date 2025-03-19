@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="OVC_02_Fido_Dashboard_03_LogoutPage" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="8030c6be-b459-45eb-b0f6-358a98589b60" weightsEnabled="false">
+    <weighted-embedded-action uid="be9d4594-e109-43b8-8b57-74d0326d71c3"/>
+    <weighted-embedded-action uid="e6d1ad61-0852-4f47-bdd4-baad7c9471d4"/>
+    <weighted-embedded-action uid="38512dfe-9a30-40c4-ae0e-5746c020d68b"/>
+    <weighted-embedded-action uid="1e103b8c-233b-4b5e-9842-0c1d27869ff0"/>
+    <weighted-embedded-action uid="dce7d1df-a67c-4029-a6ba-29a09952e9e6"/>
+    <weighted-embedded-action uid="0a63d5da-a7eb-4abf-a342-f0dd45172a07"/>
+    <weighted-embedded-action uid="6b79180b-c7d8-483e-8f37-9a86d38d678a"/>
+    <weighted-embedded-action uid="7beb59ca-91ea-4570-8f1f-3cf0befe9972"/>
+    <weighted-embedded-action uid="75b191b4-3cb2-4a11-aba4-66897701754f"/>
+    <weighted-embedded-action uid="29b17246-771a-4c53-b098-003ebc9b2721"/>
+</basic-logical-action-container>

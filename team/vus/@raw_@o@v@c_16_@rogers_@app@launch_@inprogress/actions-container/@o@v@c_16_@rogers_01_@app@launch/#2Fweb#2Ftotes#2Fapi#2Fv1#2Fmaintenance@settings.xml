@@ -1,0 +1,27 @@
+<http-page executeResourcesDynamically="false"
+    name="/web/totes/api/v1/maintenanceSettings"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@raw_@o@v@c_16_@rogers_@app@launch_@inprogress/%resources%/recorded-artifacts/d618113e-4c20-48e4-a23e-30023b4a57ed.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d618113e-4c20-48e4-a23e-30023b4a57ed">
+    <embedded-action>e9bc24a6-32f7-415f-a0c6-0092ac3a3a4c</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="http_request_"
+    path="/web/totes/api/v1/maintenanceSettings" postCharset=""
+    postType="4" serverUid="Nimp_uteapi.egslb.rogers.com"
+    slaProfileEnabled="false" uid="e9bc24a6-32f7-415f-a0c6-0092ac3a3a4c" useKeepAlive="false">
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-ca"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Host" value="uteapi.egslb.rogers.com"/>
+    <header name="User-Agent" value="perf-fido-enterprise/1362 CFNetwork/808.3 Darwin/16.3.0"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{}]]></textPostContent>
+</http-action>

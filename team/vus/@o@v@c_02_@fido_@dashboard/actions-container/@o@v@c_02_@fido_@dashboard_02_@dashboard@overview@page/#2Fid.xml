@@ -1,0 +1,326 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/id" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/83b929c0-9855-429b-8716-4b1e895de6f1.zip"
+    slaProfileEnabled="false" thinkTime="383"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="83b929c0-9855-429b-8716-4b1e895de6f1">
+    <embedded-action>8d701344-1f06-4e51-b773-3328ed305e8a</embedded-action>
+    <embedded-action>c4d92efb-0c6a-4a4c-b845-f0c51d97dca1</embedded-action>
+    <embedded-action>7d4afbf1-f636-46cb-874d-3a928f052e94</embedded-action>
+    <embedded-action>66f7c58d-c786-414a-9169-9dd51c9de265</embedded-action>
+    <embedded-action>c61a2ace-e706-4991-afdd-c7f9d444c036</embedded-action>
+    <embedded-action>90fd746c-0ee0-4447-8d12-30a700fd911a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_db442bc1-55d9-452a-b4f8-1e29eb8cf571.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/web/a/dashboard/default-node_modules_moment_moment_js.91b4b59867d2a654.js"
+    path="/web/a/dashboard/default-node_modules_moment_moment_js.91b4b59867d2a654.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/83b929c0-9855-429b-8716-4b1e895de6f1.zip"
+    recordedResponseCode="200" responseSize="388590"
+    serverUid="oneview.fido.ca" slaProfileEnabled="false"
+    uid="8d701344-1f06-4e51-b773-3328ed305e8a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_92fe4e47-b507-4f18-89b8-ece8427999fa</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_92fe4e47-b507-4f18-89b8-ece8427999fa.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdB-oneview-Fido-ui-care|~rv=7~m=ProdB-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=65e44c27e93efcd2b4e8bd3afddc4396; dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; dtSa=-; language=en; language=en; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}}; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; rxvt=1742203207302|1742201404584; dtPC=-2036$401404567_515h25vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.fido.ca"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/javascript&#xd;
+etag: "67d49301-5edee:dtagent10307250124095659qXAr"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:12 GMT&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-1643471012", dtTao;desc="1"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+content-encoding: gzip&#xd;
+content-length: 79855&#xd;
+cache-control: max-age=465550&#xd;
+expires: Sat, 22 Mar 2025 18:09:17 GMT&#xd;
+date: Mon, 17 Mar 2025 08:50:07 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.fido.ca&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/web/a/dashboard/default-src_app_actions_actions-common_actions-common_module_ts.f6e1744ed4c74951.js"
+    path="/web/a/dashboard/default-src_app_actions_actions-common_actions-common_module_ts.f6e1744ed4c74951.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/83b929c0-9855-429b-8716-4b1e895de6f1.zip"
+    recordedResponseCode="200" responseSize="58970"
+    serverUid="oneview.fido.ca" slaProfileEnabled="false"
+    uid="c4d92efb-0c6a-4a4c-b845-f0c51d97dca1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_88acd04f-6e89-4407-8a3f-9389eb1b5dbf</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_88acd04f-6e89-4407-8a3f-9389eb1b5dbf.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdB-oneview-Fido-ui-care|~rv=7~m=ProdB-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=65e44c27e93efcd2b4e8bd3afddc4396; dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; dtSa=-; language=en; language=en; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}}; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; rxvt=1742203207302|1742201404584; dtPC=-2036$401404567_515h25vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.fido.ca"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/javascript&#xd;
+etag: "67bf348a-e65a:dtagent10307250124095659qXAr"&#xd;
+last-modified: Wed, 26 Feb 2025 15:34:33 GMT&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-787893126", dtTao;desc="1"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 7&#xd;
+content-encoding: gzip&#xd;
+content-length: 17325&#xd;
+cache-control: max-age=96585&#xd;
+expires: Tue, 18 Mar 2025 11:39:52 GMT&#xd;
+date: Mon, 17 Mar 2025 08:50:07 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.fido.ca&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/web/a/dashboard/default-src_app_ppc_ppc_component_ts-src_app_ppc_ppc_module_ts.8a4797f9f933544f.js"
+    path="/web/a/dashboard/default-src_app_ppc_ppc_component_ts-src_app_ppc_ppc_module_ts.8a4797f9f933544f.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/83b929c0-9855-429b-8716-4b1e895de6f1.zip"
+    recordedResponseCode="200" responseSize="33429"
+    serverUid="oneview.fido.ca" slaProfileEnabled="false"
+    uid="7d4afbf1-f636-46cb-874d-3a928f052e94" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d2b44198-2b64-43f8-a999-3161a6f0b2e2</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d2b44198-2b64-43f8-a999-3161a6f0b2e2.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdB-oneview-Fido-ui-care|~rv=7~m=ProdB-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=65e44c27e93efcd2b4e8bd3afddc4396; dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; dtSa=-; language=en; language=en; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}}; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; rxvt=1742203207302|1742201404584; dtPC=-2036$401404567_515h25vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.fido.ca"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/javascript&#xd;
+etag: "67d49301-8295:dtagent10307250124095659qXAr"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:12 GMT&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="561561127", dtTao;desc="1"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 6&#xd;
+content-encoding: gzip&#xd;
+content-length: 8358&#xd;
+cache-control: max-age=583625&#xd;
+expires: Mon, 24 Mar 2025 02:57:12 GMT&#xd;
+date: Mon, 17 Mar 2025 08:50:07 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.fido.ca&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/web/a/dashboard/default-src_app_common_pipes_local-date_pipe_ts-src_app_dashboard_dual-dealer-startup_dual-de-ed0644.0fceb79e8ff409c5.js"
+    path="/web/a/dashboard/default-src_app_common_pipes_local-date_pipe_ts-src_app_dashboard_dual-dealer-startup_dual-de-ed0644.0fceb79e8ff409c5.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/83b929c0-9855-429b-8716-4b1e895de6f1.zip"
+    recordedResponseCode="200" responseSize="39794"
+    serverUid="oneview.fido.ca" slaProfileEnabled="false"
+    uid="66f7c58d-c786-414a-9169-9dd51c9de265" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0c7390cc-1a0f-44ce-9b9f-06d06d130363</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0c7390cc-1a0f-44ce-9b9f-06d06d130363.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdB-oneview-Fido-ui-care|~rv=7~m=ProdB-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=65e44c27e93efcd2b4e8bd3afddc4396; dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; dtSa=-; language=en; language=en; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}}; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806207%7C7%7CMCAAMB-1742806207%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742208607s%7CNONE%7CvVersion%7C5.5.0; rxvt=1742203207702|1742201404584; dtPC=-2036$401404567_515h26vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.fido.ca"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/javascript&#xd;
+etag: "67d49301-9b72:dtagent10307250124095659qXAr"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:12 GMT&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-207065080", dtTao;desc="1"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 4&#xd;
+content-encoding: gzip&#xd;
+content-length: 14373&#xd;
+cache-control: max-age=465614&#xd;
+expires: Sat, 22 Mar 2025 18:10:21 GMT&#xd;
+date: Mon, 17 Mar 2025 08:50:07 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.fido.ca&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/web/a/dashboard/default-src_app_actions_actions-common_action_action_component_ts-src_app_actions_actions-com-cb993b.0963c7cb531cf18c.js"
+    path="/web/a/dashboard/default-src_app_actions_actions-common_action_action_component_ts-src_app_actions_actions-com-cb993b.0963c7cb531cf18c.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/83b929c0-9855-429b-8716-4b1e895de6f1.zip"
+    recordedResponseCode="200" responseSize="70030"
+    serverUid="oneview.fido.ca" slaProfileEnabled="false"
+    uid="c61a2ace-e706-4991-afdd-c7f9d444c036" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ec4982a6-e091-4626-ad78-b928a1de2820</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ec4982a6-e091-4626-ad78-b928a1de2820.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdB-oneview-Fido-ui-care|~rv=7~m=ProdB-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=65e44c27e93efcd2b4e8bd3afddc4396; dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; dtSa=-; language=en; language=en; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}}; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806207%7C7%7CMCAAMB-1742806207%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742208607s%7CNONE%7CvVersion%7C5.5.0; rxvt=1742203207702|1742201404584; dtPC=-2036$401404567_515h26vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.fido.ca"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/javascript&#xd;
+etag: "67d49301-1118e:dtagent10307250124095659qXAr"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:12 GMT&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="154626829", dtTao;desc="1"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 3&#xd;
+content-encoding: gzip&#xd;
+content-length: 10733&#xd;
+cache-control: max-age=583618&#xd;
+expires: Mon, 24 Mar 2025 02:57:05 GMT&#xd;
+date: Mon, 17 Mar 2025 08:50:07 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.fido.ca&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/web/a/dashboard/default-src_app_billing_billing-common_bill-hold_bill-hold_component_ts-src_app_billing_billi-1e3134.20342e42fe177940.js"
+    path="/web/a/dashboard/default-src_app_billing_billing-common_bill-hold_bill-hold_component_ts-src_app_billing_billi-1e3134.20342e42fe177940.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/83b929c0-9855-429b-8716-4b1e895de6f1.zip"
+    recordedResponseCode="200" responseSize="43581"
+    serverUid="oneview.fido.ca" slaProfileEnabled="false"
+    uid="90fd746c-0ee0-4447-8d12-30a700fd911a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a3d5c25a-eff2-425c-bda2-7311ce5d7f60</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a3d5c25a-eff2-425c-bda2-7311ce5d7f60.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="Prod=B; Prod=B; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdB-oneview-Fido-ui-care|~rv=7~m=ProdB-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=65e44c27e93efcd2b4e8bd3afddc4396; dtCookie=v_4_srv_-2D2036_sn_6CF0RKH7L2AUQ1993FFQO5VV05V521H5; rxVisitor=1742201404582QU88PRU3VUJOF7HS665RG11PTTM3B9H0; dtSa=-; language=en; language=en; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}}; PLAY_SESSION=d89148f14ebf064af094e42d9cfbe80a3de46a00-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=UIPATH.BOT17&amp;V21=V21&amp;UserId=14017171&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=145d6c2d-057d-4e78-aca3-097d0d9ad14f&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C68700014002731294224319961830273181040%7CMCAAMLH-1742806207%7C7%7CMCAAMB-1742806207%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742208607s%7CNONE%7CvVersion%7C5.5.0; rxvt=1742203207702|1742201404584; dtPC=-2036$401404567_515h26vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://oneview.fido.ca"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: istio-envoy&#xd;
+content-type: application/javascript&#xd;
+etag: "67d49301-aa3d:dtagent10307250124095659qXAr"&#xd;
+last-modified: Fri, 14 Mar 2025 20:35:12 GMT&#xd;
+timing-allow-origin: *&#xd;
+server-timing: dtSInfo;desc="0", dtRpid;desc="-176351087", dtTao;desc="1"&#xd;
+accept-ranges: bytes&#xd;
+x-envoy-upstream-service-time: 4&#xd;
+content-encoding: gzip&#xd;
+content-length: 18442&#xd;
+cache-control: max-age=583606&#xd;
+expires: Mon, 24 Mar 2025 02:56:53 GMT&#xd;
+date: Mon, 17 Mar 2025 08:50:07 GMT&#xd;
+vary: Accept-Encoding&#xd;
+set-cookie: Prod=B; domain=.oneview.fido.ca&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: *&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

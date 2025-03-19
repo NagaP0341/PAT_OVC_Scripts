@@ -1,0 +1,9 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/cragentapi/ovc/agentaccess/v1/agent"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/ab2f93db-a8c8-4950-a100-20823aff73de.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ab2f93db-a8c8-4950-a100-20823aff73de">
+    <screenshotFileDescription>recorded-screenshots/sc_68dd45bf-3637-422a-8e1b-65a936727c54.jpg</screenshotFileDescription>
+</http-page>

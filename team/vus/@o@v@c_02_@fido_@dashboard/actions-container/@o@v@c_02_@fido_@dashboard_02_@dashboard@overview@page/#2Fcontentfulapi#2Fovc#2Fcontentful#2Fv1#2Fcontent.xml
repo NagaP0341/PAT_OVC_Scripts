@@ -1,0 +1,9 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/contentfulapi/ovc/contentful/v1/content"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@v@c_02_@fido_@dashboard/%resources%/recorded-artifacts/0ba6ef67-1c4f-4e53-9aad-70cdca79fd41.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="0ba6ef67-1c4f-4e53-9aad-70cdca79fd41">
+    <screenshotFileDescription>recorded-screenshots/sc_4a9ed27b-fa8d-4f8f-acb7-fcb9d383ae8e.jpg</screenshotFileDescription>
+</http-page>
