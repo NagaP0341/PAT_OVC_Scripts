@@ -1,0 +1,35 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="OVC_14_Fido_POM_PPC">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="bab8554a-f18a-4b66-aff3-e6be98940877"/>
+        <weighted-embedded-action uid="ff16bdcb-e067-47b7-af98-c5596c47bdc9"/>
+        <weighted-embedded-action uid="de97697e-e208-494e-bcb6-2782d2f29e0c"/>
+        <weighted-embedded-action uid="836506ac-17cc-4c25-9786-3bbe2e6a3d52"/>
+        <weighted-embedded-action uid="ba348263-2ec7-4907-9e42-09607cfc592a"/>
+        <weighted-embedded-action uid="fa7208eb-deb9-4645-b9eb-92fc18bcd822"/>
+        <weighted-embedded-action uid="076f2d86-e56d-4d4c-9a87-c25daaa26554"/>
+        <weighted-embedded-action uid="409784b6-e34a-4afd-8f2c-11bde9ecb69a"/>
+        <weighted-embedded-action uid="bbbdb42f-69e8-446e-a17e-def7780cb42d"/>
+        <weighted-embedded-action uid="145fe99d-a802-4b9d-a301-33e0b5f1c58c"/>
+        <weighted-embedded-action uid="bd70c215-3e9a-407d-b8e9-22073203d626"/>
+        <weighted-embedded-action uid="f03d35a9-3353-4457-811c-3cb3762332d7"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>
