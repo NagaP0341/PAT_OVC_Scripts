@@ -359,7 +359,7 @@ set-cookie: Prod=B; domain=.oneview.fido.ca</responseHeaders>
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/crofferapi/ovc/actionoffers/v1/treatments"
-    path="/crofferapi/ovc/actionoffers/v1/treatments" postType="4"
+    path="/crofferapi/ovc/actionoffers/v2/treatments" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/c7ad745d-9c49-408f-8252-84651564e9ab.zip"
     recordedResponseCode="404" responseSize="193"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"

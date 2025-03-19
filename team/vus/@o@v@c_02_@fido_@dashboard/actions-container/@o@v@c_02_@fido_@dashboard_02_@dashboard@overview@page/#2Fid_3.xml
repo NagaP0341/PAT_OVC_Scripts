@@ -397,7 +397,7 @@ access-control-allow-origin: *</responseHeaders>
     <parameter encodeName="true" encodeValue="true" name="v56"
         recordRawValue="self%20serve%7Chttp%7C404%7Chttps%3A%2F%2Foneview.fido.ca%2Fcrofferapi%2Fovc%2Factionoffers%2Fv1%2Ftreatments%7C%5Bna%5D%7CHttp%20failure%20response%20for%20https%3A%2F%2Foneview.fido.ca%2Fcrofferapi%2Fovc%2Factionoffers%2Fv1%2Ftreatments%3A%20404%20OK"
         separator="="
-        value="self serve|http|404|https://oneview.fido.ca/crofferapi/ovc/actionoffers/v1/treatments|[na]|Http failure response for https://oneview.fido.ca/crofferapi/ovc/actionoffers/v1/treatments: 404 OK" valueMode="USE_VALUE"/>
+        value="self serve|http|404|https://oneview.fido.ca/crofferapi/ovc/actionoffers/v2/treatments|[na]|Http failure response for https://oneview.fido.ca/crofferapi/ovc/actionoffers/v2/treatments: 404 OK" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="v63"
         recordRawValue="First%20Visit" separator="=" value="First Visit" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="v71"

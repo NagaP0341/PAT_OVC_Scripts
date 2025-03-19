@@ -72,9 +72,9 @@ set-cookie: Prod=B; domain=.oneview.fido.ca</responseHeaders>
     <textPostContent><![CDATA[{"accountNumber":"${C_IcmToken_AccountNumber}","applicationId":"UTERogersCare"}]]></textPostContent>
 </http-action>
 <http-action actionType="1" contentType="application/json"
-    enabled="false" extractorInjectPathPolicy="2"
-    extractorPathPolicy="1" followRedirects="false"
-    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/crofferapi/ovc/actionoffers/v2/treatments"
     path="/crofferapi/ovc/actionoffers/v2/treatments" postType="4"
