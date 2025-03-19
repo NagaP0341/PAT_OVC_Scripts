@@ -28,8 +28,8 @@ if(subList[i]['subStatus'] == 'Active'){
 // var externalId3 = plans[0]['autoDeploySocs'][0]['externalId'];
 
 // Inject the computed value in a runtime variable
-context.variableManager.setValue("C_v1Subscriptions_SubscriptionAlias",subscriptionAlias);
-context.variableManager.setValue("C_v1Subscriptions_SubNumber",subNumber);
+context.variableManager.setValue("C_v1Subscriptions_SubscriptionAlias",subscriptionAlias);//APrkv8XWzmr7BeHjkbhxNQ==
+context.variableManager.setValue("C_v1Subscriptions_SubNumber",subNumber);//4372997194
 context.variableManager.setValue("C_v2Overview_PostalCode",postalCode);   
 context.variableManager.setValue("C_v2Overview_FirstName",firstname);
 context.variableManager.setValue("C_v2Overview_LastName",lastname);

@@ -17,8 +17,8 @@
     <lg-networkiface description="vmxnet3 Ethernet Adapter"
         enabled="false" isLoopBack="false" name="eth2">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="ldcpetneogen14.rci.rogers.ca">
-            <ip value="10.61.124.134"/>
+        <lg-address enabled="false" hostname="ldcpetneogen24.rci.rogers.ca">
+            <ip value="10.61.124.144"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>

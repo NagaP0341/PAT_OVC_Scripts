@@ -37,16 +37,16 @@ var province = AcntOverview_JSON['billingAddress']['province'];
 
 // Inject the computed value in a runtime variable
 context.variableManager.setValue("C_Accountdetailsjs_accountNumber",accountNumber);
-context.variableManager.setValue("C_Accountdetailsjs_accountAlias",accountAlias);
+context.variableManager.setValue("C_Accountdetailsjs_accountAlias",accountAlias);//FkaufLYUyNe3I270M-COLA==
 context.variableManager.setValue("C_Accountdetailsjs_customerBillingProfileId",customerBillingProfileId);
-context.variableManager.setValue("C_Accountdetailsjs_ecId",ecId);
+context.variableManager.setValue("C_Accountdetailsjs_ecId",ecId);//455580132
 context.variableManager.setValue("C_Accountdetailsjs_homePhone",homePhone);
 context.variableManager.setValue("C_Accountdetailsjs_email",email);
 context.variableManager.setValue("C_Accountdetailsjs_contactId",contactId);
 context.variableManager.setValue("C_Accountdetailsjs_firstName",firstName);
 context.variableManager.setValue("C_Accountdetailsjs_lastName",lastName);
 context.variableManager.setValue("C_Accountdetailsjs_streetNumber",streetNumber);
-context.variableManager.setValue("C_Accountdetailsjs_streetName",streetName);
+context.variableManager.setValue("C_Accountdetailsjs_streetName",streetName);///DIXIE
 context.variableManager.setValue("C_Accountdetailsjs_streetType",streetType);
 context.variableManager.setValue("C_Accountdetailsjs_postalCode",postalCode);
 context.variableManager.setValue("C_Accountdetailsjs_city",city);

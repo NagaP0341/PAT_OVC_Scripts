@@ -1,7 +1,6 @@
-<lg-host browserBasedSupport="false" citrixSupport="true"
-    hostname="LDCPETNEOGEN18:7100" loadWeight="1" sapSupport="false"
-    standalone="false" supportWANEmulation="false"
-    uid="53f4d9af-c714-4a73-90df-39b90e6864e0" version="9.1.1;build=20221123-83">
+<me-host browserBasedSupport="false" citrixSupport="false"
+    loadWeight="1" sapSupport="false" standalone="false"
+    supportWANEmulation="false" uid="LDCPETNEOGEN14" version="9.2.2;build=20230420-80">
     <!--****** LG NETWORK INTERFACES ******-->
     <lg-networkiface description="Software Loopback Interface 1"
         enabled="false" isLoopBack="true" name="lo">
@@ -17,9 +16,9 @@
     <lg-networkiface description="vmxnet3 Ethernet Adapter"
         enabled="false" isLoopBack="false" name="eth2">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="ldcpetneogen18.rci.rogers.ca">
-            <ip value="10.61.124.138"/>
+        <lg-address enabled="false" hostname="ldcpetneogen14.rci.rogers.ca">
+            <ip value="10.61.124.134"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
-</lg-host>
+</me-host>

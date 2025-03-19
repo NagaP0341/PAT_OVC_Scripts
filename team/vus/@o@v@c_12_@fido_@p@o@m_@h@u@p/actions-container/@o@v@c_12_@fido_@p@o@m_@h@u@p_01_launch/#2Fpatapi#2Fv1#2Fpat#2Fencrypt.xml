@@ -33,7 +33,7 @@
     <header name="Host" value="uniloginapicc.rogers.com"/>
     <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"/>
     <header name="Ocp-Apim-Subscription-Key" value="bbb9f6d97c9f43a182e0037391364fa6"/>
-    <header name="accountNumber" value="${P_OVC_04_Fido_PPC.P_BAN}"/>
+    <header name="accountNumber" value="${P_OVC_12_Fido_POM_HUP.P_BAN}"/>
     <header name="Authorization" value="${P_jwtToken_Fido.p_JWTToken}"/>
     <responseHeaders/>
     <record-html-infos extractorRegExp="false" htmlType="0"/>

@@ -13,13 +13,26 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/craccountsapi/ovc/accounts/v2/overview"
-    path="/craccountsapi/ovc/accounts/v2/overview" postType="4"
+    path="/craccountsapi/ovc/accounts/v2/overview" postCharset=""
+    postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_12_@fido_@p@o@m_@h@u@p/%resources%/recorded-artifacts/48cc55c1-e0e5-4b8a-a96a-42460ba842c1.zip"
     recordedResponseCode="200" responseSize="1174"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
     uid="ef329805-d496-4033-b21b-ec48386d9dd0" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_e1fc5298-ac10-43e0-9fb4-fc611c032626</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_e1fc5298-ac10-43e0-9fb4-fc611c032626.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_e1fc5298-ac10-43e0-9fb4-fc611c032626.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="0" extractTypeSimple="4"
+        jsonpath="$" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_AcntOverview"
+        refererUid="ef329805-d496-4033-b21b-ec48386d9dd0" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="c8b340a2-500d-4df6-ba11-ea2b3d01813f" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -58,5 +71,5 @@ content-length: 638&#xd;
 set-cookie: dtCookie=v_4_srv_5_sn_5GR8O3VESE0565GQFAGL93GRHHIO3QOK_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
 set-cookie: Prod=A; domain=.oneview.fido.ca</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
-    <textPostContent><![CDATA[{"accountNumber":"947641601","applicationId":"OVC"}]]></textPostContent>
+    <textPostContent><![CDATA[{"accountNumber":"${C_IcmToken_AccountNumber}","applicationId":"OVC"}]]></textPostContent>
 </http-action>

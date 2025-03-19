@@ -13,30 +13,43 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/catalog/product/sku/IP16PM256GLD/hup/costs"
-    path="/catalog/product/sku/IP16PM256GLD/hup/costs" postType="4"
+    path="/catalog/product/sku/${C_getRandomDeviceJS_Selected_urlSlugID}/hup/costs"
+    postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_12_@fido_@p@o@m_@h@u@p/%resources%/recorded-artifacts/39cf0b69-2fc9-44f5-aa97-afe22b87c256.zip"
     recordedResponseCode="200" responseSize="6201"
     serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
     uid="fd82c53f-7b9a-45a1-affa-bd82876fcb3e" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_eeaa54bd-679a-479d-b51f-5c76faa269c7</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_eeaa54bd-679a-479d-b51f-5c76faa269c7.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_eeaa54bd-679a-479d-b51f-5c76faa269c7.txt</requestContentFileDescription>
-    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/iphone-16-pro-max/build-plan?ovContextId=3b2e5a01-806e-4d9b-8f69-ca81e2c45eb9&amp;flowType=hup&amp;sku=IP16PM256GLD&amp;step=3"/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="0" extractTypeSimple="4"
+        jsonpath="$" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_HupCost_Details"
+        refererUid="fd82c53f-7b9a-45a1-affa-bd82876fcb3e" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="98cb1061-3ba9-4b96-bc7a-c3f9039561be" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/iphone-16-pro-max/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=3"/>
     <header name="franchise" value="fido"/>
     <header name="sec-fetch-site" value="same-origin"/>
-    <header name="x-dtreferer" value="https://oneview-buyflow.fido.ca/phones/?ovContextId=3b2e5a01-806e-4d9b-8f69-ca81e2c45eb9&amp;flowType=hup&amp;language=en&amp;filters=manufacturer:apple"/>
+    <header name="x-dtreferer" value="https://oneview-buyflow.fido.ca/phones/?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;language=en&amp;filters=manufacturer:apple"/>
     <header name="origin" value="https://oneview-buyflow.fido.ca"/>
-    <header name="ovcontextid" value="3b2e5a01-806e-4d9b-8f69-ca81e2c45eb9"/>
+    <header name="ovcontextid" value="${C_Context_ContextId}"/>
     <header name="accounttype" value="CONSUMER"/>
-    <header name="userid" value="3b2e5a01-806e-4d9b-8f69-ca81e2c45eb9"/>
+    <header name="userid" value="${C_Context_ContextId}"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="province" value="ON"/>
-    <header name="postalcode" value="L6T0C1"/>
+    <header name="postalcode" value="${C_v2Overview_PostalCode}"/>
     <header name="x-dtpc" value="-14943$406803435_29h51vVKCTQTCKQQGPCSGQVAACBPKRQFCUKBAF-0e0"/>
     <header name="content-type" value="application/json"/>
     <header name="applicationid" value="UTEFidoCare"/>
     <header name="lang" value="en"/>
     <header name="sec-fetch-mode" value="cors"/>
-    <header name="cookie" value="language=en; province=ON; aam_dpid1094=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; aam_dpid942=ecc9eaa7f1e20900c383589b53dae85a498ea75dd86fcb52cb7bb1526adeee90; aam_dpid943=568984d7407d73fa50910f0e052fbaaa567ef42a326f9b7d4e3f12468e11d4bf; s_ecid=MCMID%7C80784114927351400610043204281761898286; dtCookie=v_4_srv_-2D14943_sn_5GR8O3VESE0565GQFAGL93GRHHIO3QOK; rxVisitor=17422067732720CQADDGRQ1GAPRSNGJSKL7KCMLA4SIUJ; language=en; PLAY_SESSION=6d2d692297013fee81e3bff9668f1299ef3c9681-LANGUAGE=en&amp;CH_BAN=947641601&amp;LOGGING_ID=UIPATH.BOT14&amp;V21=V21&amp;UserId=14017192&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=947641601&amp;CONTACT_ID=CO1060015716&amp;SessionId=7f8a83b8-278f-4d03-b1b3-587e359852f2&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; X_DOM_session_guid=533fef11-0319-11f0-bead-d9a76b47a2c7; X_DOM_BAN=ecc9eaa7f1e20900c383589b53dae85a498ea75dd86fcb52cb7bb1526adeee90; X_DOM_USER_NAME=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; s_cc=true; X_DOM_REFERRER=https://oneview.fido.ca; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO|~rv=80~m=ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=fd917c72126055904a33769fe0510e46; dtSa=false%7Cxhr%7C56%7Cx%7Cx%7C1742206802053%7C406773266_966%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; marketing_ctn=216515a73426c4462b5517fae74c380733fb0ca2f5ca2d61b57d9b642fbaf77f; marketing_ban=ecc9eaa7f1e20900c383589b53dae85a498ea75dd86fcb52cb7bb1526adeee90; marketing_user_name=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; X_DOM_CTN=568984d7407d73fa50910f0e052fbaaa567ef42a326f9b7d4e3f12468e11d4bf; FB_PHONE=c0076b3745834ffc325c8f68ecaf33268a0baaea33eef79e35beabb72eecf9a9; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCMID%7C80784114927351400610043204281761898286%7CMCIDTS%7C20165%7CMCAID%7CNONE%7CMCOPTOUT-1742214008s%7CNONE%7CMCAAMLH-1742811608%7C7%7CMCAAMB-1742811608%7Cj8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI%7CMCCIDH%7C-2140150564%7CMCSYNCSOP%7C411-20172%7CMCSYNCS%7C1083-20172*1085-20172*1086-20172*1087-20172*1088-20172*19913-20172%7CvVersion%7C5.5.0; s_sq=rcp-f-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOVF%25253Awireless%25253Aecom%25253Aovhup%25253Achoose-phone%2526link%253DSelect%252520%252526%252520Continue%2526region%253DmainContent%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOVF%25253Awireless%25253Aecom%25253Aovhup%25253Achoose-phone%2526pidt%253D1%2526oid%253DSelect%252520%252526%252520Continue%2526oidt%253D3%2526ot%253DSUBMIT; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pName%22:%22OVF:wireless:ecom:ovhup:plan-builder%22%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/iphone-16-pro-max/build-plan?ovContextId=3b2e5a01-806e-4d9b-8f69-ca81e2c45eb9&amp;flowType=hup&amp;sku=IP16PM256GLD&amp;step=3%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22}; rxvt=1742208641943|1742206773274; dtPC=-14943$406803435_29h51vVKCTQTCKQQGPCSGQVAACBPKRQFCUKBAF-0e0"/>
+    <header name="cookie" value="language=en; province=ON; aam_dpid1094=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; aam_dpid942=ecc9eaa7f1e20900c383589b53dae85a498ea75dd86fcb52cb7bb1526adeee90; aam_dpid943=568984d7407d73fa50910f0e052fbaaa567ef42a326f9b7d4e3f12468e11d4bf; s_ecid=MCMID%7C80784114927351400610043204281761898286; dtCookie=v_4_srv_-2D14943_sn_5GR8O3VESE0565GQFAGL93GRHHIO3QOK; rxVisitor=17422067732720CQADDGRQ1GAPRSNGJSKL7KCMLA4SIUJ; language=en; PLAY_SESSION=6d2d692297013fee81e3bff9668f1299ef3c9681-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=UIPATH.BOT14&amp;V21=V21&amp;UserId=14017192&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=7f8a83b8-278f-4d03-b1b3-587e359852f2&amp;TARGET_URL=ONEVIEWDASHBOARD; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; X_DOM_session_guid=533fef11-0319-11f0-bead-d9a76b47a2c7; X_DOM_BAN=ecc9eaa7f1e20900c383589b53dae85a498ea75dd86fcb52cb7bb1526adeee90; X_DOM_USER_NAME=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; s_cc=true; X_DOM_REFERRER=https://oneview.fido.ca; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO|~rv=80~m=ALB_AZUCE_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=fd917c72126055904a33769fe0510e46; dtSa=false%7Cxhr%7C56%7Cx%7Cx%7C1742206802053%7C406773266_966%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; marketing_ctn=216515a73426c4462b5517fae74c380733fb0ca2f5ca2d61b57d9b642fbaf77f; marketing_ban=ecc9eaa7f1e20900c383589b53dae85a498ea75dd86fcb52cb7bb1526adeee90; marketing_user_name=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; X_DOM_CTN=568984d7407d73fa50910f0e052fbaaa567ef42a326f9b7d4e3f12468e11d4bf; FB_PHONE=c0076b3745834ffc325c8f68ecaf33268a0baaea33eef79e35beabb72eecf9a9; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCMID%7C80784114927351400610043204281761898286%7CMCIDTS%7C20165%7CMCAID%7CNONE%7CMCOPTOUT-1742214008s%7CNONE%7CMCAAMLH-1742811608%7C7%7CMCAAMB-1742811608%7Cj8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI%7CMCCIDH%7C-2140150564%7CMCSYNCSOP%7C411-20172%7CMCSYNCS%7C1083-20172*1085-20172*1086-20172*1087-20172*1088-20172*19913-20172%7CvVersion%7C5.5.0; s_sq=rcp-f-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOVF%25253Awireless%25253Aecom%25253Aovhup%25253Achoose-phone%2526link%253DSelect%252520%252526%252520Continue%2526region%253DmainContent%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOVF%25253Awireless%25253Aecom%25253Aovhup%25253Achoose-phone%2526pidt%253D1%2526oid%253DSelect%252520%252526%252520Continue%2526oidt%253D3%2526ot%253DSUBMIT; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pName%22:%22OVF:wireless:ecom:ovhup:plan-builder%22%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/iphone-16-pro-max/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=3%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22}; rxvt=1742208641943|1742206773274; dtPC=-14943$406803435_29h51vVKCTQTCKQQGPCSGQVAACBPKRQFCUKBAF-0e0"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
     <header name="priority" value="u=1, i"/>
     <header name="accountsubtype" value="REGULAR"/>
@@ -73,14 +86,14 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     "creditClass": "N",
     "sharingStatus": "all",
     "sharingType": "",
-    "atgProductId": "prodIP16PM",
-    "accountNumber": "947641601",
+    "atgProductId": "${C_getRandomDeviceJS_atgProductId}",
+    "accountNumber": "${C_IcmToken_AccountNumber}",
     "eligibilityInd": "ELIGIBLE",
-    "variantExternalId": "IP16PM256GLD",
-    "phoneNumber": "4372997194",
+    "variantExternalId": "${C_getRandomDeviceJS_Selected_urlSlugID}",
+    "phoneNumber": "${C_v1Subscriptions_SubNumber}",
     "riskClass": "EN80",
     "creditOption": "TAL5",
-    "id": "IP16PM256GLD",
+    "id": "${C_getRandomDeviceJS_Selected_urlSlugID}",
     "activityType": "hup",
     "applicationId": "UTEFidoCare",
     "riskClassCategory": "LOW",

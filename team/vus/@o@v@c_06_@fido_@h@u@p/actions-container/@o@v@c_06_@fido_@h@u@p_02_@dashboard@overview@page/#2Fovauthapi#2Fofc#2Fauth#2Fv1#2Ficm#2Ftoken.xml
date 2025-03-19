@@ -74,7 +74,7 @@
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="x-app-id" value="OVF"/>
     <header name="x-dtpc" value="-6765$406331414_643h6vIKSHAPKFGCFHRILUFMFMLMVAILKMNGRT-0e0"/>
-    <header name="ocp-apim-subscription-key" value="ba82a160c4b945bfa843f2738369ae90"/>
+    <header name="ocp-apim-subscription-key" value="${C_cmmnCfig_ocm_sub_key}"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
     <header name="content-type" value="application/json"/>
     <header name="lang" value="en"/>

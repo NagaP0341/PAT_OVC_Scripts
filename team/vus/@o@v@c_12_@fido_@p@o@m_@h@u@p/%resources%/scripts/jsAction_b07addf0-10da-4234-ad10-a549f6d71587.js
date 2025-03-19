@@ -10,6 +10,7 @@ var Plans_externalId = plans[0]['externalId'];
 var Plans_atgSkuId = plans[0]['atgSkuId'];
 var autoDeploySocs = plans[0]['autoDeploySocs'];
 var autoDeploySocs_skuId = autoDeploySocs[0]['skuId'];
+var autoDeploySocs_skuId2 = autoDeploySocs[1]['skuId'];
 var autoDeploySocs_externalId = autoDeploySocs[0]['externalId'];
 var autoDeploySocs_externalId2 = autoDeploySocs[1]['externalId'];
  
@@ -20,7 +21,7 @@ var autoDeploySocs_externalId2 = autoDeploySocs[1]['externalId'];
    context.variableManager.setValue("C_GetPlanDetailsJs_autoDeploySocs_skuId",autoDeploySocs_skuId);  //sku_addon_sku2780327_sku2780327
    context.variableManager.setValue("C_GetPlanDetailsJs_autoDeploySocs_externalId",autoDeploySocs_externalId);  //TAGSRA6PB
    context.variableManager.setValue("C_GetPlanDetailsJs_autoDeploySocs_externalId2",autoDeploySocs_externalId2);  //TAGSRA6PB   
-
+    context.variableManager.setValue("C_GetPlanDetailsJs_autoDeploySocs_skuId2",autoDeploySocs_skuId2);
    
 // Do some computation using the methods
  
