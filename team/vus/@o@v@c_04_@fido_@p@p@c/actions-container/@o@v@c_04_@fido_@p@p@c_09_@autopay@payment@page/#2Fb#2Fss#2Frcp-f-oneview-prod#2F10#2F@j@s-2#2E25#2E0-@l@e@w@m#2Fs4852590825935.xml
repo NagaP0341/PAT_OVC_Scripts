@@ -155,7 +155,7 @@
     <parameter encodeName="true" encodeValue="true" name="products"
         recordRawValue="%3BLTOM012UN%3AData%20100%20GB-%20%3B%3B%3B%3BeVar31%3DPPC%7CeVar32%3Dwireless%7CeVar33%3Dplan%7CeVar136%3D100%3AFinancing%3Agb%3A0%3An%2Fa%7CeVar138%3D65.00%7CeVar145%3D0.00%7CeVar146%3D0.00%7CeVar147%3D0.00%7CeVar148%3D0.00%2C%3BOPTSRA1AK%3AVoicemail%20%283%20messages%29%20-%20EN%3B%3B%3B%3BeVar31%3DPPC%7CeVar32%3Dwireless%7CeVar33%3Daddon%7CeVar145%3D0.00%7CeVar146%3D0.00%7CeVar147%3D0.00%7CeVar148%3D0.00%2C%3BTAGSRA6T4%3APromo%20One-Time%20Discount%3B%3B%3B%3BeVar31%3DPPC%7CeVar32%3Dwireless%7CeVar33%3Daddon%7CeVar145%3D0.00%7CeVar146%3D0.00%7CeVar147%3D0.00%7CeVar148%3D0.00%2C%3BFULLDETF%3AFULLDETF%3B%3B%3B%3BeVar31%3DPPC%7CeVar32%3Dwireless%7CeVar33%3Daddon%7CeVar145%3D0.00%7CeVar146%3D0.00%7CeVar147%3D0.00%7CeVar148%3D0.00"
         separator="="
-        value=";${c_Plans_externalId}:Data 100 GB- ;;;;eVar31=PPC|eVar32=wireless|eVar33=plan|eVar136=100:Financing:gb:0:n/a|eVar138=65.00|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;OPTSRA1AK:Voicemail (3 messages) - EN;;;;eVar31=PPC|eVar32=wireless|eVar33=addon|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;TAGSRA6T4:Promo One-Time Discount;;;;eVar31=PPC|eVar32=wireless|eVar33=addon|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;FULLDETF:FULLDETF;;;;eVar31=PPC|eVar32=wireless|eVar33=addon|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00" valueMode="USE_VALUE"/>
+        value=";${c_Plans_externalId}:Data 100 GB- ;;;;eVar31=PPC|eVar32=wireless|eVar33=plan|eVar136=100:Financing:gb:0:n/a|eVar138=65.00|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;${C_voiceMail_addons_externalId}:Voicemail (3 messages) - EN;;;;eVar31=PPC|eVar32=wireless|eVar33=addon|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;${C_addons_externalId}:Promo One-Time Discount;;;;eVar31=PPC|eVar32=wireless|eVar33=addon|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00,;FULLDETF:FULLDETF;;;;eVar31=PPC|eVar32=wireless|eVar33=addon|eVar145=0.00|eVar146=0.00|eVar147=0.00|eVar148=0.00" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="aamb"
         recordRawValue="RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y"
         separator="="
@@ -246,7 +246,7 @@
     <parameter encodeName="true" encodeValue="true" name="v65"
         recordRawValue="https%3A%2F%2Foneview-buyflow.fido.ca%2Fphones%2Fbuild-plan%3FovContextId%3Dc0ec8363-63d3-4096-b3dc-c161c68ea51e%26flowType%3Dppc%26step%3D11%26planType%3DFIN_DATA_TALK_TEXT%26data%3Dsku_plan_LTOM012UN_LTOM012UN%26addons%3DFULLDETF%2COPTSRA1AK%2CTAGSRA6T4%26changeDate%3D0"
         separator="="
-        value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=${c_contextId}&amp;flowType=ppc&amp;step=11&amp;planType=${C_planTypesID}&amp;data=${c_Plans_planId}&amp;addons=FULLDETF,OPTSRA1AK,TAGSRA6T4&amp;changeDate=0" valueMode="USE_VALUE"/>
+        value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=${c_contextId}&amp;flowType=ppc&amp;step=11&amp;planType=${C_planTypesID}&amp;data=${c_Plans_planId}&amp;addons=FULLDETF,${C_voiceMail_addons_externalId},${C_addons_externalId}&amp;changeDate=0" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="v71"
         recordRawValue="microsoft%7Chosted%7C5000%7Cca%7Cqc%7C8075"
         separator="=" value="microsoft|hosted|5000|ca|qc|8075" valueMode="USE_VALUE"/>

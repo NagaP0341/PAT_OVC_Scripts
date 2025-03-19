@@ -13,12 +13,12 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/cart/shoppingCart" path="/cart/shoppingCart"
-    postType="4"
+    postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/b516bc93-3624-4d94-a655-68673dfd44bb.zip"
     recordedResponseCode="200" responseSize="234"
     serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
     uid="bc6f0231-f80d-458c-8139-e616f94b3116" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_bc6f0231-f80d-458c-8139-e616f94b3116</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_bc6f0231-f80d-458c-8139-e616f94b3116.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_bc6f0231-f80d-458c-8139-e616f94b3116.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="activityType"
         recordRawValue="ppc" separator="=" value="ppc" valueMode="USE_VALUE"/>
@@ -35,7 +35,7 @@
     <header name="accept" value="application/json, text/plain, */*"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
-    <header name="province" value="QC"/>
+    <header name="province" value="ON"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
     <header name="content-type" value="application/json"/>
     <header name="applicationid" value="UTEFidoCare"/>

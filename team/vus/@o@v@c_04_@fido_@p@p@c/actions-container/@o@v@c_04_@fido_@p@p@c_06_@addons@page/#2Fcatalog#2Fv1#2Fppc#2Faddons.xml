@@ -20,7 +20,6 @@
     recordedResponseCode="200" responseSize="9851"
     serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
     uid="645b81aa-5878-491d-85f9-b9a56faaabcb" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_645b81aa-5878-491d-85f9-b9a56faaabcb.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_645b81aa-5878-491d-85f9-b9a56faaabcb.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
         defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
@@ -55,7 +54,7 @@
     <header name="accept" value="application/json, text/plain, */*"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
-    <header name="province" value="QC"/>
+    <header name="province" value="ON"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
     <header name="content-type" value="application/json"/>
     <header name="applicationid" value="UTEFidoCare"/>
@@ -104,12 +103,12 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/api/v1/promo/regularpromotions"
-    path="/api/v1/promo/regularpromotions" postType="4"
+    path="/api/v1/promo/regularpromotions" postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_04_@fido_@p@p@c/%resources%/recorded-artifacts/802efabd-a8bd-432f-9a46-47e8e33b8e56.zip"
     recordedResponseCode="200" responseSize="24"
     serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
     uid="16d68098-e224-462c-8311-a45810537461" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_0fd27457-13e7-4f49-ab9a-66f1784a8cda</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_0fd27457-13e7-4f49-ab9a-66f1784a8cda.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_0fd27457-13e7-4f49-ab9a-66f1784a8cda.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview-buyflow.fido.ca/phones/build-plan?ovContextId=${c_contextId}&amp;flowType=ppc&amp;step=7&amp;planType=${C_planTypesID}&amp;data=${c_Plans_planId}"/>
@@ -125,7 +124,7 @@ x-frame-options: SAMEORIGIN</responseHeaders>
     <header name="accept" value="application/json, text/plain, */*"/>
     <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;134&quot;, &quot;Not:A-Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;134&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
-    <header name="province" value="QC"/>
+    <header name="province" value="ON"/>
     <header name="x-dtpc" value="-2036$401425110_203h32vGTFTKCOBHSEPJBHGBGUPVARMOHACGFKR-0e0"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
     <header name="content-type" value="application/json"/>

@@ -1,40 +1,10 @@
 <scenario postMonitoringTime="-1" preMonitoringTime="-1"
     slaProfileEnabled="false" traceVariables="true" uid="scenario1" virtualUsersStates="true">
     <!--****** POPULATION POLICY ******-->
-    <population-policy name="OVC_09_Rogers_AAL">
+    <population-policy name="OVC_04_Fido_PPC">
         <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
         <volume-policy-entry>
-            <constant-volume-policy iterationNumber="1" userNumber="3"/>
-        </volume-policy-entry>
-        <start-stop-policy-entry start-delay="0" start-type="0"
-            stop-delay="60000" stop-type="0"/>
-        <runtime-policy continueOnError="true" thinktimePolicy="0"
-            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
-        <!--****** POPULATION LG HOSTS ******-->
-        <lg-hosts>
-            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
-        </lg-hosts>
-    </population-policy>
-    <!--****** POPULATION POLICY ******-->
-    <population-policy name="OVC_13_Rogers_POM_PPC">
-        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
-        <volume-policy-entry>
-            <constant-volume-policy iterationNumber="1" userNumber="3"/>
-        </volume-policy-entry>
-        <start-stop-policy-entry start-delay="0" start-type="0"
-            stop-delay="60000" stop-type="0"/>
-        <runtime-policy continueOnError="true" thinktimePolicy="0"
-            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
-        <!--****** POPULATION LG HOSTS ******-->
-        <lg-hosts>
-            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
-        </lg-hosts>
-    </population-policy>
-    <!--****** POPULATION POLICY ******-->
-    <population-policy name="OVC_10_Fido_AAL">
-        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
-        <volume-policy-entry>
-            <constant-volume-policy iterationNumber="1" userNumber="3"/>
+            <constant-volume-policy iterationNumber="15" userNumber="4"/>
         </volume-policy-entry>
         <start-stop-policy-entry start-delay="0" start-type="0"
             stop-delay="60000" stop-type="0"/>
