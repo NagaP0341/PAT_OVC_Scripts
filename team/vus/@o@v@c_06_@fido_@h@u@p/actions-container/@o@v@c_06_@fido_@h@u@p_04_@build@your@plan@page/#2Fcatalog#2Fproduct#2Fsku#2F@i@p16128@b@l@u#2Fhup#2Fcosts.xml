@@ -13,30 +13,43 @@
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/catalog/product/sku/IP16128BLU/hup/costs"
-    path="/catalog/product/sku/IP16128BLU/hup/costs" postType="4"
+    path="/catalog/product/sku/${C_getRandomDeviceJS_Selected_urlSlugID}/hup/costs"
+    postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_06_@fido_@h@u@p/%resources%/recorded-artifacts/f81d2a39-5449-4e82-8674-6af0141e1616.zip"
     recordedResponseCode="200" responseSize="6176"
     serverUid="oneview-buyflow.fido.ca" slaProfileEnabled="false"
     uid="7d05c327-8d49-475e-8740-3648c16d648e" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_7d05c327-8d49-475e-8740-3648c16d648e</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_7d05c327-8d49-475e-8740-3648c16d648e.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_7d05c327-8d49-475e-8740-3648c16d648e.txt</requestContentFileDescription>
-    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/iphone-16/build-plan?ovContextId=6f44dc2f-e95f-44b5-ab49-fddd9d1990f5&amp;flowType=hup&amp;sku=IP16128BLU&amp;step=3"/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="0" extractTypeSimple="4"
+        jsonpath="$" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_HupCost_Details"
+        refererUid="7d05c327-8d49-475e-8740-3648c16d648e" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="a1797709-55e4-4481-91db-868dac433125" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="referer" value="https://oneview-buyflow.fido.ca/phones/iphone-16/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=3"/>
     <header name="franchise" value="fido"/>
     <header name="sec-fetch-site" value="same-origin"/>
-    <header name="x-dtreferer" value="https://oneview-buyflow.fido.ca/phones/?ovContextId=6f44dc2f-e95f-44b5-ab49-fddd9d1990f5&amp;flowType=hup&amp;language=en"/>
+    <header name="x-dtreferer" value="https://oneview-buyflow.fido.ca/phones/?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;language=en"/>
     <header name="origin" value="https://oneview-buyflow.fido.ca"/>
-    <header name="ovcontextid" value="6f44dc2f-e95f-44b5-ab49-fddd9d1990f5"/>
+    <header name="ovcontextid" value="${C_Context_ContextId}"/>
     <header name="accounttype" value="CONSUMER"/>
-    <header name="userid" value="6f44dc2f-e95f-44b5-ab49-fddd9d1990f5"/>
+    <header name="userid" value="${C_Context_ContextId}"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="province" value="ON"/>
-    <header name="postalcode" value="L6T0C1"/>
+    <header name="postalcode" value="{C_v2Overview_PostalCode}"/>
     <header name="x-dtpc" value="-6765$406405877_483h46vIKSHAPKFGCFHRILUFMFMLMVAILKMNGRT-0e0"/>
     <header name="content-type" value="application/json"/>
     <header name="applicationid" value="UTEFidoCare"/>
     <header name="lang" value="en"/>
     <header name="sec-fetch-mode" value="cors"/>
-    <header name="cookie" value="dtCookie=v_4_srv_-2D6765_sn_5LIQG2VOJPNI1AMU701DB1APJOUTTT73; rxVisitor=1742206331427KBA2F8AH70JJM8GO3IRI6MT1VPQAAQO8; language=en; PLAY_SESSION=c783508d064dab111a89fb2570bf5739ee529ebf-LANGUAGE=en&amp;CH_BAN=947662789&amp;LOGGING_ID=UIPATH.BOT16&amp;V21=V21&amp;UserId=14017175&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=947662789&amp;CONTACT_ID=CO1060020397&amp;SessionId=36bea742-e24f-4893-b025-2988b57ba737&amp;TARGET_URL=ONEVIEWDASHBOARD; X_DOM_session_guid=4c2d6ff1-0318-11f0-a9b9-61ae23791325; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C26847912682370035290889765777843660105; s_cc=true; X_DOM_BAN=454e4a1aa90caf11cfb2a4fb4011ce29998a52b9e43a0edaeb1be178e0f000aa; X_DOM_USER_NAME=fb94d78cfbb616160f81712b0e2c724d8a4c3fa33107154e11eca546152deb2a; X_DOM_REFERRER=https://oneview.fido.ca; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCC_ONEVIEW_BUYFLOW_FIDO|~rv=29~m=ALB_AZUCC_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=3e363690ea43eca17036c8b9b468ae6a; dtSa=false%7Cxhr%7C53%7Cx%7Cx%7C1742206404406%7C406331414_643%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; language=en; province=ON; FB_PHONE=320f0d00cb21c132d2fe3361c7bea771ac3d927ca4c1a85ca75358c4a9acc26c; aam_dpid942=454e4a1aa90caf11cfb2a4fb4011ce29998a52b9e43a0edaeb1be178e0f000aa; aam_dpid943=3c2695cf7a5194f00eda7508914f9f40334c9f616f83abcc52c3db3dca93744e; X_DOM_CTN=3c2695cf7a5194f00eda7508914f9f40334c9f616f83abcc52c3db3dca93744e; aam_dpid1094=fb94d78cfbb616160f81712b0e2c724d8a4c3fa33107154e11eca546152deb2a; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C26847912682370035290889765777843660105%7CMCAAMLH-1742811210%7C7%7CMCAAMB-1742811210%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742213610s%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCAID%7CNONE%7CMCCIDH%7C-456034800%7CvVersion%7C5.5.0; s_sq=rcp-f-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOVF%25253Awireless%25253Aecom%25253Aovhup%25253Achoose-phone%2526link%253DSelect%252520%252526%252520Continue%2526region%253DmainContent%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOVF%25253Awireless%25253Aecom%25253Aovhup%25253Achoose-phone%2526pidt%253D1%2526oid%253DSelect%252520%252526%252520Continue%2526oidt%253D3%2526ot%253DSUBMIT; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pName%22:%22OVF:wireless:ecom:ovhup:plan-builder%22%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/iphone-16/build-plan?ovContextId=6f44dc2f-e95f-44b5-ab49-fddd9d1990f5&amp;flowType=hup&amp;sku=IP16128BLU&amp;step=3%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}}; rxvt=1742208277325|1742206331430; dtPC=-6765$406405877_483h46vIKSHAPKFGCFHRILUFMFMLMVAILKMNGRT-0e0"/>
+    <header name="cookie" value="dtCookie=v_4_srv_-2D6765_sn_5LIQG2VOJPNI1AMU701DB1APJOUTTT73; rxVisitor=1742206331427KBA2F8AH70JJM8GO3IRI6MT1VPQAAQO8; language=en; PLAY_SESSION=c783508d064dab111a89fb2570bf5739ee529ebf-LANGUAGE=en&amp;CH_BAN=${C_IcmToken_AccountNumber}&amp;LOGGING_ID=UIPATH.BOT16&amp;V21=V21&amp;UserId=14017175&amp;SOURCE=CRM&amp;FRANCHISE=FIDO&amp;ACCTNBR=${C_IcmToken_AccountNumber}&amp;CONTACT_ID=${C_IcmToken_ContactID}&amp;SessionId=36bea742-e24f-4893-b025-2988b57ba737&amp;TARGET_URL=ONEVIEWDASHBOARD; X_DOM_session_guid=4c2d6ff1-0318-11f0-a9b9-61ae23791325; AMCVS_D7FD34FA53D63B860A490D44%40AdobeOrg=1; s_ecid=MCMID%7C26847912682370035290889765777843660105; s_cc=true; X_DOM_BAN=454e4a1aa90caf11cfb2a4fb4011ce29998a52b9e43a0edaeb1be178e0f000aa; X_DOM_USER_NAME=fb94d78cfbb616160f81712b0e2c724d8a4c3fa33107154e11eca546152deb2a; X_DOM_REFERRER=https://oneview.fido.ca; akaalb_Oneview_Buyflow_Fido=~op=ALB_AZURE_ONEVIEW_BUYFLOW_FIDO:ALB_AZUCC_ONEVIEW_BUYFLOW_FIDO|~rv=29~m=ALB_AZUCC_ONEVIEW_BUYFLOW_FIDO:0|~os=0755b9ab71cb393d95829bec3f3fc9b7~id=3e363690ea43eca17036c8b9b468ae6a; dtSa=false%7Cxhr%7C53%7Cx%7Cx%7C1742206404406%7C406331414_643%7Chttps%3A%2F%2Foneview.fido.ca%2Fweb%2Fa%2Fdashboard%2Foverview%3Fsource%3Dicm%26lang%3Den%7C%7C%7C%7C; region=QC; city=QUEBEC; country=CA; adobe_network_info={&quot;asn&quot;:&quot;8075&quot;,&quot;network&quot;:&quot;microsoft&quot;,&quot;network-type&quot;:&quot;hosted&quot;,&quot;bandwidth&quot;:&quot;5000&quot;,&quot;country&quot;:&quot;CA&quot;,&quot;province&quot;:&quot;QC&quot;}; language=en; province=ON; FB_PHONE=320f0d00cb21c132d2fe3361c7bea771ac3d927ca4c1a85ca75358c4a9acc26c; aam_dpid942=454e4a1aa90caf11cfb2a4fb4011ce29998a52b9e43a0edaeb1be178e0f000aa; aam_dpid943=3c2695cf7a5194f00eda7508914f9f40334c9f616f83abcc52c3db3dca93744e; X_DOM_CTN=3c2695cf7a5194f00eda7508914f9f40334c9f616f83abcc52c3db3dca93744e; aam_dpid1094=fb94d78cfbb616160f81712b0e2c724d8a4c3fa33107154e11eca546152deb2a; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCIDTS%7C20165%7CMCMID%7C26847912682370035290889765777843660105%7CMCAAMLH-1742811210%7C7%7CMCAAMB-1742811210%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1742213610s%7CNONE%7CMCSYNCSOP%7C411-20172%7CMCAID%7CNONE%7CMCCIDH%7C-456034800%7CvVersion%7C5.5.0; s_sq=rcp-f-oneview-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253DOVF%25253Awireless%25253Aecom%25253Aovhup%25253Achoose-phone%2526link%253DSelect%252520%252526%252520Continue%2526region%253DmainContent%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DOVF%25253Awireless%25253Aecom%25253Aovhup%25253Achoose-phone%2526pidt%253D1%2526oid%253DSelect%252520%252526%252520Continue%2526oidt%253D3%2526ot%253DSUBMIT; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}%2C%22pName%22:%22OVF:wireless:ecom:ovhup:plan-builder%22%2C%22pURL%22:%22https://oneview-buyflow.fido.ca/phones/iphone-16/build-plan?ovContextId=${C_Context_ContextId}&amp;flowType=hup&amp;sku=${C_getRandomDeviceJS_Selected_urlSlugID}&amp;step=3%22%2C%22accType%22:%22consumer|regular|n/a|n/a%22%2C%22optout_uuid%22:{}}; rxvt=1742208277325|1742206331430; dtPC=-6765$406405877_483h46vIKSHAPKFGCFHRILUFMFMLMVAILKMNGRT-0e0"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
     <header name="priority" value="u=1, i"/>
     <header name="accountsubtype" value="REGULAR"/>
@@ -67,5 +80,22 @@ content-length: 1714&#xd;
 set-cookie: dtCookie=v_4_srv_15_sn_5LIQG2VOJPNI1AMU701DB1APJOUTTT73_perc_100000_ol_0_mul_1_app-3A39f30da8dcd81ec2_1_rcs-3Acss_0; Path=/; Domain=.rogers.com; SameSite=Strict; secure&#xd;
 x-frame-options: SAMEORIGIN</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
-    <textPostContent><![CDATA[{"accountNumber":"947662789","phoneNumber":"4379715124","sharingStatus":"all","creditClass":"N","riskClass":"EN80","creditOption":"TAL5","sharingType":"","activityType":"hup","variantExternalId":"IP16128BLU","atgProductId":"prodIP16","id":"IP16128BLU","deviceType":"smartphone","eligibilityInd":"ELIGIBLE","maxDpPercent":100,"riskClassCategory":"LOW","applicationId":"UTEFidoCare"}]]></textPostContent>
+    <textPostContent><![CDATA[{
+    "deviceType": "smartphone",
+    "creditClass": "N",
+    "sharingStatus": "all",
+    "sharingType": "",
+    "atgProductId": "${C_getRandomDeviceJS_atgProductId}",
+    "accountNumber": "${C_IcmToken_AccountNumber}",
+    "eligibilityInd": "ELIGIBLE",
+    "variantExternalId": "${C_getRandomDeviceJS_Selected_urlSlugID}",
+    "phoneNumber": "${C_v1Subscriptions_SubNumber}",
+    "riskClass": "EN80",
+    "creditOption": "TAL5",
+    "id": "${C_getRandomDeviceJS_Selected_urlSlugID}",
+    "activityType": "hup",
+    "applicationId": "UTEFidoCare",
+    "riskClassCategory": "LOW",
+    "maxDpPercent": 100
+}]]></textPostContent>
 </http-action>

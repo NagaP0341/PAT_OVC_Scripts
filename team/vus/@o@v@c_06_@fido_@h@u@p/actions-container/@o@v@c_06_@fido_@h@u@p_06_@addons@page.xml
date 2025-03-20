@@ -4,5 +4,6 @@
     slaProfileEnabled="false" uid="636a10e2-ac71-44a1-add2-25d0b92acf14" weightsEnabled="false">
     <weighted-embedded-action uid="5cfa477e-4a00-4a71-b54f-88966655108f"/>
     <weighted-embedded-action uid="1650d864-5cad-4fc7-bbd2-6c3ddcd50317"/>
+    <weighted-embedded-action uid="77fe55ba-ced1-410c-b5ff-661700a51061"/>
     <weighted-embedded-action uid="017ff1e0-6379-4230-b782-b6bb2db22c7f"/>
 </basic-logical-action-container>

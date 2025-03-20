@@ -63,17 +63,17 @@
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="cookie" value="aam_dpid1094=4de0f95834247fb73b3be05cc877fc1a1523093a463d75850e0d1293aca9153f; aam_dpid942=ecc9eaa7f1e20900c383589b53dae85a498ea75dd86fcb52cb7bb1526adeee90; s_ecid=MCMID%7C80784114927351400610043204281761898286; akaalb_Oneview-Fido-Production=~op=LB_Oneview_Fido_Prod_UI_Care:ProdA-oneview-Fido-ui-care|~rv=31~m=ProdA-oneview-Fido-ui-care:0|~os=b7cca4703096c95de7fa1ab47d55c826~id=14e022ac4a875b135370a09352292e51; dtCookie=v_4_srv_-2D14943_sn_5GR8O3VESE0565GQFAGL93GRHHIO3QOK; rxVisitor=17422067732720CQADDGRQ1GAPRSNGJSKL7KCMLA4SIUJ; dtSa=-; language=en; language=en; AMCV_D7FD34FA53D63B860A490D44%40AdobeOrg=179643557%7CMCMID%7C80784114927351400610043204281761898286%7CMCIDTS%7C20165%7CvVersion%7C5.5.0; _analytics={%22cookie%22:{%22expires%22:365%2C%22domain%22:%22.fido.ca%22}}; rxvt=1742208573660|1742206773274; dtPC=-14943$406773266_966h7vVKCTQTCKQQGPCSGQVAACBPKRQFCUKBAF-0e0"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
-    <header name="x-dtreferer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en&amp;jwt=eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.g0pfAIEP-rxW19o99-m3mQ1JGeAwZNQ4NYvWx30xYxbtjgig-mTtSrwIt1epSC8jMhB_8XSGrztMswh_QqA15fNfzg8YTrZKBSQ_TbFTsMymowNqV4Spf56nY1DRjDxvr-U3RdfdkJKKLQq9kjcKXMzsIJGSVb4c8W_oW16b8pIwqC_f7b6LoBTICM51zLJFgBpv6g4SgDLizxYzUEkfPzJwXhZ4uMXSohuQm8_ys6QHBiD3z5PBq8xM4Gq-VBKjVvN2p7zdFZcIIWyitHHL9m-l1Xf2kZQ7kMBCKguEqQPZNWKscAo28BxvQ5OxUsBJzqJ-aPSJBm8G9D4CdWrBxA.HEGmW7LHznC9xHfz.vpbwA5D2DkJyDONAf6SWjjbj8Myl5yMVymPMsuibGbLUaF2JFaJOTcTM5YauvlpF0E5VdiNTh6nTDOFWiXkgXZazXFLM6VILPvw8iU0VV9fM4f3gBjD4X11dWGT6SlrDUlXrDeJi_2thvRKHuHjbIpFugyH6Hs8-8y6sJTgM9LfzBbfBmXko9KznGMnN3Au15wtMEQZU4Pe5VWv9-lty_vwFAuRz4WAQtB3nQ1VlX0ePHCQ_U3Lg8tmGhIZHDpLSR91vpvzXCjiB_lbsXpVkDdZq2A0-0nDUblhWlsGH00RUNotBkkjzgXAtmoIfPKhcXpPqsbnhDIbvSQVmRedCFdRpgMI.YcWzGr-NlkLImysIrgw0_g"/>
+    <header name="x-dtreferer" value="https://oneview.fido.ca/web/a/dashboard/?source=icm&amp;lang=en&amp;jwt=${P_JwtToken}"/>
     <header name="origin" value="https://oneview.fido.ca"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="Bearer eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.g0pfAIEP-rxW19o99-m3mQ1JGeAwZNQ4NYvWx30xYxbtjgig-mTtSrwIt1epSC8jMhB_8XSGrztMswh_QqA15fNfzg8YTrZKBSQ_TbFTsMymowNqV4Spf56nY1DRjDxvr-U3RdfdkJKKLQq9kjcKXMzsIJGSVb4c8W_oW16b8pIwqC_f7b6LoBTICM51zLJFgBpv6g4SgDLizxYzUEkfPzJwXhZ4uMXSohuQm8_ys6QHBiD3z5PBq8xM4Gq-VBKjVvN2p7zdFZcIIWyitHHL9m-l1Xf2kZQ7kMBCKguEqQPZNWKscAo28BxvQ5OxUsBJzqJ-aPSJBm8G9D4CdWrBxA.HEGmW7LHznC9xHfz.vpbwA5D2DkJyDONAf6SWjjbj8Myl5yMVymPMsuibGbLUaF2JFaJOTcTM5YauvlpF0E5VdiNTh6nTDOFWiXkgXZazXFLM6VILPvw8iU0VV9fM4f3gBjD4X11dWGT6SlrDUlXrDeJi_2thvRKHuHjbIpFugyH6Hs8-8y6sJTgM9LfzBbfBmXko9KznGMnN3Au15wtMEQZU4Pe5VWv9-lty_vwFAuRz4WAQtB3nQ1VlX0ePHCQ_U3Lg8tmGhIZHDpLSR91vpvzXCjiB_lbsXpVkDdZq2A0-0nDUblhWlsGH00RUNotBkkjzgXAtmoIfPKhcXpPqsbnhDIbvSQVmRedCFdRpgMI.YcWzGr-NlkLImysIrgw0_g"/>
+    <header name="authorization" value="Bearer ${P_JwtToken}"/>
     <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
     <header name="x-transaction-id" value="5134ba35-dd45-13b7-1a27-9d1f0fb7be7d"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="x-app-id" value="OVF"/>
     <header name="x-dtpc" value="-14943$406773266_966h7vVKCTQTCKQQGPCSGQVAACBPKRQFCUKBAF-0e0"/>
-    <header name="ocp-apim-subscription-key" value="ba82a160c4b945bfa843f2738369ae90"/>
+    <header name="ocp-apim-subscription-key" value="${C_cmmnCfig_ocm_sub_key}"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
     <header name="content-type" value="application/json"/>
     <header name="lang" value="en"/>

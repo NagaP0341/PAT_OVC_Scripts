@@ -19,7 +19,7 @@ financingCostList_skuId = financingCostList[2]['skuId'];
 financingCostList_planTierCode = financingCostList[2]['planTierCode'];
 financingCostList_programCode =financingCostList[2]['programCode'];
 financingCostList_hupTier =financingCostList[2]['hupTier'];
-financingCostList_PriceTierID =financingCostList[2]['dpPriceTierIds'][0];
+financingCostList_PriceTierID =financingCostList[2]['priceTier'];
 
 // Inject the computed value in a runtime variable
 //   context.variableManager.setValue("C_HUPCostDetailsjs_deviceConfigurationSelectedMode_skuId",deviceConfigurationSelectedMode_skuId);  //sku_device_IP16128BLU_prodIP16

@@ -15,13 +15,25 @@
     method="GET"
     name="/crbillingapi/ovc/billing/v1/billtype/FkaufLYUyNe3I270M-COLA=="
     path="/crbillingapi/ovc/billing/v1/billtype/${C_Accountdetailsjs_accountAlias}"
-    postType="4"
+    postCharset="" postType="4"
     recordedArtifactZipFileName="team/vus/@o@v@c_12_@fido_@p@o@m_@h@u@p/%resources%/recorded-artifacts/5ae6ed2a-a973-484e-b198-87e7dc8c29c9.zip"
     recordedResponseCode="200" responseSize="68"
     serverUid="oneview.fido.ca" slaProfileEnabled="false"
     uid="c83ab146-086f-4ea2-a6b8-0c84b4c6aae6" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_c42d132d-842c-4eb7-b4e9-019f744ddda2</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_c42d132d-842c-4eb7-b4e9-019f744ddda2.0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c42d132d-842c-4eb7-b4e9-019f744ddda2.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="C_BillType_bearerToken11"
+        refererUid="c83ab146-086f-4ea2-a6b8-0c84b4c6aae6"
+        regExp="Bearer (.*)" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="Bearer " template="$1$" templateAdv="$1$"
+        uid="085a9616-6057-46a1-bd37-c698e5800eb4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://oneview.fido.ca/web/a/dashboard/overview?transactionState=incomplete&amp;lang=en"/>
     <header name="sec-fetch-site" value="same-origin"/>
@@ -30,7 +42,7 @@
     <header name="x-dtreferer" value="https://oneview.fido.ca/web/a/dashboard?transactionState=incomplete&amp;lang=en"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept" value="application/json, text/plain, */*"/>
-    <header name="authorization" value="Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbXBsb3llZUlkPTE0MDE3MTkyLGxhbklkPVVJUEFUSC5CT1QxNCIsImF1ZCI6Ik9uZXZpZXcgRmlkbyBDYXJlIiwidG9rZW5EdXJhdGlvbiI6IjI3MDAwMDAiLCJzdWJqZWN0IjoiZW1wbG95ZWVJZD0xNDAxNzE5MixsYW5JZD1VSVBBVEguQk9UMTQiLCJpc3MiOiJodHRwczovL3d3dy5maWRvLmNhIiwiZXhwIjoxNzQyMjEwNjE5LCJpYXQiOjE3NDIyMDY3NzMsImtleSI6ImM5VUFPTHRPbldFR3NXTEwzNmtWQjZ0ZUVCMyt6T25EcnBQTHFzeDl2N3ZHdGF4QW5yZ0pWM2lxMVZoQkd5VHpYSUF6S1pORkRRSWhBNDhoQW9vZ3Qxc2U5d2tlUXkvTFBJQVVETitzdHp6VXFaeSsxNHBTdTRSd1dxditZOTZ1VjFQT3FQblVEWGdMWUNiMWt2Q0ZmV0hFaHZkQlFBTFVaWEJ2bUM4SlVzRXFaNUZlMUxPbXJKblJaSHFkS2FYUkoyclRLem9sNWJqQmxuaDNrZWVkeDNVYVhZTUNheFFlMlE0MkRsc1pYcFFFRFVqM2JWOG9GNXYxcFc5VlRLNTYvUEdCQzU3bHd5bTU1dWp6T1IveG94UjFORGtacDVOd09IZHQ0Lzd1OUhkZG9pbjcveXYzUUl4YU1tc05vQ3VsRDZDZmFGT0dWOEJleUptaE5iYUJGQT09IiwiY29udGVudCI6Imsva1B3Rzd3cXR0c3VHa2RWNUVNa0p6TVRFajh5dkhsWnlhbXZiYkkrdmJIVnhzTWhFUEdVcElzYjFoU0ZqaXNtRFdhbVMzZUZnQjc5ekFWMm5CY2NUM2tpRytkeDRuTk5yWWIxdnNZMHpOZHVUTHNqc1FacG9EQVRieGovVC9oQ1d0OUxTTHFMdGlrVjJoMkF0Mndzcm9VN3dlUVplYk5JMFl2c2JvSHFxUVlUNmd6R296VFVjaW1NcnJsYXIrN0lVd25BU1JBUGRBanFtMGlUTmM3SThBREVGSENmbWZRVXk3K29TRlJOM0V3U0ZHcTB0enJmdDdQYk40TzJBWDYwRENaVklncHozOXRIY2V4MFJwZi8zblJudFZRRXFLeGRYbUhvWHhrSkdmZVl4WE9hVnB4REZ5bTVJaytObXlRd1plbmNYMlJrc0crcXpsVFBYU0N6VW9IMFNGSlpiT0JmTWNQK1dzWFRzVkZnL1R5ZG1CU004WEpwZ0w2WjlmTm1JczhHTVJzZ2MvbU14aXFSNGJhNXBpU0dVcUx0MXhZOUJVeWROdFUyVzV1dGV4UXJwQlNzUkY0ZFRhbnYrdGRHVHJNWGh0TXRidDNDT1dxVE92RDVVdW5sWjBXaWVmcnBBQ2VBSncvTjBaRkhwREhmaGYxOXZyUW1nQ3NIdWFxK3BqYkJUdXlhMmhSbjA1RzZRVDdqOS9wMHRvMVdQZ0ZuSnMzTk5oYTlnMjkyMXh4TzhPaVQxZGlGaUZEUmNnWURsTjZOMnFtMW5YZWYxTjhkTXlFaHJjUGQzN2srVGtxRG84c1E4dTg5M2pKWEgrNWV0NC84Rk14cnhOL1hyVXR0eFo1R3hkZnRhS3JXRkhVUWRMT0I5UzlkUSt2VzBCalZCSmpaQnFOb05kS0NzbnhpaUVybWt6S3FGbVFuUHNOMmVkQS8zdmkyaGlaRmpWSVFob0tMd1hVMXBySXBxRjZtYm5LV0kvQTcxdnpZZXNHZWxhekV2Vnk2R3JUaGJlUDhuUE5najFGN3RJNFVNekFWQmhremREcXFxM3UxS3hESitES3c5NkowV2J4Skh5TjR1N09KTWxjdDBQb1laN3FCNHgzSFdMWm9uU0VXdGxjVno2OUZHTkdGMmQxRDZhblhvOGtOSGc4Sk5wUDFGT3VvU0dpV1k2WkxsYkEyNSsxc0xjVWNlMkJ5ak1ZVlNQM0xaVUJ0QXZ0bTNabGNiTWt6YnFJNGFoSDFKSXhEeTcxajVQWVpSL0tsK0drd2ZKbHdXZVZZMVJzSHJLVTlvKzlFc0RxV3pWb05PcFZScVhnRDFsUkNLT2VGenJvdmUvVEQzMThMaU5RTXRPYVFWVEdUSWJHS2dEMmJjR2VvSG1VV1RvNjllOXJiLzNxVjMyWk1SRzFoMzhML1EvR2krbFpUMnFaVkJxRkkzWHhZZFdYIiwidXNlckF0dHJpYnV0ZXMiOnsiTEFOR1VBR0UiOiJlbiIsIkNIX0JBTiI6Ijk0NzY0MTYwMSIsIkxPR0dJTkdfSUQiOiJVSVBBVEguQk9UMTQiLCJWMjEiOiJWMjEiLCJVc2VySWQiOiIxNDAxNzE5MiIsIlNPVVJDRSI6IkNSTSIsIkZSQU5DSElTRSI6IkZJRE8iLCJBQ0NUTkJSIjoiOTQ3NjQxNjAxIiwiQ09OVEFDVF9JRCI6IkNPMTA2MDAxNTcxNiIsIlNlc3Npb25JZCI6IjdmOGE4M2I4LTI3OGYtNGQwMy1iMWIzLTU4N2UzNTk4NTJmMiIsIlRBUkdFVF9VUkwiOiJPTkVWSUVXREFTSEJPQVJEIn19.Ci97krv4oCNs2TbLdfY37UGnQwdOARwhTFVJx9qBJZo"/>
+    <header name="authorization" value="Bearer ${C_overview_bearerToken10}"/>
     <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;133&quot;, &quot;Chromium&quot;;v=&quot;133&quot;"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
     <header name="x-dtpc" value="-14943$407018105_417h34vVKCTQTCKQQGPCSGQVAACBPKRQFCUKBAF-0e0"/>

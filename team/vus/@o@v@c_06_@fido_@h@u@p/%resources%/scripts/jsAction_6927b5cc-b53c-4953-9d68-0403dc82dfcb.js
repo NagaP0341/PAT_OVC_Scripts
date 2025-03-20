@@ -37,11 +37,11 @@ var province = AcntOverview_JSON['billingAddress']['province'];
 
 // Inject the computed value in a runtime variable
 context.variableManager.setValue("C_Accountdetailsjs_accountNumber",accountNumber);
-context.variableManager.setValue("C_Accountdetailsjs_accountAlias",accountAlias);
+context.variableManager.setValue("C_Accountdetailsjs_accountAlias",accountAlias);//qPszTXi10LooQB2HxFJOaA==
 context.variableManager.setValue("C_Accountdetailsjs_customerBillingProfileId",customerBillingProfileId);
-context.variableManager.setValue("C_Accountdetailsjs_ecId",ecId);
-context.variableManager.setValue("C_Accountdetailsjs_homePhone",homePhone);
-context.variableManager.setValue("C_Accountdetailsjs_email",email);
+context.variableManager.setValue("C_Accountdetailsjs_ecId",ecId);//455582042
+context.variableManager.setValue("C_Accountdetailsjs_homePhone",homePhone);//1010000061
+context.variableManager.setValue("C_Accountdetailsjs_email",email);//FIDO_PAT_221002242@mailinator.com
 context.variableManager.setValue("C_Accountdetailsjs_contactId",contactId);
 context.variableManager.setValue("C_Accountdetailsjs_firstName",firstName);
 context.variableManager.setValue("C_Accountdetailsjs_lastName",lastName);

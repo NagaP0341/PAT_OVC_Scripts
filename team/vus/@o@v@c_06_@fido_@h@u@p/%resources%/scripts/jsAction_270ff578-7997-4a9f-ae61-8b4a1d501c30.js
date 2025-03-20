@@ -25,12 +25,12 @@ equipmentNo = currentPlanInfo['equipmentNo'];
 
 
 
-  context.variableManager.setValue("C_EligibilityDetailsjs_eligibilityID",eligibilityID);  //474694272
+  context.variableManager.setValue("C_EligibilityDetailsjs_eligibilityID",eligibilityID);  //474694742
   context.variableManager.setValue("C_EligibilityDetailsjs_atgSkuId",atgSkuId); //sku1550529
   context.variableManager.setValue("C_EligibilityDetailsjs_planTierCode",planTierCode); //TALKTEXTFIN
-  context.variableManager.setValue("C_EligibilityDetailsjs_mainPlanId",planId); //sku_plan_sku1550529_sku1550529
-  context.variableManager.setValue("C_EligibilityDetailsjs_planExternalId",planExternalId); //TSTM4223Z
-  context.variableManager.setValue("C_EligibilityDetailsjs_IMEICode",equipmentNo);//111111111111119
+  context.variableManager.setValue("C_EligibilityDetailsjs_mainPlanId",planId); //sku_plan_sku2060326_sku2060326
+  context.variableManager.setValue("C_EligibilityDetailsjs_planExternalId",planExternalId); //TST222224
+  context.variableManager.setValue("C_EligibilityDetailsjs_IMEICode",equipmentNo);//222222222222228
 
 
 
